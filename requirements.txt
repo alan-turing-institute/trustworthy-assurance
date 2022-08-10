@@ -1,0 +1,2 @@
+# Requirements for additional plugins
+mkdocs-bibtex>=2.1.0

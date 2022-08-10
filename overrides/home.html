@@ -1,0 +1,78 @@
+{% extends "main.html" %} 
+
+{% block content %}
+<style>
+
+.md-main {
+    background-color: #061C29;
+  }
+
+.md-typeset h1 {
+  color: white;
+  }
+
+
+.hero-button.md-button.md-button--primary{
+  background-color: #DF657A;
+  border-color: #DF657A;
+  color: white;
+}
+
+.hero-button.md-button.md-button--primary:hover{
+  background-color: #E69B94;
+  border-color: #E69B94;
+  color: white;
+}
+
+.white-heading {
+    color: white;
+  }
+
+p {
+    color: white;
+  }
+
+.hero-text{
+  width: 45%;
+  padding: 2em;
+}
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  background-color: #061C29 ;
+  }
+
+.hero-image-chris{
+  height: 35em !important;
+}
+
+@media only screen and (max-width: 350px){
+  .hero{
+    display: block;
+  }
+  .hero-image-chris{
+    height: 100% !important;
+  }
+  .hero-text {
+  width: 100%;
+  padding: 1em;
+}
+}
+
+</style>
+<section class="hero md-typeset">
+    <div class="hero-text">
+      <h1 class="white-heading">Trustworthy Assurance</h1>
+      <p>{{ config.site_description }}</p>
+      <a
+        href="{{ page.next_page.url | url }}"
+        title="{{ page.next_page.title | e }}"
+        class="hero-button md-button md-button--primary">
+        Get Started
+      </a>
+      </div>
+      <img class="hero-image-chris" src="assets/images/hero-image.png"></img>
+</section>
+
+{% endblock %}
