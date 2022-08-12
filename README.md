@@ -4,12 +4,12 @@
 
 | Information | Links |
 | :--- | :--- |
-| **Project** | [![Go to Site Badge](https://img.shields.io/badge/Go%20to-Site-blue)](ta-website)|
+| **Project** | [![Go to Site Badge](https://img.shields.io/badge/Go%20to-Site-blue)][ta-website]|
 | **Cite** | Coming Soon |
 | **License** | [![CC BY 4.0][cc-by-shield]][cc-by] |
 
 Welcome to the GitHub repository for the Trustworthy Assurance Website.
-This repository is used to host content and resources for [our website](ta-website), which includes reports, graphics, tools, and other resources.
+This repository is used to host content and resources for [our website][ta-website], which includes reports, graphics, tools, and other resources.
 
 This work is licensed under a
 [Creative Commons Attribution Share Alike 4.0 International][cc-by].
