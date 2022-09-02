@@ -15,7 +15,7 @@ Welcome to the online version of a report titled, 'Trustworthy Assurance of Digi
 
 ## Funding and Acknowledgements
 
-TBC
+Research and production for this report was supported by funding from the UKRI’s Trustworthy Autonomous Hub, which was awarded to Dr Christopher Burr (Grant number: TAS_PP_00040).
 
 ## Table of Contents
 
