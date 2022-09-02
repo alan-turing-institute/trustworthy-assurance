@@ -5,7 +5,7 @@ site_description: >-
   A site for resources and documentation about the trustworthy assurance methodology—a framework for responsible research and innovation of data-driven technologies, such as artificial intelligence.
 
 repo_name: alan-turing-institute/trustworthy-assurance
-repo_url: https://alan-turing-institute.github.io/trustworthy-assurance
+repo_url: https://github.com/alan-turing-institute/turing-commons
 # edit_uri: edit/main/docs/
 
 # Configuration
