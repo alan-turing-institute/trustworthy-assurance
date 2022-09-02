@@ -113,7 +113,8 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
   - pymdownx.snippets:
-      auto_append: includes/glossary.md
+      auto_append:
+        - includes/abbreviations.md
 
 extra_javascript:
   - assets/javascripts/mathjax.js
@@ -129,7 +130,7 @@ extra_css:
 nav:
   - Home: index.md
   - Trustworthy Assurance of Digital Mental Healthcare: 
-    # - About: dmh-report/about.md
+    - About: dmh-report/about.md
     - Foreword: dmh-report/foreword.md
     - Executive Summary: dmh-report/executive-summary.md
     - Introduction: dmh-report/introduction.md
