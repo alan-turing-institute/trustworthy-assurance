@@ -1,23 +1,24 @@
 ---
-title: "Trustworthy Assurance of Digital Mental Healthcare" 
-author:
-  - Christopher Burr
-  - Rosamund Powell 
-- keywords: [trustworthy, assurance, digital mental healthcare]
+
+title: "Trustworthy Assurance of Digital Mental Healthcare" author:
+
+* Christopher Burr
+* Rosamund Powell
+* keywords: [trustworthy, assurance, digital mental healthcare]
+
 ---
 
 # Introduction
 
-> Do I contradict myself? Very well then I contradict myself, (I am large, I contain multitudes.) 
-> --Walt Whitman, Song of Myself
+> Do I contradict myself? Very well then I contradict myself, (I am large, I contain multitudes.) --Walt Whitman, Song of Myself
 
 Whitman's ode to self-knowledge and understanding contains many poetically phrased truths. However, the one expressed in the above line is an *understatement*. If we were to identify and rank the most complex phenomena in the universe, our large and multitudinous minds would sit somewhere near the top of the list!
 
-Even the most stubborn or oblivious among us, must acknowledge that part of this complexity stems from a capacity for our minds to operate as a network of often *contradictory beliefs, attitudes, and opinions*—a network that exists within and among a larger social network of similarly fallible individuals. It would be understandable, therefore, given this reflection, if we concluded that our minds were never supposed to be understood fully and we just accepted, as Whitman did, that our mental lives are fundamentally contradictory and diverse, and sometimes none the worse for it!
+Even the most stubborn ~~or oblivious~~ among us, must acknowledge that part of this complexity stems from a capacity for our minds to operate as a network of often *contradictory beliefs, attitudes, and opinions*—a network that exists within and among a larger social network of similarly fallible individuals. It would be understandable, therefore, ~~given this reflection,~~ if we concluded that our minds were never supposed to be understood fully ~~and we just accepted, as Whitman did, that our mental lives are fundamentally contradictory and diverse, and sometimes none the worse for it!~~
 
-For many people, a prescription of stoic acceptance in the face of overwhelming complexity would be welcomed. But for others, their minds are not just built on top of permissible and tolerable contradictions, they also operate in a manner that prevents them from living a fully self-determined and flourishing life.
+For many people, a prescription of stoic acceptance in the face of overwhelming complexity would be welcomed. But for others, the impenetrable, inner workings of their minds also prevent them from living a fully self-determined and flourishing life. ~~their minds are not just built on top of permissible and tolerable contradictions, they also operate in a manner that prevents them from living a fully self-determined and flourishing life.~~
 
-In the last decade or so, a wide range of digital and data-driven technologies have emerged that promise to improve both our knowledge and understanding of our complex minds and its capabilities, as well as enhance our overall well-being. This fact is unsurprising. Our species has used technology to learn about and restructure both our external and internal worlds for hundreds of thousands of years. And during our time on this planet, technology has both enhanced and diminished our knowledge, understanding, and individual and social welfare. So, why has so much attention been paid in recent years to a recurring cycle of technological innovation?
+In the last decade or so, a wide range of digital and data-driven technologies have emerged that promise to improve both our knowledge and understanding of our complex minds and its capabilities, as well as enhance our overall well-being. This development ~~fact~~ is unsurprising. Our species has used technology to learn about and restructure both our external and internal worlds for hundreds of thousands of years. During this time ~~And during our time on this planet~~, technology has both enhanced and diminished our knowledge, understanding, and individual and social welfare. So, why has so much attention been paid in recent years to a recurring cycle of technological innovation?
 
 ## Laying the Foundations
 
@@ -39,7 +40,7 @@ In the context of digital mental healthcare, all of these are noteworthy, but th
 2. Given the **variety** of minds that populate this plant, how representative are the types of data?
 3. How much of a gap is there between the socioeconomic **value** of data and the value to the individual who is represented by the data? Or, to put it more bluntly, who benefits from the data?
 
-We (the authors) have heard and discussed many variants of these questions over the course of this project and leading up to the publication of this report. For example, concerns about accuracy and variety are deeply connected to considerations around the regulatory assessment of clinical efficacy and safety for novel data-driven medical devices.[^regulatory] But more than this, accuracy and variety also underpin broader ethical concerns about existing barriers to enabling a fairer and more accessible healthcare system (e.g. the digital divide that systematically excludes certain people and groups from benefits associated with digital technologies). However, although data are important, addressing these questions is just one part of the puzzle.
+We (the authors) have heard and discussed many variants of these questions over the course of this research ~~project and leading up to the publication of this report~~. For example, concerns about accuracy and variety are deeply connected to considerations around the regulatory assessment of clinical efficacy and safety for novel data-driven medical devices.[^regulatory] But more than this, accuracy and variety also underpin broader ethical concerns about existing barriers to enabling a fairer and more accessible healthcare system (e.g. the digital divide that systematically excludes certain people and groups from benefits associated with digital technologies). However, although data are important, addressing these questions is just one part of the puzzle.
 
 [^regulatory]: See for example, the work programme being conducted by the Medicines & Healthcare Regulatory Agency (MHRA) on [Software and AI as a Medical Device](https://www.gov.uk/government/publications/software-and-ai-as-a-medical-device-change-programme/software-and-ai-as-a-medical-device-change-programme), the [Evidence standards framework](https://www.nice.org.uk/about/what-we-do/our-programmes/evidence-standards-framework-for-digital-health-technologies) (ESF) for digital health technologies from the National Institute for Health and Care Excellence (NICE), and the proposed work from the [Multi-agency advisory service](https://transform.england.nhs.uk/ai-lab/ai-lab-programmes/regulating-the-ai-ecosystem/the-multi-agency-advice-service-maas/) (MAAS) for artificial intelligence (AI) and data-driven technologies, which is being funded by the [NHS AI Lab](https://transform.england.nhs.uk/ai-lab/).
 
@@ -57,13 +58,13 @@ All of these developments are important, but again there are three aspects that 
 
 As we will see throughout this report, these features of ML algorithms and AI systems create possible risks and benefits to the realisation of ethical goals associated with digital mental healthcare. For instance, the ability to respect a patients *right to autonomous decision-making*. Furthermore, these issues intersect with the issues raised by the previous three questions pertaining to data (e.g. the ability to operate autonomously in complex environments with insufficiently accurate data).
 
-These topics already paint a very complex picture, but there is also a further level of complexity involved with understanding the dynamic feedback loops that emerge in mental healthcare when autonomous and adaptive systems are used to complement existing therapeutic interventions, many of which are already poorly understood (e.g. SSRI's). This complexity can cause issues for our existing research, development and regulatory frameworks, such as when performing clinical trials (e.g. how should we control for the effects of adaptive and personalised technologies?).
+These topics already paint a ~~very~~ complex picture, but there is also a further level of complexity involved with understanding the dynamic feedback loops that emerge in mental healthcare when autonomous and adaptive systems are used to complement existing therapeutic interventions, many of which are already poorly understood (e.g. SSRI's). This complexity can cause issues for our existing research, development and regulatory frameworks, such as when performing clinical trials (e.g. how should we control for the effects of adaptive and personalised technologies?).
 
-Collectively, these six points about Big Data and ML/AI help to establish the background and context for this report, and also help us gain some conceptual clarity when attempting to address the uncertainty around trustworthy digital mental health technologies. Some of this uncertainty stems from the technologies themselves (as noted above). But other key aspects of this uncertainty arise because a) the concept ‘trustworthy digital mental health technology’ is a poorly defined term that captures a vast and heterogenous class of tools and services, and b) our relationships to and interactions with the technologies are also varied. It is not just the technologies that are complex after all. As eloquently captured by Whitman at the start, we—the individual members of the class, 'humanity'—are large and contain multitudes.
+Collectively, these six points about Big Data and ML/AI help to establish the ~~background and~~ context for this report, and also help us gain some conceptual clarity when attempting to address the uncertainty around trustworthy digital mental health technologies. Some of this uncertainty stems from the technologies themselves (as noted above). But other key aspects of this uncertainty arise because a) the concept ‘trustworthy digital mental health technology’ is a poorly defined term that captures a vast and heterogenous class of tools and services, and b) our relationships to and interactions with the technologies are also varied. It is not just the technologies that are complex after all. ~~As eloquently captured by Whitman at the start, we—the individual members of the class, 'humanity'—are large and contain multitudes.~~
 
 These many layers of complexity coalesce into a particularly thorny problem. If we cannot trust the technologies themselves, we will not be able to trust the information gained from them about our own minds. But if we do not understand our minds, we may be unable to fully determine and address the cause of our trust or distrust. And, as we have just noted, understanding the social environment is also a vital part of addressing this fundamentally sociotechnical problem. As you can probably guess by know, adding another element to our picture is not likely to reduce its complexity.
 
-## The Current (Socioeconomic) Landscape of Digital Mental Health
+## The Current (Socioeconomic) Landscape of Digital Mental Healthcare
 
 To explore and understand the socioeconomic landscape of digital mental, let us start by addressing two outstanding questions:
 
@@ -74,7 +75,7 @@ To explore and understand the socioeconomic landscape of digital mental, let us 
 
 This is not an easy question to answer because of the multifaceted ways that the term 'digital mental health technology' could be employed.
 
-We can attempt to answer the question by drawing distinctions between, say, the use of digital technologies within formal healthcare settings (e.g. NHS) and those outside. However, as we have explored in previous research[^burr2020], this boundary is vaguely drawn at best, and unhelpful at worst, when it comes to understanding digital mental health technologies and the ethical issues surrounding their design and use.
+We can attempt to answer the question by drawing distinctions between, say, the use of digital technologies within formal healthcare settings (e.g. NHS) and those outside. However, as we have explored in previous research[^burr2020], this boundary is vaguely drawn at best, and unhelpful at worst\~\~, when it comes to understanding digital mental health technologies and the ethical issues surrounding their design and use.\~\~
 
 [^burr2020]: Burr, C., J. Morley, M. Taddeo, & L. Floridi. (2020). Digital Psychiatry: Risks and Opportunities for Public Health and Wellbeing. IEEE Transactions on Technology and Society, 1(1), 21–33. https://doi.org/10.1109/TTS.2020.2977059
 
@@ -105,9 +106,9 @@ Regardless of the level of abstraction we adopt, there will always be some diffi
 
 In particular, this report will pay close attention to those technologies that are data-driven and/or use some form of machine learning or AI, given the considerations outlined in the opening sections.
 
-We acknowledge that many will find this definition too permissive, but this report is not concerned with developing a robust philosophical definition or a taxonomy that can be used to delineate the precise nature of digital mental health technologies. Rather, it is focused on the defence of a methodology to help make digital mental health technologies more trustworthy and ethical. Therefore, the broader the class that can be drawn the better it will be for our goals, because more technologies will fall within its scope. And, insofar as there are legal considerations that demand precise definitions, these issues will be addressed along different lines (e.g. operationalising standards of assessment for equitable treatment).
+We acknowledge that many will find this definition too permissive, but this report is not concerned with developing a robust philosophical definition or a taxonomy that can be used to delineate the precise nature of digital mental health technologies. Rather, it is focused on the defence of a methodology to help make digital mental health technologies more trustworthy and ethical. Therefore, the broader the class that can be drawn, the better it will be for our goals\~\~, because more technologies will fall within its scope\~\~. And, insofar as there are legal considerations that demand precise definitions, these issues will be addressed along different lines (e.g. operationalising standards of assessment for equitable treatment).
 
-Let us now turn to the second question.
+~~Let us now turn to the second question.~~
 
 ### Why and how is digital mental healthcare being used?
 
@@ -121,7 +122,7 @@ The following statistics offer a partial and fragmented perspective to help fram
 
 When we consider these figures, combined with a reflection of the impact wrought by the COVID-19 pandemic on an already over-burdened mental health sector, we can begin to understand why many organisations across the public, private, and third sectors are deploying digital technologies to augment and complement their services, and why many users in turn have engaged.
 
-But if we are to implement digital technologies in an ethical and trustworthy manner, there are several considerations that need to be addressed.
+But if ~~we are to implement~~ digital technologies are to be implemented in an ethical and trustworthy manner, there are several considerations that need to be addressed.
 
 The first two relate to choice and access, as outlined in a briefing note from the Nuffield Council on Bioethics[^Nuffield] (emphasis ours):
 
@@ -144,9 +145,9 @@ However, the unethical behaviour and transgressions of law by commercial organis
 
 In the context of the law, it is well known that states and public sector organisations are beholden to wide-ranging legal duties, both positive and negative, such as those set out in human rights law or in national legislation (e.g. the public sector equality duty created by the UK's Equality Act 2010).
 
-Commercial organisations are not obligated to observe all of the same principles or rules as public sector organisations, but are nevertheless required to comply with myriad information governance standards, legislation designed to protect environmental sustainability and public health, and a whole host of other corporate or fiduciary duties.
+Commercial organisations are not obligated to observe all of the same principles or rules ~~as public sector organisations~~, but are nevertheless required to comply with myriad information governance standards, legislation designed to protect environmental sustainability and public health, and a whole host of other corporate or fiduciary duties.
 
-And, third sector organisations, such as charities or volunteer groups, may have less restrictive legislation governing their conduct, but are still expected to adhere to necessary transparency and accountability standards over matters such as the organisation and incorporation of managing trusts.
+~~And,~~ third sector organisations, such as charities or volunteer groups, may have less restrictive legislation governing their conduct, but are still expected to adhere to necessary transparency and accountability standards over matters such as the organisation and incorporation of managing trusts.
 
 Such legal requirements create an interlocking foundation upon which public perceptions and attitudes towards trust can be based, but are often difficult to separate and pick apart. And, even where one is able to do so, legal requirements typically set only the *minimal standards* expected of organisations. To put it simply, and sidestep a vast amount of important jurisprudence, just because something is legal does not guarantee it is ethical or socially acceptable.
 
@@ -162,30 +163,30 @@ But these expectations also differ depending on whether the organisation is part
 
 Consider, for example, the range of attitudes that members of the public may have towards a private company extracting economic value from their data collection activities. Depending on key details about the informational content of the data, attitudes could range from shareholder praise for savvy corporate governance, through the begrudging toleration by consumers, and up to the vehement and vocal criticism by privacy activists or employee campaign groups.
 
-And to add one final layer of complexity, to really drive home Whitman's point from the start of this chapter, the scope and distribution of this variation may increase as we expand our field of consideration to the public and third sectors. Now, the same data extraction could be seen as deeply unethical or impermissible by those who were in favour of it originally. In terms of underlying values, therefore, *pluralism* and *variation* should be expected when considering the attitudes of the *publics* (reiterating the emphasis on the plural).
+~~And to add one final layer of complexity, to really drive home Whitman's point from the start of this chapter, the scope and distribution of this variation may~~ The variation in attitudes may increase as we expand our field of consideration to the public and third sectors. Now, the same data extraction could be seen as deeply unethical or impermissible by those who were in favour of it originally. In terms of underlying values, therefore, *pluralism* and *variation* should be expected when considering the attitudes of the *publics* (reiterating the emphasis on the plural).
 
 By now, you may be feeling as though stoic acceptance in the face of overwhelming complexity is inevitable. What other options are there? You may be thinking, for instance, that there are simply too many factors for any one person or organisation to consider when researching, developing, or regulating digital mental health technologies.
 
-However, this report (and our project more generally) aims to challenge this attitude, while fully acknowledging the overwhelming complexity involved. Our approach and methodology in many respects embodies the principle that *light is the best disinfectant*. And, framed as a set of recommendations, which include but build on the two recommendations from the Nuffield Council on Bioethics above:
+However, this report ~~(and our project more generally)~~ aims to challenge this attitude, while fully acknowledging the overwhelming complexity involved. Our approach and methodology in many respects embodies the principle that *light is the best disinfectant*. ~~And, framed as a set of recommendations, which include but build on the two recommendations from the Nuffield Council on Bioethics above:~~
 
-1. Organisations that choose to use digital mental health technologies should consider broader ethical goals, in addition to traditional goals such as ‘safety’ and ‘efficacy’, to help create a more ethical, responsible, and trustworthy ecosystem of digital mental healthcare.[^consistency]
-2. Organisations should provide transparent and evidence-based assurance about how these ethical goals have been operationalised and secured during the design, development, and deployment of digital mental health technologies.
+1. ~~Organisations that choose to use digital mental health technologies should consider broader ethical goals, in addition to traditional goals such as ‘safety’ and ‘efficacy’, to help create a more ethical, responsible, and trustworthy ecosystem of digital mental healthcare.[^consistency]~~
+2. ~~Organisations should provide transparent and evidence-based assurance about how these ethical goals have been operationalised and secured during the design, development, and deployment of digital mental health technologies.~~
 
 [^consistency]: To emphasise the consistency of this recommendation with those from the Nuffield Council we should also acknowledge that this ‘digital ecosystem’ must be complementary with, supportive of, and enhance more traditional healthcare services (qua recommendation 2).
 
-With these points in mind, we can now turn to the project itself and introduce the notion of trustworthy assurance—a methodology that can help address all of the above recommendations (and more to come).
+~~With these points in mind, we can now turn to the project itself and introduce the notion of trustworthy assurance—a methodology that can help address all of the above recommendations (and more to come).~~
 
 ## About the Project
 
 Assurance is a process of establishing trust.
 
-Whether we trust someone or some object depends, in part, on the evidence we have to help us evaluate whether there are good grounds for placing trust. In other words, what is the evidence of their trustworthiness?
+Whether we trust someone or some object depends, in part, on the evidence provided ~~we have~~ to help us evaluate whether there are good grounds for placing trust. ~~In other words, what is the evidence of their trustworthiness?~~
 
 When it comes to trust, we do not expect the same level of evidence when assessing the trustworthiness of different people, objects, or systems. A trustworthy doctor, for example, is not assessed by the same standards as a trustworthy friend. And, similarly, the trustworthiness of an AI chatbot used in customer services is not (and ought not) be evaluated by the same measures as an AI chatbot used to support people with their mental health.
 
-In short, when we speak of 'trustworthy assurance' we are creating room for a wide variety of associated goals and standards, to accommodate the complexity alluded to in the previous sections. These can, of course include goals and standards related to ‘safety’ or ‘clinical efficacy’, but for present purposes we are primarily interested in those goals that have an ethical significance.
+In short, when we speak of 'trustworthy assurance' we are creating room for a wide variety of associated goals and standards\~\~, to accommodate the complexity alluded to in the previous section\~\~s. These can, of course include goals and standards related to ‘safety’ or ‘clinical efficacy’, but for present purposes we are primarily interested in those goals that have an ethical significance.
 
-Our project focused directly on a methodology for making the assessment, communication, and realisation of these goals more robust and transparent. The methodology is known as ‘argument-based assurance’ and we can define this methodology as follows:
+Our project focused directly on a methodology for making the assessment, communication, and realisation of these goals more robust and transparent. The methodology is known as ‘argument-based assurance’. We can define this methodology as follows:
 
 > Argument-based assurance is a process of using structured argumentation to provide assurance to another party (or parties) that a particular claim (or set of related claims) about a property of a system is warranted given the available evidence. [@burr2022]
 
@@ -203,7 +204,7 @@ Our approach in this project to determining and operationalising the relevant et
 2. To evaluate how an extension of the methodology could support stakeholder co-design and engagement, in order to build a more trustworthy and responsible ecosystem of digital mental healthcare.
 3. To lay the theoretical and practical foundations for scaling the ethical assurance methodology to new domains, while integrating wider regulatory guidance (e.g., technical standards).
 
-To realise these objectives, several workshops were organised and run over the course of the project with a diverse set of participants. Broadly, we categorised these stakeholder groups as follows:
+To realise these objectives, several workshops were organised and run ~~over the course of the project~~ with a diverse set of participants. Broadly, we categorised these stakeholder groups as follows:
 
 1. University students
 2. University administrators
@@ -214,7 +215,7 @@ To realise these objectives, several workshops were organised and run over the c
 
 Workshops were held with representatives from each of these stakeholder groups, where tailored activities were run to both understand their attitudes towards digital mental health technologies, but also to a) help us evaluate methodological questions related to trustworthy assurance and b) identify which ethical values and principles matter most to them in the present context.
 
-Chapters 2 and 3 address present our findings, analysis, and recommendations from the workshops. Here, we shall just speak to the procedural matter of operationalising ethical principles through processes of stakeholder participation and engagement.
+Chapters 2 and 3 ~~address~~ present our findings, analysis, and recommendations from the workshops. Here, we shall just speak to the procedural matter of operationalising ethical principles through processes of stakeholder participation and engagement.
 
 ### SAFE-D Principles
 
@@ -258,7 +259,7 @@ Designing, developing, and deploying an AI system is not a one-person task! The 
 
 **Figure 1.1** presents a simplified model of a typical research or innovation lifecycle for a data science or AI project lifecycle, to help gain a purchase on these interweaving roles, skills, and responsibilities.
 
-The model represents three over-arching stages of `(project) design`, `(model) development`, and `(system) deployment`. For each stage, there are corresponding activities, detailed in **Table 1.1**. The project lifecycle is depicted as a circular process to highlight the fact that responsibility is ongoing and does not end once a system has been implemented or put into deployment. Rather, responsible (and trustworthy) approaches to research and innovation require consideration of how a technological system may need to be monitored and updated once in production, and removed and replaced once it reaches the end of its lifecycle.
+The model represents three overarching stages of `(project) design`, `(model) development`, and `(system) deployment`. For each stage, there are corresponding project activities, detailed in **Table 1.1**. The project lifecycle is depicted as a circular process to highlight the fact that responsibility is ongoing and does not end once a system has been implemented or put into deployment. Rather, responsible (and trustworthy) approaches to research and innovation require consideration of how a technological system may need to be monitored and updated once in production, and removed and replaced once it reaches the end of its lifecycle.
 
 ![Figure 1.1: a model of a typical project lifecycle for some data-driven technology, detailing the overarching stages of design, development, and deployment and their constitutive activities (reprinted from Burr and Leslie, 2022)](images/project-lifecycle-v1.png) *Figure 1.1: a model of a typical project lifecycle for a data-driven technology, detailing the overarching stages of design, development, and deployment and their constitutive activities (reprinted from Burr and Leslie, 2022)*
 
@@ -279,7 +280,7 @@ The model represents three over-arching stages of `(project) design`, `(model) d
 | **System Use and Monitoring** | Ongoing monitoring and feedback from the system, either automated or probed, to ensure that issues such as model drift have not affected performance or resulted in harms to individuals or groups. |
 | **Model Updating or Deprovisioning** | An algorithmic model that that adapts its behaviour over time or context may require updating. Where no further updating can be carried out, and this results in a system being removed from production (i.e. deprovisioned), a new system may be required. This restarts the project lifecycle. |
 
-To see how this model can help us understand the interwoven nature of responsibility, consider the following example. An organisation wants to implement a speech recognition algorithm within a service they are developing for online counselling. However, there is no one in the organisation with the relevant expertise to collect data and train a model from scratch. Therefore, they choose to *procure* a pre-trained model from [another company](https://aws.amazon.com/marketplace/solutions/machine-learning/pre-trained-models). This means that a significant portion of the project lifecycle—from `Data Extraction or Procurement` to `Model Documentation`—will have been carried out by a separate organisation.
+To see how this model can help us understand the interwoven nature of responsibility, consider the following example. An organisation wants to implement a speech recognition algorithm within a service they are developing for online counselling. However, there is nobody in the organisation with the relevant expertise to collect data and train a model from scratch. Therefore, they choose to *procure* a pre-trained model from [another company](https://aws.amazon.com/marketplace/solutions/machine-learning/pre-trained-models). This means that a significant portion of the project lifecycle—from `Data Extraction or Procurement` to `Model Documentation`—will have been carried out by a separate organisation.
 
 Although the specifics of the relationship between the two organisations will complicate forms of responsibility, such as legal duties or obligations, this need not concern us here. Instead, we can focus on how the initial organisation who has chosen to undertake the project (e.g. the product owner or commissioner) can use the project lifecycle model to a) identify and analyse their own responsibility and how it intersects with the responsibilities of others, and b) how this supports a process of trustworthy communication and assurance.
 
@@ -289,7 +290,7 @@ At the start of a project, while activities such as planning and initial evaluat
 
 Consider another example. A team of developers working for a commercial organisation have identified a risk associated with an AI system they have developed, which they claim is able to detect emotions. They have been approached by a healthcare provider who wish to procure and implement their system into a video consultation service to help their counsellors better understand the emotional and behavioural responses of their patients during an initial assessment. However, the developers did not evaluate their model (during `Model Testing or Validation`) using a dataset that is representative of the patient population intended by the healthcare provider that has approached them (i.e. individuals that are likely to be suffering from a mental health issue). Therefore, the developers are unable to make any claims about the generalisability of their model to this new population. Moreover, neither the developers nor the healthcare provider have engaged the relevant stakeholder groups during `Project Planning` to determine if this would be an acceptable use for their system. As such, additional activities would need to be carried out to determine the full scope of the risks and possible harms that could arise from the use of this technology. This would likely require the procuring organisation (i.e. the healthcare provider) to set clear requirements for what forms of evidence would be required from the developers (e.g., at `Model Documentation`), and to determine clear boundaries and thresholds for whether the project should proceed.
 
-As this example illustrates, the project lifecycle structure can help support forms of reflective and anticipatory deliberation that help instantiate a responsible ecosystem of research and innovation. But it can also help identify points in the lifecycle where structured and transparent communication between teams and organisations may be crucial.
+As this example illustrates, the project lifecycle structure can help support forms of reflective and anticipatory deliberation that help instantiate a responsible ecosystem of research and innovation. ~~But~~ it can also help identify points in the lifecycle where structured and transparent communication between teams and organisations may be crucial.
 
 In addition, there is a further purpose for the project lifecycle model that will become clearer in the next sections: the identification of actions and decisions that generate forms of evidence that provide justificatory support for *trustworthy assurance*.
 
@@ -440,7 +441,7 @@ However, an alternative (though not entirely disconnected) source is to identify
 
 Much like ML algorithms, humans have remarkably effective (but biased) *pattern recognition capabilities*, some of which underpin our assessment and internalisation of ethical, legal, and social norms. As an example, James W. Nickel says of human rights:
 
-> "We can think of the emergence of a human right as the coming together of the *recognition* of a problem; the belief that the problem, is very severe; and optimism about the possibility of addressing it through social and political action at national and international levels." [^nickel2007]
+> "We can think of the emergence of a human right as the coming together of the *recognition* of a problem; the belief that the problem is very severe; and optimism about the possibility of addressing it through social and political action at national and international levels." [^nickel2007]
 
 [^nickel2007]: Nickel, J. W. (2007) Making Sense of Human Rights (2nd Edition). Blackwell Publishing.
 
@@ -486,7 +487,7 @@ Figure 1.7 offers a simple graphic to help visualise this process as it relates 
 
 ![Figure 1.7: process of consensus formation for ethical principles as constraints on trustworthy assurance](images/cycle.png) *Figure 1.7: process of consensus formation for ethical principles as constraints on trustworthy assurance*
 
-These preliminary remarks about trustworthy assurance serve as a foundation for understanding and contextualising our project's research and the recommendations we derive from our findings.
+These ~~preliminary~~ remarks about trustworthy assurance serve as a foundation for understanding and contextualising our project's research and the recommendations we derive from our findings.
 
 # Chapter 2: Duty of Care—Digital Mental Health in UK Universities
 
@@ -524,9 +525,9 @@ Amid these policy recommendations for modernisation, digital mental healthcare o
 
 It is no surprise, therefore, that these new tools have appealed to universities facing rising service demand alongside tight budgets, and that digital mental healthcare adoption has advanced at pace across UK universities.
 
-One way in which the growth in digital mental healthcare has been amplified is through universities’ informal recommendations of external apps.[^11] For example, among the 24 Russel Group Universities in the UK, 15 recommend students try Headspace, eight point in the direction of Calm, and nine recommend SAM (Self-help App for the Mind), to name just a few of the apps listed on university webpages, typically under the heading of ‘self-help resources’.[^12]
+One way in which the growth in digital mental healthcare has been amplified is through universities’ informal recommendations of external apps. For example, among the 24 Russel Group Universities in the UK, 15 recommend students try Headspace, eight point in the direction of Calm, and nine recommend SAM (Self-help App for the Mind),[^11] to name just a few of the apps listed on university webpages, typically under the heading of ‘self-help resources’.[^12]
 
-[^11]: (To do - add examples) [^12]: (At times these recommendations for self-help apps are accompanied by a disclaimer. For example, the University of Durham notes that “the counselling service is happy to signpost this information/the availability of free access to these resources, in the hope they might prove useful to students and staff. However, please be aware that the Counselling Service does not have any relationship or affiliation with any of the providers, nor does it support, or endorse in any way the external information, advice, other services and/or resources that can be accessed via the links below (https://www.dur.ac.uk/counselling.service/self-help/). In other instances they are simply offered as resources for students to browse at their own discretion.)
+[^11]: (To do - link to university recommendation pages) [^12]: (At times these recommendations for self-help apps are accompanied by a disclaimer. For example, the University of Durham notes that “the counselling service is happy to signpost this information/the availability of free access to these resources, in the hope they might prove useful to students and staff. However, please be aware that the Counselling Service does not have any relationship or affiliation with any of the providers, nor does it support, or endorse in any way the external information, advice, other services and/or resources that can be accessed via the links below (https://www.dur.ac.uk/counselling.service/self-help/). In other instances they are simply offered as resources for students to browse at their own discretion.)
 
 Another way in which this has occurred is through the formal procurement by universities of digital mental health tools designed with the specific needs of student populations in mind. Kotouza et al. have mapped these shifts and found that, as of 2021, “more than half of UK universities” have a contract with at least one from SilverCloud and Togetherall while “Fika won over 35 UK university contracts between 2019 and 2020”.[^13](https://journals.sagepub.com/doi/full/10.1177/02610183211024820)
 
@@ -575,7 +576,9 @@ For university administrators, our engagement found that legalistic understandin
 >
 > “In terms of duty of care, that brings in things like the equalities act and various educational laws and policies so that universities aren’t discriminating against students based on access or based on protected characteristics, and they are following all of the laws.”
 
-However, despite these legalistic framings, it is clear that the law does not provide a complete guide to action. AMOSSHE’s account on duty of care clarifies these challenges, noting first that “student law is still evolving”, thus creating “difficulty in providing a legal definition of an institution’s duty of care”, and second, that “there is a balance between what the university should do as a legal minimum and what they could do based on a university’s perceived moral obligation”.[^18] These uncertainties can cause confusion for administrators. [^18]: https://www.amosshe.org.uk/futures-duty-of-care-2015
+However, despite these legalistic framings, it is clear that the law does not provide a complete guide to action. AMOSSHE’s account on duty of care clarifies these challenges, noting first that “student law is still evolving”, thus creating “difficulty in providing a legal definition of an institution’s duty of care”, and second, that “there is a balance between what the university should do as a legal minimum and what they could do based on a university’s perceived moral obligation”.[^18] These uncertainties can cause confusion for administrators. 
+
+[^18]: https://www.amosshe.org.uk/futures-duty-of-care-2015
 
 > **Administrator Perspective**
 >
@@ -605,7 +608,7 @@ While these ethical goals do show significant overlap, it is also clear to admin
 >
 > “Digitisation of mental health services may further the idea that mental health is an individual’s issue and responsibility, rather than addressing the collective mental health and structural causal issues around wellbeing.”
 
-Continued work is needed in order to understand if and how duty of care can be translated into a fully specified goal for a university mental health team and how this goal can inform specific actions during the procurement of digital mental health technologies. A participatory approach, considering the views of all impacted stakeholders, will be essential to clarifying the nature and scope of this responsibility.
+Continued work is needed in order to understand if and how duty of care can be translated into a fully specified goal for a university mental health team and how this goal can inform specific actions during the procurement of digital mental health technologies. A participatory approach, considering the views of all impacted stakeholders, will be essential to clarifying the nature and scope of this responsibility. Furthermore, the processes of active anticipatory reflection outlined by the trustworthy assurance methodology may help university stakeholders to specify the goal of duty of care, incorporating ethical goals.
 
 | Conclusions and Recommendations |
 |---------------------------------|
@@ -855,7 +858,7 @@ In conversation with the students, we discussed whether there was perceived valu
 
 > **Chapter Overview**
 >
-> This section introduces and analyses the findings of several stakeholder engagement events, which were conducted to a) identify participant's attitudes towards digital mental healthcare, b) understand which ethical values and principles they view as significant, and c) explore how to use this information to construct trustworthy assurance cases and argument patterns for relevant ethical goals.
+> This section introduces and analyses the findings of several stakeholder engagement events, which were conducted to a) identify participants' attitudes towards digital mental healthcare, b) understand which ethical values and principles they view as significant, and c) explore how to use this information to construct trustworthy assurance cases and argument patterns for relevant ethical goals.
 >
 > First, we introduce the objectives, structure, and content of the workshops.
 >
@@ -880,7 +883,7 @@ The stakeholder groups we consider in this chapter are as follows:
 
 Representatives from the first three stakeholder groups were invited to participate in a series of two workshops, the first of which laid the foundation for a subsequent participatory design workshop.
 
-In contrast, users of digital mental healthcare technology were invited to a separate workshop (offered either online or in-person), which was organised with and facilitated by the McPin foundation—a mental health research charity that provide advice and support on research strategies to involve participation and expertise from individuals with lived experience of mental health issues. This decision was made to ensure that participants were fully supported by experts during the workshops, and that our analysis of the findings was further supported by domain experts.
+In contrast, users of digital mental healthcare technology were invited to a separate workshop (offered either online or in-person), which was organised with and facilitated by the McPin Foundation—a mental health research charity that provide advice and support on research strategies to involve participation and expertise from individuals with lived experience of mental health issues. This decision was made to ensure that participants were fully supported by experts during the workshops, and that our analysis of the findings was further supported by domain experts.
 
 ### Methodology and Activities
 
