@@ -69,6 +69,14 @@ plugins:
       separator: "[\\s\\-,:!=\\[\\]()\"/]+|\\.(?!\\d)|&[lg]t;|(?!\\b)(?=[A-Z][a-z])"
   - bibtex:
       bib_file: "https://api.zotero.org/groups/4750679/items?format=bibtex"
+  - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: true
 
 # Customization
 
