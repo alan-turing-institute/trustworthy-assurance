@@ -8,7 +8,7 @@ tags:
 ---
 # Developing Trustworthy Assurance—Argument Patterns for fairness and Explainability
 
-![A placeholder image](https://via.placeholder.com/800x400?text=Placeholder+Image)
+![A placeholder image](https://via.placeholder.com/800x400?text=Placeholder+Image){ .off-glb }
 
 > **Chapter Overview**
 >
@@ -63,28 +63,25 @@ In our workshops, for instance, a key concern that was emphasised was the degree
 
 The pattern that has been developed, through participation of stakeholders and users, attempts to address both negative and positive duties, while also making room for core attributes such as user autonomy. In the context of mental healthcare, this inclusion of autonomy can be problematic in the most severe cases where it is simply not viable (e.g. severe forms of psychosis). However, recall that a pattern is a starting point. Therefore, if a particular type of claim is inappropriate due to contextual factors that are determined during project scoping or stakeholder engagement, it can be adjusted as necessary. 
 
-#### Why does this pattern matter?
+!!! info "Why does this pattern matter?"
 
-In the last few years, many public authorities across the UK have released statements and policies calling for greater health equity.
+    In the last few years, many public authorities across the UK have released statements and policies calling for greater health equity.
 
-In October 2020, NHS England released their '[Advancing mental health equalities](https://www.england.nhs.uk/publication/advancing-mental-health-equalities-strategy/)' strategy. This strategy...
+    In October 2020, NHS England released their '[Advancing mental health equalities](https://www.england.nhs.uk/publication/advancing-mental-health-equalities-strategy/)' strategy. This strategy...
 
-The strategy also fed into a recent consultation on the [Mental health and wellbeing plan](https://www.gov.uk/government/consultations/mental-health-and-wellbeing-plan-discussion-paper-and-call-for-evidence/mental-health-and-wellbeing-plan-discussion-paper) by the Department for Health and Social Care.
+    The strategy also fed into a recent consultation on the [Mental health and wellbeing plan](https://www.gov.uk/government/consultations/mental-health-and-wellbeing-plan-discussion-paper-and-call-for-evidence/mental-health-and-wellbeing-plan-discussion-paper) by the Department for Health and Social Care.
 
-The second of these publications makes reference to the UK Government's Levelling Up Strategy, which opens with the following statement:
+    The second of these publications makes reference to the UK Government's Levelling Up Strategy, which opens with the following statement:
 
-> "not everyone shares equally in the UK’s success. While talent is spread equally across our country, opportunity is not. Levelling up is a mission to challenge, and change, that unfairness. Levelling up means giving everyone the opportunity to flourish. It means people everywhere living longer and more fulflling lives, and beneftting from sustained rises in living standards and well-being."
+    > "not everyone shares equally in the UK’s success. While talent is spread equally across our country, opportunity is not. Levelling up is a mission to challenge, and change, that unfairness. Levelling up means giving everyone the opportunity to flourish. It means people everywhere living longer and more fulflling lives, and beneftting from sustained rises in living standards and well-being."
 
-Beyond equality and non-discrimination, e.g. human rights and protected characteristics, we must also consider
+    Beyond equality and non-discrimination, e.g. human rights and protected characteristics, we must also consider
 
-> Risks of mental ill-health are also higher for people who are unemployed, people in problem debt, people who have experienced displacement, including refugees and asylum seekers, people who have experienced trauma as the result of violence or abuse, children in care and care leavers, people in contact with the criminal justice system (both victims and offenders), people who sleep rough or are homeless, people with substance misuse or gambling problems, people who live alone, and unpaid carers.
+    > Risks of mental ill-health are also higher for people who are unemployed, people in problem debt, people who have experienced displacement, including refugees and asylum seekers, people who have experienced trauma as the result of violence or abuse, children in care and care leavers, people in contact with the criminal justice system (both victims and offenders), people who sleep rough or are homeless, people with substance misuse or gambling problems, people who live alone, and unpaid carers.
 
-- Example assurance cases could be used in longer-term participatory forms of engagement where there is time to dig into details.
+![A pattern for designing, developing, and deploying fair digital mental health technologies](../assets/patterns/fairness-pattern.png)
 
-#### A pattern for designing, developing, and deploying fair digital mental health technologies
-
-![A pattern for designing, developing, and deploying fair digital mental health technologies](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/fairness-pattern.png)
-Figure 4.1 shows the full pattern, which can also be accessed [here](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=fairness-pattern.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Os11GqD_Zh_a7mNrdV1XSNiDupC_4pPp%26export%3Ddownload).
+*Figure 4.1: A pattern for designing, developing, and deploying fair digital mental health technologies* (:material-magnify-plus: click image to expand)
 
 The goal claim addresses distributional concepts of fairness (e.g. whether harms and benefits are shared equally), but also acknowledges that there are wider impacts that can emerge from the deployment and use of technological services (e.g. representational harms to marginalised groups). 
 
@@ -149,11 +146,9 @@ While the themes and values expressed in the following pattern are based primari
 
 [^ward2020]: Ward, F. R., & Habli, I. (2020). An Assurance Case Pattern for the Interpretability of Machine Learning in Safety-Critical Systems. In A. Casimiro, F. Ortmeier, E. Schoitsch, F. Bitsch, & P. Ferreira (Eds.), Computer Safety, Reliability, and Security. SAFECOMP 2020 Workshops (Vol. 12235, pp. 395–407). Springer International Publishing. https://doi.org/10.1007/978-3-030-55583-2_30
 
-#### A pattern for designing, developing, and deploying explainable digital mental health technologies
+![A pattern for designing, developing, and deploying explainable digital mental health technologies](../assets/patterns/explainability-pattern.png)
 
-![A pattern for designing, developing, and deploying explainable digital mental health technologies](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/explainability-pattern.png)
-
-Figure 4.2 shows the full pattern, which can also be accessed [here](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=explainability-pattern.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1FgXz6DjJ8_eTPtIFfqojb40HwgJOxqjk%26export%3Ddownload).
+*Figure 4.2: A pattern for designing, developing, and deploying explainable digital mental health technologies* (:material-magnify-plus: click image to expand)
 
 In previous guidance, we have distinguished between two sub-categories of explanations:
 

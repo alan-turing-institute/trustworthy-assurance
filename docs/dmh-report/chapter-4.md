@@ -29,7 +29,7 @@ tags:
 
 In the previous chapter we discussed our engagement with university students and administrators. This work was treated as a sub-project because of the specific focus on the University sector as a limiting context. In this chapter we address workshops with a wider range of stakeholders and from a broader perspective. While the objectives remain the same across these two chapters, the findings and analysis in this section are representative of a wider range of concerns.[^limitation]
 
-[^limitation]: There is, of course, a trade-off here between the narrower and wider perspectives, which we discuss in [Appendix 1, 'Limitations'](appendix-1.md). 
+[^limitation]: There is, of course, a trade-off here between the narrower and wider perspectives, which we discuss in [Appendix 1, 'Limitations'](appendix.md).
 
 The stakeholder groups we consider in this chapter are as follows:
 
@@ -44,7 +44,7 @@ In contrast, users of digital mental healthcare technology (4) were invited to a
 
 ### Methodology and Activities
 
-Full details of our methodology and activities are provided in [Appendix 1](appendix-1.md). Summary information is included in Table 4.1.
+Full details of our methodology and activities are provided in the [Appendix](appendix.md). Summary information is included in Table 4.1.
 
 *Table 4.1—summary information about the two sets out workshops.*
 
@@ -135,7 +135,7 @@ Fortunately, the activities and discussion from the second workshop help emphasi
 
 The second workshop (1b) focused on a participatory design activity that was created to evaluate the trustworthy assurance methodology and attempt to operationalise some of the ethical principles explored in the first workshop. 
 
-For the main activity, participants were asked to review and discuss the ethical issues related to a specific case study and then develop a hypothetical assurance case that communicated how a set of decisions or actions had been undertaken to justify the ethical goals and properties that they had discussed. The groups were free to choose the goal, and the case study, which had also been selected by participants, involved the use of a decision support system that offered tailored and real-time recommendations to a psychiatrist during consultation with a patient (e.g. during assessment)(see Appendix 2).
+For the main activity, participants were asked to review and discuss the ethical issues related to a specific case study and then develop a hypothetical assurance case that communicated how a set of decisions or actions had been undertaken to justify the ethical goals and properties that they had discussed. The groups were free to choose the goal, and the case study, which had also been selected by participants, involved the use of a decision support system that offered tailored and real-time recommendations to a psychiatrist during consultation with a patient (e.g. during assessment)(see [Further Resources](further-resources.md)).
 
 Two breakout groups were formed and the (incomplete) assurance cases are depicted below. 
 
