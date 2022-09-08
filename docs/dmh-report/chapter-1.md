@@ -1,257 +1,254 @@
 ---
 authors:
   - Christopher Burr
+  - Rosamund Powell
 tags:
-  - lifecycle
-  - assurance
-  - SAFE-D
-  - argument-patterns
+  - culture-of-distrust
+  - landscape
+  - digital-mental-healthcare
 ---
-# Chapter 1: Trustworthy Digital Mental Healthcare
+
+# Introduction—A Culture of Distrust?
 
 ![A placeholder image](https://via.placeholder.com/800x400?text=Placeholder+Image)
 
->**Section Overview**
->
-> This section introduces a framework and methodology for enabling a more trustworthy ecosystem of digital mental healthcare through the responsible and ethical design, development, and deployment of digital technologies. The section also serves as an introduction for the analysis and recommendations for the following sections.
-> First, we introduce a model of a typical research or innovation lifecycle for a data science or AI project that includes activities of project design, model development, and system deployment. 
-> Second, we discuss the methodology of trustworthy assurance that is at the centre of our project. We provide a simple overview of the relevant procedures, focusing on the structure, elements, and purpose of an assurance case.
-> Finally, we look at argument patterns: reusable templates that can be developed to ensure a more consistent approach to trustworthy design, development, and deployment of digital mental healthcare.
+> Do I contradict myself? Very well then I contradict myself, (I am large, I contain multitudes.) --Walt Whitman, Song of Myself
 
-## Designing, Developing, and Deploying Trustworthy Digital Mental Health Technologies
+Whitman's ode to self-knowledge and understanding contains many poetically-phrased truths. However, the one expressed in the above line is an *understatement*. If we were to identify and rank the most complex phenomena in the universe, our large and multitudinous minds would sit somewhere near the top of the list!
 
-Designing, developing, and deploying an AI system is not a one-person task! The stages and activities that comprise a typical AI project lifecycle involve a wide-ranging and far-reaching set of skills and capabilities. These skills are encapsulated within myriad roles, including 'project commissioner', 'product manager', 'data protection officer', 'data scientist', 'system architect' and 'software engineer'. And, these roles are interwoven such that they create an irreducible and collective responsibility that spans the entire project lifecycle, and may span multiple teams and organisations. 
+Even the most stubborn or oblivious among us, must acknowledge that part of this complexity stems from a capacity for our minds to operate as a network of often *contradictory beliefs, attitudes, and opinions*—a network that exists within and among a larger social network of similarly fallible individuals. It would be understandable, therefore, given this reflection, if we came to the conclusion that our minds were never supposed to be understood fully and we just accepted, as Whitman did, that our mental lives are fundamentally contradictory and diverse, and sometimes none the worse for it!
 
-**Figure 1.1** presents a simplified model of a typical research or innovation lifecycle for a data science or AI project lifecycle, to help gain a purchase on these interweaving roles, skills, and responsibilities. 
+For many people, a prescription of stoic acceptance in the face of overwhelming complexity would be welcomed. But for others, their minds are not just built on top of permissible and tolerable contradictions, they also operate in a manner that prevents them from living a fully self-determined and flourishing life.
 
-The model represents three over-arching stages of `(project) design`, `(model) development`, and `(system) deployment`. For each stage, there are corresponding activities, detailed in **Table 1.1**. The project lifecycle is depicted as a circular process to highlight the fact that responsibility is ongoing and does not end once a system has been implemented or put into deployment. Rather, responsible (and trustworthy) approaches to research and innovation require consideration of how a technological system may need to be monitored and updated once in production, and removed and replaced once it reaches the end of its lifecycle. 
+In the last decade or so, a wide range of digital and data-driven technologies have emerged that promise to improve both our knowledge and understanding of our complex minds and its capabilities, as well as enhance our overall well-being. This fact is unsurprising. Our species has used technology to learn about and restructure both our external and internal worlds for hundreds of thousands of years. And during our time on this planet, technology has both enhanced and diminished our knowledge, understanding, and individual and social welfare. So, why has so much attention been paid in recent years to a recurring cycle of technological innovation?
 
-![Figure 1.1: a model of a typical project lifecycle for some data-driven technology, detailing the overarching stages of design, development, and deployment and their constitutive activities (reprinted from Burr and Leslie, 2022)](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/project-lifecycle.png)
-*Figure 1.1: a model of a typical project lifecycle for a data-driven technology, detailing the overarching stages of design, development, and deployment and their constitutive activities (reprinted from Burr and Leslie, 2022)*
+## Laying the Foundations
 
-**Table 1.1: Project Lifecycle Activities**
+Towards the start of the 21st Century, a convergence of several social and technical factors gave rise, first, to an interest in the Big Data revolution, and, second, to a renewed interest in Machine Learning (ML) and Artificial Intelligence (AI). Let's look at each of these briefly, as they help establish important and explanatory context for this report.
 
-| Stage | Description |
-| --- | --- |
-| **Project Planning** | Preliminary activities designed to help scope out the aims, objectives, and processes involved with the project, including potential risks and benefits. |
-| **Problem Formulation** | The formulation of a clear statement about the over-arching problem the system or project addresses (e.g., a research statement or system specification) and a lower-level description of the computational procedure that instantiates it. | 
-| **Data Extraction or Procurement** | The design of an experimental method or decisions about data gathering and collection, based on the planning and problem formulation from the previous steps. |
-| **Data Analysis** | Stages of exploratory and confirmatory data analysis designed to help researchers or developers identify relevant associations between input variables and target variables. | 
-| **Preprocessing and Feature Engineering** | A process of cleaning, normalising, and refactoring data into the features that will be used in model training and testing, as well as the features that may be used in the final system. | 
-| **Model Selection and Training** | The selection of a particular algorithm (or multiple algorithms) for training the model. | 
-| **Model Testing and Validation** | Testing the model against a variety of metrics, which may include those that assess how accurate a model is for different sub-groups of a population. This is important where issues of fairness or equality may arise.  | 
-| **Model Documentation** | A process of documenting both the formal and non-formal properties of both the model and the processes by which it was developed (e.g., source of data, algorithms used, evaluation metrics). |
-| **System Implementation** | The process of implementing the technological system into its intended environment or target domain to enable and structure interaction with the underlying model(s) (e.g. a recommender system that suggests possible treatment options for patients based on input data. | 
-| **User Training** | Training for those individuals or groups who are either required to operate a data-driven system (perhaps in a safety critical context) or who are likely to use the system (e.g. healthcare professionals, medical researchers). | 
-| **System Use and Monitoring** | Ongoing monitoring and feedback from the system, either automated or probed, to ensure that issues such as model drift have not affected performance or resulted in harms to individuals or groups.| 
-| **Model Updating or Deprovisioning** | An algorithmic model that that adapts its behaviour over time or context may require updating. Where no further updating can be carried out, and this results in a system being removed from production (i.e. deprovisioned), a new system may be required. This restarts the project lifecycle. |
+The big data revolution occurred as a result of increased and widespread use of IoT or mobile devices (i.e. the sources of data); availability of affordable cloud computing infrastructure (i.e. for extracting, loading, and transforming the data); and ongoing development of open-source frameworks and software libraries for more efficient and distributed data storage and analysis (e.g. Apache Hadoop, Python), among other factors.
 
-To see how this model can help us understand the interwoven nature of responsibility, consider the following example. An organisation wants to implement a speech recognition algorithm within a service they are developing for online counselling. However, there is no one in the organisation with the relevant expertise to collect data and train a model from scratch. Therefore, they choose to *procure* a pre-trained model from [another company](https://aws.amazon.com/marketplace/solutions/machine-learning/pre-trained-models). This means that a significant portion of the project lifecycle—from `Data Extraction or Procurement` to `Model Documentation`—will have been carried out by a separate organisation.
+To help differentiate *big* data from ordinary data collection, analysis, and use, many have pointed to the five V's of big data:
 
-Although the specifics of the relationship between the two organisations will complicate forms of responsibility, such as legal duties or obligations, this need not concern us here. Instead, we can focus on how the initial organisation who has chosen to undertake the project (e.g. the product owner or commissioner) can use the project lifecycle model to a) identify and analyse their own responsibility and how it intersects with the responsibilities of others, and b) how this supports a process of trustworthy communication and assurance.
+* Volume: the *amount* of data being extracted
+* Variety: the *types* of data being extracted
+* Velocity: the *speed* at which data is extracted
+* Value: the *socioeconomic benefit* of data
+* Veracity: the *accuracy* of data
 
-### Reflective and Anticipatory Deliberation
+In the context of digital mental healthcare, all of these are noteworthy, but three stand out against the backdrop of this report's opening remarks regarding the complex phenomena of interest (our minds):
 
-At the start of a project, while activities such as planning and initial evaluation of feasibility are being conducted, the project lifecycle model can be used to structure *reflective* and *anticipatory* processes of deliberation among the project team. For instance, the team could use the model to identify and evaluate potential actions and decisions that are likely to emerge during specific activities, such as which data types may be required and whether stakeholders or users will consent to these data being collected and analysed (a reflective and anticipatory exercise). As this example suggests, the project team may carry out the preliminary deliberation, but additional stakeholders will need to be engaged to thoroughly evaluate the ethical, legal, and social permissibility and acceptability of the project. 
+1. How **accurate** are the data we are now collecting, analysing, and using?
+2. Given the **variety** of minds that populate this plant, how representative are the types of data?
+3. How much of a gap is there between the socioeconomic **value** of data and the value to the individual who is represented by the data? Or, to put it more bluntly, who benefits from the data?
 
-Consider another example. A team of developers working for a commercial organisation have identified a risk associated with an AI system they have developed, which they claim is able to detect emotions. They have been approached by a healthcare provider who wish to procure and implement their system into a video consultation service to help their counsellors better understand the emotional and behavioural responses of their patients during an initial assessment. However, the developers did not evaluate their model (during `Model Testing or Validation`) using a dataset that is representative of the patient population intended by the healthcare provider that has approached them (i.e. individuals that are likely to be suffering from a mental health issue). Therefore, the developers are unable to make any claims about the generalisability of their model to this new population. Moreover, neither the developers nor the healthcare provider have engaged the relevant stakeholder groups during `Project Planning` to determine if this would be an acceptable use for their system. As such, additional activities would need to be carried out to determine the full scope of the risks and possible harms that could arise from the use of this technology. This would likely require the procuring organisation (i.e. the healthcare provider) to set clear requirements for what forms of evidence would be required from the developers (e.g., at `Model Documentation`), and to determine clear boundaries and thresholds for whether the project should proceed. 
+We (the authors) have heard and discussed manny variants of these questions over the course of this project and leading up to the publication of this report. For example, concerns about accuracy and variety are deeply connected to considerations around the regulatory assessment of clinical efficacy and safety for novel data-driven medical devices.[^regulatory] But more than this, accuracy and variety also underpin broader ethical concerns about existing barriers to enabling a fairer and more accessible healthcare system (e.g. the digital divide that systematically excludes certain people and groups from benefits associated with digital technologies). However, although data are important, addressing these questions is just one part of the puzzle.
 
-As this example illustrates, the project lifecycle structure can help support forms of reflective and anticipatory deliberation that help instantiate a responsible ecosystem of research and innovation. But it can also help identify points in the lifecycle where structured and transparent communication between teams and organisations may be crucial. 
+[^regulatory]: See for example, the work programme being conducted by the Medicines & Healthcare Regulatory Agency (MHRA) on [Software and AI as a Medical Device](https://www.gov.uk/government/publications/software-and-ai-as-a-medical-device-change-programme/software-and-ai-as-a-medical-device-change-programme), the [Evidence standards framework](https://www.nice.org.uk/about/what-we-do/our-programmes/evidence-standards-framework-for-digital-health-technologies) (ESF) for digital health technologies from the National Institute for Health and Care Excellence (NICE), and the proposed work from the [Multi-agency advisory service](https://transform.england.nhs.uk/ai-lab/ai-lab-programmes/regulating-the-ai-ecosystem/the-multi-agency-advice-service-maas/) (MAAS) for artificial intelligence (AI) and data-driven technologies, which is being funded by the [NHS AI Lab](https://transform.england.nhs.uk/ai-lab/). 
 
-In addition, there is a further purpose for the project lifecycle model that will become clearer in the next sections: the identification of actions and decisions that generate forms of evidence that provide justificatory support for *trustworthy assurance*.
+Turning to the technologies themselves—another significant piece—we can similarly identify several explanatory factors behind the recent surge of interest in machine learning algorithms (ML) and artificial intelligence (AI). Developments in this domain build on top of the aforementioned factors behind the big data revolution—ML and AI are, after all, sometimes referred to as '*data-driven* technologies':
 
-## What is Trustworthy Assurance?
+* Theoretical advances in machine learning for robotics and intelligent software agents (e.g. DeepMind's Alpha Go)
+* Improved application of deep neural networks to well-defined tasks such as medical imaging or speech detection
+* Hardware improvements in specialised computer processor architectures to allow for more efficient and effective edge computing
 
-> Trustworthy assurance is a procedure for developing a structured argument, which provides reviewable (and contestable) assurance that a set of claims about the ethical properties of a data-driven technology are warranted given the available evidence.
+All of these developments are important, but again there are three aspects that stand out as significant:
 
-This definition captures three important and interlocking components of trustworthy assurance:
+1. The ability for ML/AI systems to operate *autonomously*
+2. The ability for ML/AI systems to *learn from* their environments
+3. The ability for ML/AI systems to *adapt to* and *affect* their environments
 
-1. A structured *argument* comprising linked claims and evidence that collectively justify a top-level goal
-2. A *procedure* for developing an assurance case, which represents the argument either formally and/or visually
-3. Agreed upon *standards* for reviewing and evaluating the argument
+As we will see throughout this report, these features of ML algorithms and AI systems create possible risks and benefits to the realisation of ethical goals associated with digital mental healthcare. For instance, the ability to respect a patients *right to autonomous decision-making*. 
+Furthermore, these issues intersect with the issues raised by the previous three questions pertaining to data (e.g. the ability to operate autonomously in complex environments with insufficiently accurate data).
 
-![A Venn diagram showing the three interlocking components that support trustworthy assurance](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/venn.png)
-*Figure 1.2: a schematic showing the three interlocking components that support trustworthy assurance.*
+These topics already paint a very complex picture, but there is also a further level of complexity involved with understanding the dynamic feedback loops that emerge in mental healthcare when autonomous and adaptive systems are used to complement existing therapeutic interventions, many of which are already poorly understood (e.g. SSRI's). This complexity can cause issues for our existing research, development and regulatory frameworks, such as when performing clinical trials (e.g. how should we control for the effects of adaptive and personalised technologies?).
 
-### Argument
+Collectively, these six points about Big Data and ML/AI help to establish the background and context for this report, and also help us gain some conceptual clarity when attempting to address the uncertainty around trustworthy digital mental health technologies. Some of this uncertainty stems from the technologies themselves (as noted above). But other key aspects of this uncertainty arise because a) the concept ‘trustworthy digital mental health technology’ is a poorly defined term that captures a vast and heterogenous class of tools and services, and b) our relationships to and interactions with the technologies are also varied. It is not just the technologies that are complex after all. As eloquently captured by Whitman at the start, we—the individual members of the class, 'humanity'—are large and contain multitudes.
 
-Trustworthy assurance is a form of *argument-based assurance*. It uses a structured type of documented argumentation, known as an assurance case, as the primary means for providing assurance that a goal has been obtained, based on the claims and evidence presented.
+These many layers of complexity coalesce into a particularly thorny problem. If we cannot trust the technologies themselves, we will not be able to trust the information gained from them about our own minds. But if we do not understand our minds, we may be unable to fully determine and address the cause of our trust or distrust. And, as we have just noted, understanding the social environment is also a vital part of addressing this fundamentally sociotechnical problem. As you can probably guess by know, adding another element to our picture is not likely to reduce its complexity.
 
-There are three basic elements of an argument:
+## The Current (Socioeconomic) Landscape of Digital Mental Health
 
-1. A claim about the goal to be established (supported by descriptions of the system and the context in which the system is intended to operate)
-2. A set of property claims about the project or system that collectively specify and operationalise the goal
-3. A set of evidential claims that jointly establish the validity of the property claims
+To explore and understand the socioeconomic landscape of digital mental, let us start by addressing two outstanding questions:
 
-For example, the following figure constitutes a simple argument.
+1. What is meant by 'digital mental healthcare technology'?
+2. Why and how is digital mental healthcare being used?
 
-![](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-1.png)
+### What is digital mental health technology?
 
-*Figure 1.3: a portion of a simplified assurance case on respect for privacy*
+This is not an easy question to answer because of the multifaceted ways that the term 'digital mental health technology' could be employed. 
 
-Here, the goal that is being established relates to the project team's ambition to 'respect user privacy'. And, they argue that this is achieved by adherence to data minimisation principles—a claim about a property of how the system operates. Evidence of this adherence is also provided. 
+We can attempt to answer the question by drawing distinctions between, say, the use of digital technologies within formal healthcare settings (e.g. NHS) and those outside. However, as we have explored in previous research[^burr2020], this boundary is vaguely drawn at best, and unhelpful at worst, when it comes to understanding digital mental health technologies and the ethical issues surrounding their design and use.
 
-While useful as an illustration, this example is too simple to constitute a full-fledged assurance case because it reduces the concept of 'respect for user privacy' to a single principle (i.e., data minimisation). Although this claim may be relevant, on its own it is insufficient. We can, for example, consider an app that collects no personal data but still violates reasonable expectations of privacy by routinely notifying and disturbing users.
+[^burr2020]: Burr, C., J. Morley, M. Taddeo, & L. Floridi. (2020). Digital Psychiatry: Risks and Opportunities for Public Health and Wellbeing. IEEE Transactions on Technology and Society, 1(1), 21–33. https://doi.org/10.1109/TTS.2020.2977059
 
-A more detailed procedure is required, therefore, to help project teams identify the set of property claims that a) specify and operationalise the top-level goal and b) collectively justify the goal.
+One reason for this is that outside of formal healthcare systems, digital mental health technologies have been employed in social domains and contexts as diverse as financial services, education (e.g. schools and universities), and employment. And, furthermore, have been used within such domains for myriad purposes ranging from vulnerability assessment through to proactive intervention[^burr2020]. There is also the use of digital mental health technologies by social media platforms and charities to consider, which tends to cross many of these boundaries, especially those between work and home life, making it difficult to draw useful distinctions unless a narrow focus is defined in advance (e.g. studying the use of NLP used for risk assessment of adolescents on social media)[^conversation].
 
-### Procedure
+What about focusing on the technologies themselves? Again, this is not an easy feat. Some organisations, such as the Nuffield Council on Bioethics have focused on *emerging* technologies to narrow their scope [^Nuffield]. In doing so, they have identified specific ethical challenges associated with the following class of technologies:
 
-The procedure advocated for trustworthy assurance is the anticipatory and deliberative exercise introduced above, which incorporates inclusive and accessible forms of *stakeholder engagement*.
+* Smartphone apps and chatbots
+* Predictive analytics (e.g. based on digital phenotyping)
+* Consumer neurotechnology (e.g. portable electroencephalography devices)
+* Immersive technology (e.g. VR)
 
-By using the project lifecycle model as a scaffold for anticipatory reflection and stakeholder-informed deliberation, project teams are able to answer the following questions:
+[^Nuffield]: Nuffield Council on Bioethics (2022) The role of technology in mental healthcare. [https://www.nuffieldbioethics.org/assets/pdfs/The-role-of-technology-in-mental-healthcare.pdf](https://www.nuffieldbioethics.org/assets/pdfs/The-role-of-technology-in-mental-healthcare.pdf)
 
-1. Which claims are necessary and sufficient to specify and justify the top-level goal?
-2. How do these claims relate to one another?
-3. What evidence is required to demonstrate the validity of the claims being made?
+But none of these categories are suitable for building a definition of digital mental health technologies writ large. For instance, let's take a look at so-called "digital phenotyping"—an increasingly popular area of digital mental health technology—, defined as follows:
 
-Consider the following example. A company wishes to develop an assurance case that shows how their system, which uses a ML algorithm to predict whether users of an online betting platform are "problem gamblers", can generate results that are explainable to their users. They decide this is an important ethical goal for an assurance case, because they want to be able to provide accessible forms of communication to any user that they contact on the basis of their algorithmically-generated prediction.
+> We also introduce the term “digital phenotyping” to refer to the “moment-by-moment quantification of the individual-level human phenotype in-situ using data from smartphones and other personal digital devices.”[^torous]
 
-They start by formulating the following goal statement, which sets out an ambitious objective to achieve:
+[^torous]: Torous et al. (2016) New Tools for New Research in Psychiatry: A Scalable and Customizable Platform to Empower Data Driven Smartphone Research. JMIR Ment Health. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873624/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873624/)
 
-> "An explanation of how our system predicts whether a user is a "problem gambler" can be provided to all users of our platform."
+Putting aside the previously raised data challenges associated with the "quantification of the individual-level human phenotype" (e.g. how to construct *accurate* scales that apply to all *varied* people while retaining *value*), there is also wide variation between 'smartphones' and 'other personal digital devices', such as wearables. For instance, some smartphone apps may use advanced forms of machine learning algorithms or AI to infer novel attributes regarding a user's mental health. And, others may offer nothing more than a simple interface and database for users to record how they are feeling at a particular time or on a particular day. Furthermore, some wearables may store and process sensitive information locally on a user's device, whereas others may store data on the cloud and share health-related information with a vast number of organisations across jurisdictions with varying levels of data protection. 
 
-Next, they consider which potential actions or decisions taken throughout the stages of the project lifecycle could be relevant to the specification and justification of this goal. For example, they flag that results from a series of planned workshops to be carried out with representative users during their `Project Planning` activities may be relevant. 
+What about if we move to a lower level of abstraction, such as the algorithmic technique used by the digital technology? Here too we would find difficulties with delineating the meaning of the term ‘trustworthy digital mental health technology’. For example, the use of *unsupervised machine learning* by trusted clinical researchers may be justified if used responsibly as a form of exploratory research or hypothesis generation. But, if the same technique were deployed by a local council to determine how best to spend limited resources, the lack of transparency could undermine efforts to remain accountable to their residents.
 
-Following the delivery of these workshops, it turns out that plain language explanations are preferable to detailed explanations of the algorithmic techniques, but that users were more trusting of these explanations when they knew they had been independently validated by a professional auditor. This result influences which machine learning algorithm the team go on to select during the `Model Selection and Training` activities, and which features they report on during `Model Documentation` for the independent audit. 
+Regardless of the level of abstraction we adopt, there will always be some difficulty with clearly defining this nebulous term. Therefore, while it may seem unsatisfying to a reader who wishes to know *precisely* what the term 'digital mental health technology' comprises, for our present purposes the following (loose and permissive) definition shall suffice:
 
-Once the team have reflected on all the stages of the project lifecycle, and carried out the corresponding activities, they recognise that there are two broad sets of claims. One set of claims are about the *design choices* made during the project, which support accessible explanations for users. The second set are about the *interpretability of the system*, which are relevant for professional auditing and assessment of the system. Categorising the claims in this manner helps the company determine what evidence will be needed for each claim, and how best to structure the argument. At this point, most of the evidence has already been generated as a byproduct of the team's work, so this stage is primarily a matter of collection, curation, and communication (through documenting an assurance case).
+> The term 'digital mental health technology' refers to any digital technology that has been designed, developed, and deployed with the goal of improving or otherwise impacting some mental health outcome for an individual or group of people.
 
-The following figure summarises the points made in the above example.
+In particular, this report will pay close attention to those technologies that are data-driven and/or use some form of machine learning or AI, given the considerations outlined in the opening sections.
 
-![](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-2.png)
+We acknowledge that many will find this definition too permissive, but this report is not concerned with developing a robust philosophical definition or a taxonomy that can be used to delineate the precise nature of digital mental health technologies. Rather, it is focused on the defence of a methodology to help make digital mental health technologies more trustworthy and ethical. Therefore, the broader the class that can be drawn the better it will be for our goals, because more technologies will fall within its scope. And, insofar as there are legal considerations that demand precise definitions, these issues will be addressed along different lines (e.g. operationalising standards of assessment for equitable treatment).
 
-*Figure 1.4: a portion of the assurance case for this hypothetical project.*
+Let us now turn to the second question.
 
-The final component of trustworthy assurance relates to *standards*.
+### Why and how is digital mental healthcare being used?
 
-### Standards
-Standards support the development and refinement of best practices and codes of conduct. There are standards for measurement (e.g., universal scales), procedures (e.g., manufacturing), and assessments (e.g., risk and impact assessment), and much more. Here, we are interested in standards as they pertain to evidence and claims. 
+The following statistics offer a partial and fragmented perspective to help frame this question, focusing on the UK specifically:
 
-Evidential standards can refer to both the identification and evaluation of evidence. 
+* Over 60% of children and young people with diagnosed mental health conditions do not receive NHS care.[^nhs]
+* Rates of probable mental health disorders children and young people (aged 6 to 16 years) have risen from 11.6% in 2017 to 17.4% in 2021. [^nhs2]
+* Approximately two-thirds of people who die by suicide are not in contact with NHS mental health services.[^ons]
+* In the first 3 months of 2021, 1 in 5 adults in Britain experienced some form of depression (over double the pre-pandemic figures).[^ons2]
+* During the pandemic both males and females saw an increase in anxiety and a reduction in 'life satisfaction'—a subjective measure of well-being that asks individuals to evaluate their life as a whole, rather than time-specific emotions. However, females experienced lower life satisfaction and happiness than males.[^ons2]
 
-Standards for identifying evidence are common in areas such as law where rules exist to determine what constitutes *relevant*, *material*, and *admissible* evidence.
+[^nhs]: https://www.england.nhs.uk/mental-health/cyp/
+[^nhs2]: https://digital.nhs.uk/data-and-information/publications/statistical/mental-health-of-children-and-young-people-in-england/2021-follow-up-to-the-2017-survey
+[^ons]: https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/suicidesintheunitedkingdom/2020registrations
+[^ons2]: https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/articles/coronavirusanddepressioninadultsgreatbritain/januarytomarch2021
 
-Similarly, standards for evaluating the quality of evidence are well-established in domains such as scientific research, where various procedures or methods are held to produce reliable forms of evidence (e.g. peer review or randomised controlled trials), and in risk assessment and management (e.g. standardised guidelines on risk management for systems and software engineering).[^standards]
+When we consider these figures, combined with a reflection of the impact wrought by the COVID-19 pandemic on an already over-burdened mental health sector, we can begin to understand why many organisations across the public, private, and third sectors are deploying digital technologies to augment and complement their services, and why many users in turn have engaged.
 
-[^standards]: For example, guidance such as ISO/IEC/IEEE 16085, 'Systems and software engineering - Life cycle management - Risk Management'
+But if we are to implement digital technologies in an ethical and trustworthy manner, there are several considerations that need to be addressed. 
 
-As distinct communities of practice develop and emerge, we would expect standards and best practices to evolve to help with both the identification and evaluation of evidence. Subsequently, this would help support the development of trustworthy assurance in domains such as digital mental healthcare because specific types of claims or evidence would be recognised as more reliable forms of evidence-based assurance. 
+The first two relate to choice and access, as outlined in a briefing note from the Nuffield Council on Bioethics[^Nuffield] (emphasis ours):
 
-It should be noted, however, that regulators and developers are not starting with a blank slate. There are many relevant standards that exist today, and new standards are emerging to support the procedure of constructing a trustworthy assurance case.[^aistandardshub] We will consider some of these standards in section 3.
+1. "Many people affected by mental health problems *do not have access to* or are *reluctant to use* mental healthcare technologies. If these are to become widely adopted in the future, there should be choice about using them."
+2. "Technology solutions *should not divert resources from other important forms of mental healthcare* and support and *should be used as an addition* to what is already available, *rather than a replacement*."
 
-[^aistandardshub]: The AI Standards Hub, for example, serves an observatory of relevant standards for AI technologies (see [https://aistandardshub.org](https://aistandardshub.org)).
+The latter recommendation is echoed here because it is a theme that emerged frequently in our own project among diverse stakeholder groups. That is, digital mental health technologies should augment and support, but never replace human decision-making or human-centred services. And, the former recommendation is also important because it captures something salient about trust. 
 
-## Argument Patterns
-### Claims as Reasons
+For some potential users, such as elderly patients, a lack of access can be due to their needs not being sufficiently considered when designing the service or technological interface.[^design] This form of inaccessibility is is sometimes overlooked due to an emphasis on other economic barriers (e.g. digital poverty). However, even users that a) have access to the services (in both senses of the term ‘access), and b) potentially benefit from use of the respective technology, may still have legitimate reasons for not wishing to use the service due to a distrust (or, “reluctance” to use the same term from the above quotes) in the service or the organisation responsible for designing, developing, and deploying it. In some cases, this distrust arises due to legitimate concerns about violations of data privacy or mishandling of sensitive information by commercial organisations.
 
-Trustworthy assurance is a process of giving and justifying claims about choices made during the design, development, and deployment of a digital mental health technology. These claims can be viewed as a series of *reasons* for why a particular decision was made. 
+[^design]: See references and discussion on 'universal design' in Burr, C., Taddeo, M., & Floridi, L. (2020). The Ethics of Digital Well-Being: A Thematic Review. Science and Engineering Ethics. [https://doi.org/10.1007/s11948-020-00175-8](https://doi.org/10.1007/s11948-020-00175-8)
 
-To see why, let’s assume that an organisation is in the process of procuring an AI-enabled chatbot to provide therapeutic support to service members returning from deployment.[^ptsd] As this technology is new and relatively untested, the organisation has a series of questions for the developers:
+However, the unethical behaviour and transgressions of law by commercial organisations such as Facebook[^facebook] can have a wider impact beyond their own disastrous public relations. They can also contribute to a growing culture of distrust in the ecosystem more broadly, affecting the public and third sectors, as members of the public may be unable to separate the differing ethical, social, or legal norms that govern each sector or domain.[^conversation] This is understandable from the perspective of the user, as the norms that regulate and govern the public, private, and third sectors are complex and deeply interwoven. But it is still characteristic of an unethical and irresponsible approach to research and innovation, and one that is unlikely to build trust.
 
-1. "Why should we license this digital system instead of investing in traditional forms of talk therapy?"
-2. "Why have you chosen a female avatar as your virtual assistant?"
-3. "How did you measure and validate the clinical efficacy of the system for different subgroups to ensure that it is fair?"
+[^facebook]: For a timeline that conveys a shocking pattern of behaviour at Facebook, which is hard to treat as anything other than a flagrant disregard for user’s data privacy, see [Facebook data privacy scandal: A cheat sheet](https://www.techrepublic.com/article/facebook-data-privacy-scandal-a-cheat-sheet/).
 
-[^ptsd]: For an example of this type of technology, see  Lucas et al. (2017). Reporting Mental Health Symptoms: Breaking Down Barriers to Care with Virtual Human Interviewers. *Frontiers in Robotics and AI*. [https://www.frontiersin.org/articles/10.3389/frobt.2017.00051](https://www.frontiersin.org/articles/10.3389/frobt.2017.00051)
+[^conversation]: We explored this point more fully in a separate article: Burr, C. (2022). Charities are contributing to growing mistrust of mental-health text support—Here’s why. The Conversation. Retrieved 29 July 2022, from http://theconversation.com/charities-are-contributing-to-growing-mistrust-of-mental-health-text-support-heres-why-179056
 
-In answering these three questions, the developers would be *giving reasons* (supported by evidence) for their actions—reasons that would need to be accepted by the procuring organisation to be relevant and justifiable. This perspective on claims emphasises one of their most vital roles as *publicly contestable reasons*. That is, whether a claim (or set of interrelated claims) are valid in the context of an assurance case is, in part, conditional on whether they are accepted as *reasonable* justifications by those who are tasked with evaluating the assurance case. 
+## A Culture of Distrust
 
-Let’s look at another example. Consider the following section of an assurance case for the aforementioned chatbot, which the developers have produced for the procuring organisation:
+In the context of the law, it is well known that states and public sector organisations are beholden to wide-ranging legal duties, both positive and negative, such as those set out in human rights law or in national legislation (e.g. the public sector equality duty created by the UK's Equality Act 2010).
 
-![](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-3.png)
-*Figure 1.5: a portion of an assurance case for a chatbot*
-[^claim]
+Commercial organisations are not obligated to observe all of the same principles or rules as public sector organisations, but are nevertheless required to comply with myriad information governance standards, legislation designed to protect environmental sustainability and public health, and a whole host of other corporate or fiduciary duties.
 
-[^claim]: Recall, that evidential claims are required to link property claims to their supporting evidential artefacts, and evidential claims, therefore, can also serve as reasons.
+And, third sector organisations, such as charities or volunteer groups, may have less restrictive legislation governing their conduct, but are still expected to adhere to necessary transparency and accountability standards over matters such as the organisation and incorporation of managing trusts.
 
-As we have discussed, the organisation responsible for evaluating the trustworthiness of the AI system has to determine whether the evidential claim (EC1) is a *reasonable* choice to justify its parent claim (C2). They may, for instance, argue that EC1 is a *reasonable claim*, but nevertheless argue that it is insufficient on its own to justify the claim that the chatbot is an "accessible" alternative to human-led therapy. Alternatively, they may claim that it is *not reasonable* on the grounds that the ratings given by the service members are not relevant to establishing whether the chatbot is an “accessible form of therapy” but merely that the avatar is “friendly and realistic”. This example highlights a potential challenge associated with the development of assurance cases: determining what constitutes *relevant*, *sufficient*, and *reasonable* claims. 
+Such legal requirements create an interlocking foundation upon which public perceptions and attitudes towards trust can be based, but are often difficult to separate and pick apart. And, even where one is able to do so, legal requirements typically set only the *minimal standards* expected of organisations. To put it simply, and sidestep a vast amount of important jurisprudence, just because something is legal does not guarantee it is ethical or socially acceptable.
 
-In the context of safety assurance, a large body of guidance has been established to help developers assess what claims they will need to establish and justify, and a key part of this guidance is the development of *argument patterns*. 
+On top of the norms that fall within the scope of the law, modern institutions and organisations are also expected to observe and comply with an expansive and shifting set of ethical and social norms. For example, while underpinned by legal mechanisms, matters of social justice and fairness go beyond the legal requirements to ensure non-discrimination (e.g. poverty, a risk factor associated with worse mental health outcomes, is not a protected characteristic). Moreover, while legal texts help to enshrine and enact pre-existing rights[^article8], they often leave wide scope for actions that may be sufficient for discharging the corresponding duty but are seen by many as, at best, failing to observe the spirit of the law, and at worst, morally impermissible. 
 
-### What are argument patterns?
-Argument patterns are *starting templates* for building assurance cases. They identify the types of claims (or, the sets of reasons) that need to be established to justify the associated top-level normative goal. **Figure 1.6** shows an example argument pattern for the technical goal of interpretability.[^ward2020]
+A particularly well known illustration of this problem is the EU's General Data Protection Regulation (GDPR) and ePrivacy Directive. The GDPR (and directive) resulted in widespread changes to the operation of cookies, including a requirement to receive users’ consent before any cookies were used, except those strictly necessary. However, as almost everyone will know from first-hand experience, the manner in which some organisations secure consent can range from the entirely user-friendly, to the intentionally frustrating use of dark patterns[^dark] or hours long process of flipping hundreds of opt-out toggle buttons. Here, the expectations that society have regarding what is both legally and morally permissible clearly differ substantially from what is desirable from the perspective of the organisation. 
 
-![Figure 1.6: a pattern for an interpretability case (reprinted from Ward and Habli, 2020)](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/habli-assurance.png)
-*Figure 1.6: a pattern for an interpretability case (reprinted from Ward and Habli, 2020)*
+[^article8]: For instance, Article 8 of the EU Charter of Fundamental Rights (On the Protection of personal data) states, "1. Everyone has the right to the protection of personal data concerning him or her. 2. Such data must be processed fairly for specified purposes and on the basis of the consent of the person concerned or some other legitimate basis laid down by law. Everyone has the right of access to data which has been collected concerning him or her, and the right to have it rectified. 3. Compliance with these rules shall be subject to control by an independent authority." Provisions 1 and 2 help to delineate the remit of an individual's right, whereas provision 3 establishes a corresponding duty on member states that helps ensure the aforementioned rights are guaranteed and protected.
 
-[^ward2020]: Ward, F. R., & Habli, I. (2020). An Assurance Case Pattern for the Interpretability of Machine Learning in Safety-Critical Systems. [https://doi.org/10.1007/978-3-030-55583-2_30](https://doi.org/10.1007/978-3-030-55583-2_30)
+[^dark]: Dark patterns are design elements of an user interface that have been intentionally chosen to manipulate or deceive users into taking actions or making sub-conscious choices, which they would be unlikely to do when conscious of the outcome (e.g. purchasing a more expensive product, agreeing to invasive privacy policies).
 
-The pattern depicted in Figure 1.6 shows a template for an assurance case that serves to justify the following top-level goal: 
+But these expectations also differ depending on whether the organisation is part of the public, private, or third sector, and what role they play within each sector. And, furthermore, expectations are not equally shared across a vast and homogenous “public”. Quite the opposite in fact. 
 
-> "The {ML Model} is sufficiently {interpretable} in the intended {context}". 
- 
-Here, the curly brackets serve as placeholders for specific variables that are properly established when a full assurance case is developed. A notable contribution of this pattern is the identification of three essential aspects of interpretability:
+Consider, for example, the range of attitudes that members of the public may have towards a private company extracting economic value from their data collection activities. Depending on key details about the informational content of the data, attitudes could range from shareholder praise for savvy corporate governance, through the begrudging toleration by consumers, and up to the vehement and vocal criticism by privacy activists or employee campaign groups. 
 
-1. Right Method: The right interpretability methods are implemented, i.e. the correct information is faithfully being explained.
-2. Right Context: 
-	- Time: Interpretations produced at the appropriate times. 
-	- Setting: Interpretations are available in the right setting. 
-	- Audience: Interpretations produced for the right audience. 
-3. Right Format: The interpretability methods are presented in the right format for the audience.
+And to add one final layer of complexity, to really drive home Whitman's point from the start of this chapter, the scope and distribution of this variation may increase as we expand our field of consideration to the public and third sectors. Now, the same data extraction could be seen as deeply unethical or impermissible by those who were in favour of it originally. In terms of underlying values, therefore, *pluralism* and *variation* should be expected when considering the attitudes of the *publics* (reiterating the emphasis on the plural).
 
-These three essential aspects subsequently serve to delineate the more detailed argument and evidential claims at the lowest levels. 
+By now, you may be feeling as though stoic acceptance in the face of overwhelming complexity is inevitable. What other options are there? You may be thinking, for instance, that there are simply too many factors for any one person or organisation to consider when researching, developing, or regulating digital mental health technologies. 
 
-Argument patterns, such as the one above, are helpful for the following reasons:
+However, this report (and our project more generally) aims to challenge this attitude, while fully acknowledging the overwhelming complexity involved. Our approach and methodology in many respects embodies the principle that *light is the best disinfectant*. And, framed as a set of recommendations, which include but build on the two recommendations from the Nuffield Council on Bioethics above:
 
-- They provide a consistent and systematic approach for the reflective and deliberative activities carried out across a project’s lifecycle. 
-- They speed up the process of developing assurance cases.
-- They provide reusable structures that, if used widely throughout a domain, could establish best practices.
+3. Organisations that choose to use digital mental health technologies should consider broader ethical goals, in addition to traditional goals such as ‘safety’ and ‘efficacy’, to help create a more ethical, responsible, and trustworthy ecosystem of digital mental healthcare.[^consistency]
+4. Organisations should provide transparent and evidence-based assurance about how these ethical goals have been operationalised and secured during the design, development, and deployment of digital mental health technologies.
 
-But where do they come from?
+[^consistency]: To emphasise the consistency of this recommendation with those from the Nuffield Council we should also acknowledge that this ‘digital ecosystem’ must be complementary with, supportive of, and enhance more traditional healthcare services (qua recommendation 2). 
 
-### Generalisable Patterns
-In the case of the argument pattern from Figure 1.6, this pattern was proposed by the authors as a means to address a gap in the safety assurance of ML systems. As experts in their domain, and as a peer-reviewed contribution, this is a valid source for an argument pattern. 
+With these points in mind, we can now turn to the project itself and introduce the notion of trustworthy assurance—a methodology that can help address all of the above recommendations (and more to come). 
 
-However, an alternative (though not entirely disconnected) source is to identify generalisable structures and patterns from existing assurance cases—a procedure that can be enhanced through participatory engagement from stakeholders and affected users. This is the method that we have explored in the current project on Digital Mental Healthcare and subsequently propose as a procedure for Trustworthy Assurance.
+## About the Project
 
-Much like ML algorithms, humans have remarkably effective (but biased) *pattern recognition capabilities*, some of which underpin our assessment and internalisation of ethical, legal, and social norms. As an example, James W. Nickel says of human rights:
+Assurance is a process of establishing trust.
 
-> "We can think of the emergence of a human right as the coming together of the *recognition* of a problem; the belief that the problem, is very severe; and optimism about the possibility of addressing it through social and political action at national and international levels." [^nickel2007]
+Whether we trust someone or some object depends, in part, on the evidence we have to help us evaluate whether there are good grounds for placing trust. In other words, what is the evidence of their trustworthiness?
 
-[^nickel2007]: Nickel, J. W. (2007) Making Sense of Human Rights (2nd Edition). Blackwell Publishing. 
+When it comes to trust, we do not expect the same level of evidence when assessing the trustworthiness of different people, objects, or systems. A trustworthy doctor, for example, is not assessed by the same standards as a trustworthy friend. And, similarly, the trustworthiness of an AI chatbot used in customer services is not (and ought not) be evaluated by the same measures as an AI chatbot used to support people with their mental health.
 
-Similarly, we can think of ethical and social norms as the *shared recognition* and subsequent externalisation of beliefs and attitudes towards events as diverse as acceptable etiquette during a dinner party through to permissible forms of punishment for various transgressions. 
+In short, when we speak of 'trustworthy assurance' we are creating room for a wide variety of associated goals and standards, to accommodate the complexity alluded to in the previous sections. These can, of course include goals and standards related to ‘safety’ or ‘clinical efficacy’, but for present purposes we are primarily interested in those goals that have an ethical significance.
 
-This understanding of the emergence of norms is crucial to ensuring the relevance, sufficiency, and reasonableness of evidence, and the legitimacy of corresponding trustworthy argument patterns. 
+Our project focused directly on a methodology for making the assessment, communication, and realisation of these goals more robust and transparent. The methodology is known as ‘argument-based assurance’ and we can define this methodology as follows:
 
-In terms of the emergence of argument patterns, the three elements that we have explored already are, again, important: the top-level normative goal, the property claims, and the evidential support. Let's take each of these in turn.
+> Argument-based assurance is a process of using structured argumentation to provide assurance to another party (or parties) that a particular claim (or set of related claims) about a property of a system is warranted given the available evidence. [@burr2022]
 
-The phrase 'trustworthy assurance' creates a wide scope for top-level goals that may be deemed relevant to establishing trust (e.g. *sustainable* digital platforms, *accountable* methods of data governance, *fair* classifiers, and *explainable* decision support systems). As trustworthy assurance cases are developed for data-driven technologies, it is likely that we will see certain goals emphasised (and re-emphasised) over others. In turn, these normative goals will orient other projects and help cultivate best practices. In related work, we have proposed a series of ethical principles that have been developed to provide actionable insights and safeguards on responsible research and innovation in data science and AI.[^coe] They are known as the SAFE-D principles:
+We offer a simplified introduction to Argument-based assurance (ABA) in the following chapter. But various types of ABA are already widely used in safety critical domains, and have also been used in the context of healthcare[^ABA]. Typically, the purpose of ABA is to assess and communicate the *safety* of a system within a particular environment. But our project was concerned with the question of whether a revised and extended version of the methodology could be used for a broader set of ethical goals, such as fairness or explainability (see [Chapter 4](chapter-4-argument-patterns-fairness-and-explainability)).
 
-- Sustainability
-- Accountability
-- Fairness
-- Explainability
-- Data (Quality, Integrity, Protection and Privacy)
+[^ABA]: See an older, but still important report from [Health Foundation](https://www.health.org.uk/sites/default/files/UsingSafetyCasesInIndustryAndHealthcare.pdf) as well as a more recent proposal: Habli et al. (2020). Enhancing COVID-19 decision making by creating an assurance case for epidemiological models. BMJ Health &amp; Care Informatics, 27(3), e100165. https://doi.org/10.1136/bmjhci-2020-100165
 
-These principles have been refined and validated in a wide range of domains, and were originally based on a broad understanding of the typical harms and benefits associated with data-driven technology. Therefore, unlike alternative frameworks they are tailored to the specific needs and challenges of responsible, trustworthy, and ethical data science and AI, rather than, say, importing or revising existing frameworks such as biomedical ethics. [^floridi] 
+There is an immediate question that ought to be addressed here:
 
-However, the SAFE-D principles were designed to be *domain-neutral* starting points. That is, we did not presume that these principles would capture the ethical, social, and legal values that are dominant in digital mental healthcare. Instead, the present project undertook a process of exploratory engagement and participatory design to explore which ethical values and principles were relevant to the specific context of trustworthy digital mental healthcare, and whether specific SAFE-D principles captured these. We will return to this point in Section 3 where we analyse our findings from the project's workshops.
+> How should ethical goals be determined and operationalised in the context of the design, development, and deployment of digital mental healthcare?
 
-[^floridi]: For a contrasting approach, see Floridi, L., & Cowls, J. (2019). A Unified Framework of Five Principles for AI in Society. Harvard Data Science Review. https://doi.org/10.1162/99608f92.8cd550d1
+Our approach in this project to determining and operationalising the relevant ethical goals was *participatory* in nature, and was driven by three primary objectives:
 
-Turning now to the property claims and supporting evidence, as assurance cases are communicated for specific goals we will likely see *sets of property claims and supporting evidence* used more than others as justifiable and accepted reasons for establishing the respective goal. For instance, as developers focus on goals like 'accountability', core attributes of the system and project are likely to be emphasised as relevant targets (e.g. constructing traceable data pipelines, establishing mechanisms to support auditing processes, ensuring accessible documentation).
+1. To explore whether and how the methodology of argument-based assurance could be extended to address ethical issues in the context of digital mental healthcare.
+2. To evaluate how an extension of the methodology could support stakeholder co-design and engagement, in order to build a more trustworthy and responsible ecosystem of digital mental healthcare.
+3. To lay the theoretical and practical foundations for scaling the ethical assurance methodology to new domains, while integrating wider regulatory guidance (e.g., technical standards).
 
-Returning to the SAFE-D principles once more, we have previously developed a set of *core attributes* for each of the principles, which a) identify the types of properties that need to be established in a project or a system to ensure the relevant goal is obtained and b) the stages of the project lifecycle where actions can be taken to implement the respective property. Table 1.2 shows an example of the core attributes for 'sustainability'.
+To realise these objectives, several workshops were organised and run over the course of the project with a diverse set of participants. Broadly, we categorised these stakeholder groups as follows:
 
-| Core Attribute | Description |
-| --- | --- |
-| Safety | Safety is core to sustainability but goes beyond the mere operational safety of the system. It also includes an understanding of the long-term use context and impact of the system, and the resources needed to ensure the system continues to operate safely over time within its environment (i.e. is sustainable). For instance, safety may depend upon sufficient change monitoring processes that establish whether there has been any substantive drift in the underlying data distributions or social operating environment. Or, it could also involve engaging and involving users and stakeholders in the design and assessment of AI systems that could impact their human rights and fundamental freedoms. |
-| Security | Security encompasses the protection of several operational dimensions of an AI system when confronted with possible adversarial attack. A secure system is capable of maintaining the integrity of its constitutive information. This includes protecting its architecture from the unauthorised modification or damage of any of its component parts. A secure system also remains continuously functional and accessible to its authorised users and keeps confidential and private information secure even under hostile or adversarial conditions. |
-| Robustness | The objective of robustness can be thought of as the goal that an AI system functions reliably and accurately under harsh or uncertain conditions. These conditions may include adversarial intervention, implementer error, or skewed goal-execution by an automated learner (in reinforcement learning applications). The measure of robustness is, therefore, the strength of a system’s functional integrity and the soundness of its operation in response to difficult conditions, adversarial attacks, perturbations, data poisoning, or undesirable reinforcement learning behaviour. |
-| Reliability | The objective of reliability is that an AI system behaves exactly as its designers intended and anticipated. A reliable system adheres to the specifications it was programmed to carry out. Reliability is therefore a measure of consistency and can establish confidence in the safety of a system based upon the dependability with which it conforms to its intended functionality. |
-| Accuracy and Performance | The accuracy of a model is the proportion of examples for which it generates a correct output. This performance measure is also sometimes characterised conversely as an error rate or the fraction of cases for which the model produces an incorrect output. Specifying a reasonable performance level for the system may also require refining or exchanging the measure of accuracy. For instance, if certain errors are more significant or costly than others, a metric for total cost can be integrated into the model so that the cost of one class of errors can be weighed against that of another. |
+1. University students
+2. University administrators
+3. Policy-makers and regulators in healthcare
+4. Developers of digital mental healthcare technologies
+5. Researchers working in disciplines adjacent to digital mental health
+6. Users with lived experience of digital mental health technologies
 
-*Table 1.2: a summary of the core attributes for the principle 'sustainability'*
+Workshops were held with representatives from each of these stakeholder groups, where tailored activities were run to both understand their attitudes towards digital mental health technologies, but also to a) help us evaluate methodological questions related to trustworthy assurance and b) identify which ethical values and principles matter most to them in the present context.
 
-Again, we are not proposing that these principles and core attributes be adopted in digital mental healthcare as the respective goals, claims, and evidence. However, they could provide a starting point for the refinement of domain-specific principles while argument patterns emerge and become crystallised.[^rawls]
+Chapters 2 and 3 address present our findings, analysis, and recommendations from the workshops. Here, we shall just speak to the procedural matter of operationalising ethical principles through processes of stakeholder participation and engagement. 
 
-[^rawls]: This process is (loosely) derived from the idea of 'reflective equilibrium', made famous by the political philosopher John Rawls [@rawls1971]. In short, the phrase 'reflective equilibrium' refers to a state of coherence among moral beliefs and attitudes, which emerges over time as a result of public deliberation and consensus building activities that focus on the relevant moral beliefs and attitudes (e.g. notions of 'justice').
+### SAFE-D Principles
 
-Figure 1.7 offers a simple graphic to help visualise this process as it relates to trustworthy assurance.
+In previous work, we have defended an ethical framework for evaluating the harms and benefits of data-driven technologies, which has already been revised, tested, and validated with a wide-variety of stakeholders[^coe]. 
 
-![Figure 1.7: process of consensus formation for ethical principles as constraints on trustworthy assurance](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/cycle.png)
-*Figure 1.7: process of consensus formation for ethical principles as constraints on trustworthy assurance*
+We refer to this framework as the *SAFE-D framework*, because it establishes five principles that form the acronym SAFE-D (or, ‘safety’, which is another important component of trustworthy AI):
 
-These preliminary remarks about trustworthy assurance serve as a foundation for understanding and contextualising our project's research and the recommendations we derive from our findings. 
+* **S**afety
+* **A**ccountability
+* **F**airness
+* **E**xplainability
+* **D**ata (Quality, Integrity, Protection and Privacy)
+
+[^coe]: The most recent and comprehensive account of this framework can be found in the following proposal to the Council of Europe: Leslie, D., Burr, C., Aitken, M., Katell, M., Briggs, M., & Rincon, C. (2022). Human rights, democracy, and the rule of law assurance framework for AI systems: A proposal. [https://rm.coe.int/huderaf-coe-final-1-2752-6741-5300-v-1/1680a3f688](https://rm.coe.int/huderaf-coe-final-1-2752-6741-5300-v-1/1680a3f688).
+
+Each of the SAFE-D principles has a subset of core attributes that help to specify and operationalise the principles throughout a project's lifecycle using a series of processes and activities (see [next chapter](#chapter-1-trustworthy-digital-mental-healthcare) for full details). 
+
+In other words, while the principles themselves act as starting points for context-specific reflection and deliberation with affected stakeholders, it is the core attributes that serve as practical guardrails throughout a project’s lifecycle. For instance, the principle of 'explainability', which emphasises core attributes such as transparency, interpretability, and accessibility of an automated system, has a particular ethical significance when utilised in a domain such as digital mental health. That is, ensuring digital mental healthcare technologies and services are *explainable* is a key part of respecting a patient's right to informed and autonomous decision-making. This right cannot be upheld and respected without ensuring sufficiently *transparent*, *interpretable*, and *accessible* forms of information about how a digital technology operates (e.g. how an algorithmic system reaches a decision). How organisations achieve this goal is something this project and report addresses directly.
+
+While the SAFE-D principles have been designed and refined over multiple years (in a domain-general context) their relevance in digital mental health had, hitherto, not been evaluated. Therefore, part of this project involved the following:
+
+1) Understanding which, if any, of the SAFE-D principles were significant to different groups of stakeholders, and whether specific core attributes could be identified and developed in conjunction with stakeholders.
+2) Identifying if there were any gaps or omissions in the SAFE-D framework. 
+3) Determining whether any of the revised and domain-specific principles or attributes could serve as top-level goals or property claims in trustworthy assurance cases (see [Chapter 1](#chapter-1-trustworthy-digital-mental-healthcare)).
+
+Our findings and analysis that address these specific research questions comprise the majority of [Chapters 2](chapter-2-duty-of-care) and [3](#chapter-3-trustworthy-and-participatory-assurance). Among other findings and recommendations, these sections show there is strong evidence to suggest that the methodology of trustworthy assurance will lead to positive impacts in digital mental health, and help foster a more responsible ecosystem of research and innovation.
+
+Before we discuss these findings and analysis though, it is necessary to introduce and explain the methodology of trustworthy assurance, which is the topic of the next chapter.
