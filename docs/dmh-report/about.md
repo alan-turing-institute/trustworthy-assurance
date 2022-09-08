@@ -17,6 +17,8 @@ Welcome to the online version of a report titled, 'Trustworthy Assurance of Digi
 
 Research and production for this report was supported by funding from the UKRI’s Trustworthy Autonomous Hub, which was awarded to Dr Christopher Burr (Grant number: TAS_PP_00040).
 
+![Logo for the UKRI's Trustworthy Autonomous Systems Hub](https://www.tas.ac.uk/wp-content/uploads/2020/12/logo-e1634040411492.png)
+
 ## Table of Contents
 
 <div class="grid cards" markdown>
@@ -37,39 +39,39 @@ Research and production for this report was supported by funding from the UKRI�
 
     [:octicons-arrow-right-24: Go to chapter](executive-summary.md)
 
--   :fontawesome-solid-play:{ .lg .middle } __Introduction__
+-   :fontawesome-solid-play:{ .lg .middle } __Chapter 1—Introduction__
 
     ---
 
     Introduction to the report.
 
-    [:octicons-arrow-right-24: Go to chapter](introduction.md)
+    [:octicons-arrow-right-24: Go to chapter](chapter-1.md)
 
--   :fontawesome-solid-diagram-project:{ .lg .middle } __Chapter 1__
+-   :fontawesome-solid-diagram-project:{ .lg .middle } __Chapter 2—Presenting Trustworthy Assurance__
 
     ---
 
     This chapter introduces argument-based assurance for readers who may be unfamiliar with the methodology.
 
-    [:octicons-arrow-right-24: Go to chapter](chapter-1.md)
+    [:octicons-arrow-right-24: Go to chapter](chapter-2.md)
 
--   :fontawesome-solid-building-columns:{ .lg .middle } __Chapter 2__
+-   :fontawesome-solid-building-columns:{ .lg .middle } __Chapter 3—Applying Trustworthy Assurance__
 
     ---
 
     This chapter covers the research, findings, and recommendations from our sub-project with UK Universities and students.
 
-    [:octicons-arrow-right-24: Go to chapter](chapter-2.md)
+    [:octicons-arrow-right-24: Go to chapter](chapter-3.md)
 
--   :fontawesome-solid-people-group:{ .lg .middle } __Chapter 3__
+-   :fontawesome-solid-people-group:{ .lg .middle } __Chapter 4—Co-Designing Trustworthy Assurance__
 
     ---
 
     This chapter discusses our engagement with regulators, developers, researchers, and users of digital mental health technology.
 
-    [:octicons-arrow-right-24: Go to chapter](chapter-3.md)
+    [:octicons-arrow-right-24: Go to chapter](chapter-4.md)
 
--   :fontawesome-solid-scale-balanced:{ .lg .middle } __Chapter 4__
+-   :fontawesome-solid-scale-balanced:{ .lg .middle } __Chapter 5—Developing Trustworthy Assurance__
 
     ---
 
