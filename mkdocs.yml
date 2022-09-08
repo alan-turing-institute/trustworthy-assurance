@@ -12,7 +12,10 @@ repo_url: https://github.com/alan-turing-institute/trustworthy-assurance
 theme:
   name: material
   custom_dir: overrides
-
+  palette:
+    scheme: default
+    accent: deep orange
+      
   # Static files
   static_templates:
     - 404.html
@@ -41,19 +44,6 @@ theme:
     - search.suggest
     - toc.follow
     # - toc.integrate
-  palette:
-    - scheme: default
-      primary: teal
-      accent: deep orange
-      # toggle:
-      #   icon: material/toggle-switch
-      #   name: Switch to dark mode
-    # - scheme: slate
-    #   primary: red
-    #   accent: red
-    #   toggle:
-    #     icon: material/toggle-switch-off-outline
-    #     name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
