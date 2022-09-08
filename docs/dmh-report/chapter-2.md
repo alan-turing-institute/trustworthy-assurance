@@ -95,7 +95,7 @@ While useful as an illustration, this example is too simple to constitute a full
 
 A more detailed procedure is required, therefore, to help project teams identify the set of property claims that a) specify and operationalise the top-level goal and b) collectively justify the goal.
 
-!!! info Box 2.1 Argument-Based Assurance Notation
+!!! info "Box 2.1 Argument-Based Assurance Notation"
 
     Argument-based assurance (ABA) was defined in the previous chapter as follows:
     
@@ -111,8 +111,7 @@ A more detailed procedure is required, therefore, to help project teams identify
 
     The following resources provide good overviews and clear introductions for the reader who is interested in further exploring argument-based assurance:
 
-    - Kelly, T. (1998) Arguing Safety – A Systematic Approach to
-Managing Safety Cases (PhD Thesis). Available: [https://www-users.cs.york.ac.uk/~tpk/tpkthesis.pdf](https://www-users.cs.york.ac.uk/~tpk/tpkthesis.pdf)
+    - Kelly, T. (1998) Arguing Safety – A Systematic Approach to Managing Safety Cases (PhD Thesis). Available: [https://www-users.cs.york.ac.uk/~tpk/tpkthesis.pdf](https://www-users.cs.york.ac.uk/~tpk/tpkthesis.pdf)
     - The Assurance Case Working Group. (2021). GSN Community Standard Version 3. Available: [https://scsc.uk/r141C:1?t=1](https://scsc.uk/r141C:1?t=1)
     - Hawkins, R., Paterson, C., Picardi, C., Jia, Y., Calinescu, R., & Habli, I. (2021). Guidance on the Assurance of Machine Learning in Autonomous Systems (AMLAS). University of York. [https://www.york.ac.uk/media/assuring-autonomy/documents/AMLASv1.1.pdf](https://www.york.ac.uk/media/assuring-autonomy/documents/AMLASv1.1.pdf)
     - Laher, S., Brackstone, C., Reis, S., Nguyen, A., White, S., & Habli, I. (2022). Review of the Assurance of Machine Learning for use in Autonomous Systems (AMLAS) Methodology for Application in Healthcare. 32. [https://arxiv.org/ftp/arxiv/papers/2209/2209.00421.pdf](https://arxiv.org/ftp/arxiv/papers/2209/2209.00421.pdf)
