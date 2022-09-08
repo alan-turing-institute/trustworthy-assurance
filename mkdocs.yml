@@ -133,11 +133,11 @@ nav:
     - About: dmh-report/about.md
     - Foreword: dmh-report/foreword.md
     - Executive Summary: dmh-report/executive-summary.md
-    - Introduction: dmh-report/introduction.md
-    - Chapter 1: dmh-report/chapter-1.md
-    - Chapter 2: dmh-report/chapter-2.md
-    - Chapter 3: dmh-report/chapter-3.md
-    - Chapter 4: dmh-report/chapter-4.md
+    - Chapter 1—Introduction: dmh-report/chapter-1.md
+    - Chapter 2—Presenting Trustworthy Assurance: dmh-report/chapter-2.md
+    - Chapter 3—Applying Trustworthy Assurance: dmh-report/chapter-3.md
+    - Chapter 4—Co-Designing Trustworthy Assurance: dmh-report/chapter-4.md
+    - Chapter 5—Developing Trustworthy Assurance: dmh-report/chapter-5.md
     - Conclusion: dmh-report/conclusion.md
     - Appendix: dmh-report/appendix.md
     - Further Resources: dmh-report/further-resources.md

@@ -7,7 +7,7 @@ tags:
   - students
   - higher-education
 ---
-# Applying Trustworthy Assurance - Digital Mental Healthcare at UK Universities
+# Applying Trustworthy Assurance—Digital Mental Healthcare at UK Universities
 
 ![A placeholder image](https://via.placeholder.com/800x400?text=Placeholder+Image)
 

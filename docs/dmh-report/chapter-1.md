@@ -8,7 +8,7 @@ tags:
   - digital-mental-healthcare
 ---
 
-# Introduction—A Culture of Distrust?
+# Introduction
 
 ![A placeholder image](https://via.placeholder.com/800x400?text=Placeholder+Image)
 

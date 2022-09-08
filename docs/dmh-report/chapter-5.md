@@ -6,7 +6,7 @@ tags:
   - explainability
   - argument-patterns
 ---
-# Developing Trustworthy Assurance - Argument Patterns for fairness and Explainability
+# Developing Trustworthy Assurance—Argument Patterns for fairness and Explainability
 
 ![A placeholder image](https://via.placeholder.com/800x400?text=Placeholder+Image)
 
