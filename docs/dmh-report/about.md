@@ -13,17 +13,6 @@ tags:
 
 Welcome to the online version of a report titled, 'Trustworthy Assurance of Digital Mental Healthcare'.
 
-## Funding and Acknowledgements
-
-Research and production for this report was undertaken at the Alan Turing Institute and supported by funding from the UKRI’s Trustworthy Autonomous Hub, which was awarded to Dr Christopher Burr (Grant number: TAS_PP_00040).
-
-<div markdown>
-  ![Logo for the UKRI's Trustworthy Autonomous Systems Hub](https://www.tas.ac.uk/wp-content/uploads/2020/12/logo-e1634040411492.png){ align=left }
-  ![Logo for the Alan Turing Institute](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Alan_Turing_Institute_logo.svg/2560px-Alan_Turing_Institute_logo.svg.png){ align=right }
-</div>
-
-The research team would like to acknowledge...
-
 ## Table of Contents
 
 <div class="grid cards" markdown>
@@ -109,3 +98,17 @@ The research team would like to acknowledge...
     [:octicons-arrow-right-24: Go to chapter](further-resources.md)
 
 </div>
+
+## Funding and Acknowledgements
+
+Research and production for this report was undertaken at the Alan Turing Institute and supported by funding from the UKRI’s Trustworthy Autonomous Hub, which was awarded to Dr Christopher Burr (Grant number: TAS_PP_00040).
+
+<div class="grid" markdown>
+
+  ![Logo for the Alan Turing Institute](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Alan_Turing_Institute_logo.svg/2560px-Alan_Turing_Institute_logo.svg.png){ align=left }
+
+  ![Logo for the UKRI's Trustworthy Autonomous Systems Hub](https://www.tas.ac.uk/wp-content/uploads/2020/12/logo-e1634040411492.png){ align=right }
+
+</div>
+
+The research team would also like to acknowledge...
