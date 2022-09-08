@@ -1,28 +1,30 @@
 ---
-
 authors:
-
-* Christopher Burr
-* Rosamund Powell tags:
-* summary
-
+  - Christopher Burr
+  - Rosamund Powell
+tags:
+  - executive summary
+  - findings
+  - recommendations
+  - digital-mental-healthcare
 ---
 
 # Executive Summary
 
-> Trustworthy Assurance is a framework and methodology that can support the design, development, and deployment of data-driven technologies and also create a more responsible and trustworthy ecosystem of digital mental healthcare. The current landscape of digital mental health is characterised by significant uncertainty, a lack of transparency or accountability, and a rising demand that outpaces trusted services and resources. This contributes to a culture of distrust, which may prevent vulnerable users from accessing support. We conducted a series of participatory stakeholder engagement events (e.g. workshops and interviews) to a) identify and explore relevant ethical objectives for digital mental health technologies, such as fairness and explainabilty, b) evaluate and co-design the trustworthy assurance framework and methodology, and c) solicit feedback on the possible reasons for distrust in digital mental health. ...
+> Trustworthy Assurance is a framework and methodology that can support the design, development, and deployment of data-driven technologies and also create a more responsible and trustworthy ecosystem of digital mental healthcare. 
+> 
+> The current landscape of digital mental health is characterised by significant uncertainty, a lack of transparency or accountability, and a rising demand that outpaces trusted services and resources. This contributes to a culture of distrust, which may prevent vulnerable users from accessing support. 
+> 
+> We conducted a series of participatory stakeholder engagement events (e.g. workshops and interviews) to a) identify and explore relevant ethical objectives for digital mental health technologies, such as fairness and explainabilty, b) evaluate and co-design the trustworthy assurance framework and methodology, and c) solicit feedback on the possible reasons for distrust in digital mental health. ...
 
 ## Report Overview
 
 Our report is structured as follows:
 
-* [Chapter 1](chapter-1.md) (Introduction—A Culture of Distrust?): this chapter establishes the background context and conceptual foundations for the report, while also outlining the many challenges that exist for researchers, developers, and policy-makers/regulators working in the domain of digital mental healthcare.
-* [Chapter 2](chapter-2.md) (Trustworthy Assurance—Proposing a Framework and Methodology): this chapter introduces the framework and methodology of 'Trustworthy Assurance'. The framework includes a model of a typical project lifecycle for a data-driven technology, which may use some form of machine learning or artificial intelligence. Our overview of the methodology also includes important discussion about 'argument patterns', which support the material presented in [Chapter 5](chapter-5.md).
-
-<!-- revise this, shorten model and develop method-->
-
-* [Chapter 3](chapter-3.md)\: this chapter presents findings from a research sub-project conducted with students and administrators from UK Universities. These engagement events explored the application of trustworthy assurance to the procurement of digital mental health technologies for use in the higher education (HE) sector, as well as general attitudes and perceptions towards the use of data-driven technologies in higher education. A series of recommendations accompany our thematic analysis.
-* [Chapter 4](chapter-4.md)\: this chapter broadens the scope from the previous chapter to present research findings from a series of stakeholder engagement events carried out with regulators and policy-makers, developers, researchers, and users with lived experience of digital mental health technologies. As with the previous chapter, a set of recommendations accompanies our thematic analysis.
+* [Chapter 1](chapter-1.md) (Introduction): this chapter establishes the background context and conceptual foundations for the report, while also outlining the many challenges that exist for researchers, developers, and policy-makers/regulators working in the domain of digital mental healthcare.
+* [Chapter 2](chapter-2.md) (Trustworthy Assurance—Proposing a Framework and Methodology): this chapter introduces the framework and methodology of 'Trustworthy Assurance'. The framework includes a model of a typical project lifecycle for a data-driven technology, and a discussion of several ethical principles, known as the SAFE-D principles. The framework serves as a guide to our methodology for developing an assurance case that promotes trustworthy goals associated with digital mental health technologies. Finally, this chapter also includes an important discussion about 'argument patterns', which support the material presented in [Chapter 5](chapter-5.md).
+* [Chapter 3](chapter-3.md): this chapter presents findings from a research sub-project conducted with students and administrators from UK Universities. These engagement events explored the application of trustworthy assurance to the procurement of digital mental health technologies for use in the higher education (HE) sector, as well as general attitudes and perceptions towards the use of data-driven technologies in higher education. A series of recommendations accompany our thematic analysis.
+* [Chapter 4](chapter-4.md): this chapter broadens the scope from the previous chapter to present research findings from a series of stakeholder engagement events carried out with regulators and policy-makers, developers, researchers, and users with lived experience of digital mental health technologies. As with the previous chapter, a set of recommendations accompanies our thematic analysis.
 * [Chapter 5](chapter-5.md) (Argument Patterns—Fairness and Explainability): in the final main chapter of our report, we introduce, motivate, and explain two argument patterns that are intended to help project teams meet objectives for fair and explainable digital mental health technologies. This chapter also connects the argument patterns to existing and relevant legislation and regulation (e.g. Equality Act 2010).
 
 ### Findings and Recommendations

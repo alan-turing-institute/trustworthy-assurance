@@ -65,7 +65,9 @@ Full details of our methodology and activities are provided in [Appendix 1](appe
 
 [^efficacy]: This is not to say that clinical efficacy is not a key component of ethical decision-making. For instance, the bioethical principle of *beneficence* clearly requires sufficient levels of clinical efficacy.
 
-As with the workshops described in the previous section, we conducted thematic analysis on the findings from the workshops, with the goal of addressing the objectives set out in the Introduction. 
+As with the workshops described in the previous section, we conducted thematic analysis on the findings from the workshops, with the goal of addressing the objectives set out in the Introduction.[^objectives]
+
+[^objectives]: These objectives were as follows: 1) To explore whether and how the methodology of argument-based assurance could be extended to address ethical issues in the context of digital mental healthcare. 2) To evaluate how an extension of the methodology could support stakeholder co-design and engagement, in order to build a more trustworthy and responsible ecosystem of digital mental healthcare. 3) To lay the theoretical and practical foundations for scaling the ethical assurance methodology to new domains, while integrating wider regulatory guidance (e.g., technical standards).
 
 In the following sections, we first discuss the specific themes for each set of workshops and then explore cross-cutting themes and differences, expanding on the `Key Findings` section above.
 
@@ -98,7 +100,9 @@ Immediately, it can be seen that `transparency`, `privacy`, and `evidence-based`
 
 However, there is also a wide variety of terms here, and many are either synonymous or closely related. For instance, `self-determination`, `autonomy`, `informed consent`, `control of own data`, and `patient choice` could be clustered together. And so could `equity`, `fairness`, `equality`, and `equity of access`.
 
-Although intended as an exploratory and preliminary activity, the findings represent a useful source of contextual information that can help illuminate some of the themes that emerged during the workshop discussion and activities. For instance, the vast majority of the concepts map onto our existing framework, and overlap with the SAFE-D principles and corresponding attributes (see Table 3.2).
+Although intended as an exploratory and preliminary activity, the findings represent a useful source of contextual information that can help illuminate some of the themes that emerged during the workshop discussion and activities. For instance, the vast majority of the concepts map onto our existing framework, and overlap with the SAFE-D principles and corresponding attributes (see Table 3.2)[^desiderata].
+
+[^desiderata]: The attentive reader will see significant overlap between the concepts that are mapped onto the principles, and subsequently the principles themselves (e.g. explainability and accountability). Because the principles were not designed to be mutually exclusive and collectively exhaustive, this overlap is to be expected.
 
 *Table 4.2—mapping the word cloud concepts onto the SAFE-D principles.*
 

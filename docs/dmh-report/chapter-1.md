@@ -137,7 +137,7 @@ The first two relate to choice and access, as outlined in a briefing note from t
 1. "Many people affected by mental health problems *do not have access to* or are *reluctant to use* mental healthcare technologies. If these are to become widely adopted in the future, there should be choice about using them."
 2. "Technology solutions *should not divert resources from other important forms of mental healthcare* and support and *should be used as an addition* to what is already available, *rather than a replacement*."
 
-The latter recommendation is echoed here because it is a theme that emerged frequently in our own project among diverse stakeholder groups. That is, digital mental health technologies should augment and support, but never replace human decision-making or human-centred services. And, the former recommendation is also important because it captures something salient about trust. 
+The latter conclusion is echoed here because it is a theme that emerged frequently in our own project among diverse stakeholder groups. That is, digital mental health technologies should augment and support, but never replace human decision-making or human-centred services. And, the former conclusion is also important because it captures something salient about trust. 
 
 For some potential users, such as elderly patients, a lack of access can be due to their needs not being sufficiently considered when designing the service or technological interface.[^design] This form of inaccessibility is is sometimes overlooked due to an emphasis on other economic barriers (e.g. digital poverty). However, even users that a) have access to the services (in both senses of the term ‘access), and b) potentially benefit from use of the respective technology, may still have legitimate reasons for not wishing to use the service due to a distrust (or, “reluctance” to use the same term from the above quotes) in the service or the organisation responsible for designing, developing, and deploying it. In some cases, this distrust arises due to legitimate concerns about violations of data privacy or mishandling of sensitive information by commercial organisations.
 
@@ -175,12 +175,12 @@ And to add one final layer of complexity, to really drive home Whitman's point f
 
 By now, you may be feeling as though stoic acceptance in the face of overwhelming complexity is inevitable. What other options are there? You may be thinking, for instance, that there are simply too many factors for any one person or organisation to consider when researching, developing, or regulating digital mental health technologies. 
 
-However, this report (and our project more generally) aims to challenge this attitude, while fully acknowledging the overwhelming complexity involved. Our approach and methodology in many respects embodies the principle that *light is the best disinfectant*. And, framed as a set of recommendations, which include but build on the two recommendations from the Nuffield Council on Bioethics above:
+However, this report (and our project more generally) aims to challenge this attitude, while fully acknowledging the overwhelming complexity involved. Our approach and methodology in many respects embodies the principle that *light is the best disinfectant*. And, framed as a set of recommendations, which include but build on the two conclusions from the Nuffield Council on Bioethics above:
 
 3. Organisations that choose to use digital mental health technologies should consider broader ethical goals, in addition to traditional goals such as ‘safety’ and ‘efficacy’, to help create a more ethical, responsible, and trustworthy ecosystem of digital mental healthcare.[^consistency]
 4. Organisations should provide transparent and evidence-based assurance about how these ethical goals have been operationalised and secured during the design, development, and deployment of digital mental health technologies.
 
-[^consistency]: To emphasise the consistency of this recommendation with those from the Nuffield Council we should also acknowledge that this ‘digital ecosystem’ must be complementary with, supportive of, and enhance more traditional healthcare services (qua recommendation 2). 
+[^consistency]: To emphasise the consistency of this recommendation with the conclusions from the Nuffield Council report we should also acknowledge that this ‘digital ecosystem’ must be complementary with, supportive of, and enhance more traditional healthcare services (qua conclusion 2). 
 
 With these points in mind, we can now turn to the project itself and introduce the notion of trustworthy assurance—a methodology that can help address all of the above recommendations (and more to come). 
 

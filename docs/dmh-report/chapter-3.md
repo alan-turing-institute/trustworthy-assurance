@@ -119,7 +119,7 @@ However, despite these legalistic framings, it is clear that the law does not pr
 
 Ambiguities with regard to the nature and scope of a university’s duty of care can be observed when universities must balance tensions between preservation of student autonomy and management of risk through forced intervention. Administrators raise the difficulty of these decisions on whether to intervene, illustrating uncertainty around duty of care. 
 
-> **Administrator Perspectives**
+> **Administrator Perspective**
 > 
 > “They are 18, they are adults. If they don’t want our interventions, there is very little we can do. So, for us, it is balancing that fine line all the time”
 >
@@ -131,13 +131,13 @@ For administrators, the ethical values raised as key to duty of care include: �
 
 While these ethical goals do show significant overlap, it is also clear to administrators that perspective is crucial to defining duty of care. First, different stakeholders define the goal of student mental health services differently. Second, perspectives on duty of care have shifted over time. Finally, the very introduction of digital services can influence who is seen to take responsibility for mental ill health and so have an impact on how duty of care is understood.
 
-> **Administrator Perspectives**
+> **Administrator Perspective**
 > 
 > “Parents think we’ve got more responsibility than I think. Probably students sometimes think we’ve got less responsibility”
 > 
 > “I think we are heading towards in loco parentis. Towards having that responsibility that schools have. I think that’s where the regulation is heading, if you look at things like the Student Mental Health Charter. All of the things are pushing us more and more that way.”
 > 
-> **Student Perspectives**
+> **Student Perspective**
 > 
 > “Digitisation of mental health services may further the idea that mental health is an individual’s issue and responsibility, rather than addressing the collective mental health and structural causal issues around wellbeing.”
 
@@ -152,7 +152,7 @@ Continued work is needed in order to understand if and how duty of care can be t
 
 Ambiguities surrounding the relative roles and responsibilities of different teams and institutions to protect student mental health have also at times hampered effective decision-making with regard to digital mental health. Descriptions of the decision-making rationale provided by administrators suggest a procurement process which is reactive rather than proactive, with a tendency to stick to the status quo or shift tack dramatically during a crisis.
 
-> **Administrator Perspectives**
+> **Administrator Perspective**
 > 
 > 	“There was a general panic early March of oh my god, what is going to happen?”
 > 
@@ -168,7 +168,7 @@ Reactive decisions are in part a consequence of the lack of clarity surrounding 
 
 In addition, within the university, shifts towards a ‘whole university approach’ have occurred and were described by administrators. However, while greater involvement of departments such as financial services, accommodation and examinations is taking place, less thought has been given to where responsibility for digital solutions may lie within this matrix and what capacity building is needed to develop the technical skills required to review digital technologies, monitor student use, and horizon scan for new directions. While procurement processes at many universities remain thorough in many respects, this results at times in decisions taken by clinical or legal teams, without dedicated attention to technical and ethical questions. In describing their procurement teams’ top priorities when reviewing digital technologies, administrators raised both clinical evidence and value for money. Other concerns specific to data-driven technologies and their ethical implications did not feature as prominently, indicating potential gaps in data literacy. 
 
-> **Administrator Perspectives**
+> **Administrator Perspective**
 > 
 > “When I pull them [mental health team] in to look at new apps and things, what you find is they are trained practitioners, they are counsellors, but their digital skills are not up there”.
 >  
@@ -176,13 +176,13 @@ In addition, within the university, shifts towards a ‘whole university approac
 
 Finally, as roles and responsibilities are clarified, a clear space for student involvement must be carved out. This was a priority raised by both students and administrators during engagements, but practical challenges must be addressed to involve all students and resolve possible tensions between student perspectives and clinical evidence. Additional challenges to student involvement in the procurement of digital technologies, such as the high entry costs sometimes associated with the evaluation of AI-driven tools, must also be addressed through education and collaboration between students and experts.
 
-> **Administrator Perspectives**
+> **Administrator Perspective**
 > 
 > “Universities like to claim they are giving the students what they want but a lot of the time they are not really consulting students. We often have to convince HR and other systems to talk to students”
 > 
 > “Universities are often torn between do I go with the student voice or hard research. I will tell you which one they go with, student voice. The student voice doesn’t have to be many, they just have to be loud. We are not talking about thousands of students having an impact, we are talking about vocal students or the students union”
 > 
-> **Student Perspectives**
+> **Student Perspective**
 > 
 > “Creating dedicated spaces for students to voice their ideas and needs combined with evidence that these were somewhat taken on board. Utilising relationships with students and personal tutors/student support. Strong links with student societies and other student intermediaries.”
 > 
@@ -200,29 +200,31 @@ Finally, as roles and responsibilities are clarified, a clear space for student 
 
 Greater clarity on responsibility for digital technologies within university mental health teams will only go part of the way to resolving current challenges. Significant pressures placed on mental health teams are outside of their control. In particular, concerns were raised throughout interviews and workshops surrounding the potential privatisation of student mental health.
 
-> **Administrator Perspectives**
+> **Administrator Perspective**
 > 
 > “While we are higher education institutions, we are businesses, and there is a conflict of interest with a business decision versus a clinically-driven, sound-evidence decision about what works and what doesn’t.”
 > 
-> **Student Perspectives**
+> **Student Perspective**
 > 
 > “For-profits don’t tend to do things out of the kindness of their own hearts. So how much are universities paying for this? Will the students have to pay? Will it be full of ads? Where is the profit coming from?” 
 
 The relationships between universities and developers do suggest for-profit companies are having a significant influence on the procurement of digital mental health technologies. The constant flood of digital offerings creates an environment where mental health teams struggle to ensure services are driven by student demand. Additionally, the nature of pitches received from developers often makes it impossible to evaluate services on the basis of evidence. Finally, the volume of products on the market has led to a dichotomy whereby administrators either spend significant time filtering through proposals or ignore them altogether. 
 
-> **Administrator Perspectives**
+![An illustration of a person being overwhelmed by notifications](../assets/images/overwhelmed.png)
+
+> **Administrator Perspective**
 > 
-> “What I tend to get is lots of emails offering me a magic wand”
+> “What I tend to get is lots of emails offering me a magic wand.”
 > 
-> “These apps are coming at you from every direction, and I must get at least three emails a week”
+> “These apps are coming at you from every direction, and I must get at least three emails a week.”
 > 
-> “They [providers] are not telling me what I need to know” 
+> “They [providers] are not telling me what I need to know.” 
 > 
 > “I am absolutely inundated with emails every day from providers of these things and I just ignore them.”
 
 These pressures which prevent services from being driven by student need are not only coming from private sector developers but from within the university sector itself. First, pressures from within an institution can lead to the adoption of a digital service on the basis of reputational concerns. Second, network pressures from comparisons with other universities can drive groupthink with regard to digital mental health tools. 
 
-> **Administrator Perspectives**
+> **Administrator Perspective**
 > 
 > “I think it is about defensive practice as well. We just reviewed before the pandemic, we renewed BigWhiteWall, and I was quite keen to ditch and shift and look at alternatives. My boss at the time said I think we need to stay with it because it is a defensive action. If we get an FOI, it’s good to say all students get offered this. It’s worth 15k was the line I got, don’t care whether it works or not.”
 > 
@@ -242,7 +244,7 @@ In a university context, where resources are constrained and digital solutions h
 > 
 > “We all know that universities are oversubscribed and when you are offered something like this, you feel as if you are at the bottom of the list, and your mental health and what you say is all part of criteria as to whether you are “bad enough” or “ill enough” for support. I think this is really damaging to someone’s mental health and can worsen their state of mind.”
 >  
-> **Administrator Perspectives**
+> **Administrator Perspective**
 > 
 > “What I never want is that we see digital services as an alternative to coming in and seeing our team” 
 > 
@@ -250,13 +252,13 @@ In a university context, where resources are constrained and digital solutions h
 
 Appeals to the importance of prioritising in-person services are significant. However, further specificity is required to determine how this can be achieved in a system where resources are constrained, and administrators inevitably face tough choices on where to direct funds. A more detailed understanding of students’ and administrators’ motivations for algorithmic aversion is necessary, therefore, to determine when and how digital technologies should be delivered. For administrators, concerns over clinical efficacy and the management of risks on platforms, as well as a lack of demand from students, formed the primary motivations for algorithmic aversion. In contrast, students focused on concerns around the dehumanisation of mental health, the lack of empathy offered by technology and the potential exacerbation of social isolation by digital offerings. Further research into these and further motivations for students’ and administrators’ algorithmic aversion is essential if student mental health services are to effectively deploy digital technologies.
 
-> **Administrator Perspectives**
+> **Administrator Perspective**
 > 
 > “What we want to know is has it been evaluated, what’s the research that sits behind this and they [my team] have about zero tolerance of anything that just looks nice or doesn’t have that really robust background”
 > 
 > “Students don’t want more apps and more digital interventions. They want a small group of evidence-based digital interventions that focus on positive outcomes, and they want to see staff face-to-face.”
 > 
-> **Student Perspectives**
+> **Student Perspective**
 > 
 > “The dehumanisation of mental health. If students and staff come to see mental health as something solved by apps, the very complex nature of mental health can be undermined. We cannot automate mental health and wellbeing.”
 > 
@@ -266,7 +268,7 @@ Appeals to the importance of prioritising in-person services are significant. Ho
 
 Taking these motivations into account can help to reveal a more complex picture where students and administrators oppose digital technologies for specific reasons and in specific circumstances. This detail is necessary to guide administrators in choosing when and how to deploy digital technologies, and when to stick with in-person services. 
 
-> **Administrator Perspectives**
+> **Administrator Perspective**
 > 
 > “I think there’s slight value around students that have got really low-level concerns. So, sleep, procrastination, and all those things. I think some services offer great self-diagnosis. And then of course around how to do some of those things which actually, yeah, there is probably a benefits of being able to do that on your phone in the warmth of your own flat or whatever, without having to come in and see one of my advisors who might tell you exactly the same thing. So those are the two areas I see it. I don’t ever want us to get to a point where we see it as a solution to replace the ability to come in and see somebody, particularly for more risky students or students that are struggling.” 
 
@@ -279,13 +281,13 @@ Taking these motivations into account can help to reveal a more complex picture 
 
 In light of these varied motivations for aversion to digital solutions, it is clear that a more thorough understanding of different students’ needs is essential. During engagements, key concerns were raised surrounding accessibility and fairness in digital mental health, as many participants proposed a more tailored approach was needed. While increased accessibility of mental health services was described by both students and administrators as a primary advantage of digital technologies, a one size fits all approach has meant that access to effective care has not been improved for all groups. 
 
-> **Administrator Perspectives**
+> **Administrator Perspective**
 > 
 > “There are certain student groups who would not like to go to one-to-one therapy where something online or an app or self-help, something more empowering that they can do in their own time. Something like that suits certain student groups. Broadly, with the little bits of research we have done, before the pandemic, it suits groups with social anxiety.”
 > 
 > “It is assumed all students want the same thing, so we are just going to give them big white wall. Even if it is not being supported in any other way. It is just assumed students will have the motivation to use this app. But not all students are appropriate for self-help. You find even outside of technology, not everyone is suited to CBT.” 
 > 
-> **Student Perspectives**
+> **Student Perspective**
 > 
 > “It [technology] can be more accessible, particularly for those with anxiety or mobility issues.”
 > 
@@ -293,13 +295,13 @@ In light of these varied motivations for aversion to digital solutions, it is cl
 
 These limitations of digital technologies’ ability to improve accessibility need not be a reason against their deployment. In some instances, the ability to reach different groups, such as those who feel the stigma of reaching out in person or have less serious concerns such as procrastination, can be seen as a positive. However, to ensure accessibility is prioritised across the student population, a greater awareness of who is (and who is not) served by digital technologies is required. During engagements, some administrators suggested males were engaged more with digital technologies, some pointed to females, others to differences in engagement across academic disciplines and finally some noticing no patterns of engagement at all. Further research into this is needed for universities to move away from a one-size-fits all approach and design solutions which explicitly address the needs of all student groups. 
 
-> **Administrator Perspectives**
+> **Administrator Perspective**
 > 
 > “Actually, if there was more work involving different student groups and not assuming every student is a first-year middle class white academic undergraduate and there are other groups that can benefit as well, that’s where we can really learn.”
 
 For students, concerns about fairness and health equity were significant. First, concerns were raised around digital poverty and the importance of challenging assumptions frequently made about student populations (e.g., that all students have easy access to technology). Second, students expressed worries about biases within these technologies and how algorithmic bias can impact their experiences. Both of these concerns were also raised during student discussions on the ethical issues which could arise on a peer-to-peer support platform (see Appendix Y, Case Studies). Here, students advocated for specific consideration of minority student groups with the possible designation of ‘safe spaces’ on such platforms based on protected characteristics or allowing students to actively choose who they were speaking to in order to avoid potential bullying or harassment. 
 
-> **Student Perspectives**
+> **Student Perspective**
 > 
 > “Digital poverty is a thing. Just because you are at university, that doesn’t mean you have a smartphone, a laptop, or even a private space where you can access the platform” 
 > 
@@ -320,11 +322,11 @@ During discussions on the accessibility and fairness of digital technologies, pr
 
 Both students and administrators raised the importance of transparent communication about what services are available to students. Both groups also recognised that there is a lack of cut-through in current communication strategies leading to students being unaware of which services are on offer at their institutions. 
 
-> **Administrator Perspectives**
+> **Administrator Perspective**
 > 
 > “Communications] can be quite difficult and especially around this sort of issue, around support. Through the pandemic, the availability of support has probably increased accessibility because a lot of it’s been online. And yet you still come across students who say, “there is no support, I don’t know where to find it”. And you kind of think, well there was a student newsletter, there’s all these social media posts across multiple channels, the student union that talked their language are talking about this stuff and TikTok is messaging about this, but still you haven’t picked it up? So, it is quite a challenging environment.”
 >  
-> **Student Perspectives**
+> **Student Perspective**
 > 
 > “I do not have adequate awareness of what is available”
 > 
@@ -334,7 +336,7 @@ Both students and administrators raised the importance of transparent communicat
 
 However, among students, the need for more awareness on what services are available was not the first priority regarding transparency and communication. Rather than focus simply on advertising services to students through multiple channels, students emphasised the importance of universities communicating the limitations and personal costs associated with these technologies to them, such as the loss of privacy or limited clinical efficacy. Such transparency is also emphasised as important to facilitating informed consent. 
 
-> **Student Perspectives**
+> **Student Perspective**
 > 
 > “There is an asymmetry of knowledge as users don’t know/consent to their data being used for these purposes. The business model is not communicated to the user and is exploitative”
 > 
@@ -352,7 +354,7 @@ Overall, feedback from administrators and students suggests there is a long way 
 
 The trustworthy assurance methodology provides one route through which such a culture of responsible innovation and transparent communication could be facilitated so that university stakeholders are given all necessary information to review new mental health tools offered to them. Due to the potential of this methodology in this sector we asked administrators to provide feedback on its deployment. Crucially, feedback indicated that this methodology would fit within current procurement practices, provide structure for the critical assessment of developers’ claims, and encourage more transparent communication among university staff about the rationale behind procurement decisions.
 
-> **Administrator Perspectives**
+> **Administrator Perspective**
 > 
 > “My initial reaction is it's bloody brilliant. I’ve not seen anything like that and if something like that landed in my lap I would seize upon it.”
 >  
