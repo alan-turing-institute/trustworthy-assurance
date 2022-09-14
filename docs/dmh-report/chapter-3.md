@@ -19,9 +19,9 @@ tags:
 >
 > Second, we present findings from a series of participatory engagements conducted with students and administrators at universities across the UK. We outline a series of contextual challenges to the ethical deployment of digital mental healthcare in higher education before exploring how the methodology of trustworthy assurance might be introduced in this sector to help tackle these challenges. For each challenge identified, future recommendations for the sector are provided. 
 >
-> Broader lessons for the ethics of digital mental healthcare are also fed forward into Chapter 3 where further recommendations for policymakers and developers are given.
+> Broader lessons for the ethics of digital mental healthcare are also fed forward into Chapter 4 where further recommendations for policymakers and developers are given.
 
-## Part 1: The University Context
+## The University Context
 
 Prior to the onset of the Covid-19 pandemic, the suggestion that student mental health was in crisis across UK universities was already prominent.[^1] Media attention intensified around 2017, for instance, in response to a cluster of high-profile suicides.[^2] Since then, concern has only grown further, and focus has turned to whether the crisis has worsened due to the increased social isolation brought about by Covid-19 and remote learning.[^3]  
 
@@ -56,33 +56,31 @@ One way in which the growth in digital mental healthcare has been amplified is t
 [^11]: (To do - add examples)
 [^12]: (At times these recommendations for self-help apps are accompanied by a disclaimer. For example, the University of Durham notes that “the counselling service is happy to signpost this information/the availability of free access to these resources, in the hope they might prove useful to students and staff. However, please be aware that the Counselling Service does not have any relationship or affiliation with any of the providers, nor does it support, or endorse in any way the external information, advice, other services and/or resources that can be accessed via the links below (https://www.dur.ac.uk/counselling.service/self-help/). In other instances they are simply offered as resources for students to browse at their own discretion.)
 
-Another way in which this has occurred is through the formal procurement by universities of digital mental health tools designed with the specific needs of student populations in mind. Kotouza et al. have mapped these shifts and found that, as of 2021, “more than half of UK universities” have a contract with at least one from SilverCloud and Togetherall while “Fika won over 35 UK university contracts between 2019 and 2020”.[^13]  
+Another way in which digital mental healthcare has infiltrated the university sector is through the formal procurement by universities of digital mental health tools designed with the specific needs of student populations in mind. Kotouza et al. have mapped these shifts and found that, as of 2021, “more than half of UK universities” have a contract with at least one from SilverCloud and Togetherall while “Fika won over 35 UK university contracts between 2019 and 2020”.[^13]  
 
 [^13]: (https://journals.sagepub.com/doi/full/10.1177/02610183211024820)
 
 ![A graphic showing a portion of the UK Universities that offer TogetherAll, Silvercloud, and/or Fika. Adapted from Kotouza et al. 2021](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/landscape.png)
 
-This rapid adoption of digital mental health tools may be seen as a perfect solution for the university sector, especially when the claims made by these digital service providers are taken at face value. For example, Fika claims to “help you transform into a prevention culture of mental fitness”,[^14]  while Kooth describe their platform as a “safe and confidential space to share experiences and gain support”.[^15]  However, it is important that universities are given the tools required to assess these claims themselves, and to do so using systematic, reliable, and well-validated procedures and standards. The University Mental Health Charter, for instance, emphasises that the “need for quality assurance extends to other interventions, such as the provision of digitally based services”. Further guidance is currently required for universities to be able to carry out such quality assurance and in particular for university teams to effectively assess these digital tools on the basis of their ethical implications. Here, we present findings to inform universities in doing such due diligence.
+This rapid adoption of digital mental health tools may be seen as a perfect solution for the university sector, especially when the claims made by these digital service providers are taken at face value. For example, Fika claims to “help you transform into a prevention culture of mental fitness”,[^14]  while Kooth describe their platform as a “safe and confidential space to share experiences and gain support”.[^15]  However, it is important that universities are given the tools required to assess these claims themselves, and to do so using systematic, reliable, and well-validated procedures and standards. The [University Mental Health Charter](https://www.studentminds.org.uk/uploads/3/7/8/4/3784584/191208_umhc_artwork.pdf), for instance, emphasises that the “need for quality assurance extends to other interventions, such as the provision of digitally based services”. Further guidance is currently required for universities to be able to carry out such quality assurance, and in particular for university teams to effectively assess these digital tools on the basis of their ethical implications. Here, we present findings to inform universities in doing such due diligence.
 [^14]: (https://www.fika.community/about)
 [^15]: (https://student.kooth.com)
 
-## Part 2: Thematic Review and Analysis 
+## Workshop Information 
 
 To assess current challenges to the ethical and trustworthy deployment of digital mental technologies in a university context, we ran a series of participatory engagements to seek the feedback of university students and mental health teams. 
 
-Key findings from these engagements are presented as follows. First, we explore contextual challenges to the ethical deployment of digital technologies at universities, as raised by students and administrators. Second, we present findings on how the implementation of trustworthy assurance to this sector may resolve challenges. In each case, distinct perspectives from administrators as compared to students will be highlighted and conclusions for the future of ethical digital mental healthcare procurement summarised. 
+The findings presented below are based upon a series of participatory engagement events conducted by The Alan Turing Institute between January and March 2022. These consisted of semi-structured interviews with university administrators leading mental health teams at 10 universities across the UK (henceforth ‘administrators’) alongside research workshops attended by 25 students enrolled in undergraduate and postgraduate courses at UK universities (henceforth ‘students’). 
 
-> **Summary of Engagements**
->  
-> The findings presented below are based upon a series of participatory engagement events conducted by The Alan Turing Institute between January and March 2022. These consisted of semi-structured interviews with university administrators leading mental health teams at 10 universities across the UK (henceforth ‘administrators’) alongside research workshops attended by 25 students enrolled in undergraduate and postgraduate courses at UK universities (henceforth ‘students’). Please see Appendix 1 for further details on the methodology used to conduct these engagements and analyse their content. 
-> 
-> *The goals of these sessions were*:
-> - To identify which data-driven technologies or services are used by higher education institutions to support or deliver on their duty of care for students.
-> - To understand what metrics or properties are used to evaluate a data-driven technologies or service prior to its procurement and deployment.
-> - To determine whether the students and administrators share the same goals and values when evaluating a service.
-> - To test the ethical assurance method and how it may be applied to specific case studies.|
+*Table 2.1—summary information about the two sets out workshops.*
+| Groups | Purpose of workshop | Type of Engagement | Main activities |
+| --- | --- | --- | --- |
+| `Administrators` | <ul><li> To identify which data-driven technologies or services are used by higher education institutions to support or deliver on their duty of care for students.</li> <li> To understand what metrics or properties are used to evaluate a data-driven technology or service prior to its procurement and deployment.</li> <li> To determine whether the administrators and students share the same goals and values when evaluating a service.</li> <li> To test the ethical assurance method and how it may be applied to specific case studies. </li></ul> | Semi-Structured Interviews | <ol><li> Exploring ethical principles and sharing current procurement approaches. <li> understanding duty of care. </li> <li> Assessing the trustworthy assurance methodology </li></ol> |
+| `Students` | <ul><li> To explore a set of illustrative case studies that were designed to support the development of trustworthy assurance cases and identify significant ethical principles and values. </li> <li> To build trustworthy assurance cases using a prototype platform developed for this purpose </li> | Group Workshops | <ol><li> Which values and principles matter most to you? </li> <li> Evaluating case studies </li> </ol>|  
 
-### Contextual challenges
+### Analysis and Contextual Challenges
+
+Key findings from these engagements conducted with university administrators and students are presented as follows. First, we explore contextual challenges to the ethical deployment of digital mental health technologies at universities, as raised by students and administrators. Second, we present findings on how the implementation of trustworthy assurance to this sector may resolve challenges. In each case, distinct perspectives from administrators as compared to students will be highlighted and conclusions for the future of ethical digital mental healthcare procurement summarised.
 
 As discussed in the [Introduction](#introduction), digital technologies raise a distinct set of ethical issues when deployed in a mental health context. For example, it is necessary to consider their impact on the therapeutic relationship and the privacy implications of using sensitive health data.[^16]  Many of these ethical issues continue to be relevant at UK universities. However, the challenges posed by emerging digital mental health tools are specific to the context in which they are deployed. Therefore, this sub-project set out to determine HE sector-specific challenges to the trustworthy and ethical procurement and assurance of digital mental health technologies. 
 
@@ -92,7 +90,7 @@ Contextual challenges, ranging from obstacles to transparency and accessibility 
 
 #### Challenge 1: Duty of care: a legal or ethical goal?
 
-To determine which digital technologies to procure and provide, universities must first have a clear understanding of the overarching goal of their service. Defining this top-level goal also constitutes the first stage in developing an assurance case. 
+To determine which digital technologies to procure and provide, universities must first have a clear understanding of the overarching goal of their service. Defining this top-level goal also constitutes the first stage in developing a trustworthy assurance case. 
 
 In a university context, defining this overarching goal introduces its own set of challenges. Universities are understood to have a duty of care to their students’ mental health. This has been defined by AMOSSHE—the Association of Managers Of Student Services in Higher Education—as the duty of the institution to “to deliver its educational and pastoral services to the standard of the ordinarily competent institution, and, in carrying out its services and functions, to act reasonably to protect the health, safety and welfare of its students.”[^17] Therefore, as part of this sub-project we explored whether 'duty of care' could serve as a top-level normative goal for a trustworthy assurance case—going beyond the SAFE-D principles.
 
@@ -117,7 +115,7 @@ However, despite these legalistic framings, it is clear that the law does not pr
 > 
 > “I think again it is such a problematic area for higher education institutions. I’m not sure there is any clarity within the sector about that duty of care.”
 
-Ambiguities with regard to the nature and scope of a university’s duty of care can be observed when universities must balance tensions between preservation of student autonomy and management of risk through forced intervention. Administrators raise the difficulty of these decisions on whether to intervene, illustrating uncertainty around duty of care. 
+Ambiguities with regard to the nature and scope of a university’s duty of care can be observed when universities must balance tensions between the preservation of student autonomy and the management of risk through forced intervention. Administrators raise the difficulty of these decisions on whether to intervene, illustrating uncertainty around duty of care. 
 
 > **Administrator Perspective**
 > 
@@ -129,7 +127,7 @@ The everyday practices of a university mental health team must, therefore, go be
 
 For administrators, the ethical values raised as key to duty of care include: ‘inclusivity’, ‘putting the student first’, ‘consent’, ‘avoiding negative impact on the institution’, ‘best interest of every student’, ‘evidence-based decisions’, ‘benefit to all student groups’ and ‘value for money’. For students, key ethical values raised include: ‘transparency’, ‘inclusivity’, ‘anonymity’, ‘autonomy’, ‘privacy’ and ‘trust’.
 
-While these ethical goals do show significant overlap, it is also clear to administrators that perspective is crucial to defining duty of care. First, different stakeholders define the goal of student mental health services differently. Second, perspectives on duty of care have shifted over time. Finally, the very introduction of digital services can influence who is seen to take responsibility for mental ill health and so have an impact on how duty of care is understood.
+While these ethical goals do show significant overlap, it is also clear to administrators that perspective is crucial to defining duty of care. First, different stakeholders define the goal of student mental health services differently. Second, perspectives on duty of care have shifted over time. Finally, the very introduction of digital services can influence who is seen to take responsibility for mental ill-health and so have an impact on how duty of care is understood.
 
 > **Administrator Perspective**
 > 
@@ -154,7 +152,7 @@ Ambiguities surrounding the relative roles and responsibilities of different tea
 
 > **Administrator Perspective**
 > 
-> 	“There was a general panic early March of oh my god, what is going to happen?”
+> 	“There was a general panic early March of "oh my god, what is going to happen?"”
 > 
 > “Quick leaps. It wasn’t particularly an evolution. We’d been considering it [Togetherall] ourselves for a couple of years so it was on the horizon but that [the pandemic] was the thing that really pushed us to do that”
 > 
@@ -164,13 +162,13 @@ Reactive decisions are in part a consequence of the lack of clarity surrounding 
 
 > **Administrator Perspective**
 > 
-> “That is the million-dollar question of where our services stop and the NHS starts and the piece around filling that gap because there is definitely a gap between”
+> “That is the million-dollar question of where our services stop and the NHS starts and the piece around filling that gap because there is definitely a gap between.”
 
-In addition, within the university, shifts towards a ‘whole university approach’ have occurred and were described by administrators. However, while greater involvement of departments such as financial services, accommodation and examinations is taking place, less thought has been given to where responsibility for digital solutions may lie within this matrix and what capacity building is needed to develop the technical skills required to review digital technologies, monitor student use, and horizon scan for new directions. While procurement processes at many universities remain thorough in many respects, this results at times in decisions taken by clinical or legal teams, without dedicated attention to technical and ethical questions. In describing their procurement teams’ top priorities when reviewing digital technologies, administrators raised both clinical evidence and value for money. Other concerns specific to data-driven technologies and their ethical implications did not feature as prominently, indicating potential gaps in data literacy. 
+In addition, within the university, shifts towards a ‘whole university approach’ have occurred and were described by administrators. However, while greater involvement of departments such as financial services, accommodation, and examinations is taking place, less thought has been given to where responsibility for digital solutions may lie within this matrix and what capacity building is needed to develop the technical skills required to review digital technologies, monitor student use, and horizon scan for new directions. While procurement processes at many universities remain thorough in many respects, this results at times in decisions taken by clinical or legal teams, without dedicated attention to technical and ethical questions. In describing their procurement teams’ top priorities when reviewing digital technologies, administrators raised both clinical evidence and value for money. Other concerns specific to data-driven technologies and their ethical implications did not feature as prominently, indicating potential gaps in data literacy. 
 
 > **Administrator Perspective**
 > 
-> “When I pull them [mental health team] in to look at new apps and things, what you find is they are trained practitioners, they are counsellors, but their digital skills are not up there”.
+> “When I pull them [mental health team] in to look at new apps and things, what you find is they are trained practitioners, they are counsellors, but their digital skills are not up there."
 >  
 > “I remember BigWhiteWall came around and did a slick presentation and then it was around the table who thinks this is a good idea. Rights, yeah, let's go for it.”
 
@@ -194,7 +192,7 @@ Finally, as roles and responsibilities are clarified, a clear space for student 
 | While university teams evolve to focus on greater integration and interdepartmental cooperation, greater attention must be paid to assigning responsibility for digital offerings and ensuring technical skills have been developed. |
 | Engagements with administrators suggest that compliance with data protection laws is well established while there remains a gap in organisational readiness with regard to other methods for reviewing algorithmic techniques. Cross-domain communication may be essential for these review processes, potentially including IT and research departments. Consequently, designating responsibility for digital technologies should be considered as part of the shift to a ’whole university approach’. |
 | Clarity on roles and responsibilities can also help designate responsibility for horizon scanning and proactive research rather than reactive decision-making. |
-| Meaningful student involvement is necessary and capacity building may be necessary to help them contribute meaningfully on technical topics.| 
+| Meaningful student involvement is necessary and capacity building may be needed to help them contribute meaningfully on technical topics.| 
 
 #### Challenge 3: External Pressures
 
@@ -293,7 +291,7 @@ In light of these varied motivations for aversion to digital solutions, it is cl
 > 
 > “Providing accessible tools for ‘basic’ needs (e.g. productivity tools, which are not too concerning and can be widely used).”
 
-These limitations of digital technologies’ ability to improve accessibility need not be a reason against their deployment. In some instances, the ability to reach different groups, such as those who feel the stigma of reaching out in person or have less serious concerns such as procrastination, can be seen as a positive. However, to ensure accessibility is prioritised across the student population, a greater awareness of who is (and who is not) served by digital technologies is required. During engagements, some administrators suggested males were engaged more with digital technologies, some pointed to females, others to differences in engagement across academic disciplines and finally some noticing no patterns of engagement at all. Further research into this is needed for universities to move away from a one-size-fits all approach and design solutions which explicitly address the needs of all student groups. 
+These limitations of digital technologies’ ability to improve accessibility need not be a reason against their deployment. In some instances, the ability to reach different groups, such as those who feel the stigma of reaching out in person, can be seen as a positive. However, to ensure accessibility is prioritised across the student population, a greater awareness of who is (and who is not) served by digital technologies is required. During engagements, some administrators suggested males were engaged more with digital technologies, some pointed to females, others to differences in engagement across academic disciplines and finally some noticing no patterns of engagement at all. Further research into this is needed for universities to move away from a one-size-fits all approach and design solutions which explicitly address the needs of all student groups. 
 
 > **Administrator Perspective**
 > 
@@ -315,12 +313,14 @@ During discussions on the accessibility and fairness of digital technologies, pr
 | -------- | 
 | Greater integration with research departments is needed to ensure evidence is available on who is best served by specific mental health services. Universities can draw on their own research resources in order to take a deeper look at who is and is not benefiting from digital interventions. |
 | Resource allocation within student services should take account of issues such as digital poverty, especially in light of the rise in remote learning following the pandemic.|
-| Algorithmic bias is a pervasive issue beyond the mental health sector and one which administrators must be aware of so that thorough questions can be asked of service providers in advance of service roll out. |
+| Algorithmic bias is a pervasive issue beyond the mental health sector and one which administrators must be aware of so that thorough questions can be asked of service providers in advance of service roll out.[^bias] |
 | A balance must be struck between empowering students to make their own choices without placing the burden of responsibility for mental health on them. |
+
+[^bias]: There is a huge and varied literature on 'algorithmic bias', and so pinning down a single definition of the term is challenging. In other works we have instead focused on exploring three types of bias—social, statistical, and cognitive, which can impact the design, development, and deployment of ML and AI technologies. See [here](https://alan-turing-institute.github.io/turing-commons/rri/chapter2/understanding_bias/) for further information.
 
 #### Challenge 6: Transparency and communication
 
-Both students and administrators raised the importance of transparent communication about what services are available to students. Both groups also recognised that there is a lack of cut-through in current communication strategies leading to students being unaware of which services are on offer at their institutions. 
+Both students and administrators raised the importance of transparent and accessible communication about what services are available to students. Both groups also recognised that there is a lack of cut-through in current communication strategies leading to students being unaware of which services are on offer at their institutions. 
 
 > **Administrator Perspective**
 > 
@@ -344,7 +344,7 @@ However, among students, the need for more awareness on what services are availa
 
 | Conclusions and Recommendations | 
 | -------- | 
-| To ensure students are aware of the services available, communications should be delivered by as many stakeholders as possible to include academic staff, student unions and student societies.|
+| To ensure students are aware of the services available, communications should be delivered by as many stakeholders as possible to include academic staff, student unions and student societies. These communications should also incorporate considerations around accessibility (e.g. alternative formats).|
 | University mental health teams should be careful to communicate honestly with students about both benefits and risks of technologies, including transparency communications about efficacy and data sharing. |
 | While in-depth and legally binding privacy policies are essential, an accessible breakdown of key information (for example through FAQs or video messages) are crucial to ‘informed’ consent. |
 
