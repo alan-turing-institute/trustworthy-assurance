@@ -111,4 +111,13 @@ Research and production for this report was undertaken at the Alan Turing Instit
 
 </div>
 
-The research team would also like to acknowledge...
+Talking about mental health can be very difficult. It was important that we enabled and supported participants to share their perspectives and attitudes anonymously during the project’s engagement events, and so we would like to begin by expressing our gratitude to those who anonymously took part in our events, or supported specific activities. 
+
+Specifically, we are grateful for the candid and thoughtful discussions of the users of digital mental health technologies, who took part in our workshops facilitated by the McPin foundation. 
+
+The research team would also like to acknowledge the following groups and individuals:
+
+<!-- List reviewers who are happy to be named -->
+- Members of the wider project team who offered helpful advice and guidance: Dr Kate Devlin, Dr David Leslie, Morgan Briggs
+- Our collaborators at University of York's Assuring Autonomy International Programme, including Dr Ibrahim Habli and Dr Zoe Porter who have been instrumental in ongoing discussions about argument-based assurance. And, also our thanks to all participants and the organisers of the [UKRI TAS Health and Social Care Workshop](https://www.tas.ac.uk/bigeventscpt/health-and-social-care-workshop/) for their valuable feedback and queries.
+- Colleagues at the Alan Turing Institute, who have provided direct and indirect input into this research project: Oana Romocea, Eirini Koutsuoroupa, Pauline Kinniburgh, Dr Shyam Krishna, and Dr Michael Katell.
