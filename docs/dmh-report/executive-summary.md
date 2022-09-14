@@ -11,13 +11,11 @@ tags:
 
 # Executive Summary
 
-<!-- something about the current mental health crisis -->
+There is a culture of distrust surrounding the development and use of digital mental health technologies. <!-- something about the current mental health crisis -->
 
-There is a culture of distrust surrounding the development and use of digital mental health technologies.
+Clearer assurance on how ethical objectives should be considered and implemented (e.g. fair use of data; explainable processes and outcomes) is necessary to help build a more trustworthy and responsible ecosystem. Trustworthy Assurance is a framework and methodology for enabling such an ecosystem, and this report presents findings and recommendations of a project undertaken between July 2021 and June 2022.
 
-Clearer assurance on how ethical objectives (e.g. fairness and explainability) have been considered and implemented require greater attention by regulators, developers, and researchers to help build a more trustworthy and responsible ecosystem. Trustworthy Assurance is a framework and methodology for enabling such an ecosystem.
-
-We conducted a series of participatory stakeholder engagement events with students, University administrators, regulators and policy-makers, developers, researchers, and users of digital mental health technologies. Our objectives were a) to identify and explore how stakeholders understood and interpreted relevant ethical objectives for digital mental health technologies, b) to evaluate and co-design the trustworthy assurance framework and methodology, and c) solicit feedback on the possible reasons for distrust in digital mental health.
+As part of this research project, we conducted a series of participatory stakeholder engagement events with students, University administrators, regulators and policy-makers, developers, researchers, and users of digital mental health technologies. Our objectives were a) to identify and explore how stakeholders understood and interpreted relevant ethical objectives for digital mental health technologies, b) to evaluate and co-design the trustworthy assurance framework and methodology, and c) solicit feedback on the possible reasons for distrust in digital mental health.
 
 !!! example "Key Findings"
 
@@ -26,8 +24,7 @@ We conducted a series of participatory stakeholder engagement events with studen
 
 !!! check "Recommendations"
 
-    1. Recommendation 1
-    2. Recommendation 2
+    1. Recommendation 2
 
 In each subsequent chapter, these key findings of our project are further contextualised and refined with reference to the specific topics under discussion.
 
@@ -36,7 +33,7 @@ In each subsequent chapter, these key findings of our project are further contex
 Our report is structured as follows:
 
 * [Chapter 1 (Introduction)](chapter-1.md) establishes the background context and conceptual foundations for the report, while also outlining the many challenges that exist for researchers, developers, and policy-makers/regulators working in the domain of digital mental healthcare.
-* [Chapter 2 (Presenting Trustworthy Assurance)](chapter-2.md) introduces the framework and methodology of 'Trustworthy Assurance'. The framework includes a model of a typical project lifecycle for a data-driven technology, and a discussion of several ethical principles, known as the SAFE-D principles. The framework serves as a guide to our methodology for developing an assurance case that promotes trustworthy goals associated with digital mental health technologies. Finally, this chapter also includes an important discussion about 'argument patterns', which support the material presented in [Chapter 5](chapter-5.md).
+* [Chapter 2 (Presenting Trustworthy Assurance)](chapter-2.md) introduces the framework and methodology of 'Trustworthy Assurance'. The framework includes a model of a typical project lifecycle involving a data-driven technology (e.g. health and well-being app), and a discussion of several ethical principles, known as the SAFE-D principles. The framework serves as a guide to our methodology for developing an assurance case that promotes trustworthy goals associated with digital mental health technologies. Finally, this chapter also includes an important discussion about 'argument patterns', which support the material presented in [Chapter 5](chapter-5.md).
 * [Chapter 3 (Applying Trustworthy Assurance)](chapter-3.md) presents findings from a research sub-project conducted with students and administrators from UK Universities. These engagement events explored the application of trustworthy assurance to the procurement of digital mental health technologies for use in the higher education (HE) sector, as well as general attitudes and perceptions towards the use of data-driven technologies in higher education. A series of recommendations accompany our thematic analysis.
 * [Chapter 4 (Co-Designing Trustworthy Assurance)](chapter-4.md) broadens the scope from the previous chapter to present research findings from a series of stakeholder engagement events carried out with regulators and policy-makers, developers, researchers, and users with lived experience of digital mental health technologies. As with the previous chapter, a set of recommendations accompanies our thematic analysis.
 * [Chapter 5 (Developing Trustworthy Assurance)](chapter-5.md) introduces, motivates, and explains two argument patterns that are intended to help project teams meet objectives for fair and explainable digital mental health technologies. This chapter also connects the argument patterns to existing and relevant legislation and regulation (e.g. Equality Act 2010).
