@@ -29,8 +29,7 @@ To support the development and evaluation of Trustworthy Assurance, we conducted
 
 !!! check "Recommendations"
 
-    1. Organisations that are involved in the design, development, and deployment of digital mental health technologies should adopt and use trustworthy assurance to demonstrate and justify how they have embedded core ethical principles into their systems. 
-       - In doing so, the methodology can also help provide assurance for how key legislative or regulatory duties and obligations have been met.
+    1. Organisations that are involved in the design, development, and deployment of digital mental health technologies should adopt and use trustworthy assurance to demonstrate and justify how they have embedded core ethical principles into their systems. In doing so, the methodology can also help provide assurance for how key legislative or regulatory duties and obligations have been met.
     2. Standards can be co-developed within and among organisations by sharing best practices related to trustworthy assurance. This can help ease the burden associated with relevant responsibilities (e.g. compliance, deliberation).
     3. Recommendation 3
     4. Recommendation 4
