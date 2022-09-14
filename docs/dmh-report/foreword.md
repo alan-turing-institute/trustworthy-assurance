@@ -20,9 +20,10 @@ This report raises questions that continue to concern providers of mental health
 - How can we ensure access to those who are digitally excluded or in data poverty, who may also be socially excluded and at increased risk of mental health challenges?
 - Can structured scrutiny, as described/proposed in this report, encourage developers to improve the transparency and trustworthiness of their products?
 - Are users (particularly at a time of increased vulnerability) adequately informed and protected by the practice of ‘opting in’ to terms and conditions which are often pages long and written for lawyers not end users?
-- Can digital mental healthcare replace the ‘human connection’ or is it safest and most effective when used to supplement and complement in person support? 
+- Can digital mental healthcare replace the ‘human connection’ or is it safest and most effective when used to supplement and complement in person support?
 
 The research and trustworthy assurance framework proposed in this report by The Alan Turing Institute’s Public Policy Programme provides a key stepping stone towards addressing these questions, as we strive to meet the growing need for mental health support in a way that is both responsible and trustworthy.
 
 **Dr Cath Biddle**
+
 Head of Digital, Mind
