@@ -13,20 +13,28 @@ tags:
 
 There is a culture of distrust surrounding the development and use of digital mental health technologies.
 
-As many organisations continue to grapple with the long-term impacts on mental health and well-being from the COVID-19 pandemic, a growing number are turning to digital technologies to increase their capacity and try to meet the growing need for mental health services.
+As many organisations continue to grapple with the long-term impacts on mental health and well-being from the COVID-19 pandemic, a growing number are turning to digital technologies to increase their capacity and try to meet the growing need for mental health services. Prior to the pandemic, we had already called for greater attention to the ethical challenges of using digital technologies in the domain of psychiatry or mental healthcare. Since then, the urgency for meeting this call has only grown.
 
-Clearer assurance on how ethical objectives should be considered and implemented (e.g. fair use of data; explainable processes and outcomes) is necessary to help build a more trustworthy and responsible ecosystem. Trustworthy Assurance is a framework and methodology for enabling such an ecosystem, and this report presents findings and recommendations of a project undertaken between July 2021 and June 2022.
+In this report, we argue that clearer assurance for how ethical principles have been considered and implemented in the design, development, and deployment of digital mental health technologies is necessary to help build a more trustworthy and responsible ecosystem. To help address this need, we set out a positive proposal for a framework and methodology we call 'Trustworthy Assurance'.
 
-As part of this research project, we conducted a series of participatory stakeholder engagement events with students, University administrators, regulators and policy-makers, developers, researchers, and users of digital mental health technologies. Our objectives were a) to identify and explore how stakeholders understood and interpreted relevant ethical objectives for digital mental health technologies, b) to evaluate and co-design the trustworthy assurance framework and methodology, and c) solicit feedback on the possible reasons for distrust in digital mental health.
+To support the development and evaluation of Trustworthy Assurance, we conducted a series of participatory stakeholder engagement events with students, University administrators, regulators and policy-makers, developers, researchers, and users of digital mental health technologies. Our objectives were a) to identify and explore how stakeholders understood and interpreted relevant ethical objectives for digital mental health technologies, b) to evaluate and co-design the trustworthy assurance framework and methodology, and c) solicit feedback on the possible reasons for distrust in digital mental health.
 
 !!! example "Key Findings"
 
     1. The current landscape of digital mental health is characterised by significant uncertainty, a lack of transparency or accountability, and a rising demand that outpaces trusted services and resources. This contributes to a culture of distrust, which may prevent vulnerable users from accessing support.
     2. Trustworthy Assurance is a framework and methodology that can support the design, development, and deployment of data-driven technologies and also create a more responsible and trustworthy ecosystem of digital mental healthcare.
+    3. Key Finding 3
+    4. Key Finding 4
+    5. Key Finding 5
 
 !!! check "Recommendations"
 
-    1. Recommendation 2
+    1. Organisations that are involved in the design, development, and deployment of digital mental health technologies should adopt and use trustworthy assurance to demonstrate and justify how they have embedded core ethical principles into their systems. 
+       - In doing so, the methodology can also help provide assurance for how key legislative or regulatory duties and obligations have been met.
+    2. Standards can be co-developed within and among organisations by sharing best practices related to trustworthy assurance. This can help ease the burden associated with relevant responsibilities (e.g. compliance, deliberation).
+    3. Recommendation 3
+    4. Recommendation 4
+    5. Recommendation 5
 
 In each subsequent chapter, these key findings of our project are further contextualised and refined with reference to the specific topics under discussion.
 
