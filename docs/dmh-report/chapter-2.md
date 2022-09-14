@@ -20,9 +20,13 @@ tags:
 
 ## Designing, Developing, and Deploying Trustworthy Digital Mental Health Technologies
 
-Designing, developing, and deploying an AI system is not a one-person task! The stages and activities that comprise a typical AI project lifecycle involve a wide-ranging and far-reaching set of skills and capabilities. These skills are encapsulated within myriad roles, including 'project commissioner', 'product manager', 'data protection officer', 'data scientist', 'system architect' and 'software engineer'. And, these roles are interwoven such that they create an irreducible and collective responsibility that spans the entire project lifecycle, and may span multiple teams and organisations. 
+Designing, developing, and deploying an AI system is not a one-person task[^village]! The stages and activities that comprise a typical AI project lifecycle involve a wide-ranging and far-reaching set of skills and capabilities. These skills are encapsulated within myriad roles, including 'project commissioner', 'product manager', 'data protection officer', 'data scientist', 'system architect' and 'software engineer'. And, these roles are interwoven such that they create an irreducible and collective responsibility that spans the entire project lifecycle, and may span multiple teams and organisations.
 
-**Figure 1.1** presents a simplified model of a typical research or innovation lifecycle for a data science or AI project lifecycle, to help gain a purchase on these interweaving roles, skills, and responsibilities. 
+[^village]: Rather, it "takes a village to raise an algorithm" as noted in this [blog post](https://cogent.co/blog/biasai/). Thanks to one of our reviewers for bringing this post to our attention. 
+
+**Figure 1.1** presents a simplified model of a typical research or innovation lifecycle for a data science or AI project lifecycle, to help gain a purchase on these interweaving roles, skills, and responsibilities[^responsibilities].
+
+[^responsibilities]: To be clear, we are referring here to role and task responsibilities first and foremost, which overlap with but are conceptually separate from moral responsibility. 
 
 The model represents three over-arching stages of `(project) design`, `(model) development`, and `(system) deployment`. For each stage, there are corresponding activities, detailed in **Table 1.1**. The project lifecycle is depicted as a circular process to highlight the fact that responsibility is ongoing and does not end once a system has been implemented or put into deployment. Rather, responsible (and trustworthy) approaches to research and innovation require consideration of how a technological system may need to be monitored and updated once in production, and removed and replaced once it reaches the end of its lifecycle. 
 
@@ -44,7 +48,9 @@ The model represents three over-arching stages of `(project) design`, `(model) d
 | **System Implementation** | The process of implementing the technological system into its intended environment or target domain to enable and structure interaction with the underlying model(s) (e.g. a recommender system that suggests possible treatment options for patients based on input data. | 
 | **User Training** | Training for those individuals or groups who are either required to operate a data-driven system (perhaps in a safety critical context) or who are likely to use the system (e.g. healthcare professionals, medical researchers). | 
 | **System Use and Monitoring** | Ongoing monitoring and feedback from the system, either automated or probed, to ensure that issues such as model drift have not affected performance or resulted in harms to individuals or groups.| 
-| **Model Updating or Deprovisioning** | An algorithmic model that that adapts its behaviour over time or context may require updating. Where no further updating can be carried out, and this results in a system being removed from production (i.e. deprovisioned), a new system may be required. This restarts the project lifecycle. |
+| **Model Updating or Deprovisioning** | An algorithmic model that that adapts its behaviour over time or context may require updating.[^performance] Where no further updating can be carried out, and this results in a system being removed from production (i.e. deprovisioned), a new system may be required. This restarts the project lifecycle. |
+
+[^performance]: Updating can also occur in cases where no adaptive behaviour is present for reasons such as performance improvements or bug fixes.
 
 To see how this model can help us understand the interwoven nature of responsibility, consider the following example. An organisation wants to implement a speech recognition algorithm within a service they are developing for online counselling. However, there is no one in the organisation with the relevant expertise to collect data and train a model from scratch. Therefore, they choose to *procure* a pre-trained model from [another company](https://aws.amazon.com/marketplace/solutions/machine-learning/pre-trained-models). This means that a significant portion of the project lifecycle—from `Data Extraction or Procurement` to `Model Documentation`—will have been carried out by a separate organisation.
 
@@ -127,7 +133,7 @@ The procedure advocated for trustworthy assurance is the anticipatory and delibe
 
 By using the project lifecycle model as a scaffold for anticipatory reflection and stakeholder-informed deliberation, project teams are able to answer the following questions:
 
-1. Which claims are necessary and sufficient to specify and justify the top-level goal?
+1. Which claims (that may emerge from participatory deliberation) are necessary and sufficient to specify and justify the top-level goal?
 2. How do these claims relate to one another?
 3. What evidence is required to demonstrate the validity of the claims being made?
 
@@ -181,7 +187,9 @@ To see why, let’s assume that an organisation is in the process of procuring a
 
 [^ptsd]: For an example of this type of technology, see  Lucas et al. (2017). Reporting Mental Health Symptoms: Breaking Down Barriers to Care with Virtual Human Interviewers. *Frontiers in Robotics and AI*. [https://www.frontiersin.org/articles/10.3389/frobt.2017.00051](https://www.frontiersin.org/articles/10.3389/frobt.2017.00051)
 
-In answering these three questions, the developers would be *giving reasons* (supported by evidence) for their actions—reasons that would need to be accepted by the procuring organisation to be relevant and justifiable. This perspective on claims emphasises one of their most vital roles as *publicly contestable reasons*. That is, whether a claim (or set of interrelated claims) are valid in the context of an assurance case is, in part, conditional on whether they are accepted as *reasonable* justifications by those who are tasked with evaluating the assurance case. 
+In answering these three questions, the developers would be *giving reasons* (supported by evidence) for their actions—reasons that would need to be accepted by the procuring organisation to be relevant and justifiable. This perspective on claims emphasises one of their most vital roles as *publicly contestable reasons*. That is, whether a claim (or set of interrelated claims) are valid in the context of an assurance case is, in part, conditional on whether they are accepted as *reasonable* justifications by those who are tasked with evaluating the assurance case[^towhom]. 
+
+[^towhom]: See Kirsch, A. (2017). Explain to whom? Putting the User in the Center of Explainable AI. Proceedings of the First International Workshop on Comprehensibility and Explanation in AI and ML 2017 Co-Located with 16th International Conference of the Italian Association for Artificial Intelligence (AI*IA 2017). https://hal.archives-ouvertes.fr/hal-01845135
 
 Let’s look at another example. Consider the following section of an assurance case for the aforementioned chatbot, which the developers have produced for the procuring organisation:
 
@@ -229,7 +237,7 @@ But where do they come from?
 ### Generalisable Patterns
 In the case of the argument pattern from Figure 1.6, this pattern was proposed by the authors as a means to address a gap in the safety assurance of ML systems. As experts in their domain, and as a peer-reviewed contribution, this is a valid source for an argument pattern. 
 
-However, an alternative (though not entirely disconnected) source is to identify generalisable structures and patterns from existing assurance cases—a procedure that can be enhanced through participatory engagement from stakeholders and affected users. This is the method that we have explored in the current project on Digital Mental Healthcare and subsequently propose as a procedure for Trustworthy Assurance.
+However, an alternative (though not entirely disconnected) means for achieving generalisable structures and patterns is through participatory engagement from stakeholders and affected users, perhaps building sample assurance cases and then extracting common themes. This is the method that we have explored in the current project on Digital Mental Healthcare and subsequently propose as a procedure for Trustworthy Assurance.
 
 Much like ML algorithms, humans have remarkably effective (but biased) *pattern recognition capabilities*, some of which underpin our assessment and internalisation of ethical, legal, and social norms. As an example, James W. Nickel says of human rights:
 
@@ -251,7 +259,7 @@ The phrase 'trustworthy assurance' creates a wide scope for top-level goals that
 - Explainability
 - Data (Quality, Integrity, Protection and Privacy)
 
-These principles have been refined and validated in a wide range of domains, and were originally based on a broad understanding of the typical harms and benefits associated with data-driven technology. Therefore, unlike alternative frameworks they are tailored to the specific needs and challenges of responsible, trustworthy, and ethical data science and AI, rather than, say, importing or revising existing frameworks such as biomedical ethics. [^floridi] 
+These principles have been refined and validated in a wide range of domains, and were originally based on a broad understanding of the typical harms and benefits associated with data-driven technology (e.g. starting from the felt injustices or needs of users and stakeholders, and developing principles to reflect these challenges). Therefore, unlike alternative frameworks they are tailored to the specific needs and challenges of responsible, trustworthy, and ethical data science and AI, rather than, say, importing or revising existing frameworks such as biomedical ethics. [^floridi] 
 
 However, the SAFE-D principles were designed to be *domain-neutral* starting points. That is, we did not presume that these principles would capture the ethical, social, and legal values that are dominant in digital mental healthcare. Instead, the present project undertook a process of exploratory engagement and participatory design to explore which ethical values and principles were relevant to the specific context of trustworthy digital mental healthcare, and whether specific SAFE-D principles captured these. We will return to this point in Section 3 where we analyse our findings from the project's workshops.
 
