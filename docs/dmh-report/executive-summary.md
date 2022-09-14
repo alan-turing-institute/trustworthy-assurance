@@ -11,7 +11,9 @@ tags:
 
 # Executive Summary
 
-There is a culture of distrust surrounding the development and use of digital mental health technologies. <!-- something about the current mental health crisis -->
+There is a culture of distrust surrounding the development and use of digital mental health technologies.
+
+As many organisations continue to grapple with the long-term impacts on mental health and well-being from the COVID-19 pandemic, a growing number are turning to digital technologies to increase their capacity and try to meet the growing need for mental health services.
 
 Clearer assurance on how ethical objectives should be considered and implemented (e.g. fair use of data; explainable processes and outcomes) is necessary to help build a more trustworthy and responsible ecosystem. Trustworthy Assurance is a framework and methodology for enabling such an ecosystem, and this report presents findings and recommendations of a project undertaken between July 2021 and June 2022.
 
@@ -44,23 +46,23 @@ The following summarises what this report is and what it is not:
 
 ✅ An introduction to 'Trustworthy Assurance'—a framework and methodology for enabling a more trustworthy ecosystem of digital mental healthcare through the responsible and ethical design, development, and deployment of digital technologies.
 
+❌ A comprehensive user guide for 'Trustworthy Assurance' or argument-based assurance—though links and further resources are provided.[^online]
+
 ✅ A summary of findings from research conducted on the application of trustworthy assurance to the procurement of digital mental health technologies for use in the higher education (HE) sector.
+
+❌ Findings from a sociological study or series of generalisable results from scientific experiments.
 
 ✅ A summary of findings from a series of more general stakeholder engagements, exploring the ethics of digital mental healthcare and attitudes towards trustworthy and untrustworthy technologies.
 
+❌ A report with a strong international or multi-national focus. While we make reference to non-UK developments in this domain, our primary focus is on the UK. However, the methodology we present and many of the findings we discuss have value beyond the UK.
+
 ✅ An explanation and discussion of two argument patterns exploring the goals of fairness and explainability in the design, development, and deployment of digital mental health technologies.
-
-✅ A series of recommendations, targeted at different stakeholders, for how to enable a more responsible and trustworthy ecosystem of digital mental healthcare.
-
-❌ A comprehensive user guide for 'Trustworthy Assurance' or argument-based assurance—though links and further resources are provided.[^online]
 
 ❌ A critical examination of argument-based assurance.[^critical]
 
-❌ Findings from a sociological study or series of generalisable results from experiments.
+✅ A series of recommendations, targeted at different stakeholders, for how to enable a more responsible and trustworthy ecosystem of digital mental healthcare.
 
 ❌ A review of the current legislative or regulatory publications that are relevant to digital mental healthcare.
-
-❌ A report with a strong international or multi-national focus. While we make reference to non-UK developments in this domain, our primary focus is on the UK. However, the methodology we present and many of the findings we discuss have value beyond the UK.
 
 [^online]: Work is underway to develop an user guide, and this will be added to the online version of our report when ready. The guide will also include instructions on how to use our tool for producing assurance cases.
 
@@ -77,32 +79,32 @@ This report is primarily targeted at the following groups:
   ![Icon of a regulator controlling sliders on a screen](../assets/icons/regulator-icon.png){ align=left width=15% }
   
   **Policy-makers and Regulators**
-    
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+
+  Policy-makers and regulators will find the recommendations and guidance we set out of specific interest, and will find value in the methodology that we set out in [Chapter 2](chapter-2.md) because it is framed in procedural terms, and with links to process-based forms of governance. We also link our two argument patterns, which are presented in [Chapter 5](chapter-5.md), to specific legislative and regulatory developments in healthcare.
 
 ---
 
   ![Icon of a regulator controlling sliders on a screen](../assets/icons/decision-maker-icon.png){ align=right width=15% }
   
   **Senior Decision-Makers**
-    
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+
+  Senior Decision-Makers, like policy-makers and regulators, will likely benefit from our methodology of Trustworthy Assurance. Specifically, from exploring its procedural underpinnings that are discussed in the section on a typical ML or AI lifecycle (see [Chapter 2](chapter-2.md)).
 
 ---
 
   ![Icon of a regulator controlling sliders on a screen](../assets/icons/developer-icon.png){ align=left width=15% }
   
-  **Developers and product Managers**
-    
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+  **Developers and Product Managers**
+
+  While our framework and methodology is set out in accessible forms, rather than adopting formal syntax and schemas for argument-based assurance, Trustworthy Assurance is primarily aimed at developers and product managers. That is, one of its key values is as a reflective and deliberative aid to demonstrating how ethical principles and decisions have been undertaken and establish through a project's lifecycle, with easy means for justifying the relevant claims by linking them to evidence. Therefore, developers and product managers are a key stakeholder group that we have targeted in this report and research project.
 
 ---
 
   ![Icon of a regulator controlling sliders on a screen](../assets/icons/researcher-icon.png){ align=right width=15% }
   
   **Researchers**
-    
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+
+  While researchers may find less practical value in our framework and methodology, our report highlights and emphasises significant knowledge gaps and research opportunities for improving our collective understanding about the individual and social impacts of digital mental health technologies. Therefore, our report can also be seen as a call for further research into specific areas, including the evaluation and validation of the Trusworthy Assurance framework and methodology.
 
 </div>
 
