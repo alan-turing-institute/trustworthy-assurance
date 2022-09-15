@@ -8,42 +8,39 @@ tags:
 ---
 # Developing Trustworthy Assurance—Argument Patterns for fairness and Explainability
 
-![A placeholder image](https://via.placeholder.com/800x400?text=Placeholder+Image){ .off-glb }
+![A placeholder image](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/chapter-5-header.png){ .off-glb }
 
 > **Chapter Overview**
 >
-> In this chapter we present and explain two argument patterns (i.e. starting templates for building assurance cases, which identify the types of claims, or the sets of reasons that need to be established to justify the associated top-level normative goal.
+> In this chapter we present two argument patterns (i.e. starting templates for building assurance cases) that identify the types of claims, or the sets of reasons that need to be established to justify the associated top-level normative goal.
+> 
 > The first pattern is for assurance cases that aim to justify the *fairness* of a digital mental health technology; the second is for cases that address the *explainability* of systems.
+> 
 > We also discuss relevant legislation, regulation, and best practice guidance that support and motivate the development of these patterns.
 
 ## Co-designing argument patterns
 
-The previous chapter have achieved several goals:
+While the assurance methodology is a tool in its own right, there is a missing component that was highlighted in [Chapter 2](chapter-2.md): argument patterns. 
 
-1) Setting a context that is receptive to the sociocultural and human-centred aspects of trustworthy digital mental health technology.
-2) Introducing the trustworthy assurance methodology to assist communication, assessment, and documentation tasks for developers and regulators
-3) Providing recommendations that have been co-developed through stakeholder and user participation
+You may recall that argument patterns are reusable structures that serve as *starting templates* for building assurance cases. They identify the *types* of claims (or, the sets of reasons) that need to be established to justify the associated top-level normative goal. And, in doing so, they set useful constraints on both the deliberative process and evidence-generating and evidence-gathering exercises[^evidence].
 
-While the assurance methodology is a tool in its own right, there is a missing component that was highlighted in [Chapter 1]: argument patterns. You may recall that argument patterns are reusable structures that serve as *starting templates* for building assurance cases. They identify the *types* of claims (or, the sets of reasons) that need to be established to justify the associated top-level normative goal. And, in doing so, they set useful constraints on both the deliberative process and evidence-generating and evidence-gathering exercises.
+[^evidence]: Add fn about evidential considerations in main article and book by Cartwright.
 
-In this chapter we present and explain two argument patterns. The first is for assurance cases that aim to justify the *fairness* of a digital mental health technology; the second is for cases that address the *explainability* of systems.
+In this chapter we present and explain two argument patterns. The first is for assurance cases that address and justify the *fairness* of a digital mental health technology; the second is for cases that address and justify the *explainability* of systems.
 
 ### Why ‘fairness’ and ‘explainability’?
 
-Our decision to provide these two patterns is motivated by the desire to capture as many of the significant themes raised in the workshops, and to provide a more context-specific set of core attributes for two of the SAFE-D principles. That is, to demonstrate how the SAFE-D framework applies in the context of digital mental health.
+Our decision to focus on these two patterns is motivated primarily by the desire to capture the *significant* themes raised in the workshops. As such, the inclusion of a pattern for fairness is an obvious choice based on the discussions in the [previous chapter](chapter-4.md). However, the inclusion of one for the goal of explainability requires additional clarification.
 
-The inclusion of a pattern for fairness was an obvious choice. However, the inclusion of one for the goal of explainability requires additional clarification.
+Many participants in our workshops focused on ethical issues that could map onto multiple SAFE-D principles. For instance, considerations around `transparency` were sometimes raised in connection with mechanisms for holding organisations `accountable` and at other times raised in connection with a requirement to ensure users had access to information to support informed consent and decision-making—captured either by `sustainability` or `explainability`. Our second argument pattern is framed in terms of `explainability` as an attempt to be maximally inclusive of these wide-ranging considerations. 
 
-As the previous chapters demonstrate, many participants in our workshops focused on ethical issues that could map onto multiple SAFE-D principles. For instance, considerations around `transparency` were sometimes raised in connection with mechanisms for holding organisations `accountable` and at other times raised in connection with a requirement to ensure users had access to information to support informed consent and decision-making—captured either by `sustainability` or `explainability`.
-
-Our second argument pattern is framed in terms of `explainability` as an attempt to be maximally inclusive of these wide-ranging considerations. However, further work is clearly needed to develop additional patterns that may provide more specific guidance for use in different contexts. To recall, argument patterns in trustworthy assurance are always *starting points* for participatory forms of reflection and deliberation. They provide greater specificity than the top-level goal would on its own, and help operationalise ethical principles within the project lifecycle model. But they are no substitute for embedded processes of inclusive stakeholder engagement—in fact, they depend upon stakeholder engagement processes for their completion. Furthermore, they should not be used as a mere checklist for compliance. 
+To recall, argument patterns in trustworthy assurance are always *starting points* for participatory forms of reflection and deliberation. They provide greater specificity than the top-level goal would on its own, and help operationalise ethical principles within the project lifecycle model. But they are no substitute for embedded processes of inclusive stakeholder engagement—in fact, they depend upon stakeholder engagement processes for their completion. Furthermore, they should not be used as a mere checklist for compliance. 
 
 Finally, our focus on 'fairness' and 'explainability' should not suggest that other patterns are not desirable or important. Rather, the co-design and development of additional patterns, including those that go beyond the SAFE-D principles are left for future research (see Conclusion).
 
-> **Note**
-> We present the two cases here, but additional user guidance can be found online, including information on possible evidence, and processes for generating claims (e.g. stakeholder engagement).
-
 ### Fairness
+
+<!-- add illustration -->
 
 In the context of data-driven technologies, a key attribute of fairness is the equal distribution of risk and benefit across all groups of affected users. For instance, a technology that was highly accurate for users aged between 18-30 but became decreasingly accurate for older individuals would be unfair to those from higher age brackets.
 
@@ -55,7 +52,9 @@ Therefore, corresponding “positive duties” also exist to promote beneficial 
 - advance equality of opportunity between persons who share a relevant protected characteristic and persons who do not share it;
 - foster good relations between persons who share a relevant protected characteristic and persons who do not share it.
 
-Notice that these objectives have both negative and positive aspects to them (e.g. ‘eliminate discrimination’ as ‘opposed to advance equality’). 
+Notice that these objectives can be seen as having both negative and positive aspects to them (e.g. ‘eliminate discrimination’ as ‘opposed to advance equality’).[^posneg] 
+
+[^posneg]: We are not suggesting that this is the correct way of interpreting the public sector equality duty. Others may view the associated duties as entirely positive if they are viewed from a human rights lens that treatsactively protecting people from risks of harm that are known about, or should have been known about, as a positive duty. The status of this duty will likely depend on which party it falls on.
 
 In the context of mental healthcare, where stigmatisation prevents many vulnerable individuals from accessing care and discrimination exacerbates symptoms for already marginalised groups, both types of duty are absolutely crucial. But acting upon positive duties is not without its challenges.  
 
@@ -65,29 +64,36 @@ The pattern that has been developed, through participation of stakeholders and u
 
 !!! info "Why does this pattern matter?"
 
+    <!-- find a place to mention how none of the DTAC’s criteria address aspects of fairness or potential for discriminatory impact -->
+
     In the last few years, many public authorities across the UK have released statements and policies calling for greater health equity.
 
-    In October 2020, NHS England released their '[Advancing mental health equalities](https://www.england.nhs.uk/publication/advancing-mental-health-equalities-strategy/)' strategy. This strategy...
-
-    The strategy also fed into a recent consultation on the [Mental health and wellbeing plan](https://www.gov.uk/government/consultations/mental-health-and-wellbeing-plan-discussion-paper-and-call-for-evidence/mental-health-and-wellbeing-plan-discussion-paper) by the Department for Health and Social Care.
+    In October 2020, NHS England released their '[Advancing mental health equalities](https://www.england.nhs.uk/publication/advancing-mental-health-equalities-strategy/)' strategy, which also fed into a recent consultation on the [Mental health and wellbeing plan](https://www.gov.uk/government/consultations/mental-health-and-wellbeing-plan-discussion-paper-and-call-for-evidence/mental-health-and-wellbeing-plan-discussion-paper) by the Department for Health and Social Care.
 
     The second of these publications makes reference to the UK Government's Levelling Up Strategy, which opens with the following statement:
 
     > "not everyone shares equally in the UK’s success. While talent is spread equally across our country, opportunity is not. Levelling up is a mission to challenge, and change, that unfairness. Levelling up means giving everyone the opportunity to flourish. It means people everywhere living longer and more fulflling lives, and beneftting from sustained rises in living standards and well-being."
 
-    Beyond equality and non-discrimination, e.g. human rights and protected characteristics, we must also consider
+    Beyond people who share protected characteristics as set out in the Equality Act 2010, there are other groups who require specific consideration[^wachter]:
 
     > Risks of mental ill-health are also higher for people who are unemployed, people in problem debt, people who have experienced displacement, including refugees and asylum seekers, people who have experienced trauma as the result of violence or abuse, children in care and care leavers, people in contact with the criminal justice system (both victims and offenders), people who sleep rough or are homeless, people with substance misuse or gambling problems, people who live alone, and unpaid carers.
+    
+    <!-- add regulatory considerations here 
+    _ https://www.equalityhumanrights.com/en/advice-and-guidance/artificial-intelligence-checklist-public-bodies-england
+    -->
+    
+    [^wachter]: This is further problematised in the context of ML and AI, where novel forms of discrimination, perhaps as a result of so-called "affinity profiling". See Wachter, S. (2021). Affinity Profiling and Discrimination by Association in Online Behavioural Advertising. Berkeley Technology Law Journal, 35(2).
+
 
 ![A pattern for designing, developing, and deploying fair digital mental health technologies](../assets/patterns/fairness-pattern.png)
 
 *Figure 4.1: A pattern for designing, developing, and deploying fair digital mental health technologies* (:material-magnify-plus: click image to expand)
 
-The goal claim addresses distributional concepts of fairness (e.g. whether harms and benefits are shared equally), but also acknowledges that there are wider impacts that can emerge from the deployment and use of technological services (e.g. representational harms to marginalised groups). 
+The goal claim in this argument pattern addresses distributional concepts of fairness (e.g. whether harms and benefits are shared equally), while also acknowledging broader conceptions of social justice (e.g. representational harms to marginalised groups). 
 
 Unlike traditional safety cases, which often include  `System Description` and `Context of Use` placeholders, this pattern also includes a `Stakeholder` component to emphasise the importance of engagement. Here, the term 'stakeholder' should be treated in as inclusive a manner as possible, and not only the direct users of the technology.
 
-The goal is then broken into four higher-level property claims and their respective sub-claims, which we group according to the following core attributes of the Fairness principle as specified and operationalised in the context of digital mental health technology:
+The goal is broken into four higher-level property claims and their respective sub-claims, which we group according to the following core attributes of the Fairness principle as specified and operationalised in the context of digital mental health technology:
 
 * Argument over `bias mitigation`
 * Argument over `non-exclusion`
@@ -104,7 +110,7 @@ This argument sets out another negative duty to consider wider social impacts of
 
 ##### Argument over *non-discrimination*
 
-This argument addresses the better known obligations, such as ensuring that members of protected groups are not discriminated against. Much of the FairML literature, which has provided useful categorisations of formal criteria (i.e. independence, sufficiency, and separation) and the respective (statistical) notions of individual and group level fairness (e.g. demographic parity, equalised opportunities, counterfactual fairness) are relevant here. And, indeed, a requirement to explain the choice of any statistical measures used during the development of a predictive model (e.g. classifier) is included. Again, there are useful tools and taxonomies that offer further guidance on these decisions. However, our pattern also urges project teams to reflect upon other patterns of discrimination, marginalisation, and minoritisation, which can exacerbate mental health issues, but which fall beyond protected characteristics that lie outside the scope of the Equality Act (e.g. poverty, housing, employment). 
+This argument addresses the better known obligations, such as ensuring that members of protected groups are not discriminated against. Much of the FairML literature, which has provided useful categorisations of formal criteria (i.e. independence, sufficiency, and separation) and the respective (statistical) notions of individual and group level fairness (e.g. demographic parity, equalised opportunities, counterfactual fairness) are relevant here. And, indeed, a requirement to explain the choice of any statistical measures used during the development of a predictive model (e.g. classifier) is included. Again, there are useful tools and taxonomies that offer further guidance on these decisions. However, our pattern also urges project teams to reflect upon other patterns of discrimination, marginalisation, and minoritisation, which can exacerbate mental health issues, but which fall beyond protected characteristics that lie outside the scope of the Equality Act 2010 (e.g. poverty, housing, employment). 
 
 ##### Argument over *equitable impact*
 
@@ -118,33 +124,35 @@ Finally, this argument references positive duties that matter in the context of 
 
 ### Explainability
 
-Like fairness and equity, explainable AI has received a lot of attention over the last several years.[^explainableAI] Computer scientists have developed new tools and methods to improve the interpretability of otherwise opaque algorithms, such as neural networks.[^XAIreview] Researchers in psychology and human-computer interaction have explored how different components of the user experience can help support more intentional interactions with intelligent software agents.[^hci] And, regulators, auditors, and journalists have investigated how to make systems more transparent to support objectives related to accountability and informed decision-making.[^accountability]
-
-[^explainableAI]: See the following notable publications: Phillips et al. (2021). Four Principles of Explainable Artificial Intelligence. National Institute of Standards and Technology. https://doi.org/10.6028/NIST.IR.8312;  Miller, T. (2019). Explanation in artificial intelligence: Insights from the social sciences. Artificial Intelligence, 267, 1–38. https://doi.org/10.1016/j.artint.2018.07.007; Diakopoulos, N. (2015).
-
-[^XAIreview]: For a recent review of methods, see Linardatos, P., Papastefanopoulos, V., & Kotsiantis, S. (2020). Explainable AI: A Review of Machine Learning Interpretability Methods. Entropy, 23(1), 18. https://doi.org/10.3390/e23010018
-
-[^hci]: Ferreira, J. J., & Monteiro, M. S. (2020). What Are People Doing About XAI User Experience? A Survey on AI Explainability Research and Practice. In A. Marcus & E. Rosenzweig (Eds.), Design, User Experience, and Usability. Design for Contemporary Interactive Environments (Vol. 12201, pp. 56–73). Springer International Publishing. https://doi.org/10.1007/978-3-030-49760-6_4
-
-[^accountability]: Information Commisioner's Office & Alan Turing Institute. (2020). Explaining decisions made with AI. https://ico.org.uk/media/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence-1-0.pdf; Algorithmic Accountability: Journalistic investigation of computational power structures. Digital Journalism, 3(3), 398–415. https://doi.org/10.1080/21670811.2014.976411.
+<!-- add illustration -->
 
 Therefore, much like fairness, explainability as a top-level goal encompasses a range of significant concerns and salient ethical values. Let's explore some of the these values in more detail, and see how they relate to digital mental health technologies.
 
-#### Why does this pattern matter?
+!!! info "Why does this pattern matter?”
 
-Data-driven technologies have the potential to automate decision-making to varying degrees. On the one hand, *decision support systems* can offer recommendations to users but are not responsible for enacting a decision directly. And, on the other hand, you have *fully automated-decision making systems*, which once set up require no human involvement. 
+    Like fairness and equity, explainable AI has received a lot of attention over the last several years.[^explainableAI] Computer scientists have developed new tools and methods to improve the interpretability of otherwise opaque algorithms, such as neural networks.[^XAIreview] Researchers in psychology and human-computer interaction have explored how different components of the user experience can help support more intentional interactions with intelligent software agents.[^hci] And, regulators, auditors, and journalists have investigated how to make systems more transparent to support objectives related to accountability and informed decision-making.[^accountability]
 
-This distinction is admittedly coarse grained, but it will suffice for our purposes because it helps identify two illustrative cases where explainability matters. In the former case, although a human user is responsible for the decision, their judgement may be influenced and biased by the decision support system, potentially in ways that are problematic (e.g. leading to differential treatment for certain groups of users). In the latter case, no human is involved, but because the automated systems cannot be held morally or legally accountable for their decisions, if something goes wrong, a human will need to be able to identify the reason why the problem occurred and perhaps communicate this to other affected stakeholders.
+    [^explainableAI]: See the following notable publications: Phillips et al. (2021). Four Principles of Explainable Artificial Intelligence. National Institute of Standards and Technology. https://doi.org/10.6028/NIST.IR.8312;  Miller, T. (2019). Explanation in artificial intelligence: Insights from the social sciences. Artificial Intelligence, 267, 1–38. https://doi.org/10.1016/j.artint.2018.07.007; Diakopoulos, N. (2015).
 
-In both of the above cases, extracting a valid and accurate explanation is necessary to enable post hoc forms of *accountability* or *transparency*. But prioritising ‘explainability’ from the start of a project also allows project teams to have better oversight of what their systems do and why, leading to more *responsible forms of project governance*. And, at the other end of the lifecycle, clear and accessible explanations can help ensure users and affected stakeholders are better *informed* and empowered to make *autonomous decisions* regarding their interactions with digital mental health technologies. Therefore, having an argument pattern for ‘explainability’ helps capture many of the key considerations that were raised during our workshops.
+    [^XAIreview]: For a recent review of methods, see Linardatos, P., Papastefanopoulos, V., & Kotsiantis, S. (2020). Explainable AI: A Review of Machine Learning Interpretability Methods. Entropy, 23(1), 18. https://doi.org/10.3390/e23010018
 
-While the themes and values expressed in the following pattern are based primarily on the engagement with stakeholders, we have also drawn upon two other documents. First, we have drawn from prior guidance that we co-designed with the Information Commissioner’s Office.[^ico2020] This guide, titled 'Explaining Decisions Made with AI', details best practices for explainable AI in domain-general settings, and was also informed by stakeholder engagement. Second, we have incorporated some elements of an existing pattern for *interpretable* machine learning, which is motivated by a similar need for addressing a range of questions and concerns, such as the following:
+    [^hci]: Ferreira, J. J., & Monteiro, M. S. (2020). What Are People Doing About XAI User Experience? A Survey on AI Explainability Research and Practice. In A. Marcus & E. Rosenzweig (Eds.), Design, User Experience, and Usability. Design for Contemporary Interactive Environments (Vol. 12201, pp. 56–73). Springer International Publishing. https://doi.org/10.1007/978-3-030-49760-6_4
 
-> “who needs to understand the system, what they need to understand, what types of interpretations are appropriate, and when do these interpretations need to be provided”. [^ward2020]
+    [^accountability]: Information Commisioner's Office & Alan Turing Institute. (2020). Explaining decisions made with AI. https://ico.org.uk/media/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence-1-0.pdf; Algorithmic Accountability: Journalistic investigation of computational power structures. Digital Journalism, 3(3), 398–415. https://doi.org/10.1080/21670811.2014.976411.
 
-[^ico2020]: Information Commisioner's Office & Alan Turing Institute. (2020). Explaining decisions made with AI. https://ico.org.uk/media/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence-1-0.pdf
+    Much of this attention arises from the recognition that data-driven technologies have the potential to automate decision-making to varying degrees and, therefore, affect key ethical values and principles such as autonomy, accountability, responsibility, and informed consent. On the one hand, *decision support systems* can offer recommendations to users but are not responsible for enacting a decision directly. And, on the other hand, you have *fully automated-decision making systems*, which once set up require no human involvement. 
 
-[^ward2020]: Ward, F. R., & Habli, I. (2020). An Assurance Case Pattern for the Interpretability of Machine Learning in Safety-Critical Systems. In A. Casimiro, F. Ortmeier, E. Schoitsch, F. Bitsch, & P. Ferreira (Eds.), Computer Safety, Reliability, and Security. SAFECOMP 2020 Workshops (Vol. 12235, pp. 395–407). Springer International Publishing. https://doi.org/10.1007/978-3-030-55583-2_30
+    This distinction is admittedly coarse grained, but it will suffice for our purposes because it helps identify two illustrative cases where explainability matters. In the former case, although a human user is responsible for the decision, their judgement may be influenced and biased by the decision support system, potentially in ways that are problematic (e.g. leading to differential treatment for certain groups of users). In the latter case, no human is involved, but because the automated systems cannot be held morally or legally accountable for their decisions, if something goes wrong, a human will need to be able to identify the reason why the problem occurred and perhaps communicate this to other affected stakeholders.
+
+    In both of the above cases, extracting a valid and accurate explanation is necessary to enable post hoc forms of *accountability* or *transparency*. But prioritising ‘explainability’ from the start of a project also allows project teams to have better oversight of what their systems do and why, leading to more *responsible forms of project governance*. And, at the other end of the lifecycle, clear and accessible explanations can help ensure users and affected stakeholders are better *informed* and empowered to make *autonomous decisions* regarding their interactions with digital mental health technologies. Therefore, having an argument pattern for ‘explainability’ helps capture many of the key considerations that were raised during our workshops.
+
+    While the themes and values expressed in the following pattern are based primarily on the engagement with stakeholders, we have also drawn upon two other documents. First, we have drawn from prior guidance that we co-designed with the Information Commissioner’s Office.[^ico2020] This guide, titled 'Explaining Decisions Made with AI', details best practices for explainable AI in domain-general settings, and was also informed by stakeholder engagement. Second, we have incorporated some elements of an existing pattern for *interpretable* machine learning, which is motivated by a similar need for addressing a range of questions and concerns, such as the following:
+
+    > “who needs to understand the system, what they need to understand, what types of interpretations are appropriate, and when do these interpretations need to be provided”. [^ward2020]
+
+    [^ico2020]: Information Commisioner's Office & Alan Turing Institute. (2020). Explaining decisions made with AI. https://ico.org.uk/media/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence-1-0.pdf
+
+    [^ward2020]: Ward, F. R., & Habli, I. (2020). An Assurance Case Pattern for the Interpretability of Machine Learning in Safety-Critical Systems. In A. Casimiro, F. Ortmeier, E. Schoitsch, F. Bitsch, & P. Ferreira (Eds.), Computer Safety, Reliability, and Security. SAFECOMP 2020 Workshops (Vol. 12235, pp. 395–407). Springer International Publishing. https://doi.org/10.1007/978-3-030-55583-2_30
 
 ![A pattern for designing, developing, and deploying explainable digital mental health technologies](../assets/patterns/explainability-pattern.png)
 
@@ -184,6 +192,8 @@ The core attribute motivating this argument is shared with our fairness pattern.
 
 ##### Argument over *sustainable impact*
 
-The final argument also follows the theme of the fairness pattern, but rather than addressing *equitable impact*, it focuses on *sustainable impact*. This is important because explanations are sometimes used as a means to justify why a specific norm was transgressed (e.g. why you were late). However, over time, if the same explanation is provided without a change to the offending behaviour, the explanation loses its validity. A similar risk is present in the automated delivery of explanations by algorithmic systems. For example, if an AI chatbot continues to offer the same inaccurate and irrelevant explanations, it is likely to lose the trust of a user. Therefore, assessments about the impact of explainable AI need to account for longer-term dynamics to ensure that the relevant systems are sustainable over time.
+The final argument also follows the theme of the fairness pattern, but rather than addressing *equitable impact*, it focuses on *sustainable impact*[^sustainable]. This is important because explanations are sometimes used as a means to justify why a specific norm was transgressed (e.g. why you were late). However, over time, if the same explanation is provided without a change to the offending behaviour, the explanation loses its validity. A similar risk is present in the automated delivery of explanations by algorithmic systems. For example, if an AI chatbot continues to offer the same inaccurate and irrelevant explanations, it is likely to lose the trust of a user. Therefore, assessments about the impact of explainable AI need to account for longer-term dynamics to ensure that the relevant systems are sustainable over time.
+
+[^sustainable]: Not to be confused with the related SAFE-D principle, 'Sustainability'.
 
 The inclusion of clinical safety and efficacy should not suggest that these goals are not significant in their own right. In fact, we would advocate for a separate assurance case (and corresponding pattern) on these goals specifically. Instead, reference is simply made to the need to ensure that some form of explanation is provided to stakeholders.
