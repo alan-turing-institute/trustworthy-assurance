@@ -22,11 +22,11 @@ tags:
 
 Designing, developing, and deploying an AI system is not a one-person task[^village]! The stages and activities that comprise a typical AI project lifecycle involve a wide-ranging and far-reaching set of skills and capabilities. These skills are encapsulated within myriad roles, including 'project commissioner', 'product manager', 'data protection officer', 'data scientist', 'system architect' and 'software engineer'. And, these roles are interwoven such that they create an irreducible and collective responsibility that spans the entire project lifecycle, and may span multiple teams and organisations.
 
-[^village]: Rather, it "takes a village to raise an algorithm" as noted in this [blog post](https://cogent.co/blog/biasai/). Thanks to one of our reviewers for bringing this post to our attention. 
+[^village]: Rather, it "takes a village to raise an algorithm" as noted in this [blog post](https://cogent.co/blog/biasai/). Thanks to one of our reviewers for bringing this post to our attention.
 
 **Figure 1.1** presents a simplified model of a typical research or innovation lifecycle for a data science or AI project lifecycle, to help gain a purchase on these interweaving roles, skills, and responsibilities[^responsibilities].
 
-[^responsibilities]: To be clear, we are referring here to role and task responsibilities first and foremost, which overlap with but are conceptually separate from moral responsibility. 
+[^responsibilities]: To be clear, we are referring here to role and task responsibilities first and foremost, which overlap with but are conceptually separate from moral responsibility.
 
 The model represents three over-arching stages of `(project) design`, `(model) development`, and `(system) deployment`. For each stage, there are corresponding activities, detailed in **Table 1.1**. The project lifecycle is depicted as a circular process to highlight the fact that responsibility is ongoing and does not end once a system has been implemented or put into deployment. Rather, responsible (and trustworthy) approaches to research and innovation require consideration of how a technological system may need to be monitored and updated once in production, and removed and replaced once it reaches the end of its lifecycle. 
 
@@ -58,11 +58,11 @@ Although the specifics of the relationship between the two organisations will co
 
 ### Reflective and Anticipatory Deliberation
 
-At the start of a project, while activities such as planning and initial evaluation of feasibility are being conducted, the project lifecycle model can be used to structure *reflective* and *anticipatory* processes of deliberation among the project team. For instance, the team could use the model to identify and evaluate potential actions and decisions that are likely to emerge during specific activities, such as which data types may be required and whether stakeholders or users will consent to these data being collected and analysed (a reflective and anticipatory exercise). As this example suggests, the project team may carry out the preliminary deliberation, but additional stakeholders will need to be engaged to thoroughly evaluate the ethical, legal, and social permissibility and acceptability of the project. 
+At the start of a project, while activities such as planning and initial evaluation of feasibility are being conducted, the project lifecycle model can be used to structure *reflective* and *anticipatory* processes of deliberation among the project team. For instance, the team could use the model to identify and evaluate potential actions and decisions that are likely to emerge during specific activities, such as which data types may be required and whether stakeholders or users will consent to these data being collected and analysed (a reflective and anticipatory exercise). As this example suggests, the project team may carry out the preliminary deliberation, but additional stakeholders will need to be engaged to thoroughly evaluate the ethical, legal, and social permissibility and acceptability of the project.
 
-Consider another example. A team of developers working for a commercial organisation have identified a risk associated with an AI system they have developed, which they claim is able to detect emotions. They have been approached by a healthcare provider who wish to procure and implement their system into a video consultation service to help their counsellors better understand the emotional and behavioural responses of their patients during an initial assessment. However, the developers did not evaluate their model (during `Model Testing or Validation`) using a dataset that is representative of the patient population intended by the healthcare provider that has approached them (i.e. individuals that are likely to be suffering from a mental health issue). Therefore, the developers are unable to make any claims about the generalisability of their model to this new population. Moreover, neither the developers nor the healthcare provider have engaged the relevant stakeholder groups during `Project Planning` to determine if this would be an acceptable use for their system. As such, additional activities would need to be carried out to determine the full scope of the risks and possible harms that could arise from the use of this technology. This would likely require the procuring organisation (i.e. the healthcare provider) to set clear requirements for what forms of evidence would be required from the developers (e.g., at `Model Documentation`), and to determine clear boundaries and thresholds for whether the project should proceed. 
+Consider another example. A team of developers working for a commercial organisation have identified a risk associated with an AI system they have developed, which they claim is able to detect emotions. They have been approached by a healthcare provider who wish to procure and implement their system into a video consultation service to help their counsellors better understand the emotional and behavioural responses of their patients during an initial assessment. However, the developers did not evaluate their model (during `Model Testing or Validation`) using a dataset that is representative of the patient population intended by the healthcare provider that has approached them (i.e. individuals that are likely to be suffering from a mental health issue). Therefore, the developers are unable to make any claims about the generalisability of their model to this new population. Moreover, neither the developers nor the healthcare provider have engaged the relevant stakeholder groups during `Project Planning` to determine if this would be an acceptable use for their system. As such, additional activities would need to be carried out to determine the full scope of the risks and possible harms that could arise from the use of this technology. This would likely require the procuring organisation (i.e. the healthcare provider) to set clear requirements for what forms of evidence would be required from the developers (e.g., at `Model Documentation`), and to determine clear boundaries and thresholds for whether the project should proceed.
 
-As this example illustrates, the project lifecycle structure can help support forms of reflective and anticipatory deliberation that help instantiate a responsible ecosystem of research and innovation. But it can also help identify points in the lifecycle where structured and transparent communication between teams and organisations may be crucial. 
+As this example illustrates, the project lifecycle structure can help support forms of reflective and anticipatory deliberation that help instantiate a responsible ecosystem of research and innovation. But it can also help identify points in the lifecycle where structured and transparent communication between teams and organisations may be crucial.
 
 In addition, there is a further purpose for the project lifecycle model that will become clearer in the next sections: the identification of actions and decisions that generate forms of evidence that provide justificatory support for *trustworthy assurance*.
 
@@ -91,7 +91,7 @@ There are three basic elements of an argument:
 
 For example, the following figure constitutes a simple argument.
 
-![](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-1.png)
+![An example argument for a privacy goal](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-1.png)
 
 *Figure 1.3: a portion of a simplified assurance case on respect for privacy*
 
@@ -151,7 +151,7 @@ Once the team have reflected on all the stages of the project lifecycle, and car
 
 The following figure summarises the points made in the above example.
 
-![](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-2.png)
+![An example argument focusing on the explainability of an AI system](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-2.png)
 
 *Figure 1.4: a portion of the assurance case for this hypothetical project.*
 
@@ -168,7 +168,7 @@ Similarly, standards for evaluating the quality of evidence are well-established
 
 [^standards]: For example, guidance such as ISO/IEC/IEEE 16085, 'Systems and software engineering - Life cycle management - Risk Management'
 
-As distinct communities of practice develop and emerge, we would expect standards and best practices to evolve to help with both the identification and evaluation of evidence. Subsequently, this would help support the development of trustworthy assurance in domains such as digital mental healthcare because specific types of claims or evidence would be recognised as more reliable forms of evidence-based assurance. 
+As distinct communities of practice develop and emerge, we would expect standards and best practices to evolve to help with both the identification and evaluation of evidence. Subsequently, this would help support the development of trustworthy assurance in domains such as digital mental healthcare because specific types of claims or evidence would be recognised as more reliable forms of evidence-based assurance.
 
 It should be noted, however, that regulators and developers are not starting with a blank slate. There are many relevant standards that exist today, and new standards are emerging to support the procedure of constructing a trustworthy assurance case.[^aistandardshub] We will consider some of these standards in section 3.
 
@@ -177,7 +177,7 @@ It should be noted, however, that regulators and developers are not starting wit
 ## Argument Patterns
 ### Claims as Reasons
 
-Trustworthy assurance is a process of giving and justifying claims about choices made during the design, development, and deployment of a digital mental health technology. These claims can be viewed as a series of *reasons* for why a particular decision was made. 
+Trustworthy assurance is a process of giving and justifying claims about choices made during the design, development, and deployment of a digital mental health technology. These claims can be viewed as a series of *reasons* for why a particular decision was made.
 
 To see why, let’s assume that an organisation is in the process of procuring an AI-enabled chatbot to provide therapeutic support to service members returning from deployment.[^ptsd] As this technology is new and relatively untested, the organisation has a series of questions for the developers:
 
@@ -187,21 +187,21 @@ To see why, let’s assume that an organisation is in the process of procuring a
 
 [^ptsd]: For an example of this type of technology, see  Lucas et al. (2017). Reporting Mental Health Symptoms: Breaking Down Barriers to Care with Virtual Human Interviewers. *Frontiers in Robotics and AI*. [https://www.frontiersin.org/articles/10.3389/frobt.2017.00051](https://www.frontiersin.org/articles/10.3389/frobt.2017.00051)
 
-In answering these three questions, the developers would be *giving reasons* (supported by evidence) for their actions—reasons that would need to be accepted by the procuring organisation to be relevant and justifiable. This perspective on claims emphasises one of their most vital roles as *publicly contestable reasons*. That is, whether a claim (or set of interrelated claims) are valid in the context of an assurance case is, in part, conditional on whether they are accepted as *reasonable* justifications by those who are tasked with evaluating the assurance case[^towhom]. 
+In answering these three questions, the developers would be *giving reasons* (supported by evidence) for their actions—reasons that would need to be accepted by the procuring organisation to be relevant and justifiable. This perspective on claims emphasises one of their most vital roles as *publicly contestable reasons*. That is, whether a claim (or set of interrelated claims) are valid in the context of an assurance case is, in part, conditional on whether they are accepted as *reasonable* justifications by those who are tasked with evaluating the assurance case[^towhom].
 
 [^towhom]: See Kirsch, A. (2017). Explain to whom? Putting the User in the Center of Explainable AI. Proceedings of the First International Workshop on Comprehensibility and Explanation in AI and ML 2017 Co-Located with 16th International Conference of the Italian Association for Artificial Intelligence (AI*IA 2017). https://hal.archives-ouvertes.fr/hal-01845135
 
 Let’s look at another example. Consider the following section of an assurance case for the aforementioned chatbot, which the developers have produced for the procuring organisation:
 
-![](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-3.png)
+![An example argument pattern concerned with accessibility](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-3.png)
 *Figure 1.5: a portion of an assurance case for a chatbot*
 [^claim]
 
 [^claim]: Recall, that evidential claims are required to link property claims to their supporting evidential artefacts, and evidential claims, therefore, can also serve as reasons.
 
-As we have discussed, the organisation responsible for evaluating the trustworthiness of the AI system has to determine whether the evidential claim (EC1) is a *reasonable* choice to justify its parent claim (C2). They may, for instance, argue that EC1 is a *reasonable claim*, but nevertheless argue that it is insufficient on its own to justify the claim that the chatbot is an "accessible" alternative to human-led therapy. Alternatively, they may claim that it is *not reasonable* on the grounds that the ratings given by the service members are not relevant to establishing whether the chatbot is an “accessible form of therapy” but merely that the avatar is “friendly and realistic”. This example highlights a potential challenge associated with the development of assurance cases: determining what constitutes *relevant*, *sufficient*, and *reasonable* claims. 
+As we have discussed, the organisation responsible for evaluating the trustworthiness of the AI system has to determine whether the evidential claim (EC1) is a *reasonable* choice to justify its parent claim (C2). They may, for instance, argue that EC1 is a *reasonable claim*, but nevertheless argue that it is insufficient on its own to justify the claim that the chatbot is an "accessible" alternative to human-led therapy. Alternatively, they may claim that it is *not reasonable* on the grounds that the ratings given by the service members are not relevant to establishing whether the chatbot is an “accessible form of therapy” but merely that the avatar is “friendly and realistic”. This example highlights a potential challenge associated with the development of assurance cases: determining what constitutes *relevant*, *sufficient*, and *reasonable* claims.
 
-In the context of safety assurance, a large body of guidance has been established to help developers assess what claims they will need to establish and justify, and a key part of this guidance is the development of *argument patterns*. 
+In the context of safety assurance, a large body of guidance has been established to help developers assess what claims they will need to establish and justify, and a key part of this guidance is the development of *argument patterns*.
 
 ### What are argument patterns?
 Argument patterns are *starting templates* for building assurance cases. They identify the types of claims (or, the sets of reasons) that need to be established to justify the associated top-level normative goal. **Figure 1.6** shows an example argument pattern for the technical goal of interpretability.[^ward2020]
@@ -213,15 +213,15 @@ Argument patterns are *starting templates* for building assurance cases. They id
 
 The pattern depicted in Figure 1.6 shows a template for an assurance case that serves to justify the following top-level goal: 
 
-> "The {ML Model} is sufficiently {interpretable} in the intended {context}". 
- 
+> "The {ML Model} is sufficiently {interpretable} in the intended {context}".
+
 Here, the curly brackets serve as placeholders for specific variables that are properly established when a full assurance case is developed. A notable contribution of this pattern is the identification of three essential aspects of interpretability:
 
 1. Right Method: The right interpretability methods are implemented, i.e. the correct information is faithfully being explained.
-2. Right Context: 
-	- Time: Interpretations produced at the appropriate times. 
-	- Setting: Interpretations are available in the right setting. 
-	- Audience: Interpretations produced for the right audience. 
+2. Right Context:
+	- Time: Interpretations produced at the appropriate times.
+	- Setting: Interpretations are available in the right setting.
+	- Audience: Interpretations produced for the right audience.
 3. Right Format: The interpretability methods are presented in the right format for the audience.
 
 These three essential aspects subsequently serve to delineate the more detailed argument and evidential claims at the lowest levels. 
@@ -235,7 +235,7 @@ Argument patterns, such as the one above, are helpful for the following reasons:
 But where do they come from?
 
 ### Generalisable Patterns
-In the case of the argument pattern from Figure 1.6, this pattern was proposed by the authors as a means to address a gap in the safety assurance of ML systems. As experts in their domain, and as a peer-reviewed contribution, this is a valid source for an argument pattern. 
+In the case of the argument pattern from Figure 1.6, this pattern was proposed by the authors as a means to address a gap in the safety assurance of ML systems. As experts in their domain, and as a peer-reviewed contribution, this is a valid source for an argument pattern.
 
 However, an alternative (though not entirely disconnected) means for achieving generalisable structures and patterns is through participatory engagement from stakeholders and affected users, perhaps building sample assurance cases and then extracting common themes. This is the method that we have explored in the current project on Digital Mental Healthcare and subsequently propose as a procedure for Trustworthy Assurance.
 
@@ -243,11 +243,11 @@ Much like ML algorithms, humans have remarkably effective (but biased) *pattern 
 
 > "We can think of the emergence of a human right as the coming together of the *recognition* of a problem; the belief that the problem, is very severe; and optimism about the possibility of addressing it through social and political action at national and international levels." [^nickel2007]
 
-[^nickel2007]: Nickel, J. W. (2007) Making Sense of Human Rights (2nd Edition). Blackwell Publishing. 
+[^nickel2007]: Nickel, J. W. (2007) Making Sense of Human Rights (2nd Edition). Blackwell Publishing.
 
-Similarly, we can think of ethical and social norms as the *shared recognition* and subsequent externalisation of beliefs and attitudes towards events as diverse as acceptable etiquette during a dinner party through to permissible forms of punishment for various transgressions. 
+Similarly, we can think of ethical and social norms as the *shared recognition* and subsequent externalisation of beliefs and attitudes towards events as diverse as acceptable etiquette during a dinner party through to permissible forms of punishment for various transgressions.
 
-This understanding of the emergence of norms is crucial to ensuring the relevance, sufficiency, and reasonableness of evidence, and the legitimacy of corresponding trustworthy argument patterns. 
+This understanding of the emergence of norms is crucial to ensuring the relevance, sufficiency, and reasonableness of evidence, and the legitimacy of corresponding trustworthy argument patterns.
 
 In terms of the emergence of argument patterns, the three elements that we have explored already are, again, important: the top-level normative goal, the property claims, and the evidential support. Let's take each of these in turn.
 
@@ -259,7 +259,7 @@ The phrase 'trustworthy assurance' creates a wide scope for top-level goals that
 - Explainability
 - Data (Quality, Integrity, Protection and Privacy)
 
-These principles have been refined and validated in a wide range of domains, and were originally based on a broad understanding of the typical harms and benefits associated with data-driven technology (e.g. starting from the felt injustices or needs of users and stakeholders, and developing principles to reflect these challenges). Therefore, unlike alternative frameworks they are tailored to the specific needs and challenges of responsible, trustworthy, and ethical data science and AI, rather than, say, importing or revising existing frameworks such as biomedical ethics. [^floridi] 
+These principles have been refined and validated in a wide range of domains, and were originally based on a broad understanding of the typical harms and benefits associated with data-driven technology (e.g. starting from the felt injustices or needs of users and stakeholders, and developing principles to reflect these challenges). Therefore, unlike alternative frameworks they are tailored to the specific needs and challenges of responsible, trustworthy, and ethical data science and AI, rather than, say, importing or revising existing frameworks such as biomedical ethics. [^floridi]
 
 However, the SAFE-D principles were designed to be *domain-neutral* starting points. That is, we did not presume that these principles would capture the ethical, social, and legal values that are dominant in digital mental healthcare. Instead, the present project undertook a process of exploratory engagement and participatory design to explore which ethical values and principles were relevant to the specific context of trustworthy digital mental healthcare, and whether specific SAFE-D principles captured these. We will return to this point in Section 3 where we analyse our findings from the project's workshops.
 
@@ -288,4 +288,4 @@ Figure 1.7 offers a simple graphic to help visualise this process as it relates 
 ![Figure 1.7: process of consensus formation for ethical principles as constraints on trustworthy assurance](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/cycle.png)
 *Figure 1.7: process of consensus formation for ethical principles as constraints on trustworthy assurance*
 
-These preliminary remarks about trustworthy assurance serve as a foundation for understanding and contextualising our project's research and the recommendations we derive from our findings. 
+These preliminary remarks about trustworthy assurance serve as a foundation for understanding and contextualising our project's research and the recommendations we derive from our findings.
