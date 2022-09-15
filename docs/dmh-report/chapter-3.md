@@ -25,15 +25,15 @@ tags:
 
 Prior to the onset of the Covid-19 pandemic, the suggestion that student mental health was in crisis across UK universities was already prominent.[^1] Media attention intensified around 2017, for instance, in response to a cluster of high-profile suicides.[^2] Since then, concern has only grown further, and focus has turned to whether the crisis has worsened due to the increased social isolation brought about by Covid-19 and remote learning.[^3]  
 
-[^1]: (https://www.theguardian.com/society/2019/sep/27/anxiety-mental-breakdowns-depression-uk-students )
-[^2]: (https://journals.sagepub.com/doi/full/10.1177/02610183211024820)
-[^3]: (https://www.timeshighereducation.com/news/uk-student-mental-health-crisis-may-be-worse-thought  , https://www.if.org.uk/2021/03/11/new-ons-data-show-student-mental-health-crisis/)
+[^1]: [https://www.theguardian.com/society/2019/sep/27/anxiety-mental-breakdowns-depression-uk-students](https://www.theguardian.com/society/2019/sep/27/anxiety-mental-breakdowns-depression-uk-students)
+[^2]: [https://journals.sagepub.com/doi/full/10.1177/02610183211024820](https://journals.sagepub.com/doi/full/10.1177/02610183211024820)
+[^3]: [https://www.timeshighereducation.com/news/uk-student-mental-health-crisis-may-be-worse-thought](https://www.timeshighereducation.com/news/uk-student-mental-health-crisis-may-be-worse-thought); [https://www.if.org.uk/2021/03/11/new-ons-data-show-student-mental-health-crisis/](https://www.if.org.uk/2021/03/11/new-ons-data-show-student-mental-health-crisis/)
 
 While media reports have been criticised for their simplistic focus on suicide figures as a metric for student wellbeing, research by The Office for Students has found that lengthy waiting times for counselling and a rise in help-seeking behaviour have both put an increased strain on services. All this has occurred during a period where the overall student population has grown.[^4]
 
-[^4]: (https://www.officeforstudents.org.uk/media/b3e6669e-5337-4caa-9553-049b3e8e7803/insight-brief-mental-health-are-all-students-being-properly-supported.pdf , https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(19)30275-5/fulltext)
+[^4]: [https://www.officeforstudents.org.uk/media/b3e6669e-5337-4caa-9553-049b3e8e7803/insight-brief-mental-health-are-all-students-being-properly-supported.pdf](https://www.officeforstudents.org.uk/media/b3e6669e-5337-4caa-9553-049b3e8e7803/insight-brief-mental-health-are-all-students-being-properly-supported.pdf), [https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(19)30275-5/fulltext](https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(19)30275-5/fulltext)
 
-Research continues to point to significant challenges facing university mental health services given factors such as the fivefold increase in students disclosing mental health conditions between 2007 and 2017[^5] and the lack of capacity to address student concerns quickly. For instance, NUS research found that only one in six students received professional support within one week of reaching out.[^6]   
+Research continues to point to significant challenges facing university mental health services given factors such as the fivefold increase in students disclosing mental health conditions between 2007 and 2017[^5] and the lack of capacity to address student concerns quickly. For instance, NUS research found that only one in six students received professional support within one week of reaching out.[^6]
 
 [^5]: (https://www.bmj.com/content/361/bmj.k2608.long)
 [^6]: (https://nusdigital.s3-eu-west-1.amazonaws.com/document/documents/33436/59301ace47d6320274509b83e1bea53e/NUSUSI_Student_Wellbeing_Research_Report.pdf)
@@ -82,7 +82,7 @@ The findings presented below are based upon a series of participatory engagement
 
 Key findings from these engagements conducted with university administrators and students are presented as follows. First, we explore contextual challenges to the ethical deployment of digital mental health technologies at universities, as raised by students and administrators. Second, we present findings on how the implementation of trustworthy assurance to this sector may resolve challenges. In each case, distinct perspectives from administrators as compared to students will be highlighted and conclusions for the future of ethical digital mental healthcare procurement summarised.
 
-As discussed in the [Introduction](#introduction), digital technologies raise a distinct set of ethical issues when deployed in a mental health context. For example, it is necessary to consider their impact on the therapeutic relationship and the privacy implications of using sensitive health data.[^16]  Many of these ethical issues continue to be relevant at UK universities. However, the challenges posed by emerging digital mental health tools are specific to the context in which they are deployed. Therefore, this sub-project set out to determine HE sector-specific challenges to the trustworthy and ethical procurement and assurance of digital mental health technologies. 
+As discussed in the [Introduction](#introduction), digital technologies raise a distinct set of ethical issues when deployed in a mental health context. For example, it is necessary to consider their impact on the therapeutic relationship and the privacy implications of using sensitive health data.[^16]  Many of these ethical issues continue to be relevant at UK universities. However, the challenges posed by emerging digital mental health tools are specific to the context in which they are deployed. Therefore, this sub-project set out to determine HE sector-specific challenges to the trustworthy and ethical procurement and assurance of digital mental health technologies.
 
 [^16]: (https://www.nuffieldbioethics.org/assets/pdfs/The-role-of-technology-in-mental-healthcare.pdf)
 
@@ -112,13 +112,13 @@ However, despite these legalistic framings, it is clear that the law does not pr
 [^18]: https://www.amosshe.org.uk/futures-duty-of-care-2015
 
 > **Administrator Perspective**
-> 
+>
 > “I think again it is such a problematic area for higher education institutions. I’m not sure there is any clarity within the sector about that duty of care.”
 
 Ambiguities with regard to the nature and scope of a university’s duty of care can be observed when universities must balance tensions between the preservation of student autonomy and the management of risk through forced intervention. Administrators raise the difficulty of these decisions on whether to intervene, illustrating uncertainty around duty of care. 
 
 > **Administrator Perspective**
-> 
+>
 > “They are 18, they are adults. If they don’t want our interventions, there is very little we can do. So, for us, it is balancing that fine line all the time”
 >
 > “I think we are at a very interesting period of somebody’s life. The complications are, obviously, over-18 somebody will be in 99.9% of cases an adult. So, understanding the duty of care you have to… people as children or minors is very different from this new stage. But there does seem to by some muddying of the waters with this and it comes up a lot.”
@@ -151,14 +151,14 @@ Continued work is needed in order to understand if and how duty of care can be t
 Ambiguities surrounding the relative roles and responsibilities of different teams and institutions to protect student mental health have also at times hampered effective decision-making with regard to digital mental health. Descriptions of the decision-making rationale provided by administrators suggest a procurement process which is reactive rather than proactive, with a tendency to stick to the status quo or shift tack dramatically during a crisis.
 
 > **Administrator Perspective**
-> 
+>
 > 	“There was a general panic early March of "oh my god, what is going to happen?"”
 > 
 > “Quick leaps. It wasn’t particularly an evolution. We’d been considering it [Togetherall] ourselves for a couple of years so it was on the horizon but that [the pandemic] was the thing that really pushed us to do that”
-> 
+>
 > “With TogetherAll, a lot of universities have been offering it a long time, and there was a clinical trial, but anecdotally when you go on the mail base and talk to other heads of services and ask if their students are using it, they find students just aren’t really using it. That’s what we find. Paying a lot of money and people aren’t using it. But they don’t want to look bad or roll it back.”
 
-Reactive decisions are in part a consequence of the lack of clarity surrounding who is responsible for decisions on the procurement of digital mental health tools. First, there are significant ambiguities surrounding the relationship between university mental health services and the NHS. During engagements, administrators revealed that responsibility for procurement of digital services such as Togetherall resided in most instances with the university, but in certain cases with the NHS. In particular, administrators suggested that at times of crisis, where one institution was struggling to cope, the other had stepped in to fill a gap through purchasing a digital service. This dual responsibility can result in inconsistencies in who takes procurement decisions and in the long run could create a vacuum of responsibility if it is unclear where leadership lies. 
+Reactive decisions are in part a consequence of the lack of clarity surrounding who is responsible for decisions on the procurement of digital mental health tools. First, there are significant ambiguities surrounding the relationship between university mental health services and the NHS. During engagements, administrators revealed that responsibility for procurement of digital services such as Togetherall resided in most instances with the university, but in certain cases with the NHS. In particular, administrators suggested that at times of crisis, where one institution was struggling to cope, the other had stepped in to fill a gap through purchasing a digital service. This dual responsibility can result in inconsistencies in who takes procurement decisions and in the long run could create a vacuum of responsibility if it is unclear where leadership lies.
 
 > **Administrator Perspective**
 > 
@@ -208,7 +208,7 @@ Greater clarity on responsibility for digital technologies within university men
 
 The relationships between universities and developers do suggest for-profit companies are having a significant influence on the procurement of digital mental health technologies. The constant flood of digital offerings creates an environment where mental health teams struggle to ensure services are driven by student demand. Additionally, the nature of pitches received from developers often makes it impossible to evaluate services on the basis of evidence. Finally, the volume of products on the market has led to a dichotomy whereby administrators either spend significant time filtering through proposals or ignore them altogether. 
 
-![An illustration of a person being overwhelmed by notifications](../assets/images/overwhelmed.png)
+![An illustration of a person being overwhelmed by notifications](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/overwhelmed.png)
 
 > **Administrator Perspective**
 > 
