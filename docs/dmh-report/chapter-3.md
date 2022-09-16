@@ -9,7 +9,7 @@ tags:
 ---
 # Applying Trustworthy Assurance—Digital Mental Healthcare at UK Universities
 
-![A placeholder image](https://via.placeholder.com/800x400?text=Placeholder+Image)
+![Isometric illustration of a University where students are using digital mental health technologies](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/ch3-header.png){ .off-glb }
 
 > **Chapter Overview**
 >
