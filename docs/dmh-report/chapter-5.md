@@ -40,7 +40,7 @@ Before this, we present and explain two argument patterns for use in the assuran
 
 ### Fairness
 
-![An illustration showing varying performance and fidelity of a model's representation of people](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/representation-background.png) { .off-glb }
+![An illustration showing varying performance and fidelity of a model's representation of people](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/representation-background.png){ .off-glb }
 
 In the context of data-driven technologies, a core attribute of fairness is the equal distribution of risk and benefit across all groups of affected users. For instance, a technology that was highly accurate for users aged between 18-30 but became decreasingly accurate for older individuals would be unfair to those from higher age brackets.
 
@@ -97,9 +97,9 @@ The pattern that has been developed, through participation of stakeholders and u
 
 #### Fairness Pattern
 
-![A pattern for designing, developing, and deploying fair digital mental health technologies](../assets/patterns/fairness-pattern.png)
+![A pattern for designing, developing, and deploying fair digital mental health technologies](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/patterns/fairness-pattern-final.png)
 
-*Figure 4.1: A pattern for designing, developing, and deploying fair digital mental health technologies* (:material-magnify-plus: click image to expand; :material-download: download [here](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/fairness-pattern.png))
+*Figure 4.1: A pattern for designing, developing, and deploying fair digital mental health technologies* (:material-magnify-plus: click image to expand; :material-download: download [here](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/patterns/fairness-pattern-final.png))
 
 The goal claim in this argument pattern addresses distributional concepts of fairness (e.g. whether harms and benefits are shared equally), while also acknowledging broader conceptions of social justice (e.g. representational harms to marginalised groups). 
 
@@ -138,15 +138,27 @@ Finally, this argument references positive duties that matter in the context of 
 
 ### Explainability
 
-![An illustration of a healthcare professional explaining an automated decision to patients](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/publlic-trust.png) { .off-glb }
+![An illustration of a healthcare professional explaining an automated decision to patients](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/public-trust.png){ .off-glb }
 
 Much like fairness, explainability has become a popular and thriving area of research (e.g. so-called XAI). And, also like fairness, it is a normative goal that encompasses a range of significant concerns and salient ethical values.
 
 The most obvious conceptual distinction is between `interpretability` as a core component of `explainability`. Whereas the former is to often treated as the ability for developers or users to understand the inner workings of algorithms (or inability in the case of complex, non-linear techniques), the latter refers to an interpersonal ability to communicate knowledge in a manner that is accessible to those who may be asking questions about a system (e.g. patients asking for explanations from a clinician). Although statistical techniques help significantly in the case of the former, they are more limited in their ability to support the latter where a more diverse range of users are likely.
 
-!!! info "Why does this pattern matter?”
+!!! info "Why does this pattern matter?"
 
     Explainable AI has received a lot of attention over the last several years.[^explainableAI] Computer scientists have developed new tools and methods to improve the interpretability of otherwise opaque algorithms, such as neural networks.[^XAIreview] Researchers in psychology and human-computer interaction have explored how different components of the user experience can help support more intentional interactions with intelligent software agents.[^hci] And, regulators, auditors, and journalists have investigated how to make systems more transparent to support objectives related to accountability and informed decision-making.[^accountability]
+    
+    Much of this attention arises from the recognition that data-driven technologies have the potential to automate decision-making to varying degrees and, therefore, affect key ethical values and principles such as autonomy, accountability, responsibility, and informed consent. On the one hand, *decision support systems* can offer recommendations to users but are not responsible for enacting a decision directly. And, on the other hand, you have *fully automated-decision making systems*, which once set up require no human involvement.
+    
+    This distinction is admittedly coarse grained, but it will suffice for our purposes because it helps identify two illustrative cases where explainability matters. In the former case, although a human user is responsible for the decision, their judgement may be influenced and biased by the decision support system, potentially in ways that are problematic (e.g. leading to differential treatment for certain groups of users). In the latter case, no human is involved, but because the automated systems cannot be held morally or legally accountable for their decisions, if something goes wrong, a human will need to be able to identify the reason why the problem occurred and perhaps communicate this to other affected stakeholders.
+
+    In both of the above cases, extracting a valid and accurate explanation is necessary to enable post hoc forms of *accountability* or *transparency*. But prioritising ‘explainability’ from the start of a project also allows project teams to have better oversight of what their systems do and why, leading to more *responsible forms of project governance*. And, at the other end of the lifecycle, clear and accessible explanations can help ensure users and affected stakeholders are better *informed* and empowered to make *autonomous decisions* regarding their interactions with digital mental health technologies. Therefore, having an argument pattern for ‘explainability’ helps capture many of the key considerations that were raised during our workshops.
+
+    While the themes and values expressed in the following pattern are based primarily on the engagement with stakeholders, we have also drawn upon two other documents. First, we have drawn from prior regulatory guidance that we co-designed with the Information Commissioner’s Office. This guide, titled 'Explaining Decisions Made with AI', details best practices for explainable AI in domain-general settings, and was also informed by stakeholder engagement. The regulatory ecosystem around explainability is less developer than fairness and equality, but as this report acknowledges there are still legislative and regulatory considerations that organisations need to consider, such as the wide-range of rights established by the General Data Protection Regulation and implemented in the UK's Data Protection Act 2018, such as the need to uphold individuals rights to be informed or to object to automated decisions.[^ico2020]
+    
+    Second, we have incorporated some elements of an existing pattern for *interpretable* machine learning[^ward2020], which is motivated by a similar need for addressing a range of questions and concerns, such as the following:
+
+    > “who needs to understand the system, what they need to understand, what types of interpretations are appropriate, and when do these interpretations need to be provided” (Ward and Habli, 2020).
 
     [^explainableAI]: See the following notable publications: Phillips et al. (2021). Four Principles of Explainable Artificial Intelligence. National Institute of Standards and Technology. https://doi.org/10.6028/NIST.IR.8312;  Miller, T. (2019). Explanation in artificial intelligence: Insights from the social sciences. Artificial Intelligence, 267, 1–38. https://doi.org/10.1016/j.artint.2018.07.007; Diakopoulos, N. (2015).
 
@@ -156,40 +168,26 @@ The most obvious conceptual distinction is between `interpretability` as a core 
 
     [^accountability]: Information Commisioner's Office & Alan Turing Institute. (2020). Explaining decisions made with AI. https://ico.org.uk/media/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence-1-0.pdf; Algorithmic Accountability: Journalistic investigation of computational power structures. Digital Journalism, 3(3), 398–415. https://doi.org/10.1080/21670811.2014.976411.
 
-    Much of this attention arises from the recognition that data-driven technologies have the potential to automate decision-making to varying degrees and, therefore, affect key ethical values and principles such as autonomy, accountability, responsibility, and informed consent. On the one hand, *decision support systems* can offer recommendations to users but are not responsible for enacting a decision directly. And, on the other hand, you have *fully automated-decision making systems*, which once set up require no human involvement. 
-
-    This distinction is admittedly coarse grained, but it will suffice for our purposes because it helps identify two illustrative cases where explainability matters. In the former case, although a human user is responsible for the decision, their judgement may be influenced and biased by the decision support system, potentially in ways that are problematic (e.g. leading to differential treatment for certain groups of users). In the latter case, no human is involved, but because the automated systems cannot be held morally or legally accountable for their decisions, if something goes wrong, a human will need to be able to identify the reason why the problem occurred and perhaps communicate this to other affected stakeholders.
-
-    In both of the above cases, extracting a valid and accurate explanation is necessary to enable post hoc forms of *accountability* or *transparency*. But prioritising ‘explainability’ from the start of a project also allows project teams to have better oversight of what their systems do and why, leading to more *responsible forms of project governance*. And, at the other end of the lifecycle, clear and accessible explanations can help ensure users and affected stakeholders are better *informed* and empowered to make *autonomous decisions* regarding their interactions with digital mental health technologies. Therefore, having an argument pattern for ‘explainability’ helps capture many of the key considerations that were raised during our workshops.
-
-    While the themes and values expressed in the following pattern are based primarily on the engagement with stakeholders, we have also drawn upon two other documents. First, we have drawn from prior regulatory guidance that we co-designed with the Information Commissioner’s Office. This guide, titled 'Explaining Decisions Made with AI', details best practices for explainable AI in domain-general settings, and was also informed by stakeholder engagement. The regulatory ecosystem around explainability is less developer than fairness and equality, but as this report acknowledges there are still legislative and regulatory considerations that organisations need to consider, such as the wide-range of rights established by the General Data Protection Regulation and implemented in the UK's Data Protection Act 2018, such as the need to uphold individuals rights to be informed or to object to automated decisions.[^ico2020]
-    
-    Second, we have incorporated some elements of an existing pattern for *interpretable* machine learning, which is motivated by a similar need for addressing a range of questions and concerns, such as the following:
-
-    > “who needs to understand the system, what they need to understand, what types of interpretations are appropriate, and when do these interpretations need to be provided”. [^ward2020]
-
     [^ico2020]: Information Commisioner's Office & Alan Turing Institute. (2020). Explaining decisions made with AI. https://ico.org.uk/media/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence-1-0.pdf
 
     [^ward2020]: Ward, F. R., & Habli, I. (2020). An Assurance Case Pattern for the Interpretability of Machine Learning in Safety-Critical Systems. In A. Casimiro, F. Ortmeier, E. Schoitsch, F. Bitsch, & P. Ferreira (Eds.), Computer Safety, Reliability, and Security. SAFECOMP 2020 Workshops (Vol. 12235, pp. 395–407). Springer International Publishing. https://doi.org/10.1007/978-3-030-55583-2_30
 
 #### Explainability Pattern
 
-![A pattern for designing, developing, and deploying explainable digital mental health technologies](../assets/patterns/explainability-pattern.png)
+![A pattern for designing, developing, and deploying explainable digital mental health technologies](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/patterns/explainability-pattern-final.png)
 
-*Figure 4.2: A pattern for designing, developing, and deploying explainable digital mental health technologies* (:material-magnify-plus: click image to expand, :material-download: download [here](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/explainability-pattern.png))
+*Figure 4.2: A pattern for designing, developing, and deploying explainable digital mental health technologies* (:material-magnify-plus: click image to expand, :material-download: download [here](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/patterns/explainability-pattern-final.png))
 
-In previous guidance, we have distinguished between two sub-categories of explanations:
+In previous guidance[^ico2020], we have distinguished between two sub-categories of explanations:
 
 1. *Process-based explanations* of AI systems are about demonstrating that you have followed good governance processes and best practices throughout your design and use.
 2. *Outcome-based explanations* of AI systems are about clarifying the results of a specific decision. They involve explaining the reasoning behind a particular algorithmically-generated outcome in plain, easily understandable, and everyday language.
 
-Both of these sub-categories inform our pattern, as well as the six associated explanation types and principles that the guidance recommends. However, to address the specific context of digital mental healthcare, we diverge from the framework presented in the guide while remaining consistent with its recommendations.
+These categories are reflected in our pattern, where they form 'intermediate arguments' that help refine the goal claim and also serve as scaffolding for the main arguments.
 
-The goal claim addresses both sub-categories of explanation directly while also drawing attention to the different stages of the project lifecycle. The inclusion of this latter component sets an important foundation for where different explanation types and core attributes of explainability may be extracted and developed.
+As with the fairness pattern, placeholders for `System Description` and `Context of Use` and `Stakeholder` are also included.
 
-As with the fairness pattern, placeholders for `System Description` and `Context of Use` and `Stakeholder` are included.
-
-The goal is then broken into four higher-level property claims and their respective sub-claims, which we group according to the following core attributes of the Explainability principle as specified and operationalised in the context of digital mental health technology:
+The intermediate arguments are then broken into four higher-level property claims and their respective sub-claims, which we group according to the following core attributes of the Explainability principle as specified and operationalised in the context of digital mental health technology:
 
 * Argument over `transparency and accountability`
 * Argument over `responsible project governance`
@@ -198,17 +196,19 @@ The goal is then broken into four higher-level property claims and their respect
 
 ##### Argument over *transparency and accountability*
 
-This argument addresses the processes and mechanisms that have been undertaken throughout the project lifecycle to ensure adequate and meaningful forms of transparency and accountability. This includes explanations about the choices made during the collection, analysis, and use of data (e.g. why certain data types were included or excluded). Importantly, this argument also recommend the inclusion of a statement about sources of funding and conflicts of interest, as this was an important concern that arose during our engagement.
+This argument addresses the processes and mechanisms that have been undertaken throughout the project lifecycle to sufficient forms of transparency and accountability. This includes documentation relevant to the identification of responsible project members, as well as choices made about data (e.g. why certain data types were included or excluded). Importantly, this argument also recommend the inclusion of a statement about sources of funding and conflicts of interest, which was an important matter for trustworthiness that arose during our engagement with users.
 
 ##### Argument over *responsible project governance*
 
-This argument may appear more comprehensive than the others, but this is because it addresses the three over-arching stages of the project lifecycle model: (project) design, (model) development, (system) deployment. The second-level claims align with these stages, but refer directly to 'meaningful forms of participatory design and engagement', a 'responsible method of interpretability', and 'accessible forms of communication'. 
+This argument is more comprehensive than the others, and so is further split into three sub-arguments:
 
-While engagement is emphasised for the first stage, this does not rule out the need for engagement or other forms of participation at later stages. For instance, the claim about sufficient levels of accuracy and the potential trade-off with interpretability could be informed by evidence from stakeholder engagement about what an acceptable threshold would be for such a trade-off. Similarly, what constitutes 'accessible' forms of communication will likely be informed by consultation with intended users and knowledge about any time-constraints presented by the context of use.
+1. Sub-argument over meaningful engagement: here, meaningful engagement can be seen to include participation in decisions about the formulation of the problem that a DMHT is expected to address, as well as use of data usage—both of which affect later stages of the project lifecycle and the final behaviour of the deployed system.
+2. Sub-argument over interpretability: sufficient levels of accuracy and the potential trade-off with interpretability can require high levels of technical and data literacy Therefore, this argument focuses on the requisite information that is needed to support explainability (recall earlier distinction between `interpretability` and `explainability`).
+3. Sub-argument over accessible communication: the previous sub-argument feeds into this sub-argument, which focuses on how 'accessible' forms of communication will achieved, and the challenges of communicating probabilistic information. Ultimately, this sub-argument will depend on decisions reached and evidence obtained through consultation with intended users, as well as on the basis of knowledge about any time-constraints presented by the context of use (e.g. urgency in high-risk care environments).
 
 ##### Argument over *informed and autonomous decision-making*
 
-The core attribute motivating this argument is shared with our fairness pattern. Here, the argument emphasises the importance of explanations that refer to the observed behaviours or outcomes of the system. For instance, one of the claims is intended to ensure that explanations are sufficiently expressive, without overwhelming the user with unnecessary or overly-complex information. This will depend on the intended user and context of use. However, to supplement this claim, emphasis is also placed on the ability for user to challenge outcomes, rather than just having them explained.
+The core attribute motivating this argument is shared with our fairness pattern. Here, the argument emphasises the importance of explanations that refer to the observed behaviours or outcomes of the system. For instance, one of the claims is intended to ensure that explanations are "sufficiently expressive", without overwhelming the user with unnecessary or overly-complex information. This will depend on the intended user and context of use. However, to supplement this claim, emphasis is also placed on the ability for user to challenge outcomes, rather than just having them explained without an option to contest.
 
 ##### Argument over *sustainable impact*
 
@@ -220,3 +220,25 @@ The inclusion of clinical safety and efficacy should not suggest that these goal
 
 ### Evidential Considerations
 
+Neither of the patterns above include prescriptions about specific evidential artefacts that could be used to ground the assurance case. There are two reasons for this intentional omission:
+
+1. Prescribing specific forms of evidence is too difficult outside of highly constrained contexts where there are clear details about a) the intended use context, b) the type of ML/AI technique being used, and c) the intended users and target audience.
+2. Developers and regulators should be free to determine the appropriate forms of evidence, based on developing best practices and standards, many of which do not exist at present.
+
+However, there are a couple of general remarks that can be made, as well as some suggestions for further resources.
+
+First, as we have argued elsewhere[@burr_ethical_2022], the generation, evaluation, and selection of evidence can be guided by the following considerations:
+
+1. Is the evidential artefact/claim *relevant* to the parent claim
+2. Is the evidential artefact/claim (or set of artefacts/claims) *sufficient* to justify the parent claim?
+3. Is there sufficient *probative value* in the overall assurance case to justify the top-level normative goal?
+
+Outside of the regulatory considerations already mentioned above, there have been several developments in recent years to help organisations address these considerations. Some examples (among many) include:
+
+- [Model Cards for Model Reporting](https://modelcards.withgoogle.com/about): templates for model documentation, which include ethical considerations alongside statistical information to support reuse.
+- [Responsible AI Licensing](https://www.licenses.ai/): licenses that help developers restrict the use of their AI technology in order to prevent irresponsible and harmful applications.
+- [Data Hazards](https://datahazards.com/): a set of labels that enable project members to make decisions about the risks of data-driven technologies using a shared vocabulary
+- [Assurance of Machine Learning in Autonomous Systems (AMLAS)](https://www.york.ac.uk/assuring-autonomy/guidance/amlas/): a methodology for assuring the safety of ML systems, with systematic means for evaluating processes such as model testing or verification.
+- [Algorithmic Transparency Standard](https://www.gov.uk/government/collections/algorithmic-transparency-standard): a template for organisations to use when choosing to publish information about how they are using algorithmic systems to aid decision-making.
+
+Typically, these tools, methods, or templates exist to help organisations and project teams address a specific challenge (e.g. licensing, model documentation). The framework and methodology we have presented in this report is designed to work alongside these tools, but it also goes further by helping teams organise them according to a particular goal or objective (e.g. fairness). As such, our framework and methodology is broader in scope and offers a systematic means for choosing when to use specific tools throughout a project's lifecycle and how to bring the documented evidence together to create a trustworthy and justifiable assurance case.
