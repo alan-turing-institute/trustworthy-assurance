@@ -8,7 +8,7 @@ tags:
 ---
 # Developing Trustworthy Assurance—Argument Patterns for fairness and Explainability
 
-![Conceptual header image of people building an assurance case](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/chapter-5-header.png){ .off-glb }
+![Conceptual header image of people building an assurance case](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/ch5-header.png){ .off-glb }
 
 > **Chapter Overview**
 >
@@ -99,7 +99,7 @@ The pattern that has been developed, through participation of stakeholders and u
 
 ![A pattern for designing, developing, and deploying fair digital mental health technologies](../assets/patterns/fairness-pattern.png)
 
-*Figure 4.1: A pattern for designing, developing, and deploying fair digital mental health technologies* (:material-magnify-plus: click image to expand)
+*Figure 4.1: A pattern for designing, developing, and deploying fair digital mental health technologies* (:material-magnify-plus: click image to expand; :material-download: download [here](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/fairness-pattern.png))
 
 The goal claim in this argument pattern addresses distributional concepts of fairness (e.g. whether harms and benefits are shared equally), while also acknowledging broader conceptions of social justice (e.g. representational harms to marginalised groups). 
 
@@ -176,7 +176,7 @@ The most obvious conceptual distinction is between `interpretability` as a core 
 
 ![A pattern for designing, developing, and deploying explainable digital mental health technologies](../assets/patterns/explainability-pattern.png)
 
-*Figure 4.2: A pattern for designing, developing, and deploying explainable digital mental health technologies* (:material-magnify-plus: click image to expand)
+*Figure 4.2: A pattern for designing, developing, and deploying explainable digital mental health technologies* (:material-magnify-plus: click image to expand, :material-download: download [here](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/explainability-pattern.png))
 
 In previous guidance, we have distinguished between two sub-categories of explanations:
 
@@ -217,3 +217,6 @@ The final argument also follows the theme of the fairness pattern, but rather th
 [^sustainable]: Not to be confused with the related SAFE-D principle, 'Sustainability'.
 
 The inclusion of clinical safety and efficacy should not suggest that these goals are not significant in their own right. In fact, we would advocate for a separate assurance case (and corresponding pattern) on these goals specifically. Instead, reference is simply made to the need to ensure that some form of explanation is provided to stakeholders.
+
+### Evidential Considerations
+
