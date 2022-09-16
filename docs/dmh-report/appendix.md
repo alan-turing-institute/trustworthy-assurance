@@ -1,5 +1,4 @@
 ---
-title: "Appendix: Project Methodology"
 authors:
   - Christopher Burr
   - Rosamund Powell
@@ -143,3 +142,6 @@ This choice was influenced a) by the feedback from the students gathered during 
 
 [...]
 
+## Notes
+
+https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-018-1794-8
