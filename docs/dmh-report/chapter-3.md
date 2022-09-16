@@ -355,14 +355,14 @@ Overall, feedback from administrators and students suggests there is a long way 
 The trustworthy assurance methodology provides one route through which such a culture of responsible innovation and transparent communication could be facilitated so that university stakeholders are given all necessary information to review new mental health tools offered to them. Due to the potential of this methodology in this sector we asked administrators to provide feedback on its deployment. Crucially, feedback indicated that this methodology would fit within current procurement practices, provide structure for the critical assessment of developers’ claims, and encourage more transparent communication among university staff about the rationale behind procurement decisions.
 
 > **Administrator Perspective**
-> 
+>
 > “My initial reaction is it's bloody brilliant. I’ve not seen anything like that and if something like that landed in my lap I would seize upon it.”
 >  
 > “What I’m looking for is a really quick way of working out whether this is something that’s worth looking at or not”
-> “People like me are not naturally going to be flowchart kind of system development people. So, something like that [the assurance methodology], that can help us ask those questions and take these people through their paces, because what we get is very slick presentations, would be very helpful” 
-> 
+> “People like me are not naturally going to be flowchart kind of system development people. So, something like that [the assurance methodology], that can help us ask those questions and take these people through their paces, because what we get is very slick presentations, would be very helpful”
+>
 > “I think it would be really helpful to have a standard set of expectations that, you know… a standard expectation of having to demonstrate what they were trying to achieve.”
-> 
+>
 > Nevertheless, several challenges to the effective deployment of trustworthy assurance, as raised by university administrators and students, must first be addressed. These are set out below in order to inform conclusions in Section 3 for the future of the assurance methodology.
 
 #### Challenge 7: Interpreting assurance cases
