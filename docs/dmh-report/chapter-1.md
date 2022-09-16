@@ -16,7 +16,7 @@ tags:
 
 Whitman's ode to self-knowledge and understanding contains many poetically-phrased truths. However, the one expressed in the above line is an *understatement*. If we were to identify and rank the most complex phenomena in the universe, our large and multitudinous minds would sit somewhere near the top of the list!
 
-Even the most stubborn or oblivious among us, must acknowledge that part of this complexity stems from a capacity for our minds to operate as a network of often *contradictory beliefs, attitudes, and opinions*—a network that exists within and among a larger social network of similarly fallible individuals. It would be understandable, therefore, given this reflection, if we came to the conclusion that our minds were never supposed to be understood fully and we just accepted, as Whitman did, that our mental lives are fundamentally contradictory and diverse, and sometimes none the worse for it!
+Even the most stubborn among us, must acknowledge that part of this complexity stems from a capacity for our minds to operate as a network of often *contradictory beliefs, attitudes, and opinions*—a network that exists within and among a larger social network of similarly fallible individuals. It would be understandable, therefore, given this reflection, if we came to the conclusion that our minds were never supposed to be understood fully and we just accepted, as Whitman did, that our mental lives are fundamentally contradictory and diverse, and sometimes none the worse for it!
 
 For many people, a prescription of stoic acceptance in the face of overwhelming complexity would be welcomed. But for others, their minds are not just built on top of permissible and tolerable contradictions, they also operate in a manner that prevents them from living a fully self-determined and flourishing life.
 
@@ -65,6 +65,8 @@ These topics already paint a very complex picture, but there is also a further l
 
 Collectively, these six points about Big Data and ML/AI help to establish the background and context for this report, and also help us gain some conceptual clarity when attempting to address the uncertainty around trustworthy digital mental health technologies. Some of this uncertainty stems from the technologies themselves (as noted above). But other key aspects of this uncertainty arise because a) the concept ‘trustworthy digital mental health technology’ is a poorly defined term that captures a vast and heterogenous class of tools and services, and b) our relationships to and interactions with the technologies are also varied. It is not just the technologies that are complex after all. As eloquently captured by Whitman at the start, we—the individual members of the class, 'humanity'—are large and contain multitudes.
 
+On this first point, for the purpose of this report we use the term 'trust' to refer to those characteristics of a person's beliefs or attitudes that are directed towards an object, person, or proposition (among other things), whereas 'trustworthiness' refers to the perceived property or attribute which an individual uses to determine whether to place trust (e.g. whether to trust a news article based on its quoted sources).
+
 These many layers of complexity coalesce into a particularly thorny problem. If we cannot trust the technologies themselves, we will not be able to trust the information gained from them about our own minds. But if we do not understand our minds, we may be unable to fully determine and address the cause of our trust or distrust. And, as we have just noted, understanding the social environment is also a vital part of addressing this fundamentally sociotechnical problem. As you can probably guess by know, adding another element to our picture is not likely to reduce its complexity.
 
 ## The Current (Socioeconomic) Landscape of Digital Mental Health
@@ -101,7 +103,7 @@ But none of these categories are suitable for building a definition of digital m
 
 Putting aside the previously raised data challenges associated with the "quantification of the individual-level human phenotype" (e.g. how to construct *accurate* scales that apply to all *varied* people while retaining *value*), there is also wide variation between 'smartphones' and 'other personal digital devices', such as wearables. For instance, some smartphone apps may use advanced forms of machine learning algorithms or AI to infer novel attributes regarding a user's mental health. And, others may offer nothing more than a simple interface and database for users to record how they are feeling at a particular time or on a particular day. Furthermore, some wearables may store and process sensitive information locally on a user's device, whereas others may store data on the cloud and share health-related information with a vast number of organisations across jurisdictions with varying levels of data protection. 
 
-What about if we move to a lower level of abstraction, such as the algorithmic technique used by the digital technology? Here too we would find difficulties with delineating the meaning of the term ‘trustworthy digital mental health technology’. For example, the use of *unsupervised machine learning* by trusted clinical researchers may be justified if used responsibly as a form of exploratory research or hypothesis generation. But, if the same technique were deployed by a local council to determine how best to spend limited resources, the lack of transparency could undermine efforts to remain accountable to their residents.
+What about if we move to a lower level of abstraction, such as the algorithmic technique used by the digital technology? Here too we would find difficulties with delineating the meaning of the term ‘trustworthy digital mental health technology’. For example, the use of *unsupervised machine learning* by trusted clinical researchers may be justified if used responsibly as a form of exploratory research or hypothesis generation. But, if a complex version of the technique were deployed by a local council to determine how best to spend limited resources (e.g. resulting in clusters that were not clearly interpretable by humans), the potential lack of transparency could undermine efforts to remain accountable to their residents.
 
 Regardless of the level of abstraction we adopt, there will always be some difficulty with clearly defining this nebulous term. Therefore, while it may seem unsatisfying to a reader who wishes to know *precisely* what the term 'digital mental health technology' comprises, for our present purposes the following (loose and permissive) definition shall suffice:
 
@@ -109,7 +111,9 @@ Regardless of the level of abstraction we adopt, there will always be some diffi
 
 In particular, this report will pay close attention to those technologies that are data-driven and/or use some form of machine learning or AI, given the considerations outlined in the opening sections.
 
-We acknowledge that many will find this definition too permissive, but this report is not concerned with developing a robust philosophical definition or a taxonomy that can be used to delineate the precise nature of digital mental health technologies. Rather, it is focused on the defence of a methodology to help make digital mental health technologies more trustworthy and ethical. Therefore, the broader the class that can be drawn the better it will be for our goals, because more technologies will fall within its scope. And, insofar as there are legal considerations that demand precise definitions, these issues will be addressed along different lines (e.g. operationalising standards of assessment for equitable treatment).
+We acknowledge that many will find this definition too permissive, but this report is not concerned with developing a robust philosophical definition or a taxonomy that can be used to delineate the precise nature of digital mental health technologies. Rather, it is focused on the defence of a methodology to help make digital mental health technologies more trustworthy and ethical. Therefore, the broader the class that can be drawn the better it will be for our goals, because more technologies will fall within its scope[^examples]. And, insofar as there are legal considerations that demand precise definitions, these issues will be addressed along different lines (e.g. operationalising standards of assessment for equitable treatment).
+
+[^examples]: For instance, if we draw the class as comprising digital technologies for "health and well-being" we will capture technologies as diverse as ML algorithms used to identify associations between genetic factors and mental health outcomes, to mobile apps that use natural language processing techniques to help users better understand their feelings through a smart diary. See [this page on our website](examples.md) for more illustrative examples of digital mental health (and well-being) technologies.
 
 Let us now turn to the second question.
 
@@ -147,19 +151,35 @@ However, the unethical behaviour and transgressions of law by commercial organis
 
 [^facebook]: For a timeline that conveys a shocking pattern of behaviour at Facebook, which is hard to treat as anything other than a flagrant disregard for user’s data privacy, see [Facebook data privacy scandal: A cheat sheet](https://www.techrepublic.com/article/facebook-data-privacy-scandal-a-cheat-sheet/).
 
-[^conversation]: We explored this point more fully in a separate article: Burr, C. (2022). Charities are contributing to growing mistrust of mental-health text support—Here’s why. The Conversation. Retrieved 29 July 2022, from http://theconversation.com/charities-are-contributing-to-growing-mistrust-of-mental-health-text-support-heres-why-179056
+[^conversation]: We explored this point more fully in a separate article: Burr, C. (2022). Charities are contributing to growing mistrust of mental-health text support—Here’s why. The Conversation. Retrieved 29 July 2022, from [http://theconversation.com/charities-are-contributing-to-growing-mistrust-of-mental-health-text-support-heres-why-179056](http://theconversation.com/charities-are-contributing-to-growing-mistrust-of-mental-health-text-support-heres-why-179056)
 
 ## A Culture of Distrust
 
 In the context of the law, it is well known that states and public sector organisations are beholden to wide-ranging legal duties, both positive and negative, such as those set out in human rights law or in national legislation (e.g. the public sector equality duty created by the UK's Equality Act 2010).
 
-Commercial organisations are not obligated to observe all of the same principles or rules as public sector organisations, but are nevertheless required to comply with myriad information governance standards, legislation designed to protect environmental sustainability and public health, and a whole host of other corporate or fiduciary duties.
+Commercial organisations are not obligated to observe all of the same principles or rules as public sector organisations, but are nevertheless required to comply with myriad information governance standards, legislation designed to protect environmental sustainability and public health, and a whole host of other corporate or fiduciary duties[^ea10].
+
+[^ea10]: It is important to note that private organisations are still bound by the legal duties of non-discrimination, even where they fall outside the wider scope of the public sector equality duty. For further advice and guidance on these topics, see [this recent publication](https://www.equalityhumanrights.com/en/advice-and-guidance/artificial-intelligence-public-services) by the Equality and Human Rights Commission on Artificial Intelligence in Public Services.
 
 And, third sector organisations, such as charities or volunteer groups, may have less restrictive legislation governing their conduct, but are still expected to adhere to necessary transparency and accountability standards over matters such as the organisation and incorporation of managing trusts.
 
 Such legal requirements create an interlocking foundation upon which public perceptions and attitudes towards trust can be based, but are often difficult to separate and pick apart. And, even where one is able to do so, legal requirements typically set only the *minimal standards* expected of organisations. To put it simply, and sidestep a vast amount of important jurisprudence, just because something is legal does not guarantee it is ethical or socially acceptable.
 
-On top of the norms that fall within the scope of the law, modern institutions and organisations are also expected to observe and comply with an expansive and shifting set of ethical and social norms. For example, while underpinned by legal mechanisms, matters of social justice and fairness go beyond the legal requirements to ensure non-discrimination (e.g. poverty, a risk factor associated with worse mental health outcomes, is not a protected characteristic). Moreover, while legal texts help to enshrine and enact pre-existing rights[^article8], they often leave wide scope for actions that may be sufficient for discharging the corresponding duty but are seen by many as, at best, failing to observe the spirit of the law, and at worst, morally impermissible. 
+On top of the norms that fall within the scope of the law, modern institutions and organisations are also expected to observe and comply with an expansive and shifting set of ethical and social norms. For example, while underpinned by legal mechanisms, matters of social justice and fairness go beyond the legal requirements to ensure non-discrimination (e.g. poverty, a risk factor associated with worse mental health outcomes, is not a protected characteristic[^protected] as set out in the Equality Act 2010)[^reviewer]. Moreover, legal texts often leave wide scope for actions that may be sufficient to discharge duties corresponding to individual rights[^article8], but are seen by many as, at best, failing to observe the spirit of the law, and at worst, morally impermissible. 
+
+[^protected]: The [Equality Act 2010](https://www.legislation.gov.uk/ukpga/2010/15/part/2/chapter/1) sets out the following protected characteristics:
+    - Age
+    - Disability
+    - Gender reassignment
+    - Marriage and civil partnership
+    - Pregnancy and maternity
+    - Race
+    - Religion or belief
+    - Sex
+    - Sexual orientation
+    They are protected in the sense that the law is designed to protect individuals from unfair treatment or discrimination on the basis of these characteristics.
+
+[^reviewer]: Our thanks to a reviewer for bringing the following example to our attention of a local council who unanimously voted to make 'care experience' a protected characteristic within its constituency: [https://www.cypnow.co.uk/news/article/cumberland-council-votes-to-make-care-experience-a-protected-characteristic](https://www.cypnow.co.uk/news/article/cumberland-council-votes-to-make-care-experience-a-protected-characteristic).
 
 A particularly well known illustration of this problem is the EU's General Data Protection Regulation (GDPR) and ePrivacy Directive. The GDPR (and directive) resulted in widespread changes to the operation of cookies, including a requirement to receive users’ consent before any cookies were used, except those strictly necessary. However, as almost everyone will know from first-hand experience, the manner in which some organisations secure consent can range from the entirely user-friendly, to the intentionally frustrating use of dark patterns[^dark] or hours long process of flipping hundreds of opt-out toggle buttons. Here, the expectations that society have regarding what is both legally and morally permissible clearly differ substantially from what is desirable from the perspective of the organisation. 
 
@@ -192,7 +212,7 @@ Whether we trust someone or some object depends, in part, on the evidence we hav
 
 When it comes to trust, we do not expect the same level of evidence when assessing the trustworthiness of different people, objects, or systems. A trustworthy doctor, for example, is not assessed by the same standards as a trustworthy friend. And, similarly, the trustworthiness of an AI chatbot used in customer services is not (and ought not) be evaluated by the same measures as an AI chatbot used to support people with their mental health.
 
-In short, when we speak of 'trustworthy assurance' we are creating room for a wide variety of associated goals and standards, to accommodate the complexity alluded to in the previous sections. These can, of course include goals and standards related to ‘safety’ or ‘clinical efficacy’, but for present purposes we are primarily interested in those goals that have an ethical significance.
+In short, when we speak of 'trustworthy assurance' we are creating room for a wide variety of associated goals and standards, to accommodate the complexity alluded to in the previous sections. These can, of course include goals and standards related to ‘safety’ or ‘clinical efficacy’, which carry their own ethical significance. However, for present purposes we are primarily interested in those goals that are directly framed in terms of ethical principles (e.g. fairness).
 
 Our project focused directly on a methodology for making the assessment, communication, and realisation of these goals more robust and transparent. The methodology is known as ‘argument-based assurance’ and we can define this methodology as follows:
 
@@ -223,15 +243,15 @@ To realise these objectives, several workshops were organised and run over the c
 
 Workshops were held with representatives from each of these stakeholder groups, where tailored activities were run to both understand their attitudes towards digital mental health technologies, but also to a) help us evaluate methodological questions related to trustworthy assurance and b) identify which ethical values and principles matter most to them in the present context.
 
-Chapters 2 and 3 address present our findings, analysis, and recommendations from the workshops. Here, we shall just speak to the procedural matter of operationalising ethical principles through processes of stakeholder participation and engagement. 
+Chapters 2 and 3 address present our findings, analysis, and recommendations from the workshops. Here, we shall just speak to the procedural matter of operationalising ethical principles through processes of stakeholder participation and engagement.
 
 ### SAFE-D Principles
 
-In previous work, we have defended an ethical framework for evaluating the harms and benefits of data-driven technologies, which has already been revised, tested, and validated with a wide-variety of stakeholders[^coe]. 
+In previous work, we have defended an ethical framework for evaluating the harms and benefits of data-driven technologies, which has already been revised, tested, and validated with a wide-variety of stakeholders[^coe].
 
 We refer to this framework as the *SAFE-D framework*, because it establishes five principles that form the acronym SAFE-D (or, ‘safety’, which is another important component of trustworthy AI):
 
-* **S**afety
+* **S**ustainability
 * **A**ccountability
 * **F**airness
 * **E**xplainability
