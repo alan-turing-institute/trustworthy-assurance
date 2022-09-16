@@ -1,13 +1,3 @@
----
-
-authors:
-
-* Christopher Burr
-* Rosamund Powell tags:
-* table-of-contents
-
----
-
 # About the Report
 
 ![Illustration of female researcher sitting at desk](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/about.png)
