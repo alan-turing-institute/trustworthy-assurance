@@ -8,43 +8,43 @@ tags:
 ---
 # Developing Trustworthy Assurance—Argument Patterns for fairness and Explainability
 
-![A placeholder image](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/chapter-5-header.png){ .off-glb }
+![Conceptual header image of people building an assurance case](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/chapter-5-header.png){ .off-glb }
 
 > **Chapter Overview**
 >
 > In this chapter we present two argument patterns (i.e. starting templates for building assurance cases) that identify the types of claims, or the sets of reasons that need to be established to justify the associated top-level normative goal.
-> 
-> The first pattern is for assurance cases that aim to justify the *fairness* of a digital mental health technology; the second is for cases that address the *explainability* of systems.
-> 
+>
+> The first pattern is for assurance cases that aim to justify the *fairness* of a digital mental health technology. The second is for cases that address the *explainability* of systems.
+>
 > We also discuss relevant legislation, regulation, and best practice guidance that support and motivate the development of these patterns.
 
 ## Co-designing argument patterns
 
-While the assurance methodology is a tool in its own right, there is a missing component that was highlighted in [Chapter 2](chapter-2.md): argument patterns. 
+While the assurance methodology is a tool in its own right, there is a missing component that was highlighted in [Chapter 2](chapter-2.md): argument patterns.
 
-You may recall that argument patterns are reusable structures that serve as *starting templates* for building assurance cases. They identify the *types* of claims (or, the sets of reasons) that need to be established to justify the associated top-level normative goal. And, in doing so, they set useful constraints on both the deliberative process and evidence-generating and evidence-gathering exercises[^evidence].
+You may recall that argument patterns are reusable structures that serve as *starting templates* for building assurance cases. They identify the *types* of claims (or, the sets of reasons) that need to be established to justify the associated top-level normative goal. And, in doing so, they set useful constraints on both the deliberative process and evidence-generating and evidence-gathering exercises. We say more about the evidential generation and selection process towards the end of this section.[^evidence]
 
-[^evidence]: Add fn about evidential considerations in main article and book by Cartwright.
+[^evidence]: In a previous article we als explore several considerations about the evidence generation and selection process, including whether evidential artefacts are permissible, sufficient, and relevant. See Burr, C., & Leslie, D. (2022). Ethical assurance: A practical approach to the responsible design, development, and deployment of data-driven technologies. AI and Ethics. [https://doi.org/10.1007/s43681-022-00178-0](Burr, C., & Leslie, D. (2022). Ethical assurance: A practical approach to the responsible design, development, and deployment of data-driven technologies. AI and Ethics. https://doi.org/10.1007/s43681-022-00178-0)
 
-In this chapter we present and explain two argument patterns. The first is for assurance cases that address and justify the *fairness* of a digital mental health technology; the second is for cases that address and justify the *explainability* of systems.
+Before this, we present and explain two argument patterns for use in the assurance of digital mental health technologies. The first is for assurance cases that address and justify the *fairness* of a digital mental health technology; the second is for cases that address and justify the *explainability* of systems.
 
-### Why ‘fairness’ and ‘explainability’?
+!!! info "Why ‘fairness’ and ‘explainability’?"
 
-Our decision to focus on these two patterns is motivated primarily by the desire to capture the *significant* themes raised in the workshops. As such, the inclusion of a pattern for fairness is an obvious choice based on the discussions in the [previous chapter](chapter-4.md). However, the inclusion of one for the goal of explainability requires additional clarification.
+    Our decision to focus on these two patterns is motivated primarily by the desire to capture the *significant* themes raised in the workshops. As such, the inclusion of a pattern for fairness is an obvious choice based on the discussions in the [previous chapter](chapter-4.md). However, the inclusion of one for the goal of explainability requires additional clarification.
 
-Many participants in our workshops focused on ethical issues that could map onto multiple SAFE-D principles. For instance, considerations around `transparency` were sometimes raised in connection with mechanisms for holding organisations `accountable` and at other times raised in connection with a requirement to ensure users had access to information to support informed consent and decision-making—captured either by `sustainability` or `explainability`. Our second argument pattern is framed in terms of `explainability` as an attempt to be maximally inclusive of these wide-ranging considerations. 
+    Many participants in our workshops focused on ethical issues that could map onto multiple SAFE-D principles. For instance, considerations around `transparency` were sometimes raised in connection with mechanisms for holding organisations `accountable` and at other times raised in connection with a requirement to ensure users had access to information to support informed consent and decision-making—captured either by `sustainability` or `explainability`. Our second argument pattern is framed in terms of `explainability` as an attempt to be maximally inclusive of these wide-ranging considerations. 
 
-To recall, argument patterns in trustworthy assurance are always *starting points* for participatory forms of reflection and deliberation. They provide greater specificity than the top-level goal would on its own, and help operationalise ethical principles within the project lifecycle model. But they are no substitute for embedded processes of inclusive stakeholder engagement—in fact, they depend upon stakeholder engagement processes for their completion. Furthermore, they should not be used as a mere checklist for compliance. 
+    To recall, argument patterns in trustworthy assurance are always *starting points* for participatory forms of reflection and deliberation. They provide greater specificity than the top-level goal would on its own, and help operationalise ethical principles within the project lifecycle model. But they are no substitute for embedded processes of inclusive stakeholder engagement—in fact, they depend upon stakeholder engagement processes for their completion. Furthermore, they should not be used as a mere checklist for compliance. 
 
-Finally, our focus on 'fairness' and 'explainability' should not suggest that other patterns are not desirable or important. Rather, the co-design and development of additional patterns, including those that go beyond the SAFE-D principles are left for future research (see Conclusion).
+    Finally, our focus on 'fairness' and 'explainability' should not suggest that other patterns are not desirable or important. Rather, the co-design and development of additional patterns, including those that go beyond the SAFE-D principles are left for future research (see Conclusion).
 
 ### Fairness
 
-<!-- add illustration -->
+![An illustration showing varying performance and fidelity of a model's representation of people](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/representation-background.png) { .off-glb }
 
-In the context of data-driven technologies, a key attribute of fairness is the equal distribution of risk and benefit across all groups of affected users. For instance, a technology that was highly accurate for users aged between 18-30 but became decreasingly accurate for older individuals would be unfair to those from higher age brackets.
+In the context of data-driven technologies, a core attribute of fairness is the equal distribution of risk and benefit across all groups of affected users. For instance, a technology that was highly accurate for users aged between 18-30 but became decreasingly accurate for older individuals would be unfair to those from higher age brackets.
 
-The differentiation between risk and benefit leads to a subsequent distinction between corresponding duties or obligations (e.g. legal duties). Where there is a duty to ensure that a particular group of users are not exposed to disproportionate risks of harm, this sets up a so-called “negative duty” (e.g. a duty to not discriminate). However, negative duties often set only the minimal ethical standards. In other words, one can build a non-discriminatory service that does not harm anyone, but similarly benefits no one. 
+The differentiation between risk and benefit leads to a subsequent distinction between corresponding duties or obligations (e.g. legal duties). Where there is a duty to ensure that a particular group of users are not exposed to disproportionate risks of harm, this can set up a so-called “negative duty” (e.g. a duty for a developer to not discriminate). However, negative duties often set only the minimal ethical standards. In other words, one can build a non-discriminatory service that does not harm anyone, but similarly benefits no one or benefits only a small portion of users.
 
 Therefore, corresponding “positive duties” also exist to promote beneficial outcomes, sometimes focusing on those who are most disadvantaged—a so-called “prioritarian” approach to ethics (i.e. prioritising those who need the most support). A good example of this duality is the Public Sector Equality Duty, which sets the following objectives for all public authorities:
 
@@ -52,23 +52,30 @@ Therefore, corresponding “positive duties” also exist to promote beneficial 
 - advance equality of opportunity between persons who share a relevant protected characteristic and persons who do not share it;
 - foster good relations between persons who share a relevant protected characteristic and persons who do not share it.
 
-Notice that these objectives can be seen as having both negative and positive aspects to them (e.g. ‘eliminate discrimination’ as ‘opposed to advance equality’).[^posneg] 
+Notice that these objectives can be seen as having both negative and positive aspects to them (e.g. ‘eliminate discrimination’ as ‘opposed to advance equality’).[^posneg]
 
-[^posneg]: We are not suggesting that this is the correct way of interpreting the public sector equality duty. Others may view the associated duties as entirely positive if they are viewed from a human rights lens that treatsactively protecting people from risks of harm that are known about, or should have been known about, as a positive duty. The status of this duty will likely depend on which party it falls on.
+[^posneg]: We are not suggesting that this is the sole correct way of interpreting the public sector equality duty. Others may view the associated duties as entirely positive if they are viewed from a human rights lens that treats actively protecting people from risks of harm that are known about, or should have been known about, as a positive duty. The status of this duty will likely depend on which party it falls on, and how they are expected to discharge the duty.
 
-In the context of mental healthcare, where stigmatisation prevents many vulnerable individuals from accessing care and discrimination exacerbates symptoms for already marginalised groups, both types of duty are absolutely crucial. But acting upon positive duties is not without its challenges.  
+In the context of mental healthcare, where stigmatisation prevents many vulnerable individuals from accessing care and discrimination exacerbates symptoms for already marginalised or minoritised groups, both types of duty are absolutely crucial. However, acting upon positive duties is not without its challenges.  
 
-In our workshops, for instance, a key concern that was emphasised was the degree to which the delineation of "good" or "desirable" mental health outcomes for the purpose of evaluating the impacts of a system could adequately take into account the subjective nature of these terms. For example, while there may be widespread agreement about what constitutes undesirable outcomes (e.g. chronic stress, suicide), the range of positive outcomes for mental health (or well-being) are varied and multitudinous (to echo back to Whitman’s quote that started this report). A failure to account for such issues can introduce a further source of bias into the design of a system (e.g. how the problem it seeks to address is formulated) which in turn could lead to unfair outcomes that only benefit a small group of users with aligned goals.
+In our workshops, for instance, a key concern that was emphasised was the degree to which the delineation of "good" or "desirable" mental health outcomes, for the purpose of evaluating the impacts of a system, could adequately take into account the subjective nature of mental health and well-being. For instance, while there may be widespread agreement about what constitutes undesirable outcomes (e.g. chronic stress, suicide), the range of positive outcomes for mental health (or well-being) are varied and multitudinous (to echo back to Whitman’s quote that started this report), and the experience and process of recovery can also mean many different things to people[^recovery]. A failure to account for such issues can introduce a further source of bias into the design of a system (e.g. how the problem it seeks to address is formulated) which in turn could lead to unfair outcomes that only benefit a small group of users with aligned goals.
 
-The pattern that has been developed, through participation of stakeholders and users, attempts to address both negative and positive duties, while also making room for core attributes such as user autonomy. In the context of mental healthcare, this inclusion of autonomy can be problematic in the most severe cases where it is simply not viable (e.g. severe forms of psychosis). However, recall that a pattern is a starting point. Therefore, if a particular type of claim is inappropriate due to contextual factors that are determined during project scoping or stakeholder engagement, it can be adjusted as necessary. 
+[^recovery]: For instance, a patient experiencing depression may be fully informed by their psychiatrist about their mental health and the options available to them in terms of recovery, but nevertheless, autonomously decide to forego any treatment because their condition may be an important part of their self-identity. This acknowledgment is part of the recovery approach, which views recovery as “a deeply personal, unique process of changing one’s attitudes, values, feelings, goals, skills, and/or roles. It is a way of living a satisfying, hopeful, and contributing life even with limitations caused by illness. Recovery involves the development of new meaning and purpose in one’s life as one grows beyond the catastrophic effects of mental illness.” W. A. Anthony, “Recovery from mental illness: The guiding vision of the mental health service system in the 1990s,” Psychosoc. Rehabil. J., vol. 16, no. 4, p. 527, 1993, doi: 10.1037/h0095655.
+
+The pattern that has been developed, through participation of stakeholders and users, attempts to address both negative and positive duties, while also making room for core attributes such as user autonomy. In the context of mental healthcare, this inclusion of autonomy can be problematic in the most severe cases where it is simply not viable (e.g. severe forms of psychosis). However, recall that a pattern is a starting point or scaffold; it is not a checklist of *jointly sufficient claims and supporting evidence*. Therefore, if a particular type of claim is inappropriate due to contextual factors that are determined during project scoping or stakeholder engagement, it can be adjusted as necessary.
 
 !!! info "Why does this pattern matter?"
 
-    <!-- find a place to mention how none of the DTAC’s criteria address aspects of fairness or potential for discriminatory impact -->
+    In recent years, many tools for improving and supporting the trustworthy and responsible development of digital mental health technologies have been proposed. One key advancement is the The Digital Technology Assessment Criteria for Health and Social Care (DTAC). This form provides guidance on assessing four technical components (in addition to a contextual component):
 
-    In the last few years, many public authorities across the UK have released statements and policies calling for greater health equity.
+    1. Clinical safety
+    2. Data protection
+    3. Technical security
+    4. Interoperability criteria
 
-    In October 2020, NHS England released their '[Advancing mental health equalities](https://www.england.nhs.uk/publication/advancing-mental-health-equalities-strategy/)' strategy, which also fed into a recent consultation on the [Mental health and wellbeing plan](https://www.gov.uk/government/consultations/mental-health-and-wellbeing-plan-discussion-paper-and-call-for-evidence/mental-health-and-wellbeing-plan-discussion-paper) by the Department for Health and Social Care.
+    While the DTAC is intended to supplement existing regulatory guidance, as well as sitting alongside current and developing legislation or compliance duties (e.g. [MHRA medical device registration](https://www.gov.uk/guidance/regulating-medical-devices-in-the-uk), [Equality Act 2010](https://www.legislation.gov.uk/ukpga/2010/15/contents), NICE's [Evidential Standards Framework](https://www.nice.org.uk/about/what-we-do/our-programmes/evidence-standards-framework-for-digital-health-technologies)), there is (at present) nothing in the DTAC about broader ethical issues such as the fair distribution of risk and benefits, or the requirement of explainable outcomes to support informed decision-making. As such, tools such as the DTAC serve a valuable but limited role in the assessment of fair digital mental health technologies.
+
+    In the last few years, however, many public authorities across the UK have released statements and policies calling for greater health equity. For instance, in October 2020, NHS England released their '[Advancing mental health equalities](https://www.england.nhs.uk/publication/advancing-mental-health-equalities-strategy/)' strategy, which also fed into a recent consultation on the [Mental health and wellbeing plan](https://www.gov.uk/government/consultations/mental-health-and-wellbeing-plan-discussion-paper-and-call-for-evidence/mental-health-and-wellbeing-plan-discussion-paper) by the Department for Health and Social Care.
 
     The second of these publications makes reference to the UK Government's Levelling Up Strategy, which opens with the following statement:
 
@@ -78,12 +85,17 @@ The pattern that has been developed, through participation of stakeholders and u
 
     > Risks of mental ill-health are also higher for people who are unemployed, people in problem debt, people who have experienced displacement, including refugees and asylum seekers, people who have experienced trauma as the result of violence or abuse, children in care and care leavers, people in contact with the criminal justice system (both victims and offenders), people who sleep rough or are homeless, people with substance misuse or gambling problems, people who live alone, and unpaid carers.
     
-    <!-- add regulatory considerations here 
-    _ https://www.equalityhumanrights.com/en/advice-and-guidance/artificial-intelligence-checklist-public-bodies-england
-    -->
-    
     [^wachter]: This is further problematised in the context of ML and AI, where novel forms of discrimination, perhaps as a result of so-called "affinity profiling". See Wachter, S. (2021). Affinity Profiling and Discrimination by Association in Online Behavioural Advertising. Berkeley Technology Law Journal, 35(2).
 
+    And, finally, a recent publication by the UK's Office for AI has also called for regulators to "embed considerations of fairness into AI", but have further specified this principle as follows:
+
+    > - interpret and articulate ‘fairness’ as relevant to their sector or domain,
+    > - decide in which contexts and specific instances fairness is important and relevant (which it may not always be), and
+    > - design, implement and enforce appropriate governance requirements for ‘fairness’ as applicable to the entities that they regulate.
+ 
+    Therefore, there is clear regulatory appetite and industry need for both domain-specific and cross-cutting guidance on how to embed considerations of fairness and equality into the deign, development, and deployment of digital technologies.
+
+#### Fairness Pattern
 
 ![A pattern for designing, developing, and deploying fair digital mental health technologies](../assets/patterns/fairness-pattern.png)
 
@@ -102,19 +114,21 @@ The goal is broken into four higher-level property claims and their respective s
 
 ##### Argument over *bias mitigation*
 
-This argument emphasises identification, evaluation, and mitigation activities. As there are too many biases to incorporate into a single pattern, this argument instead draws attention to transparent and accountable methods that allow stakeholders to determine if the set of biases that have been addressed are sufficient to address their concerns. This argument is supported by additional tools, such as a bias self-assessment tool that outlines social, statistical, and cognitive biases that can affect the lifecycle of a machine learning or AI system project.
+This argument emphasises identification, evaluation, and mitigation activities. As there are too many biases to incorporate into a single pattern, this argument instead draws attention to transparent and accountable methods that allow stakeholders to determine if the set of biases that have been addressed are sufficient to address their concerns. This argument is supported by additional tools, such as a bias self-assessment tool that outlines social, statistical, and cognitive biases that can affect the lifecycle of a machine learning or AI system project.[^bias-assessment]
+
+[^bias-assessment]: See our course on responsible research and innovation for more details about social, statistical, and cognitive biases: [https://alan-turing-institute.github.io/turing-commons/rri/](https://alan-turing-institute.github.io/turing-commons/rri/)
 
 ##### Argument over *non-exclusion*
 
-This argument sets out another negative duty to consider wider social impacts of digital technologies, and prompts developers to ensure they are not contributing to growing socioeconomic inequalities (i.e. the digital divide). In some instances, this may require nothing more than ensuring that UI/UX design choices do not exclude those who have additional accessibility requirements. However, the argument also sets up a duty to consider how a system being developed for use within a public healthcare syste, for example, does not create an unsustainbale multi-tiered approach, where some users are excluded from accessing a better performing technological service and forced to use comparatively inferior options.
+This argument sets out another negative duty to consider wider social impacts of digital technologies, and prompts developers to ensure they are not contributing to growing socioeconomic inequalities (i.e. the digital divide) by overlooking important social determinants (e.g. education, poverty). In some instances, this may require nothing more than ensuring that UI/UX design choices do not exclude those who have additional accessibility requirements. However, the argument also sets up a duty to consider how a system being developed for use within a public healthcare system, for example, does not create an unsustainable multi-tiered approach, where some users are excluded from accessing a better performing technological service and forced to use comparatively inferior options.
 
 ##### Argument over *non-discrimination*
 
-This argument addresses the better known obligations, such as ensuring that members of protected groups are not discriminated against. Much of the FairML literature, which has provided useful categorisations of formal criteria (i.e. independence, sufficiency, and separation) and the respective (statistical) notions of individual and group level fairness (e.g. demographic parity, equalised opportunities, counterfactual fairness) are relevant here. And, indeed, a requirement to explain the choice of any statistical measures used during the development of a predictive model (e.g. classifier) is included. Again, there are useful tools and taxonomies that offer further guidance on these decisions. However, our pattern also urges project teams to reflect upon other patterns of discrimination, marginalisation, and minoritisation, which can exacerbate mental health issues, but which fall beyond protected characteristics that lie outside the scope of the Equality Act 2010 (e.g. poverty, housing, employment). 
+This argument addresses the better known obligations, such as ensuring that members of protected groups are not discriminated against. Much of the FairML literature, which has provided useful categorisations of formal criteria (i.e. independence, sufficiency, and separation) and the respective (statistical) notions of individual and group level fairness (e.g. demographic parity, equalised opportunities, counterfactual fairness) are relevant here. And, indeed, a requirement to explain the choice of any statistical measures used during the development of a predictive model (e.g. classifier) is included. Again, there are useful tools and taxonomies that offer further guidance on these decisions. However, our pattern also urges project teams to reflect upon other patterns of discrimination, marginalisation, and minoritisation, which can exacerbate mental health issues, but which fall beyond protected characteristics that lie outside the scope of the Equality Act 2010 (e.g. housing, employment, social support). Doing so will typically require engagement of domain experts where such expertise does not exist within teams.
 
 ##### Argument over *equitable impact*
 
-Finally, this argument references positive duties that matter in the context of digital mental health specifically. Key to this is the consideration of ethical values such as autonomy and self-determination, and the prioritarian weighting that was mentioned previously. However, there is also an aspect of our Sustainability principle that trickles into this argument. This is important in the context of digital mental healthcare because of associated risks that a) positive effects diminish over time (e.g. behavioural nudges that become ineffective over time)[^nudge] and b) negative impacts worsen and compound (e.g. prolonged use of social media worsening anxiety or depression)[^socialmedia]. Studies have already criticised the evidence base of mental health apps and services[^apps], so drawing attention to sustainable impacts and setting up requirements for continuos monitoring is important to maintain trust and also ensure that specific users are not locked in to services or technologies that degrade in quality or efficiacy over time (e.g. apps that start by offering free services to leverage network effects only to force subscriptions at a later date).
+Finally, this argument references positive duties that matter in the context of digital mental health specifically. Key to this is the consideration of ethical values such as autonomy and self-determination, and the prioritarian weighting that was mentioned previously. However, there is also an aspect of our Sustainability principle that trickles into this argument. This is important in the context of digital mental healthcare because of associated risks that a) positive effects diminish over time (e.g. behavioural nudges or habit forming techniques that become ineffective over time)[^nudge] and b) negative impacts worsen and compound (e.g. prolonged use of social media worsening anxiety or depression)[^socialmedia]. Studies have already criticised the evidence base of mental health apps and services[^apps], especially for a lack of reliable longitudinal evidence, so drawing attention to sustainable impacts and setting up requirements for continuous monitoring is vital to maintain trust and also ensure that specific users are not locked in to services or technologies that degrade in quality or efficacy over time (e.g. apps that start by offering free services to leverage network effects only to force subscriptions at a later date).
 
 [^nudge]: See Maier et al. (2022) No evidence for nudging after adjusting for publication bias. PNAS. https://doi.org/10.1073/pnas.2200300119
 
@@ -124,13 +138,15 @@ Finally, this argument references positive duties that matter in the context of 
 
 ### Explainability
 
-<!-- add illustration -->
+![An illustration of a healthcare professional explaining an automated decision to patients](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/publlic-trust.png) { .off-glb }
 
-Therefore, much like fairness, explainability as a top-level goal encompasses a range of significant concerns and salient ethical values. Let's explore some of the these values in more detail, and see how they relate to digital mental health technologies.
+Much like fairness, explainability has become a popular and thriving area of research (e.g. so-called XAI). And, also like fairness, it is a normative goal that encompasses a range of significant concerns and salient ethical values.
+
+The most obvious conceptual distinction is between `interpretability` as a core component of `explainability`. Whereas the former is to often treated as the ability for developers or users to understand the inner workings of algorithms (or inability in the case of complex, non-linear techniques), the latter refers to an interpersonal ability to communicate knowledge in a manner that is accessible to those who may be asking questions about a system (e.g. patients asking for explanations from a clinician). Although statistical techniques help significantly in the case of the former, they are more limited in their ability to support the latter where a more diverse range of users are likely.
 
 !!! info "Why does this pattern matter?”
 
-    Like fairness and equity, explainable AI has received a lot of attention over the last several years.[^explainableAI] Computer scientists have developed new tools and methods to improve the interpretability of otherwise opaque algorithms, such as neural networks.[^XAIreview] Researchers in psychology and human-computer interaction have explored how different components of the user experience can help support more intentional interactions with intelligent software agents.[^hci] And, regulators, auditors, and journalists have investigated how to make systems more transparent to support objectives related to accountability and informed decision-making.[^accountability]
+    Explainable AI has received a lot of attention over the last several years.[^explainableAI] Computer scientists have developed new tools and methods to improve the interpretability of otherwise opaque algorithms, such as neural networks.[^XAIreview] Researchers in psychology and human-computer interaction have explored how different components of the user experience can help support more intentional interactions with intelligent software agents.[^hci] And, regulators, auditors, and journalists have investigated how to make systems more transparent to support objectives related to accountability and informed decision-making.[^accountability]
 
     [^explainableAI]: See the following notable publications: Phillips et al. (2021). Four Principles of Explainable Artificial Intelligence. National Institute of Standards and Technology. https://doi.org/10.6028/NIST.IR.8312;  Miller, T. (2019). Explanation in artificial intelligence: Insights from the social sciences. Artificial Intelligence, 267, 1–38. https://doi.org/10.1016/j.artint.2018.07.007; Diakopoulos, N. (2015).
 
@@ -146,13 +162,17 @@ Therefore, much like fairness, explainability as a top-level goal encompasses a 
 
     In both of the above cases, extracting a valid and accurate explanation is necessary to enable post hoc forms of *accountability* or *transparency*. But prioritising ‘explainability’ from the start of a project also allows project teams to have better oversight of what their systems do and why, leading to more *responsible forms of project governance*. And, at the other end of the lifecycle, clear and accessible explanations can help ensure users and affected stakeholders are better *informed* and empowered to make *autonomous decisions* regarding their interactions with digital mental health technologies. Therefore, having an argument pattern for ‘explainability’ helps capture many of the key considerations that were raised during our workshops.
 
-    While the themes and values expressed in the following pattern are based primarily on the engagement with stakeholders, we have also drawn upon two other documents. First, we have drawn from prior guidance that we co-designed with the Information Commissioner’s Office.[^ico2020] This guide, titled 'Explaining Decisions Made with AI', details best practices for explainable AI in domain-general settings, and was also informed by stakeholder engagement. Second, we have incorporated some elements of an existing pattern for *interpretable* machine learning, which is motivated by a similar need for addressing a range of questions and concerns, such as the following:
+    While the themes and values expressed in the following pattern are based primarily on the engagement with stakeholders, we have also drawn upon two other documents. First, we have drawn from prior regulatory guidance that we co-designed with the Information Commissioner’s Office. This guide, titled 'Explaining Decisions Made with AI', details best practices for explainable AI in domain-general settings, and was also informed by stakeholder engagement. The regulatory ecosystem around explainability is less developer than fairness and equality, but as this report acknowledges there are still legislative and regulatory considerations that organisations need to consider, such as the wide-range of rights established by the General Data Protection Regulation and implemented in the UK's Data Protection Act 2018, such as the need to uphold individuals rights to be informed or to object to automated decisions.[^ico2020]
+    
+    Second, we have incorporated some elements of an existing pattern for *interpretable* machine learning, which is motivated by a similar need for addressing a range of questions and concerns, such as the following:
 
     > “who needs to understand the system, what they need to understand, what types of interpretations are appropriate, and when do these interpretations need to be provided”. [^ward2020]
 
     [^ico2020]: Information Commisioner's Office & Alan Turing Institute. (2020). Explaining decisions made with AI. https://ico.org.uk/media/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence-1-0.pdf
 
     [^ward2020]: Ward, F. R., & Habli, I. (2020). An Assurance Case Pattern for the Interpretability of Machine Learning in Safety-Critical Systems. In A. Casimiro, F. Ortmeier, E. Schoitsch, F. Bitsch, & P. Ferreira (Eds.), Computer Safety, Reliability, and Security. SAFECOMP 2020 Workshops (Vol. 12235, pp. 395–407). Springer International Publishing. https://doi.org/10.1007/978-3-030-55583-2_30
+
+#### Explainability Pattern
 
 ![A pattern for designing, developing, and deploying explainable digital mental health technologies](../assets/patterns/explainability-pattern.png)
 
