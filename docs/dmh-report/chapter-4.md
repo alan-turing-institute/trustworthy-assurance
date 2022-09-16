@@ -92,7 +92,7 @@ The following word cloud shows participant answers for the question,
 
 > 'What values and principles matter to you?'
 
-![A word cloud of ethical values and principles](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/wordcloud.png)
+![A word cloud of ethical values and principles. The top 10 are transparency, privacy, evidence-based, trustworthiness, clarity, accountability, self-determination, choice, safety, equity.](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/wordcloud.png)
 
 *Figure 4.1: a word cloud displaying answers to the question, 'What values and principles matter to you?'*
 
@@ -109,9 +109,9 @@ Although intended as an exploratory and preliminary activity, the findings repre
 | Principle | Concept |
 | --- | --- |
 | Sustainability | `evidence-based`, `fit for purpose`, `safeguarding`, `monitoring`, `cost effective`, `follow up`, `redress`, `safety`, `usefulness`, `impact` |
-| Accountability | `transparency`, `accountability`, `expert led`, `regulated`, `monitoring`, `honesty`, `redress`, `monitored closely` | 
+| Accountability | `transparency`, `safeguarding`, `accountability`, `expert led`, `regulated`, `monitoring`, `honesty`, `redress`, `monitored closely` | 
 | Fairness | `accessible/accessibility`, `fairness`, `co-designed`, `compassion`, `bias`, `equity`, `co-produced`, `diversity`, `equality`, `equality of access` |
-| Explainability | `transparency`, `clarity`, `accessible`, `honesty` `explainability`, `monitored closely` |
+| Explainability | `transparency`, `evidence-based`, `clarity`, `accessible`, `honesty` `explainability`, `monitored closely` |
 | Data Quality, Integrity, Privacy and Protection | `privacy`, `control of own data`, `regulated`, `honesty`, `usefulness`, `safe and secure`, `confidentiality` |  
 
 Two considerations can be extracted from this mapping:
@@ -127,7 +127,9 @@ Firstly, the main gap relates to the ability for the principles to capture conce
 
 In the original domain-general setting in which the SAFE-D principles were designed, informed consent and autonomous decision-making were captured under principles such as fairness and explainability (e.g. ensuring that information about an algorithmic decision is *accessible* and *explainable* to users). However, as we will see shortly, there are nuances in the design, development, and deployment of digital mental healthcare that put pressure on the choice of subsuming these values into another principle. 
 
-Secondly, there are other principles, such as `human-centred`, `human rights`, `honesty` and `closed loop systems` that are either ambiguous or do not fit cleanly into the existing framework. In the context of the first two, this is simply because they stand outside of the framework as meta-principles. For instance, the SAFE-D principles have been put forward as a means for safeguarding human rights. However, in the case of `honesty` and `closed loop systems`, there was simply insufficient information during discussion to determine whether these are merely outliers or express an existing attribute that fits within the framework.
+Secondly, there are other principles, such as `human-centred`, `human rights`, `honesty` and `closed loop systems` that are either ambiguous or do not fit cleanly into the existing framework. In the context of the first two, this is simply because they stand outside of the SAFE-D principles as meta-frameworks (e.g. human rights law). For instance, the SAFE-D principles have been put forward as a means for safeguarding human rights[^coe]. However, in the case of `honesty` and `closed loop systems`, there was simply insufficient information during discussion to determine whether these are merely outliers or express an existing attribute that fits within the framework.
+
+[^coe]: Leslie, D. et al. (2022). Human rights, democracy, and the rule of law assurance framework for AI systems: A proposal. Accessed: [https://rm.coe.int/huderaf-coe-final-1-2752-6741-5300-v-1/1680a3f688](https://rm.coe.int/huderaf-coe-final-1-2752-6741-5300-v-1/1680a3f688)
 
 Fortunately, the activities and discussion from the second workshop help emphasise more salient topics that were deemed significant by the stakeholders.
 
@@ -246,9 +248,11 @@ This is a valid concern, and is something that can be addressed through argument
 
 The second point relates to organisational culture and readiness, and the challenge of considering competing incentive or disincentive structures—a theme also raised in the previous chapter:
 
-- "There are lots of examples of people producing equality impact assessments that are little more than a tickbox exercise. It's important they are produced, but it's even more important they are of a high quality." [Policy-maker]
+- "There are lots of examples of people producing equality impact assessments[^ehrcpub] that are little more than a tickbox exercise. It's important they are produced, but it's even more important they are of a high quality." [Policy-maker]
 
-We have previously emphasised that trustworthy assurance should not be reduced to a mere checklist or compliance exercise. The model of the project lifecycle is one means for mitigating the risk of misuse in this manner, as it emphasises the iterative and dynamic process of building an assurance case over the course of the entire project lifecycle. As such, the act of building an assurance case is not rendered a checklist exercise that is carried out at the end of a project as an afterthought.
+[^ehrcpub]: See Equality and Human Rights Commission. (2014, August 1). Technical Guidance on the Public Sector Equality Duty: England | Equality and Human Rights Commission. Technical Guidance on the Public Sector Equality Duty: England. [https://www.equalityhumanrights.com/en/publication-download/technical-guidance-public-sector-equality-duty-england](https://www.equalityhumanrights.com/en/publication-download/technical-guidance-public-sector-equality-duty-england)
+
+We have previously emphasised that trustworthy assurance should not be reduced to a mere checklist or compliance exercise. The model of the project lifecycle is one means for mitigating the risk of misuse in this manner, as it emphasises the iterative and dynamic process of building an assurance case over the course of the entire project lifecycle. As such, the act of building an assurance case is not rendered a checklist exercise that is carried out at the end of a project as an afterthought, but is rather approached as subject to ongoing review.
 
 However, this prescription is going to be in conflict with alternative interests, as one participant notes:
 
@@ -385,7 +389,7 @@ But, again, the skepticism that participants held was typically nuanced and voic
 > 
 > In some instances, such as AI-assisted surgery, involvement of technology should optimise for safety. But in mental healthcare, human interaction and involvement will always be vital to a trustworthy and supportive relationship.
 
-From these preliminary remarks, it is important to disentangle the concepts of 'trust' and 'trustworthiness'. Whereas 'trust' can refer to a belief or attitude that is directed towards an object, person, or proposition (among other things), 'trustworthiness' refers to the perceived property or attribute which an individual uses to determine whether to place trust (e.g. whether to trust a news article based on its quoted sources). Differentiating these terms is helpful for evaluating whether there are reasonable (and unreasonable) grounds for placing trust. For example, a person may have *reasonable* grounds for their distrust in an organisation, where the organisation has a history of violating data protection and privacy laws. In contrast, another person may have *unreasonable* grounds for their skepticism about the clinical efficacy of a technology based on an accessible, well-validated, and reliable evidence base. 
+From these preliminary remarks, it is important to remember how we disentangled the concepts of 'trust' and 'trustworthiness' back in [Chapter 1](chapter-1.md). To recall, 'trust' can refer to a belief or attitude that is directed towards an object, person, or proposition (among other things), whereas 'trustworthiness' refers to the perceived property or attribute which an individual uses to determine whether to place trust (e.g. whether to trust a news article based on its quoted sources). Differentiating these terms is helpful for evaluating whether there are reasonable (and unreasonable) grounds for placing trust. For example, a person may have *reasonable* grounds for their distrust in an organisation, where the organisation has a history of violating data protection and privacy laws. In contrast, another person may have *unreasonable* grounds for their skepticism about the clinical efficacy of a technology based on an accessible, well-validated, and reliable evidence base. 
 
 Identifying the reasons for why users may trust or distrust a digital mental health technology can help organisations assess and evaluate both the trustworthiness of their teams and services, and identify opportunities for intervention. Phrased as a recommendation:
 
@@ -471,7 +475,9 @@ These critical comments and considerations should not be isolated from the remar
 
 - *Distrust as a barrier to access and use*: historic forms of oppression, injustice, and discrimination partially explain why some individuals and groups have low levels of trust towards these technologies and the organisations that design, develop, and deploy them. 
 - *Accountability through engagement*: the risks of harm and the likely benefits associated with digital mental health technologies may not be shared equally by all groups. Inclusive stakeholder engagement is one mechanism by which oversight and accountability in the risk management process can be achieved. To paraphrase one participant, 'those on a design team should be a diverse, invested group, and diversity should not be tokenistic'.
-- *Explainability as a pre-requisite for informed choice*: as a bioethical principle, ensuring informed consent is often linked to the ethical value of self-determination. The significance of the principle is understood by many to arise from a universal right to autonomous decision-making in matters relating to one's health and well-being. While the domain of mental healthcare places justifiable restrictions on this right when it conflicts with other duties (e.g. protecting others from harm), these are limiting cases for which there are existing norms and guidelines in place. In general, ensuring that an individual has sufficient access to the explanations needed about how a technology operates, in order to make an informed choice about whether to use the technology, has already been acknowledged as a vital ethical goal. However, there are many barriers in place to achieving this goal, and where they disproportionately affect certain groups (e.g. those with low levels of digital literacy or access to support services) this goal connects with the related goal of promoting social justice.
+- *Explainability as a pre-requisite for informed choice*: as a bioethical principle, ensuring informed consent is often linked to the ethical value of self-determination. The significance of the principle is understood by many to arise from a universal right to autonomous decision-making in matters relating to one's health and well-being. While the domain of mental healthcare places restrictions on this right when it conflicts with other duties (e.g. protecting others from harm), these are limiting cases for which there are existing norms and guidelines in place[^mentalhealthbill]. In general, ensuring that an individual has sufficient access to the explanations needed about how a technology operates, in order to make an informed choice about whether to use the technology, has already been acknowledged as a vital ethical goal. However, there are many barriers in place to achieving this goal, and where they disproportionately affect certain groups (e.g. those with low levels of digital literacy or access to support services) this goal connects with the related goal of promoting social justice.
+
+[^mentalhealthbill]: On these points it is worth noting that the [Mental Health Act](https://www.legislation.gov.uk/ukpga/2007/12/contents), which sets out the legislation that is used to determine when it is appropriate to place restrictions on people,  has been subject to proposed reform in recent months. Readers may find the "new guiding principles" of particular interest in the context of this report (see [here](https://www.gov.uk/government/consultations/reforming-the-mental-health-act/reforming-the-mental-health-act#part-1-proposals-for-reform-of-the-mental-health-act)).
 
 Improving health equity is already a key priority across many organisations in the UK.[^equality] For example, the Equality and Human Rights Commission have recently published a report that...
 
