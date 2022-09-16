@@ -7,7 +7,7 @@ authors:
 
 ## Co-Creating a Culture of Trust
 
-![An illustration of a user operating a smartphone where a stream of data disappears into a maze](../assets/images/data-maze.png)
+![An illustration of a user operating a smartphone where a stream of data disappears into a maze](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/data-maze.png)
 
 > Uncertainty breeds distrust.
 
@@ -23,7 +23,7 @@ Therefore, in addition to our methodological proposal of trustworthy assurance a
 
 In addition to the individual recommendations above this report can also be viewed as a general recommendation itself—one that calls for the more widespread adoption of the trustworthy assurance methodology. We can even formulate this recommendation as an argument in a pseudo assurance case:
 
-![A pseudo assurance case for an over-arching argument of the report](../assets/images/pseudo-argument.png)
+![A pseudo assurance case for an over-arching argument of the report](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/pseudo-argument.png)
 
 Ultimately, the veracity of the goal claim depends on how and whether the methodology is adopted. This report is not a user guide, however, so more work needs to be done to ensure the adoption by organisations is made as straightforward as possible (e.g. alignment with existing regulation and current practices, including complementary quality assurance procedures).
 
@@ -37,4 +37,4 @@ These efforts will need to remain receptive to ongoing developments in this doma
 
 We hope that the proposal and recommendations set out in this report offers some clarity, structure, and positive direction to help navigate this complex (and multitudinous) space. And, more importantly, we hope that it can (indirectly) improve mental health services for those who need them.
 
-![An illustration of two people navigating a path that represents multiple decisions about how to develop a responsible digital society](../assets/images/responsible-innovation.jpg)
+![An illustration of two people navigating a path that represents multiple decisions about how to develop a responsible digital society](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/responsible-innovation.jpg)
