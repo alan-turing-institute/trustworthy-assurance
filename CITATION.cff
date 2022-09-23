@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "You can cite the report using the following information."
+authors:
+- family-names: "Burr"
+  given-names: "Christopher"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Powell"
+  given-names: "Rosamund"
+title: "Trustworthy Assurance of Digital Mental Healthcare"
+doi: 10.5281/zenodo.1234
+date-released: 2022-10-06
+url: "https://alan-turing-institute.github.io/trustworthy-assurance/"
