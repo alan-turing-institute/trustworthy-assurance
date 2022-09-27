@@ -8,76 +8,76 @@ Welcome to the online version of a report titled, 'Trustworthy Assurance of Digi
 
 <div class="grid cards" markdown>
 
-* \:fontawesome-solid-comment-dots:{ .lg .middle } __Foreword__
+- :fontawesome-solid-comment-dots:{ .lg .middle } __Foreword__
 
   ---
 
   A foreword written by Cath Biddle (Mind).
 
-  [\:octicons-arrow-right-24: Go to chapter](foreword.md)
-* \:fontawesome-solid-file-lines:{ .lg .middle } __Executive Summary__
+  [:octicons-arrow-right-24: Go to chapter](foreword.md)
+- :fontawesome-solid-file-lines:{ .lg .middle } __Executive Summary__
 
   ---
 
   An executive summary covering the main findings and recommendations from the report.
 
-  [\:octicons-arrow-right-24: Go to chapter](executive-summary.md)
-* \:fontawesome-solid-play:{ .lg .middle } __Chapter 1—Introduction__
+  [:octicons-arrow-right-24: Go to chapter](executive-summary.md)
+- :fontawesome-solid-play:{ .lg .middle } __Chapter 1—Introduction__
 
   ---
 
   Introduction to the report.
 
-  [\:octicons-arrow-right-24: Go to chapter](chapter-1.md)
-* \:fontawesome-solid-diagram-project:{ .lg .middle } __Chapter 2—Presenting Trustworthy Assurance__
+  [:octicons-arrow-right-24: Go to chapter](chapter-1.md)
+- :fontawesome-solid-diagram-project:{ .lg .middle } __Chapter 2—Presenting Trustworthy Assurance__
 
   ---
 
   This chapter introduces argument-based assurance for readers who may be unfamiliar with the methodology.
 
-  [\:octicons-arrow-right-24: Go to chapter](chapter-2.md)
-* \:fontawesome-solid-building-columns:{ .lg .middle } __Chapter 3—Applying Trustworthy Assurance__
+  [:octicons-arrow-right-24: Go to chapter](chapter-2.md)
+- :fontawesome-solid-building-columns:{ .lg .middle } __Chapter 3—Applying Trustworthy Assurance__
 
   ---
 
   This chapter covers the research, findings, and recommendations from our sub-project with UK Universities and students.
 
-  [\:octicons-arrow-right-24: Go to chapter](chapter-3.md)
-* \:fontawesome-solid-people-group:{ .lg .middle } __Chapter 4—Co-Designing Trustworthy Assurance__
+  [:octicons-arrow-right-24: Go to chapter](chapter-3.md)
+- :fontawesome-solid-people-group:{ .lg .middle } __Chapter 4—Co-Designing Trustworthy Assurance__
 
   ---
 
   This chapter discusses our engagement with regulators, developers, researchers, and users of digital mental health technology.
 
-  [\:octicons-arrow-right-24: Go to chapter](chapter-4.md)
-* \:fontawesome-solid-scale-balanced:{ .lg .middle } __Chapter 5—Developing Trustworthy Assurance__
+  [:octicons-arrow-right-24: Go to chapter](chapter-4.md)
+- :fontawesome-solid-scale-balanced:{ .lg .middle } __Chapter 5—Developing Trustworthy Assurance__
 
   ---
 
   This chapter presents two argument patterns on the topics of 'fairness' and 'explainability', informed by our workshops.
 
-  [\:octicons-arrow-right-24: Go to chapter](chapter-4.md)
-* \:fontawesome-solid-signs-post:{ .lg .middle } __Conclusion__
+  [:octicons-arrow-right-24: Go to chapter](chapter-4.md)
+- :fontawesome-solid-signs-post:{ .lg .middle } __Conclusion__
 
   ---
 
   The conclusion to our report with next steps and open questions.
 
-  [\:octicons-arrow-right-24: Go to chapter](conclusion.md)
-* \:fontawesome-solid-pen-ruler:{ .lg .middle } __Appendix__
+  [:octicons-arrow-right-24: Go to chapter](conclusion.md)
+- :fontawesome-solid-pen-ruler:{ .lg .middle } __Appendix__
 
   ---
 
   An appendix outlining our project's methodology.
 
-  [\:octicons-arrow-right-24: Go to chapter](appendix.md)
-* \:fontawesome-solid-toolbox:{ .lg .middle } __Further Resources__
+  [:octicons-arrow-right-24: Go to chapter](appendix.md)
+- :fontawesome-solid-toolbox:{ .lg .middle } __Further Resources__
 
   ---
 
   Further resources on topics related to digital mental healthcare.
 
-  [\:octicons-arrow-right-24: Go to chapter](further-resources.md)
+  [:octicons-arrow-right-24: Go to chapter](further-resources.md)
 
 </div>
 
@@ -99,10 +99,9 @@ Specifically, we are grateful for the candid and thoughtful discussions of the u
 
 The research team would also like to acknowledge the following groups and individuals:
 
-<!-- List reviewers who are happy to be named -->
-
-* Members of the wider project team who offered helpful advice and guidance: Dr Kate Devlin, Dr David Leslie, Morgan Briggs
-* Our collaborators at University of York's Assuring Autonomy International Programme, including Dr Ibrahim Habli and Dr Zoe Porter who have been instrumental in ongoing discussions about argument-based assurance. And, also our thanks to all participants and the organisers of the [UKRI TAS Health and Social Care Workshop](https://www.tas.ac.uk/bigeventscpt/health-and-social-care-workshop/) for their valuable feedback and queries.
-* Our collaborators at the McPin Foundation, including Dr Dan Robotham and Roya Camvar who were instrumental in facilitating conversations with individuals who have lived experiences relating to the use of digital mental health technologies.
-* Colleagues at the Alan Turing Institute, who have provided direct and indirect input into this research project: Oana Romocea, Eirini Koutsuoroupa, Pauline Kinniburgh, Dr Shyam Krishna, and Dr Michael Katell.
-* With special thanks to all participants in our research engagements throughout this project, including participants with lived experiences of digital mental health technologies, students and administrators at UK universities and, finally, policymakers, researchers and developers working within the sector. 
+- The following individuals who generously gave their time to review a draft version of this report (alphabetical order): Cath Biddle, Claudia Corradi, Ibrahim Habli, Zoe Porter, and Math Rawsthorne. We would also like to thank two anonymous reviewers.
+- Members of the wider project team who offered helpful advice and guidance: Dr Kate Devlin, Professor David Leslie, Morgan Briggs
+- Our collaborators at University of York's Assuring Autonomy International Programme, including Dr Ibrahim Habli and Dr Zoe Porter who have been instrumental in ongoing discussions about argument-based assurance. And, also our thanks to all participants and the organisers of the [UKRI TAS Health and Social Care Workshop](https://www.tas.ac.uk/bigeventscpt/health-and-social-care-workshop/) for their valuable feedback and queries.
+- Our collaborators at the McPin Foundation, including Dr Dan Robotham and Roya Camvar who were instrumental in facilitating conversations with individuals who have lived experiences relating to the use of digital mental health technologies.
+- Colleagues at the Alan Turing Institute, who have provided direct and indirect input into this research project: Oana Romocea, Eirini Koutsuoroupa, Pauline Kinniburgh, Dr Shyam Krishna, and Dr Michael Katell.
+- With special thanks to all participants in our research engagements throughout this project, including participants with lived experiences of digital mental health technologies, students and administrators at UK universities and, finally, policymakers, researchers and developers working within the sector. 
