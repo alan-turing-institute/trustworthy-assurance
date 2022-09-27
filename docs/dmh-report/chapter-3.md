@@ -48,7 +48,8 @@ Digital interventions are frequently seen as a “natural step” for student me
 
 Amid these policy recommendations for modernisation, digital mental healthcare offerings designed for the general population have proliferated with The Office for Students suggesting 43,000 wellness and medical apps are now available for smartphone use.[^10]
 
-It is no surprise, therefore, that these new tools have appealed to universities facing rising service demand alongside tight budgets, and that digital mental healthcare adoption has advanced at pace across UK universities. 
+It is no surprise, therefore, that these new tools have appealed to universities facing rising service demand alongside tight budgets, and that digital mental healthcare adoption has advanced at pace across UK universities.
+
 [^10]: (https://www.officeforstudents.org.uk/advice-and-guidance/student-wellbeing-and-protection/student-mental-health/the-role-of-digital-mental-health-support-tools-and-the-importance-of-the-student-co-production-model-in-supporting-their-development/)
 
 One way in which the growth in digital mental healthcare has been amplified is through universities’ informal recommendations of external apps.[^11] For example, among the 24 Russel Group Universities in the UK, 15 recommend students try Headspace, eight point in the direction of Calm, and nine recommend SAM (Self-help App for the Mind), to name just a few of the apps listed on university webpages, typically under the heading of ‘self-help resources’.[^12]  
