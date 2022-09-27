@@ -95,7 +95,7 @@ What about focusing on the technologies themselves? Again, this is not an easy f
 
 [^Nuffield]: Nuffield Council on Bioethics (2022) The role of technology in mental healthcare. [https://www.nuffieldbioethics.org/assets/pdfs/The-role-of-technology-in-mental-healthcare.pdf](https://www.nuffieldbioethics.org/assets/pdfs/The-role-of-technology-in-mental-healthcare.pdf)
 
-But none of these categories are suitable for building a definition of digital mental health technologies writ large. For instance, let's take a look at so-called "digital phenotyping"—an increasingly popular area of digital mental health technology—, defined as follows:
+But none of these categories are suitable for building a definition of digital mental health technologies writ large. For instance, let's take a look at so-called "digital phenotyping"—an increasingly popular area of digital mental health—, defined as follows:
 
 > We also introduce the term “digital phenotyping” to refer to the “moment-by-moment quantification of the individual-level human phenotype in-situ using data from smartphones and other personal digital devices.”[^torous]
 
