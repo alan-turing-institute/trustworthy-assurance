@@ -13,11 +13,11 @@ tags:
 
 > **Chapter Overview**
 >
-> This section is the first of two sections that present findings from research conducted with stakeholders and/or affected users. Specifically, this section presents findings from research conducted on the application of trustworthy assurance to the procurement of digital mental health technologies for use in the higher education (HE) sector. 
+> This section is the first of two sections that present findings from research conducted with stakeholders and/or affected users. Specifically, this section presents findings from research conducted on the application of trustworthy assurance to the procurement of digital mental health technologies for use in the higher education (HE) sector.
 >
 > First, we provide an overview of the digital mental healthcare landscape at UK universities, detailing the pressures faced by university teams and the range of services currently on offer across the country.  
 >
-> Second, we present findings from a series of participatory engagements conducted with students and administrators at universities across the UK. We outline a series of contextual challenges to the ethical deployment of digital mental healthcare in higher education before exploring how the methodology of trustworthy assurance might be introduced in this sector to help tackle these challenges. For each challenge identified, future recommendations for the sector are provided. 
+> Second, we present findings from a series of participatory engagements conducted with students and administrators at universities across the UK. We outline a series of contextual challenges to the ethical deployment of digital mental healthcare in higher education before exploring how the methodology of trustworthy assurance might be introduced in this sector to help tackle these challenges. For each challenge identified, future recommendations for the sector are provided.
 >
 > Broader lessons for the ethics of digital mental healthcare are also fed forward into Chapter 4 where further recommendations for policy-makers and developers are given.
 
