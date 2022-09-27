@@ -113,7 +113,7 @@ In particular, this report will pay close attention to those technologies that a
 
 We acknowledge that many will find this definition too permissive, but this report is not concerned with developing a robust philosophical definition or a taxonomy that can be used to delineate the precise nature of digital mental health technologies. Rather, it is focused on the defence of a methodology to help make digital mental health technologies more trustworthy and ethical. Therefore, the broader the class that can be drawn the better it will be for our goals, because more technologies will fall within its scope[^examples]. And, insofar as there are legal considerations that demand precise definitions, these issues will be addressed along different lines (e.g. operationalising standards of assessment for equitable treatment).
 
-[^examples]: For instance, if we draw the class as comprising digital technologies for "health and well-being" we will capture technologies as diverse as ML algorithms used to identify associations between genetic factors and mental health outcomes, to mobile apps that use natural language processing techniques to help users better understand their feelings through a smart diary. See [this page on our website](examples.md) for more illustrative examples of digital mental health (and well-being) technologies.
+[^examples]: For instance, if we draw the class as comprising digital technologies for "health and well-being" we will capture technologies as diverse as ML algorithms used to identify associations between genetic factors and mental health outcomes, to mobile apps that use natural language processing techniques to help users better understand their feelings through a smart diary.
 
 Let us now turn to the second question.
 
