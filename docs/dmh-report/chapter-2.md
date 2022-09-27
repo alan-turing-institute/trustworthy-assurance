@@ -9,7 +9,7 @@ tags:
 ---
 # Presenting Trustworthy Assurance—A Framework and Methodology
 
-![A placeholder image](https://via.placeholder.com/800x400?text=Placeholder+Image)
+![Illustration of a person at a desk using the trustworthy assurance methodology](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/ch2-header.jpg){ .off-glb }
 
 >**Chapter Overview**
 >

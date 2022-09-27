@@ -11,7 +11,7 @@ tags:
 ---
 # Co-Designing Trustworthy Assurance—Stakeholder Engagement
 
-![A placeholder image](https://via.placeholder.com/800x400?text=Placeholder+Image)
+![Illustration of stakeholders reflecting on and deliberating different ideas at tables in a room and online](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/ch4-header.jpg){ .off-glb }
 
 > **Chapter Overview**
 >
@@ -279,13 +279,13 @@ The responses from researchers were mostly positive in the sense that few obstac
 
 - "Ethical regulation, in the private sector, is non-existent. Theories around mental health, in general, are too underdeveloped, the digital context and the methods to use for research unexplored, non-rigorous, and misaligned with gold standards. Ethical assurance has no tangible rewards for a designer with a purpose or aim, independently of the positive principles used to design the system."
 
-We can, again, note that targeting procurement practices in the public sector may be a positive first step, and, moreover, that complementarity with existing regulation could increase adoption. This latter point was highlighted by the responses from the policymakers.
+We can, again, note that targeting procurement practices in the public sector may be a positive first step, and, moreover, that complementarity with existing regulation could increase adoption. This latter point was highlighted by the responses from the policy-makers.
 
-> *As a policymaker, do you consider the methodology of ethical assurance to be compatible with existing regulatory mechanisms in the sector? Please describe any obstacles to the adoption of ethical assurance in the digital mental health sector.* 
+> *As a policy-maker, do you consider the methodology of ethical assurance to be compatible with existing regulatory mechanisms in the sector? Please describe any obstacles to the adoption of ethical assurance in the digital mental health sector.* 
 
 - "I'd recommend that you align to existing regs where possible (e.g. goals could be 'conform to GDPR' or 'meet regulatory requirements' rather than more abstract items) and make it easy for non-experts to use."
 
-The response from another policymaker, however, suggests that caution should still be exercised when seeking alignment, in order to avoid confusion:
+The response from another policy-maker, however, suggests that caution should still be exercised when seeking alignment, in order to avoid confusion:
 
 - "It [trustworthy assurance] is compatible but it may overlap considerably with other requirements eg. ESF, DTAC etc. creating confusion and overload for developers."
 

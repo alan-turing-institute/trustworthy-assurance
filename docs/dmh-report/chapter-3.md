@@ -19,7 +19,7 @@ tags:
 >
 > Second, we present findings from a series of participatory engagements conducted with students and administrators at universities across the UK. We outline a series of contextual challenges to the ethical deployment of digital mental healthcare in higher education before exploring how the methodology of trustworthy assurance might be introduced in this sector to help tackle these challenges. For each challenge identified, future recommendations for the sector are provided. 
 >
-> Broader lessons for the ethics of digital mental healthcare are also fed forward into Chapter 4 where further recommendations for policymakers and developers are given.
+> Broader lessons for the ethics of digital mental healthcare are also fed forward into Chapter 4 where further recommendations for policy-makers and developers are given.
 
 ## The University Context
 
@@ -351,7 +351,7 @@ However, among students, the need for more awareness on what services are availa
 
 ### Methodological Challenges
 
-Overall, feedback from administrators and students suggests there is a long way to go to ensure responsible digital mental health innovation and procurement across the UK higher education sector. Progress can be made by following key recommendations set out here for universities. However, significant challenges will remain so long as changes only take place on the side of universities. Systemic changes from developers, policymakers, and university leadership teams are required to leverage the collective power required to foster a responsible innovation landscape.
+Overall, feedback from administrators and students suggests there is a long way to go to ensure responsible digital mental health innovation and procurement across the UK higher education sector. Progress can be made by following key recommendations set out here for universities. However, significant challenges will remain so long as changes only take place on the side of universities. Systemic changes from developers, policy-makers, and university leadership teams are required to leverage the collective power required to foster a responsible innovation landscape.
 
 The trustworthy assurance methodology provides one route through which such a culture of responsible innovation and transparent communication could be facilitated so that university stakeholders are given all necessary information to review new mental health tools offered to them. Due to the potential of this methodology in this sector we asked administrators to provide feedback on its deployment. Crucially, feedback indicated that this methodology would fit within current procurement practices, provide structure for the critical assessment of developers’ claims, and encourage more transparent communication among university staff about the rationale behind procurement decisions.
 
@@ -372,7 +372,7 @@ Trustworthy assurance cases (as set out in Section 1) can appear complex. This i
 
 First, technical skills are required to assess such cases and ensure evidence matches with property claims. Second, assurance cases cannot be treated in isolation and must often be evaluated alongside clinical standards. It is important to avoid treating clinical efficacy and ethical standards as equivalent. The assurance exercise is not intended to provide a universal stamp of approval that ethical concerns have been addressed. Instead, it will require contextual interpretation on whether the evidence provided by a developer is sufficient for deployment in a specific context. 
 
-As a result, despite placing the greatest burden of responsibility on developers, this methodology does require administrators to have capacity to effectively review assurance cases. Policymakers must, therefore, take on responsibility for ensuring the necessary knowledge, capacity, and organisational readiness to assess digital technologies is provided to universities. This could be offered through consultation with national bodies such as AMOSSHE, The Office for Students or Universities UK or through dedicating resources to capacity building within each higher education institution.
+As a result, despite placing the greatest burden of responsibility on developers, this methodology does require administrators to have capacity to effectively review assurance cases. Policy-makers must, therefore, take on responsibility for ensuring the necessary knowledge, capacity, and organisational readiness to assess digital technologies is provided to universities. This could be offered through consultation with national bodies such as AMOSSHE, The Office for Students or Universities UK or through dedicating resources to capacity building within each higher education institution.
 
 #### Challenge 8: Uptake by developers
 
