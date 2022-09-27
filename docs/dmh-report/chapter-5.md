@@ -66,7 +66,7 @@ The pattern that has been developed, through participation of stakeholders and u
 
 !!! info "Why does this pattern matter?"
 
-    In recent years, many tools for improving and supporting the trustworthy and responsible development of digital mental health technologies have been proposed. One key advancement is the The Digital Technology Assessment Criteria for Health and Social Care (DTAC). This form provides guidance on assessing four technical components (in addition to a contextual component):
+    In recent years, many tools for improving and supporting the trustworthy and responsible development of digital mental health technologies have been proposed. One key advancement is the [Digital Technology Assessment Criteria for Health and Social Care](https://transform.england.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/) (DTAC). This form provides guidance on assessing four technical components (in addition to a contextual component):
 
     1. Clinical safety
     2. Data protection
@@ -93,7 +93,7 @@ The pattern that has been developed, through participation of stakeholders and u
     > - decide in which contexts and specific instances fairness is important and relevant (which it may not always be), and
     > - design, implement and enforce appropriate governance requirements for ‘fairness’ as applicable to the entities that they regulate.
  
-    Therefore, there is clear regulatory appetite and industry need for both domain-specific and cross-cutting guidance on how to embed considerations of fairness and equality into the deign, development, and deployment of digital technologies.
+    Therefore, there is clear regulatory appetite and industry need for both domain-specific and cross-cutting guidance on how to embed considerations of fairness and equality into the design, development, and deployment of digital technologies.
 
 #### Fairness Pattern
 
@@ -105,7 +105,7 @@ The goal claim in this argument pattern addresses distributional concepts of fai
 
 Unlike traditional safety cases, which often include  `System Description` and `Context of Use` placeholders, this pattern also includes a `Stakeholder` component to emphasise the importance of engagement. Here, the term 'stakeholder' should be treated in as inclusive a manner as possible, and not only the direct users of the technology.
 
-The goal is broken into four higher-level property claims and their respective sub-claims, which we group according to the following core attributes of the Fairness principle as specified and operationalised in the context of digital mental health technology:
+The goal is broken into four higher-level property claims and their respective sub-claims, which we group according to the following core attributes of the Fairness principle as specified and operationalised in the context of digital mental health:
 
 * Argument over `bias mitigation`
 * Argument over `non-exclusion`
@@ -178,7 +178,7 @@ The most obvious conceptual distinction is between `interpretability` as a core 
 
 *Figure 4.2: A pattern for designing, developing, and deploying explainable digital mental health technologies* (:material-magnify-plus: click image to expand, :material-download: download [here](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/patterns/explainability-pattern-final.png))
 
-In previous guidance[^ico2020], we have distinguished between two sub-categories of explanations:
+In previous guidance[@ico2020], we have distinguished between two sub-categories of explanations:
 
 1. *Process-based explanations* of AI systems are about demonstrating that you have followed good governance processes and best practices throughout your design and use.
 2. *Outcome-based explanations* of AI systems are about clarifying the results of a specific decision. They involve explaining the reasoning behind a particular algorithmically-generated outcome in plain, easily understandable, and everyday language.
@@ -187,7 +187,7 @@ These categories are reflected in our pattern, where they form 'intermediate arg
 
 As with the fairness pattern, placeholders for `System Description` and `Context of Use` and `Stakeholder` are also included.
 
-The intermediate arguments are then broken into four higher-level property claims and their respective sub-claims, which we group according to the following core attributes of the Explainability principle as specified and operationalised in the context of digital mental health technology:
+The intermediate arguments are then broken into four higher-level property claims and their respective sub-claims, which we group according to the following core attributes of the Explainability principle as specified and operationalised in the context of digital mental health:
 
 * Argument over `transparency and accountability`
 * Argument over `responsible project governance`
