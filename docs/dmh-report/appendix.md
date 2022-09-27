@@ -41,7 +41,7 @@ We prepared four case studies for this project, all of which were related to hyp
 
 !!! info “Case Studies”
 
-    Our case studies are free to download from our [online repository](https://github.com/alan-turing-institute/trustworthy-assurance/tree/main/docs/assets/case-studies_). They are released under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license. They can be freely shared and adapted subject to the following [licensing restrictions](https://creativecommons.org/licenses/by-sa/4.0/). We would also encourage anyone who uses the case studies to provide feedback on where they were helpful or could be improved. 
+    Our case studies are free to download from our [online repository](https://github.com/alan-turing-institute/trustworthy-assurance/tree/main/docs/assets/case-studies). They are released under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license. They can be freely shared and adapted subject to the following [licensing restrictions](https://creativecommons.org/licenses/by-sa/4.0/). We would also encourage anyone who uses the case studies to provide feedback on where they were helpful or could be improved. 
 
 For each case study, the following information was presented:
 
@@ -178,7 +178,7 @@ Nevertheless, where relevant, student perspectives are used to supplement this a
 
 #### Recruitment and participant details
 
-Unlike the previous workshops, participants from these three groups were sent specific invitations based on their roles and responsibilities.
+Unlike the previous workshops, 39 participants from these three groups were sent specific invitations based on their roles and responsibilities (30 attended).
 While this introduces a source of selection bias, it also allowed the project team to utilise existing relationships to ensure senior decision-makers and researchers from across the UK government and civil service, third-sector, development community, and academia were included.
 
 A decision was made early in the project to bring these different stakeholder groups together, rather than holding separate workshops for each group.
@@ -218,30 +218,30 @@ Participants were required to be over 18 years old and to have either a) direct 
 No other constraints were set, and no information about the specific reason for use was requested (e.g. CBT app for anxiety).
 
 Two workshops were offered to participants and both were held during July 2022—one in person at the Alan Turing Institute and one online using Zoom.
-For the in-person workshop, participants were selected from around Greater London due to the need to travel to the Alan Turing Institute—travel expenses were reimbursed.
-For the online workshop, participants were selected from across the UK.
+For the in-person workshop, 10 participants were selected from around Greater London due to the need to travel to the Alan Turing Institute—travel expenses were reimbursed.
+For the online workshop, 10 participants were selected from across the UK.
 All participants were reimbursed for their time.
 
 #### Workshop design
 
 All workshops were facilitated by two members of staff from the McPin foundation.
-The project team supported the McPin facilitators and also gave two presentations—our slides can be [downloaded here]().
+The project team supported the McPin facilitators and also gave two presentations—our slides can be [downloaded here](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/slides/turing-mcpin-workshop.pdf).
 However, in these workshops the project team took a less hands-on role than the other engagements.
 
 The workshops with users focused on the moral attitudes and perspectives of the participants and only indirectly explored trustworthy assurance.
 While they were informed about the trustworthy assurance methodology, so they could understand why they were carrying out the respective activities, it was not emphasised in the workshops.
 This choice was influenced a) by the feedback from the students gathered during the sub-project (see [Chapter 2](chapter-2.md)), and b) preliminary discussions with our workshop facilitators—McPin—about the accessibility of the material within the time constraints.
 
-Two activities were designed for these workshops:
+Two activities were designed for these workshops (using breakout sessions to allow wider contribution from the participants):
 
 - The first activity was a guided discussion of the following three questions:
   1. What is Digital Mental Healthcare?
   2. What are some positive use cases for digital mental health technologies?
   3. What are some negative use cases for digital mental health technologies?
-- The second activity involved a structured task where the participants evaluated several statements, which were designed as possible assurance claims from one of the hypothetical developers in our case studies (download list of claims and questions).
+- The second activity involved a structured task where the participants evaluated several statements, which were designed as possible assurance claims from one of the hypothetical developers in our case studies ([download list of claims and questions](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/workshop-materials/evaluation-claims.pdf)).
 
 #### Analysis
 
-## Notes
-
-https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-018-1794-8
+To facilitate qualitative and thematic analysis, minutes and notes were provided by the McPin Foundation facilitators and supplemented by notes taken by the Turing project team during the meeting.
+No recordings were taken or transcribed to help create a more comfortable environment for the participants.
+The Turing team used the minutes, notes, and the [original documents](https://github.com/alan-turing-institute/trustworthy-assurance/tree/main/docs/assets/workshop-materials) from the workshop activities to identify general themes [see Chapter 4](chapter-4.md) and extract the core attributes that were used to operationalise the ethical goals associated with the argument patterns presented in [Chapter 5](chapter-5.md)
