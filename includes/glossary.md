@@ -4,5 +4,5 @@
 * [Accessibility]: 
 * [Inclusivity]:
 * [Stakeholder Engagement]:
-* [Stakeholder]: 
+* [Stakeholder]: A person that has an interest (including non-commercial) in a project.
 * [Neurodiversity]:
