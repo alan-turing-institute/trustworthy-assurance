@@ -3,6 +3,7 @@
 *[Reinforcement Learning]: A type of machine learning that uses an algorithmic procedure to learn an optimal policy (i.e. a set of instructions that tells an agent which actions to take given a particular state). This policy can be used to control the behaviour of software agent (e.g. in games such as Chess or Go), as well as hardware (e.g. actions undertaken by a robotic agent).
 *[Stakeholder]: A person that has an interest (including non-commercial) in a project.
 *[Neurodiversity]: Neurodiversity refers to the idea that brain function varies from person to person, and is often used in a non-judgement or non-discriminatory context (e.g. neurodiversity should be supported and embraced within teams and organisations).
-<!-- *[Neurodiversity]:
+
+<!--
 *[Accessibility]: 
 *[Inclusivity]: -->
