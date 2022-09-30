@@ -137,7 +137,7 @@ Fortunately, the activities and discussion from the second workshop help emphasi
 
 The second workshop (1b) focused on a participatory design activity that was created to evaluate the trustworthy assurance methodology and attempt to operationalise some of the ethical principles explored in the first workshop.
 
-For the main activity, participants were asked to review and discuss the ethical issues related to a specific case study and then develop a hypothetical assurance case that communicated how a set of decisions or actions had been undertaken to justify the ethical goals and properties that they had discussed. The groups were free to choose the goal. Tnd the case study, which had also been selected by participants, involved the use of a decision support system that offered tailored and real-time recommendations to a psychiatrist during consultation with a patient (e.g. during assessment)(see [Further Resources](further-resources.md)).
+For the main activity, participants were asked to review and discuss the ethical issues related to a specific case study and then develop a hypothetical assurance case that communicated how a set of decisions or actions had been undertaken to justify the ethical goals and properties that they had discussed. The groups were free to choose the goal. Tnd the case study, which had also been selected by participants, involved the use of a decision support system that offered tailored and real-time recommendations to a psychiatrist during consultation with a patient (e.g. during assessment)(see [Appendix](appendix.md)).
 
 Two breakout groups were formed and the (incomplete) assurance cases are depicted below.
 

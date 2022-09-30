@@ -80,13 +80,13 @@ Welcome to the online version of a report titled, 'Trustworthy Assurance of Digi
 
     [:octicons-arrow-right-24: Go to chapter](appendix.md)
 
-- :fontawesome-solid-toolbox:{ .lg .middle } __Further Resources__
+<!-- - :fontawesome-solid-toolbox:{ .lg .middle } __Further Resources__
 
     ---
 
     Further resources on topics related to digital mental healthcare.
 
-    [:octicons-arrow-right-24: Go to chapter](further-resources.md)
+    [:octicons-arrow-right-24: Go to chapter](further-resources.md) -->
 
 </div>
 

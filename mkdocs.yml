@@ -101,11 +101,7 @@ markdown_extensions:
       repo: mkdocs-material
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -139,5 +135,5 @@ nav:
     - Chapter 5—Developing Trustworthy Assurance: dmh-report/chapter-5.md
     - Conclusion: dmh-report/conclusion.md
     - Appendix: dmh-report/appendix.md
-    - Further Resources: dmh-report/further-resources.md
+    # - Further Resources: dmh-report/further-resources.md
   - Assurance Platform: https://assuranceplatform.azurewebsites.net/
