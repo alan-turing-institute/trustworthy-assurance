@@ -12,3 +12,5 @@
 .venv/
 
 admin/
+
+/includes/full-report.md
