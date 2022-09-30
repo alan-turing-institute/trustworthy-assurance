@@ -15,9 +15,9 @@ When the consequences of potential actions or interventions are hard to identify
 
 As we have seen over the course of this report, vague privacy policies, poorly-specified objectives, pervasive and invasive data extraction, and dubious claims about user safety and clinical efficiency of services, are all sources of uncertainty.
 
-This report has laid out a methodological proposal for how we can begin to address the current culture of distrust that casts a shadow over the digital mental healthcare industry. While we believe that the methodology and recommendations will support this goal, and have presented tentative evidence to justify this belief, the development of a trustworthy ecosystem of digital mental healthcare requires a more collaborative effort.
+This report has laid out a methodological proposal for how we can begin to address the current culture of distrust that casts a shadow over the digital mental healthcare landscape. While we believe that the methodology and recommendations will support this goal, and have presented tentative evidence to justify this belief, the development of a trustworthy ecosystem of digital mental healthcare requires a more collaborative effort.
 
-Therefore, in addition to our methodological proposal of trustworthy assurance and the initial argument patterns, we have also made a series of supporting recommendations throughout, which are also summarised in the [Executive Summary](executive-summary.md)). But what comes next?
+Therefore, in addition to our methodological proposal of trustworthy assurance and the initial argument patterns, we have also made a series of supporting recommendations (summarised in the [Executive Summary](executive-summary.md)). But what comes next?
 
 ## Next Steps
 

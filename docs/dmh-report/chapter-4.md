@@ -15,11 +15,11 @@ tags:
 
 > **Chapter Overview**
 >
-> This section introduces and analyses the findings of several stakeholder engagement events, which were conducted to a) identify participant's attitudes towards digital mental healthcare, b) understand which ethical values and principles they view as significant, and c) explore how to use this information to construct trustworthy assurance cases and argument patterns for relevant ethical goals.
+> This section introduces and analyses the findings of several stakeholder engagement events, which were conducted to a) identify participant's attitudes towards DMHTs, b) understand which ethical values and principles they view as significant, and c) explore how to use this information to construct trustworthy assurance cases and argument patterns for relevant ethical goals.
 >
 > First, we introduce the objectives, structure, and content of the workshops.
-> 
-> Second, we analyse the findings of our workshops, drawing connections with the methodology of trustworthy assurance. These findings support the development of two *argument patterns*, presented in chapter 4, which serve to distill recurring themes from all of workshop participants that were deemed significant.
+>
+> Second, we analyse the findings of our workshops, drawing connections with the methodology of trustworthy assurance. These findings support the development of two *argument patterns*, presented in chapter 5, which serve to distill recurring themes from all of workshop participants that were deemed significant.
 >  
 > Finally, we offer several recommendations for policy-makers, regulators, and developers, based on the preliminary results of the project.
 
@@ -27,20 +27,20 @@ tags:
 
 ### Participants
 
-In the previous chapter we discussed our engagement with university students and administrators. This work was treated as a sub-project because of the specific focus on the University sector as a limiting context. In this chapter we address workshops with a wider range of stakeholders and from a broader perspective. While the objectives remain the same across these two chapters, the findings and analysis in this section are representative of a wider range of concerns.[^limitation]
+In the previous chapter we discussed our engagement with university students and administrators. This work was treated as a sub-project because of the specific focus on the HE sector as a limiting context. In this chapter we address workshops with a wider range of stakeholders and from a broader perspective. While the objectives remain the same across these two chapters, the findings and analysis in this section are representative of a wider range of concerns.[^limitation]
 
-[^limitation]: There is, of course, a trade-off here between the narrower and wider perspectives, which we discuss in [Appendix 1, 'Limitations'](appendix.md).
+[^limitation]: There is, of course, a trade-off here between the narrower and wider perspectives, which we discuss in [Appendix 1](appendix.md).
 
 The stakeholder groups we consider in this chapter are as follows:
 
 1. Policy-makers and regulators in healthcare
-2. Developers of digital mental healthcare technologies
-3. Researchers working in disciplines adjacent to digital mental health
-4. Users with lived experience of digital mental health technologies
+2. Developers of DMHTs
+3. Researchers working in disciplines adjacent to digital mental healthcare
+4. Users with lived experience of DMHTs
 
-Representatives from the first three stakeholder groups were invited to participate in a series of two workshops, the first of which laid the foundation for a subsequent participatory design workshop. 
+Representatives from the first three stakeholder groups were invited to participate in a series of two workshops, the first of which laid the foundation for a subsequent participatory design workshop.
 
-In contrast, users of digital mental healthcare technology (4) were invited to a separate workshop (offered either online or in-person), which was organised with and facilitated by the McPin foundation—a mental health research charity that provide advice and support on research strategies to involve participation and expertise from individuals with lived experience of mental health issues. This decision was made to ensure that participants were fully supported by experts during the workshops, and that our analysis of the findings was further supported by domain experts. 
+In contrast, users of DMHTs (4) were invited to a separate workshop (offered either online or in-person), which was organised with and facilitated by the McPin Foundation—a mental health research charity that provide advice and support on research strategies to involve participation and expertise from individuals with lived experience of mental health issues. This decision was made to ensure that participants were fully supported by experts throughout the workshops, and that our analysis of the findings was further supported by domain experts.
 
 ### Methodology and Activities
 
@@ -50,15 +50,15 @@ Full details of our methodology and activities are provided in the [Appendix](ap
 
 | Workshop | Groups | Purpose of workshop | Main activities |
 | --- | --- | --- | --- |
-| 1a | `Policy-makers and regulators`, `Developers`, `Researchers` | - To introduce participants to the methodology of trustworthy assurance - To identify key ethical values and principles that were salient or significant in the evaluation of digital mental healthcare | - Introductory presentations on a) the current landscape of digital mental healthcare, including representative harms and benefits, and b) the methodology and purpose of trustworthy assurance - Group discussion exploring the ethical values and principles associated with the design, development, and deployment of digital mental health technologies, using case studies developed by our team |
+| 1a | `Policy-makers and regulators`, `Developers`, `Researchers` | - To introduce participants to the methodology of trustworthy assurance - To identify key ethical values and principles that were salient or significant in the evaluation of digital mental healthcare | - Introductory presentations on a) the current landscape of digital mental healthcare, including representative harms and benefits, and b) the methodology and purpose of trustworthy assurance - Group discussion exploring the ethical values and principles associated with the design, development, and deployment of DMHTs, using case studies developed by our team |
 | 1b | `Policy-makers and regulators`, `Developers`, `Researchers` | - To explore a set of illustrative case studies that were designed to support the development of trustworthy assurance cases - To build trustworthy assurance cases using a prototype platform developed for this purpose | - A group discussion of the chosen case study (voted for by participants in the previous workshop) to ensure familiarity with the relevant details of the case study - A participatory design activity in which the participants collectively develop an assurance case for a specific ethical value or principle (e.g. health equity, explainable decisions) |
-| 2 | `Users of digital mental health technologies` (in-person; online) | - To identify participants attitudes towards digital mental healthcare in general, and salient ethical issues more specifically. | - Exploratory discussion on the possible harms and benefits of digital mental healthcare. - Identification of key ethical values and principles. - Evaluation of sample claims made by a hypothetical team about actions or decisions undertaken during the design, development, and deployment of a digital mental health technology.|
+| 2 | `Users of DMHTs` (in-person; online) | - To identify participants attitudes towards digital mental healthcare in general, and salient ethical issues more specifically. | - Exploratory discussion on the possible harms and benefits of digital mental healthcare. - Identification of key ethical values and principles. - Evaluation of sample claims made by a hypothetical team about actions or decisions undertaken during the design, development, and deployment of DMHTs.|
 
 ## Analysis
 
 > **Key Findings**
-> 
-> - All groups emphasised **fairness** as a key ethical principle, but the specifics of how fairness was understood differed between groups. 
+>
+> - All groups emphasised fairness as a key ethical principle, but the specifics of how fairness was understood differed between groups.
 > - Additional emphasis was placed on ethical priorities that could be captured by either the accountability, explainability, or data SAFE-D principles (e.g. informed consent, transparency).
 > - Goals that are not directly coupled to any specific ethical principle[^efficacy], such as clinical efficacy, were nevertheless significant topics for consideration among regulators and developers.
 > - Ensuring sufficient understanding of the trustworthy assurance methodology proved to be challenging in the time available. This was the case even with the participants who attended two workshops, where the first included preliminary material on the methodology. 
@@ -77,7 +77,7 @@ In the following sections, we first discuss the specific themes for each set of 
 > 
 > - Nearly all of the ethical issues raised could be easily captured by the SAFE-D principles and their core attributes. However, additional space and emphasis is needed to capture the following concepts: `choice`, `patient choice`, `self-determination`, `autonomy`.
 > - Fairness was prioritised by the majority of participants. The principles was strongly linked to considerations such as `access to services`, `unequal distribution of health outcomes across demographic groups`, `bias in algorithmic decision-making`, and `diverse and inclusive participation in service design`.
-> - Participants expressed positive sentiment towards the trustworthy assurance, noting its perceived value for processes such as transparent auditing, assessment, or procurement. 
+> - Participants expressed positive sentiment towards the trustworthy assurance, noting its perceived value for processes such as transparent auditing, assessment, or procurement.
 > - Producing assurance cases was a challenging exercise for many, but there were no signs that these barriers could not be addressed with additional user guidance and familiarity.
 
 #### Workshop 1a
@@ -86,9 +86,9 @@ The first workshop (1a) ensured that participants had sufficient information abo
 
 > Note: Our goal was to identify which ethical principles mattered most to them, so we were careful not to highlight that we had already developed an existing framework (SAFE-D principles) that could unduly influence their feedback.
 
-However, one relevant activity from workshop 1a that is worth mentioning was the explicit request to identify and discuss ethical values and principles that were seen as salient or significant in the context of the design, development, and deployment of trustworthy digital mental health technologies. 
+However, one relevant activity from workshop 1a that is worth mentioning was the explicit request to identify and discuss ethical values and principles that were seen as salient or significant in the context of the design, development, and deployment of trustworthy DMHTs.
 
-The following word cloud shows participant answers for the question, 
+The following word cloud shows participant answers for the question,
 
 > 'What values and principles matter to you?'
 
@@ -96,7 +96,7 @@ The following word cloud shows participant answers for the question,
 
 *Figure 4.1: a word cloud displaying answers to the question, 'What values and principles matter to you?'*
 
-Immediately, it can be seen that `transparency`, `privacy`, and `evidence-based` were clearly significant for our participants. And related concepts, such as `accountability`, `explainability`, `clarity`, are also salient. 
+Immediately, it can be seen that `transparency`, `privacy`, and `evidence-based` were clearly significant for our participants. And related concepts, such as `accountability`, `explainability`, and `clarity` are also salient.
 
 However, there is also a wide variety of terms here, and many are either synonymous or closely related. For instance, `self-determination`, `autonomy`, `informed consent`, `control of own data`, and `patient choice` could be clustered together. And so could `equity`, `fairness`, `equality`, and `equity of access`.
 
@@ -121,11 +121,11 @@ Two considerations can be extracted from this mapping:
 
 In terms of the second consideration, there are a few clarifications that need to be made.
 
-Firstly, the main gap relates to the ability for the principles to capture concepts such as,`choice`, `patient choice`, `self-determination`, `autonomy`. The appearance of these concepts is not surprising. Patient autonomy, informed consent, and participatory decision-making in healthcare are longstanding ethical values, and are reflected in well-known bioethical principles.[^beauchamp]
+Firstly, the main gap relates to the ability for the principles to capture concepts such as,`choice`, `patient choice`, `self-determination`, and `autonomy`. The appearance of these concepts is not surprising. Patient autonomy, informed consent, and participatory decision-making in healthcare are longstanding ethical values, and are reflected in well-known bioethical principles.[^beauchamp]
 
 [^beauchamp]: Beauchamp, T. L., & Childress, J. F. (2013). Principles of biomedical ethics (7th ed.). Oxford University Press.
 
-In the original domain-general setting in which the SAFE-D principles were designed, informed consent and autonomous decision-making were captured under principles such as fairness and explainability (e.g. ensuring that information about an algorithmic decision is *accessible* and *explainable* to users). However, as we will see shortly, there are nuances in the design, development, and deployment of digital mental healthcare that put pressure on the choice of subsuming these values into another principle. 
+In the original domain-general setting in which the SAFE-D principles were designed, informed consent and autonomous decision-making were captured under principles such as fairness and explainability (e.g. ensuring that information about an algorithmic decision is *accessible* and *explainable* to users). However, as we will see shortly, there are nuances in the design, development, and deployment of DMHTs that put pressure on the choice of subsuming these values into another principle. 
 
 Secondly, there are other principles, such as `human-centred`, `human rights`, `honesty` and `closed loop systems` that are either ambiguous or do not fit cleanly into the existing framework. In the context of the first two, this is simply because they stand outside of the SAFE-D principles as meta-frameworks (e.g. human rights law). For instance, the SAFE-D principles have been put forward as a means for safeguarding human rights[^coe_ref]. However, in the case of `honesty` and `closed loop systems`, there was simply insufficient information during discussion to determine whether these are merely outliers or express an existing attribute that fits within the framework.
 
@@ -135,11 +135,11 @@ Fortunately, the activities and discussion from the second workshop help emphasi
 
 #### Workshop 1b
 
-The second workshop (1b) focused on a participatory design activity that was created to evaluate the trustworthy assurance methodology and attempt to operationalise some of the ethical principles explored in the first workshop. 
+The second workshop (1b) focused on a participatory design activity that was created to evaluate the trustworthy assurance methodology and attempt to operationalise some of the ethical principles explored in the first workshop.
 
-For the main activity, participants were asked to review and discuss the ethical issues related to a specific case study and then develop a hypothetical assurance case that communicated how a set of decisions or actions had been undertaken to justify the ethical goals and properties that they had discussed. The groups were free to choose the goal, and the case study, which had also been selected by participants, involved the use of a decision support system that offered tailored and real-time recommendations to a psychiatrist during consultation with a patient (e.g. during assessment)(see [Further Resources](further-resources.md)).
+For the main activity, participants were asked to review and discuss the ethical issues related to a specific case study and then develop a hypothetical assurance case that communicated how a set of decisions or actions had been undertaken to justify the ethical goals and properties that they had discussed. The groups were free to choose the goal. Tnd the case study, which had also been selected by participants, involved the use of a decision support system that offered tailored and real-time recommendations to a psychiatrist during consultation with a patient (e.g. during assessment)(see [Further Resources](further-resources.md)).
 
-Two breakout groups were formed and the (incomplete) assurance cases are depicted below. 
+Two breakout groups were formed and the (incomplete) assurance cases are depicted below.
 
 ![An assurance case produced by breakout group 1](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/group1.png)
 
@@ -149,7 +149,7 @@ Two breakout groups were formed and the (incomplete) assurance cases are depicte
 
 *Figure 4.3: the assurance case for breakout group 2, focusing on supporting the professional judgement of psychiatrists.*
 
-As noted above, fairness was a significant focus for the participants, and so it is unsurprising that one of the groups chose to explore an assurance case related to this goal. 
+As noted above, fairness was a significant focus for the participants, and so it is unsurprising that one of the groups chose to explore an assurance case related to this goal.
 
 The assurance cases are incomplete because a lot of time was spent in discussion. However, some of the statements made during discussion can help elucidate aspects of the case. For instance, the choice to emphasise a group that is *underserved*, was linked to aforementioned components of fairness such as unequal access:
 
@@ -159,7 +159,7 @@ Interestingly, the second breakout group chose to focus on the impact of the hyp
 
 [^stakeholders]: Our case studies included a section on 'Affected individuals, groups, and other stakeholders'. For this case study, 'psychiatrists' were included (see [case study 3](../assets/case-studies/decision-support-system.pdf).
 
-As the image above shows, their goal was framed in terms of supporting the "professional judgement" of the psychiatrist. On it's own, this goal would be underspecified, making it difficult to accurately link to any of the SAFE-D principles or core attributes. Fortunately, the discussion and property claims of the assurance case help clarify the intentions of this group, but some residual ambiguity remains due to the inclusion of two core themes:
+As the image above shows, their goal was framed in terms of supporting the "professional judgement" of the psychiatrist. On its own, this goal would be underspecified, making it difficult to accurately link to any of the SAFE-D principles or core attributes. Fortunately, the discussion and property claims of the assurance case help clarify the intentions of this group, but some residual ambiguity remains due to the inclusion of two core themes:
 
 1. The long-term effects of the system on professional development and judgement
 2. The responsibility of early career psychiatrists, who may be less able to challenge or contest automated recommendations.
@@ -184,13 +184,13 @@ The third barrier, however, is harder to overcome. In our initial project planni
 
 > Readiness, skills, and training should be prioritised both within organisations (e.g. how to implement ethical considerations into the project lifecycle) and across organisations (e.g. how to develop and adopt best practices). In addition, common capacity building should be supported by regulators and industry representatives (e.g. shared risk mapping, regulatory gap analysis, and horizon scanning activities to help create and maintain a common pool of expertise).[^commoncapacity]
 
-[^commoncapacity]: See our report on developing ['Common Regulatory Capacity for AI'](https://www.turing.ac.uk/sites/default/files/2022-07/common_regulatory_capacity_for_ai_the_alan_turing_institute.pdf) for more on these topics. 
+[^commoncapacity]: See our report on developing ['Common Regulatory Capacity for AI'](https://www.turing.ac.uk/sites/default/files/2022-07/common_regulatory_capacity_for_ai_the_alan_turing_institute.pdf) for more on these topics.
 
 #### Feedback
 
-Following the participatory activity, participants were asked to complete an anonymous survey, which was designed to elicit additional information about the perceived value of the trustworthy assurance methodology. Therefore, despite the small sample, it is worth analysing the responses before we turn to the final workshop with users of digital mental health technologies.
+Following the participatory activity, participants were asked to complete an anonymous survey, which was designed to elicit additional information about the perceived value of the trustworthy assurance methodology. Therefore, despite the small sample, it is worth analysing the responses before we turn to the final workshop with users of DMHTs.
 
-> To what extent do you agree/disagree with the following statement: "The methodology of trustworthy assurance would be helpful in identifying potential ethical risks which arise while designing, developing and deploying a digital mental health tool".
+> To what extent do you agree/disagree with the following statement: "The methodology of trustworthy assurance would be helpful in identifying potential ethical risks which arise while designing, developing and deploying a DMHT".
 
 | Option | # Responses |
 | --- | --- |
@@ -200,13 +200,13 @@ Following the participatory activity, participants were asked to complete an ano
 | Disagree | 0 |
 | Strongly Disagree | 0 |
 
-This initial feedback is positive. The majority of respondents 'agree' or 'strongly agree' with the statement, indicating support for the methodology despite the challenges faced during the activity. 
+This initial feedback is positive. The majority of respondents 'agree' or 'strongly agree' with the statement, indicating support for the methodology despite the challenges faced during the activity.
 
-Unfortunately, the sample size is too small to infer anything meaningful about the distribution of participants across these categories. For instance, whether developers were more positive than regulators or vice versa. [^distribution1] 
+Unfortunately, the sample size is too small to infer anything meaningful about the distribution of participants across these categories. For instance, whether developers were more positive than regulators or vice versa. [^distribution1]
 
 [^distribution1]: For transparency, the distribution of responses by stakeholder group is as follows: Strongly agree: policy-maker x2, researcher x1, developer x1; Agree: policy-maker x1, researcher x4, developer x2; Undecided: policy-maker x2
 
-> To what extent do you agree/disagree with the following statement: "The methodology of trustworthy assurance would be a helpful means through which to communicate to other stakeholders that a digital mental health tool is trustworthy".
+> To what extent do you agree/disagree with the following statement: "The methodology of trustworthy assurance would be a helpful means through which to communicate to other stakeholders that a DMHT is trustworthy".
 
 Similarly, the majority of respondents 'agree' or 'strongly agree' with the above statement, reinforcing our prior assumption about the *communicative value* of trustworthy assurance. However, as we will see shortly, there are some future areas for improvement, which likely explain the increased number of 'undecided' responses, which were primarily from policy-makers. [^distribution2]  
 
@@ -262,7 +262,7 @@ At present, our methodology is not supported by a theory of change for how organ
 
 The following three questions were posed to the respective participants as a means of eliciting more specific feedback about perceived obstacles to the successful adoption and integration of trustworthy assurance into their respective practices. 
 
-> *As a developer, are there any objections or external obstacles which would prevent you from producing an ethical assurance case during the design, development and deployment of a new digital mental health tool?*
+> *As a developer, are there any objections or external obstacles which would prevent you from producing an ethical assurance case during the design, development and deployment of a new DMHT?*
 
 The first two comments relate to a similar concern about organisational readiness and incentive/disincentive structures raised above:
 
@@ -273,7 +273,7 @@ Here, our analysis and response echoes some of the comments made earlier (e.g. c
 
 - "Clarity on expected standards would be the largest obstacle. We noticed the biggest upswing in GDPR policy uptake came when we started offering standard starter policies."
 
-> *As a researcher working on digital mental health technologies, do you see any obstacles to the uptake of ethical assurance in the sector?*
+> *As a researcher working on DMHT, do you see any obstacles to the uptake of ethical assurance in the sector?*
 
 The responses from researchers were mostly positive in the sense that few obstacles were identified. However, there was a skepticism about the likelihood of the private sector adopting the practices of trustworthy assurance.
 
@@ -281,7 +281,7 @@ The responses from researchers were mostly positive in the sense that few obstac
 
 We can, again, note that targeting procurement practices in the public sector may be a positive first step, and, moreover, that complementarity with existing regulation could increase adoption. This latter point was highlighted by the responses from the policy-makers.
 
-> *As a policy-maker, do you consider the methodology of ethical assurance to be compatible with existing regulatory mechanisms in the sector? Please describe any obstacles to the adoption of ethical assurance in the digital mental health sector.* 
+> *As a policy-maker, do you consider the methodology of ethical assurance to be compatible with existing regulatory mechanisms in the sector? Please describe any obstacles to the adoption of ethical assurance in the digital mental healthcare sector.* 
 
 - "I'd recommend that you align to existing regs where possible (e.g. goals could be 'conform to GDPR' or 'meet regulatory requirements' rather than more abstract items) and make it easy for non-experts to use."
 
@@ -300,16 +300,16 @@ We outlined many of the potential benefits of trustworthy assurance in the first
 - "The worked example made things easier to understand and think about." [Developer]
 - "Having a best practice example to learn from and emulate would help our practice." [Developer]
 
-This suggestion is a variation of the recommendation above about supporting readiness, skills and training, and common capacity building. However, in the [next chapter](chapter-5.md) will build on this by setting out a clearer proposal and recommendation for the incorporation of argument patterns.
+This suggestion is a variation of the recommendation above about supporting readiness, skills and training, and common capacity building. However, in the [next chapter](chapter-5.md) we will build on this by setting out a clearer proposal and recommendation for the incorporation of argument patterns.
 
-### Workshops with users of digital mental health technologies
+### Workshops with users of DMHTs
 
 > **Summary**
 > The workshops with users exposed wide-ranging, nuanced, and interconnected attitudes, while contributing to practical and complementary recommendations for developers and regulators.
-> 
+>
 > Four central themes emerged from the workshops:
 >
-> 1. Distrust as a barrier to accessing and using digital mental healthcare technologies
+> 1. Distrust as a barrier to accessing and using DMHTs
 > 2. Stakeholder and user engagement as a means for ensuring accountability
 > 3. Explainable technology and systems as a pre-requisite for informed choice
 > 4. Ensuring fairness by reducing digital exclusion, bias, and discrimination, and promoting social justice
@@ -318,26 +318,26 @@ This suggestion is a variation of the recommendation above about supporting read
 
 #### Overview
 
-The workshops with users of digital mental healthcare technologies were co-organised and facilitated by the McPin foundation——a mental health research charity. This ensured an additional level of support from those with domain expertise, in addition to the participants' lived experience, and helped reduce interpreter bias in our analysis. 
+The workshops with users of DMHTs were co-organised and facilitated by the McPin foundation——a mental health research charity. This ensured an additional level of support from those with domain expertise, in addition to the participants' lived experience, and helped reduce interpreter bias in our analysis. 
 
 We held two workshops (one in person and one online) to improve accessibility for participants (e.g. reducing geographic restrictions, supporting those who were uncomfortable/unable to attend in-person to still participate). The information that participants received and the activities that were carried out were identical across the workshops, except for the medium in which the activities were conducted (e.g. use of a collaborative whiteboard in the online setting).
 
-There were two activities that participants contributed to. Both were designed to maximise the ability of the feedback to shape and inform the design of our methodology and recommendations while minimising the need for prior reading (e.g. information about argument-based assurance). A talk preceded each of the activities to ensure that participants were equipped to contribute in a meaningful way. 
+There were two activities that participants contributed to. Both were designed to maximise the ability of the feedback to shape and inform the design of our methodology and recommendations while minimising the need for prior reading (e.g. information about argument-based assurance). A talk preceded each of the activities to ensure that participants were equipped to contribute in a meaningful way.
 
-- Activity 1: participants were asked to reflect on a range of possible use cases for digital mental health technologies and evaluate possible harms and benefits by answering the following questions:
-    - Which ethical values or principles matter to you [in the context of digital mental health]?
-    - What are some positive use cases for digital mental health technologies?
-    - What are some negative use cases for digital mental health technologies?
+- Activity 1: participants were asked to reflect on a range of possible use cases for DMHTs and evaluate possible harms and benefits by answering the following questions:
+  - Which ethical values or principles matter to you in the context of digital mental healthcare?
+  - What are some positive use cases for DMHTs?
+  - What are some negative use cases for DMHTs?
 - Activity 2: participants were given a set of claims made by a fictional development team about one of the four case studies, and asked to evaluate the claim based on the following criteria:
-    - Whether the claim appeared to be motivated by or support an ethical value or principle.
-    - Whether they found the claim reassuring or whether it raised concerns.
-    - What evidence, if any, they would expect to see to support or validate the claim.
+  - Whether the claim appeared to be motivated by or support an ethical value or principle.
+  - Whether they found the claim reassuring or whether it raised concerns.
+  - What evidence, if any, they would expect to see to support or validate the claim.
 
 In both activities, participants were encouraged to explore tangential points in dialogue with the group. The purpose of these activities was to provide a general scaffold for discussion, from which salient and significant themes could be identified with the participants. Therefore, in our analysis we do not differentiate between the findings from the two activities, but instead group them together and make specific recommendations linked to the relevant themes.
 
-However, one output from the first activity can be presented as a stand-alone output. Table 4.2 presents a summary of the positive and negative uses of digital mental health technologies, as judged by the workshop participants. Although this feedback is incorporated into our own thematic analysis, the reader may find it illuminating to consider the responses prior to reviewing our subsequent analysis.
+However, one output from the first activity can be presented as a stand-alone output. Table 4.2 presents a summary of the positive and negative uses of DMHTs, as judged by the workshop participants. Although this feedback is incorporated into our own thematic analysis, the reader may find it illuminating to consider the responses prior to reviewing our subsequent analysis.
 
-*Table 4.2—participant's perceptions about the positive and negative uses of digital mental health technologies.*
+*Table 4.2—participant's perceptions about the positive and negative uses of DMHTs.*
 
 | Positive Use Cases | Negative Use Cases |
 |---|---|
@@ -359,6 +359,7 @@ However, one output from the first activity can be presented as a stand-alone ou
 The following themes were identified across the two workshops and activities. They have been co-developed by the users, the facilitators from the McPin foundation, and ourselves.
 
 #### Distrust as a barrier to access and use
+
 There were high levels of distrust and skepticism within the group regarding the societal and individual benefits of digital mental health. However, the sources and targets of the distrust or skepticism were nuanced and wide-ranging.
 
 Several participants, for example, were keen to acknowledge that the issues with digital technologies should be set against the backdrop of the current issues facing mental health services (e.g. long wait lists, insufficient funding). This includes a recognition of the difficulty of getting face-to-face appointments and the biases of human healthcare professionals:
@@ -371,7 +372,7 @@ Some participants linked this distrust to cultural attitudes they held:
 
 > "My parents are [information redacted] and really value privacy and that is why I didn’t use a smartphone for a long time. And a lot of my friends who are African or Caribbean or Asian don’t have a smartphone because of privacy.”
 
-Whereas others linked the source of distrust to potential conflicts of interest or vested interests:
+Whereas others linked the source of distrust to potential conflicts of interest:
 
 > "Who is the advocate for the technology? Is it the psychiatrist pushing it because it makes their life easier?"
 >
@@ -386,12 +387,12 @@ For some participants, the distrust or skepticism was directed towards specific 
 But, again, the skepticism that participants held was typically nuanced and voiced with caveats:
 
 > "I am very comfortable with tech. There are some circumstances where I trust technology more than people. I trust an iPad food ordering system than a human.”
-> 
+>
 > In some instances, such as AI-assisted surgery, involvement of technology should optimise for safety. But in mental healthcare, human interaction and involvement will always be vital to a trustworthy and supportive relationship.
 
 From these preliminary remarks, it is important to remember how we disentangled the concepts of 'trust' and 'trustworthiness' back in [Chapter 1](chapter-1.md). To recall, 'trust' can refer to a belief or attitude that is directed towards an object, person, or proposition (among other things), whereas 'trustworthiness' refers to the perceived property or attribute which an individual uses to determine whether to place trust (e.g. whether to trust a news article based on its quoted sources). Differentiating these terms is helpful for evaluating whether there are reasonable (and unreasonable) grounds for placing trust. For example, a person may have *reasonable* grounds for their distrust in an organisation, where the organisation has a history of violating data protection and privacy laws. In contrast, another person may have *unreasonable* grounds for their skepticism about the clinical efficacy of a technology based on an accessible, well-validated, and reliable evidence base. 
 
-Identifying the reasons for why users may trust or distrust a digital mental health technology can help organisations assess and evaluate both the trustworthiness of their teams and services, and identify opportunities for intervention. Phrased as a recommendation:
+Identifying the reasons for why users may trust or distrust a DMHT can help organisations assess and evaluate both the trustworthiness of their teams and services, and identify opportunities for intervention. Phrased as a recommendation:
 
 - Organisations should consider both the *trustworthiness* of their products and services, but also the reasons why users may *trust or distrust* them.
 
@@ -403,11 +404,11 @@ In her BBC Reith Lectures, 'A Question of Trust', moral philosopher Onora O’Ne
 
 [^onora]: O’Neill, O. (2002). A Question of Trust. Cambridge University Press, pp. 77–78.
 
-O'Neill's prescription captures many of the concerns and aspirations of the participants. For instance, several participants voiced concerns with the deceptive practices of some organisations to exploit vulnerable users through social media marketing (e.g. adolescents). Other participants viewed the over-reliance on privacy policies to be an instance of deceptive practices, which rarely provide sufficient information to address a user's concern, such as data use:
+O'Neill's prescription captures many of the concerns and aspirations of the participants. For instance, several participants voiced concerns with the deceptive practices of some organisations to exploit vulnerable users through social media marketing (e.g. adolescents). Other participants viewed the over-reliance on privacy policies to be an instance of deceptive practice, as such policies rarely provide sufficient information to address a user's concern, such as data use:
 
 > "people should know how data is being used, who has access to it."
 
-In contrast, participants were keen to express that they wished to see genuine forms of accountability and responsibility exercised through the life cycle of a digital mental health technology, achieved through meaningful engagement and participation of stakeholders. The slogan, "nothing about us without us" comes to mind here[^nothing]. And, there are also close ties between this theme and the subsequent one (i.e. explainability):
+In contrast, participants were keen to express their desire for genuine forms of accountability and responsibility exercised through the life cycle of a DMHT, achieved through meaningful engagement and participation of stakeholders. The slogan, "nothing about us without us" comes to mind here[^nothing]. And, there are also close ties between this theme and the subsequent one (i.e. explainability):
 
 > "No transparency without accountability and explainability"
 
@@ -432,7 +433,7 @@ However, the following question from one participant inverts the perspective and
 
 > “How do we communicate *our* privacy policy”
 
-Traditional frameworks in biomedical ethics link informed consent to values such as patient autonomy. In short, without sufficient knowledge about how a service operates or the risks associated with a medical intervention, a patient has little to no *meaningful choice* about whether to engage or accept a recommendation from a healthcare professional. 
+Traditional frameworks in biomedical ethics link informed consent to values such as patient autonomy. In short, without sufficient knowledge about how a service operates or the risks associated with a medical intervention, a patient has little to no *meaningful choice* about whether to engage or accept a recommendation from a healthcare professional.
 
 The above quotation is a succinct and cogent way of capturing the ethical importance of these values. But its emphasis on a more active form of communication goes beyond the practical goal of informed and autonomous decision-making, and reiterates the importance of *stakeholder participation* as a form of meaningful input and influence.
 
@@ -453,9 +454,9 @@ This brings us to our final theme.
 
 #### Fairness: reducing digital exclusion, bias and discrimination, and promoting social justice
 
-Despite being left until the end of the chapter, this final theme stood out as one of the most significant and resonates with many aspects of the themes above and also with the other workshops. 
+Despite being left until the end of the chapter, this final theme stood out as one of the most significant and resonates with many aspects of the themes above and also with the other workshops.
 
-In a similar manner to the other workshops, the plurality of concepts referenced in this theme's heading reflects the breadth, nuance, and interconnectedness of the ideas that were raised. For instance, the participant's understanding of what we call 'fairness' in the SAFE-D principle framework was nuanced and multifaceted. Although we are unable to capture all of the comments raised, the topics discussed touched upon centuries-old forms of sociocultural and structural discrimination or oppression, historical abuses of vulnerable groups by scientific research groups and institutions, epistemic injustices, and power imbalances that disproportionately affect marginalised communities.
+In a similar manner to the other workshops, the plurality of concepts referenced in this theme's heading reflects the breadth, nuance, and interconnectedness of the ideas that were raised. For instance, the participants' understanding of what we call 'fairness' in the SAFE-D principle framework was nuanced and multifaceted. Although we are unable to capture all of the comments raised, the topics discussed touched upon centuries-old forms of sociocultural and structural discrimination or oppression, historical abuses of vulnerable groups by scientific research groups and institutions, epistemic injustices, and power imbalances that disproportionately affect marginalised communities.
 
 Digging deeper into some of these topics, concerns about the negative impacts of digital exclusion and the widening digital divide, exacerbated by growing socioeconomic inequalities, were highlighted frequently. Some participants linked their concerns to gaps in current regulation and legislation:
 
@@ -474,20 +475,13 @@ Similarly, some participants raised questions about the possibility of algorithm
 These critical comments and considerations should not be isolated from the remarks outlined in previous themes or the positive recommendations raised by participants:
 
 - *Distrust as a barrier to access and use*: historic forms of oppression, injustice, and discrimination partially explain why some individuals and groups have low levels of trust towards these technologies and the organisations that design, develop, and deploy them. 
-- *Accountability through engagement*: the risks of harm and the likely benefits associated with digital mental health technologies may not be shared equally by all groups. Inclusive stakeholder engagement is one mechanism by which oversight and accountability in the risk management process can be achieved. To paraphrase one participant, 'those on a design team should be a diverse, invested group, and diversity should not be tokenistic'.
+- *Accountability through engagement*: the risks of harm and the likely benefits associated with DMHTs may not be shared equally by all groups. Inclusive stakeholder engagement is one mechanism by which oversight and accountability in the risk management process can be achieved. To paraphrase one participant, 'those on a design team should be a diverse, invested group, and diversity should not be tokenistic'.
 - *Explainability as a pre-requisite for informed choice*: as a bioethical principle, ensuring informed consent is often linked to the ethical value of self-determination. The significance of the principle is understood by many to arise from a universal right to autonomous decision-making in matters relating to one's health and well-being. While the domain of mental healthcare places restrictions on this right when it conflicts with other duties (e.g. protecting others from harm), these are limiting cases for which there are existing norms and guidelines in place[^mentalhealthbill]. In general, ensuring that an individual has sufficient access to the explanations needed about how a technology operates, in order to make an informed choice about whether to use the technology, has already been acknowledged as a vital ethical goal. However, there are many barriers in place to achieving this goal, and where they disproportionately affect certain groups (e.g. those with low levels of digital literacy or access to support services) this goal connects with the related goal of promoting social justice.
 
 [^mentalhealthbill]: On these points it is worth noting that the [Mental Health Act](https://www.legislation.gov.uk/ukpga/2007/12/contents), which sets out the legislation that is used to determine when it is appropriate to place restrictions on people,  has been subject to proposed reform in recent months. Readers may find the "new guiding principles" of particular interest in the context of this report (see [here](https://www.gov.uk/government/consultations/reforming-the-mental-health-act/reforming-the-mental-health-act#part-1-proposals-for-reform-of-the-mental-health-act)).
 
-Improving health equity is already a key priority across many organisations in the UK.[^equality] For example, the Equality and Human Rights Commission have recently published a report that...
+Improving health equity is already a key priority across many organisations in the UK.[^equality] However, the longstanding impacts and challenges of COVID-19 are still affecting society, often in a disproportionate and unjust manner, and many lessons still need to be learned and adopted, as highlighted in ['Build Back Fairer: The Covid-19 Marmot Review'](https://www.instituteofhealthequity.org/resources-reports/build-back-fairer-the-covid-19-marmot-review/build-back-fairer-the-covid-19-marmot-review-executive-summary.pdf), from the Institute of Health Equity and Health Foundation.
 
-However, the longstanding impacts and challenges of COVID-19 are still affecting society, often in a disproportionate and unjust manner, and many lessons still need to be learned and adopted, as highlighted in ['Build Back Fairer: The Covid-19 Marmot Review'](https://www.instituteofhealthequity.org/resources-reports/build-back-fairer-the-covid-19-marmot-review/build-back-fairer-the-covid-19-marmot-review-executive-summary.pdf), from the Institute of Health Equity and Health Foundation.
-
-Unlike the other themes, we do not offer any specific recommendations on this topic beyond the reiteration of the importance of stakeholder engagement and meaningful participation. This is partially because there is already a wealth of extant research produced by organisations across the public and third sectors offer evidence-based policy recommendations. However, it is also because we pick up on this theme directly in the next chapter sand present an argument pattern to help promote the goal of fairness in digital mental health.
+Unlike the other themes, we do not offer any specific recommendations on this topic beyond the reiteration of the importance of stakeholder engagement and meaningful participation. This is partially because there is already a wealth of extant research produced by organisations across the public and third sectors offer evidence-based policy recommendations. However, it is also because we pick up on this theme directly in the next chapter and present an argument pattern to help promote the goal of fairness in digital mental health.
 
 [^equality]: For instance, the goal of increasing health equality is incorporated into a recent discussion paper from the Department of Health and Social Care's [Mental health and wellbeing plan](https://www.gov.uk/government/consultations/mental-health-and-wellbeing-plan-discussion-paper-and-call-for-evidence/mental-health-and-wellbeing-plan-discussion-paper#next-steps-and-implementation), the ['Advancing mental health equalities' strategy](https://www.england.nhs.uk/wp-content/uploads/2020/10/00159-advancing-mental-health-equalities-strategy.pdf) from NHS England, the Welsh Government's ['Together for Mental Health' delivery plan](https://gov.wales/sites/default/files/publications/2020-10/review-of-the-together-for-mental-health-delivery-plan-20192022-in-response-to-covid-19_0.pdf), and an ongoing consideration for the Scottish Government following the publication of an equality impact assessment of their mental health strategy back in 2017. 
-
-
- 
-
-

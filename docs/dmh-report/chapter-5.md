@@ -14,7 +14,7 @@ tags:
 >
 > In this chapter we present two argument patterns (i.e. starting templates for building assurance cases) that identify the types of claims, or the sets of reasons that need to be established to justify the associated top-level normative goal.
 >
-> The first pattern is for assurance cases that aim to justify the *fairness* of a digital mental health technology. The second is for cases that address the *explainability* of systems.
+> The first pattern is for assurance cases that aim to justify the *fairness* of a DMHT. The second is for cases that address the *explainability* of systems.
 >
 > We also discuss relevant legislation, regulation, and best practice guidance that support and motivate the development of these patterns.
 
@@ -26,7 +26,7 @@ You may recall that argument patterns are reusable structures that serve as *sta
 
 [^evidence]: In a previous article we als explore several considerations about the evidence generation and selection process, including whether evidential artefacts are permissible, sufficient, and relevant. See Burr, C., & Leslie, D. (2022). Ethical assurance: A practical approach to the responsible design, development, and deployment of data-driven technologies. AI and Ethics. [https://doi.org/10.1007/s43681-022-00178-0](Burr, C., & Leslie, D. (2022). Ethical assurance: A practical approach to the responsible design, development, and deployment of data-driven technologies. AI and Ethics. https://doi.org/10.1007/s43681-022-00178-0)
 
-Before this, we present and explain two argument patterns for use in the assurance of digital mental health technologies. The first is for assurance cases that address and justify the *fairness* of a digital mental health technology; the second is for cases that address and justify the *explainability* of systems.
+Before this, we present and explain two argument patterns for use in the assurance of DMHTs. The first is for assurance cases that address and justify the *fairness* of a DMHT; the second is for cases that address and justify the *explainability* of systems.
 
 !!! info "Why ‘fairness’ and ‘explainability’?"
 
@@ -66,14 +66,14 @@ The pattern that has been developed, through participation of stakeholders and u
 
 !!! info "Why does this pattern matter?"
 
-    In recent years, many tools for improving and supporting the trustworthy and responsible development of digital mental health technologies have been proposed. One key advancement is the [Digital Technology Assessment Criteria for Health and Social Care](https://transform.england.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/) (DTAC). This form provides guidance on assessing four technical components (in addition to a contextual component):
+    In recent years, many tools for improving and supporting the trustworthy and responsible development of DMHTs have been proposed. One key advancement is the [Digital Technology Assessment Criteria for Health and Social Care](https://transform.england.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/) (DTAC). This form provides guidance on assessing four technical components (in addition to a contextual component):
 
     1. Clinical safety
     2. Data protection
     3. Technical security
     4. Interoperability criteria
 
-    While the DTAC is intended to supplement existing regulatory guidance, as well as sitting alongside current and developing legislation or compliance duties (e.g. [MHRA medical device registration](https://www.gov.uk/guidance/regulating-medical-devices-in-the-uk), [Equality Act 2010](https://www.legislation.gov.uk/ukpga/2010/15/contents), NICE's [Evidential Standards Framework](https://www.nice.org.uk/about/what-we-do/our-programmes/evidence-standards-framework-for-digital-health-technologies)), there is (at present) nothing in the DTAC about broader ethical issues such as the fair distribution of risk and benefits, or the requirement of explainable outcomes to support informed decision-making. As such, tools such as the DTAC serve a valuable but limited role in the assessment of fair digital mental health technologies.
+    While the DTAC is intended to supplement existing regulatory guidance, as well as sitting alongside current and developing legislation or compliance duties (e.g. [MHRA medical device registration](https://www.gov.uk/guidance/regulating-medical-devices-in-the-uk), [Equality Act 2010](https://www.legislation.gov.uk/ukpga/2010/15/contents), NICE's [Evidential Standards Framework](https://www.nice.org.uk/about/what-we-do/our-programmes/evidence-standards-framework-for-digital-health-technologies)), there is (at present) nothing in the DTAC about broader ethical issues such as the fair distribution of risk and benefits, or the requirement of explainable outcomes to support informed decision-making. As such, tools such as the DTAC serve a valuable but limited role in the assessment of fair DMHTs.
 
     In the last few years, however, many public authorities across the UK have released statements and policies calling for greater health equity. For instance, in October 2020, NHS England released their '[Advancing mental health equalities](https://www.england.nhs.uk/publication/advancing-mental-health-equalities-strategy/)' strategy, which also fed into a recent consultation on the [Mental health and wellbeing plan](https://www.gov.uk/government/consultations/mental-health-and-wellbeing-plan-discussion-paper-and-call-for-evidence/mental-health-and-wellbeing-plan-discussion-paper) by the Department for Health and Social Care.
 
@@ -105,12 +105,12 @@ The goal claim in this argument pattern addresses distributional concepts of fai
 
 Unlike traditional safety cases, which often include  `System Description` and `Context of Use` placeholders, this pattern also includes a `Stakeholder` component to emphasise the importance of engagement. Here, the term 'stakeholder' should be treated in as inclusive a manner as possible, and not only the direct users of the technology.
 
-The goal is broken into four higher-level property claims and their respective sub-claims, which we group according to the following core attributes of the Fairness principle as specified and operationalised in the context of digital mental health:
+The goal is broken into four higher-level property claims and their respective sub-claims, which we group according to the following core attributes of the Fairness principle as specified and operationalised in the context of digital mental healthcare:
 
-* Argument over `bias mitigation`
-* Argument over `non-exclusion`
-* Argument over `non-discrimination`
-* Argument over `equitable impact`
+- Argument over `bias mitigation`
+- Argument over `non-exclusion`
+- Argument over `non-discrimination`
+- Argument over `equitable impact`
 
 ##### Argument over *bias mitigation*
 
@@ -128,13 +128,13 @@ This argument addresses the better known obligations, such as ensuring that memb
 
 ##### Argument over *equitable impact*
 
-Finally, this argument references positive duties that matter in the context of digital mental health specifically. Key to this is the consideration of ethical values such as autonomy and self-determination, and the prioritarian weighting that was mentioned previously. However, there is also an aspect of our Sustainability principle that trickles into this argument. This is important in the context of digital mental healthcare because of associated risks that a) positive effects diminish over time (e.g. behavioural nudges or habit forming techniques that become ineffective over time)[^nudge] and b) negative impacts worsen and compound (e.g. prolonged use of social media worsening anxiety or depression)[^socialmedia]. Studies have already criticised the evidence base of mental health apps and services[^apps], especially for a lack of reliable longitudinal evidence, so drawing attention to sustainable impacts and setting up requirements for continuous monitoring is vital to maintain trust and also ensure that specific users are not locked in to services or technologies that degrade in quality or efficacy over time (e.g. apps that start by offering free services to leverage network effects only to force subscriptions at a later date).
+Finally, this argument references positive duties that matter in the context of digital mental healthcare specifically. Key to this is the consideration of ethical values such as autonomy and self-determination, and the prioritarian weighting that was mentioned previously. However, there is also an aspect of our Sustainability principle that trickles into this argument. This is important in the context of digital mental healthcare because of associated risks that a) positive effects diminish over time (e.g. behavioural nudges or habit forming techniques that become ineffective over time)[^nudge] and b) negative impacts worsen and compound (e.g. prolonged use of social media worsening anxiety or depression)[^socialmedia]. Studies have already criticised the evidence base of mental health apps and services[^apps], especially for a lack of reliable longitudinal evidence, so drawing attention to sustainable impacts and setting up requirements for continuous monitoring is vital to maintain trust and also ensure that specific users are not locked in to services or technologies that degrade in quality or efficacy over time (e.g. apps that start by offering free services to leverage network effects only to force subscriptions at a later date).
 
 [^nudge]: See Maier et al. (2022) No evidence for nudging after adjusting for publication bias. PNAS. https://doi.org/10.1073/pnas.2200300119
 
 [^socialmedia]: For a review published prior to the onset of the COVID-19 pandemic see Keles (2019) A systematic review: the influence of social media on depression, anxiety and psychological distress in adolescents. Adolescence and Youth. https://doi.org/10.1080/02673843.2019.1590851. For a range of studies that focus on the impacts of COVID-19 on mental health, including several that explore social media, see the [COVID-MINDS repository](https://www.covidminds.org/longitudinal-studies).
 
-[^apps]: For example, see Torous et al. (2018). Clinical review of user engagement with mental health smartphone apps: Evidence, theory and improvements. Evidence Based Mental Health, 21(3), 116–119. https://doi.org/10.1136/eb-2018-102891; and the consensus statement that followed: Torous et al. (2019). Towards a consensus around standards for smartphone apps and digital mental health: Towards a consensus around standards for smartphone apps and digital mental health. World Psychiatry, 18(1), 97–98. https://doi.org/10.1002/wps.20592
+[^apps]: For example, see Torous et al. (2018). Clinical review of user engagement with mental health smartphone apps: Evidence, theory and improvements. Evidence Based Mental Health, 21(3), 116–119. https://doi.org/10.1136/eb-2018-102891; and the consensus statement that followed: Torous et al. (2019). Towards a consensus around standards for smartphone apps and digital mental healthcare: Towards a consensus around standards for smartphone apps and digital mental healthcare. World Psychiatry, 18(1), 97–98. https://doi.org/10.1002/wps.20592
 
 ### Explainability
 
@@ -152,7 +152,7 @@ The most obvious conceptual distinction is between `interpretability` as a core 
     
     This distinction is admittedly coarse grained, but it will suffice for our purposes because it helps identify two illustrative cases where explainability matters. In the former case, although a human user is responsible for the decision, their judgement may be influenced and biased by the decision support system, potentially in ways that are problematic (e.g. leading to differential treatment for certain groups of users). In the latter case, no human is involved, but because the automated systems cannot be held morally or legally accountable for their decisions, if something goes wrong, a human will need to be able to identify the reason why the problem occurred and perhaps communicate this to other affected stakeholders.
 
-    In both of the above cases, extracting a valid and accurate explanation is necessary to enable post hoc forms of *accountability* or *transparency*. But prioritising ‘explainability’ from the start of a project also allows project teams to have better oversight of what their systems do and why, leading to more *responsible forms of project governance*. And, at the other end of the lifecycle, clear and accessible explanations can help ensure users and affected stakeholders are better *informed* and empowered to make *autonomous decisions* regarding their interactions with digital mental health technologies. Therefore, having an argument pattern for ‘explainability’ helps capture many of the key considerations that were raised during our workshops.
+    In both of the above cases, extracting a valid and accurate explanation is necessary to enable post hoc forms of *accountability* or *transparency*. But prioritising ‘explainability’ from the start of a project also allows project teams to have better oversight of what their systems do and why, leading to more *responsible forms of project governance*. And, at the other end of the lifecycle, clear and accessible explanations can help ensure users and affected stakeholders are better *informed* and empowered to make *autonomous decisions* regarding their interactions with DMHTs. Therefore, having an argument pattern for ‘explainability’ helps capture many of the key considerations that were raised during our workshops.
 
     While the themes and values expressed in the following pattern are based primarily on the engagement with stakeholders, we have also drawn upon two other documents. First, we have drawn from prior regulatory guidance that we co-designed with the Information Commissioner’s Office. This guide, titled 'Explaining Decisions Made with AI', details best practices for explainable AI in domain-general settings, and was also informed by stakeholder engagement. The regulatory ecosystem around explainability is less developer than fairness and equality, but as this report acknowledges there are still legislative and regulatory considerations that organisations need to consider, such as the wide-range of rights established by the General Data Protection Regulation and implemented in the UK's Data Protection Act 2018, such as the need to uphold individuals rights to be informed or to object to automated decisions.[^ico2020]
     
@@ -187,22 +187,22 @@ These categories are reflected in our pattern, where they form 'intermediate arg
 
 As with the fairness pattern, placeholders for `System Description` and `Context of Use` and `Stakeholder` are also included.
 
-The intermediate arguments are then broken into four higher-level property claims and their respective sub-claims, which we group according to the following core attributes of the Explainability principle as specified and operationalised in the context of digital mental health:
+The intermediate arguments are then broken into four higher-level property claims and their respective sub-claims, which we group according to the following core attributes of the Explainability principle as specified and operationalised in the context of digital mental healthcare:
 
-* Argument over `transparency and accountability`
-* Argument over `responsible project governance`
-* Argument over `informed and autonomous decision-making`
-* Argument over `sustainable impact`
+- Argument over `transparency and accountability`
+- Argument over `responsible project governance`
+- Argument over `informed and autonomous decision-making`
+- Argument over `sustainable impact`
 
 ##### Argument over *transparency and accountability*
 
-This argument addresses the processes and mechanisms that have been undertaken throughout the project lifecycle to sufficient forms of transparency and accountability. This includes documentation relevant to the identification of responsible project members, as well as choices made about data (e.g. why certain data types were included or excluded). Importantly, this argument also recommend the inclusion of a statement about sources of funding and conflicts of interest, which was an important matter for trustworthiness that arose during our engagement with users.
+This argument addresses the processes and mechanisms that have been undertaken throughout the project lifecycle to establish sufficient forms of transparency and accountability. This includes documentation relevant to the identification of responsible project members, as well as choices made about data (e.g. why certain data types were included or excluded). Importantly, this argument also recommends the inclusion of a statement about sources of funding and conflicts of interest, which was an important matter for trustworthiness that arose during our engagement with participants with lived experience of DMHTs.
 
 ##### Argument over *responsible project governance*
 
 This argument is more comprehensive than the others, and so is further split into three sub-arguments:
 
-1. Sub-argument over meaningful engagement: here, meaningful engagement can be seen to include participation in decisions about the formulation of the problem that a DMHT is expected to address, as well as use of data usage—both of which affect later stages of the project lifecycle and the final behaviour of the deployed system.
+1. Sub-argument over meaningful engagement: here, meaningful engagement can be seen to include participation in decisions about the formulation of the problem that a DMHT is expected to address, as well as issues of data usage—both of which affect later stages of the project lifecycle and the final behaviour of the deployed system.
 2. Sub-argument over interpretability: sufficient levels of accuracy and the potential trade-off with interpretability can require high levels of technical and data literacy Therefore, this argument focuses on the requisite information that is needed to support explainability (recall earlier distinction between `interpretability` and `explainability`).
 3. Sub-argument over accessible communication: the previous sub-argument feeds into this sub-argument, which focuses on how 'accessible' forms of communication will achieved, and the challenges of communicating probabilistic information. Ultimately, this sub-argument will depend on decisions reached and evidence obtained through consultation with intended users, as well as on the basis of knowledge about any time-constraints presented by the context of use (e.g. urgency in high-risk care environments).
 
