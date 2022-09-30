@@ -4,6 +4,8 @@ authors:
 ---
 # Foreword
 
+![Header image with photo of foreword author, Cath Biddle](../assets/images/foreword-header.png)
+
 In a society where mental health need far outstrips the supply of services, it is perhaps inevitable that policy-makers and regulators, healthcare professionals and service providers, and employers and educators are looking for scalable solutions. At the same time as digital and data-driven technologies have become mainstream in so many areas of our lives, from banking to dating, people seeking support are also turning to the internet and app stores to find ways to get help. And commercial organisations haven’t been slow to spot this trend and provide solutions in exchange for your money or your data. For example, Calm and Headspace Health—both leading providers of mindfulness apps—were valued at $2bn and $3bn, and made an estimated $200m and $150m respectively in 2020 (https://www.businessofapps.com/data/).
 
 In a fast moving and increasingly crowded marketplace, there is an urgent need to help those purchasing or procuring digital mental health services, for themselves or on behalf of others, to be confident that the products they are buying are not only safe and clinically effective, but also promote key ethical values, such as data protection, health equity and sustainability.  In other words, are *trustworthy*.
