@@ -11,6 +11,11 @@ tags:
 
 # Executive Summary
 
+<video autoplay loop muted>
+  <source src="assets/images/animations/phone-peel.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+</video>
+
 There is a culture of distrust surrounding the development and use of digital mental health technologies (DMHTs).
 
 As many organisations continue to grapple with the long-term impacts on mental health and well-being from the COVID-19 pandemic, a growing number are turning to digital technologies to increase their capacity and try to meet the growing need for mental health services. Prior to the pandemic, we had already called for greater attention to the ethical challenges of using digital technologies in the domain of psychiatry or mental healthcare. Since then, the urgency for meeting this call has only grown.
