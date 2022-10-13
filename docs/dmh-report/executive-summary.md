@@ -11,10 +11,7 @@ tags:
 
 # Executive Summary
 
-<video autoplay loop muted>
-  <source src="assets/images/animations/phone-peel.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-</video>
+![Animation of a person peeling back a smartphone screen to uncover the algorithms running behind](../assets/animations/phone-peel.gif)
 
 There is a culture of distrust surrounding the development and use of digital mental health technologies (DMHTs).
 
