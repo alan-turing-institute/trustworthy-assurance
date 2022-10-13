@@ -2,7 +2,13 @@
 
 ![Illustration of female researcher sitting at desk](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/about.png)
 
-Welcome to the online version of a report titled, 'Trustworthy Assurance of Digital Mental Healthcare'.
+Welcome to the online version of a report titled, 'Trustworthy Assurance of Digital Mental Healthcare'. Please use the links below to navigate through the report's chapters, or access information about funding and acknowledgements below.
+
+This report was authored and produced by [Dr Christopher Burr](https://www.turing.ac.uk/people/researchers/christopher-burr) and [Rosamund Powell](https://www.turing.ac.uk/people/researchers/rosamund-powell) (Public Policy Programme, The Alan Turing Institute).
+
+Illustrations by Jonny Lighthands: www.jonnylighthands.co.uk
+
+Graphic Design of the PDF report by Nerea Gómez: www.nereagomez.com
 
 ## Table of Contents
 
@@ -102,14 +108,14 @@ Research and production for this report was undertaken at the Alan Turing Instit
 
 </div>
 
-Talking about mental health can be very difficult. It was important that we enabled and supported participants to share their perspectives and attitudes anonymously during the project’s engagement events, and so we would like to begin by expressing our gratitude to those who anonymously took part in our events, or supported specific activities.
+Talking about mental health can be very difficult. It was important that we enabled and supported participants to share their perspectives and attitudes anonymously during the project’s engagement events, and so we would like to begin by expressing our gratitude to those who took part in our events, or supported specific activities.
 
 Specifically, we are grateful for the candid and thoughtful discussions of the users of digital mental health technologies, who took part in our workshops facilitated by the McPin foundation.
 
 The research team would also like to acknowledge the following groups and individuals:
 
-- The following individuals who generously gave their time to review a draft version of this report (alphabetical order): Cath Biddle, Claudia Corradi, Ibrahim Habli, Zoe Porter, and Math Rawsthorne. We would also like to thank two anonymous reviewers.
-- Members of the wider project team who offered helpful advice and guidance: Dr Kate Devlin, Professor David Leslie, Morgan Briggs
+- The following individuals who generously gave their time to review a draft version of this report (alphabetical order): Cath Biddle, Claudia Corradi, Ibrahim Habli, Zoe Porter, and Mat Rawsthorne. We would also like to thank two anonymous reviewers.
+- Members of the wider project team who offered helpful advice and guidance: Dr Kate Devlin, Professor David Leslie, and Morgan Briggs
 - Our collaborators at University of York's Assuring Autonomy International Programme, including Dr Ibrahim Habli and Dr Zoe Porter who have been instrumental in ongoing discussions about argument-based assurance. And, also our thanks to all participants and the organisers of the [UKRI TAS Health and Social Care Workshop](https://www.tas.ac.uk/bigeventscpt/health-and-social-care-workshop/) for their valuable feedback and queries.
 - Our collaborators at the McPin Foundation, including Dr Dan Robotham and Roya Camvar who were instrumental in facilitating conversations with individuals who have lived experiences relating to the use of digital mental health technologies.
 - Colleagues at the Alan Turing Institute, who have provided direct and indirect input into this research project: Oana Romocea, Eirini Koutsuoroupa, Pauline Kinniburgh, Dr Shyam Krishna, and Dr Michael Katell.
