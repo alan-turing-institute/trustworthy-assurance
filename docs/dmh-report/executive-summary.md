@@ -19,15 +19,23 @@ As many organisations continue to grapple with the long-term impacts on mental h
 
 In this report, we argue that clearer assurance for how ethical principles have been considered and implemented in the design, development, and deployment of DMHTs is necessary to help build a more trustworthy and responsible ecosystem. To help address this need, we set out a positive proposal for a framework and methodology we call 'Trustworthy Assurance'.
 
-To support the development and evaluation of Trustworthy Assurance, we conducted a series of participatory stakeholder engagement events with students, University administrators, regulators and policy-makers, developers, researchers, and users of DMHTs. Our objectives were a) to identify and explore how stakeholders understood and interpreted relevant ethical objectives for DMHTs, b) to evaluate and co-design the trustworthy assurance framework and methodology, and c) solicit feedback on the possible reasons for distrust in digital mental healthcare.
+To support the development and evaluation of Trustworthy Assurance, we conducted a series of participatory stakeholder engagement events with students, University administrators, regulators and policy-makers, developers, researchers, and users of DMHTs. Our objectives were
+
+- to identify and explore how stakeholders understood and interpreted relevant ethical objectives for DMHTs,
+- to evaluate and co-design the trustworthy assurance framework and methodology, and
+-  solicit feedback on the possible reasons for distrust in digital mental healthcare.
+
+Based on these objectives, the following 'key findings' and 'recommendations' are presented:
 
 !!! example "Key Findings"
 
     1. The current landscape of digital mental healthcare is characterised by significant uncertainty, a lack of transparency or accountability, and a rising demand that outpaces trusted services and resources. This contributes to a culture of distrust, which may prevent vulnerable users from accessing support.
     2. Concerns raised by stakeholders suggest that there are a broad set of challenges to be addressed, which may broadly be grouped into concerns surrounding a dearth of trustworthy innovation and concerns surrounding a lack of transparent communication between groups:
-       - For developers, key concerns focused on a) the lack of clear guidance and structure through which to present evidence of trustworthy innovation, b) the lack of integration of ethics within existing workflows, and c) the challenges posed by what is viewed as burdensome regulation.
-       - For policymakers, key concerns focused on a) the lack of clarity surrounding standards for medical devices versus services for "well-being" that are widely available on digital platforms (e.g. app stores), b) the lack of integration or harmonisation between existing examples of legislation and standards in this space.
-       - For those with lived experiences of using these tools, key concerns focused on a) the lack of clear and meaningful consent procedures and the insufficiency of data privacy policies, b) the perceived erosion of in-person care by digital technologies and services, c) a perceived lack of diversity and representation in development teams, and d) the varying quality and accessibility of services across society (e.g. the digital divide).
+
+       1. For developers, key concerns focused on a) the lack of clear guidance and structure through which to present evidence of trustworthy innovation, b) the lack of integration of ethics within existing workflows, and c) the challenges posed by what is viewed as burdensome regulation.
+       2. For policymakers, key concerns focused on a) the lack of clarity surrounding standards for medical devices versus services for "well-being" that are widely available on digital platforms (e.g. app stores), b) the lack of integration or harmonisation between existing examples of legislation and standards in this space.
+       3. For those with lived experiences of using these tools, key concerns focused on a) the lack of clear and meaningful consent procedures and the insufficiency of data privacy policies, b) the perceived erosion of in-person care by digital technologies and services, c) a perceived lack of diversity and representation in development teams, and d) the varying quality and accessibility of services across society (e.g. the digital divide).
+
     3. Trustworthy Assurance is a framework and methodology that can support the design, development, and deployment of data-driven technologies and also create a more responsible and trustworthy ecosystem of digital mental healthcare.
 
 !!! check "Recommendations"
