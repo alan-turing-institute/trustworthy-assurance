@@ -29,6 +29,7 @@ Based on these objectives, the following 'key findings' and 'recommendations' ar
 
 !!! example "Key Findings"
 
+    ```markdown
     1. The current landscape of digital mental healthcare is characterised by significant uncertainty, a lack of transparency or accountability, and a rising demand that outpaces trusted services and resources. This contributes to a culture of distrust, which may prevent vulnerable users from accessing support.
     2. Concerns raised by stakeholders suggest that there are a broad set of challenges to be addressed, which may broadly be grouped into concerns surrounding a dearth of trustworthy innovation and concerns surrounding a lack of transparent communication between groups:
 
@@ -37,6 +38,7 @@ Based on these objectives, the following 'key findings' and 'recommendations' ar
        3. For those with lived experiences of using these tools, key concerns focused on a) the lack of clear and meaningful consent procedures and the insufficiency of data privacy policies, b) the perceived erosion of in-person care by digital technologies and services, c) a perceived lack of diversity and representation in development teams, and d) the varying quality and accessibility of services across society (e.g. the digital divide).
 
     3. Trustworthy Assurance is a framework and methodology that can support the design, development, and deployment of data-driven technologies and also create a more responsible and trustworthy ecosystem of digital mental healthcare.
+    ```
 
 !!! check "Recommendations"
 
