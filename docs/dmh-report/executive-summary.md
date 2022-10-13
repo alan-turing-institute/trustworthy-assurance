@@ -15,7 +15,9 @@ tags:
 
 There is a culture of distrust surrounding the development and use of digital mental health technologies (DMHTs).
 
-As many organisations continue to grapple with the long-term impacts on mental health and well-being from the COVID-19 pandemic, a growing number are turning to digital technologies to increase their capacity and try to meet the growing need for mental health services. Prior to the pandemic, we had already called for greater attention to the ethical challenges of using digital technologies in the domain of psychiatry or mental healthcare. Since then, the urgency for meeting this call has only grown.
+As many organisations continue to grapple with the long-term impacts on mental health and well-being from the COVID-19 pandemic, a growing number are turning to digital technologies to increase their capacity and try to meet the growing need for mental health services. Prior to the pandemic, we had already called for greater attention to the ethical challenges of using digital technologies in the domain of psychiatry or mental healthcare[^digitalpsychiatry]. Since then, the urgency for meeting this call has only grown.
+
+[^digitalpsychiatry]: [@burr2020]
 
 In this report, we argue that clearer assurance for how ethical principles have been considered and implemented in the design, development, and deployment of DMHTs is necessary to help build a more trustworthy and responsible ecosystem. To help address this need, we set out a positive proposal for a framework and methodology we call 'Trustworthy Assurance'.
 
