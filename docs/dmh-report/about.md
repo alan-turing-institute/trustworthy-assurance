@@ -86,13 +86,13 @@ Graphic Design of the PDF report by Nerea Gómez: www.nereagomez.com
 
     [:octicons-arrow-right-24: Go to chapter](appendix.md)
 
-<!-- - :fontawesome-solid-toolbox:{ .lg .middle } __Further Resources__
+- :octicons-image-16:{ .lg .middle } __Examples__
 
     ---
 
-    Further resources on topics related to digital mental healthcare.
+    A series of illustrative examples of digital mental health technologies.
 
-    [:octicons-arrow-right-24: Go to chapter](further-resources.md) -->
+    [:octicons-arrow-right-24: Go to chapter](examples.md) -->
 
 </div>
 

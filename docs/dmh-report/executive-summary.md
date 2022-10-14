@@ -27,7 +27,7 @@ To support the development and evaluation of Trustworthy Assurance, we conducted
 
 Based on these objectives, the following 'key findings' and 'recommendations' are presented:
 
-!!! example "Key Findings"
+!!! abstract "Key Findings"
 
     1. The current landscape of digital mental healthcare is characterised by significant uncertainty, a lack of transparency or accountability, and a rising demand that outpaces trusted services and resources. This contributes to a culture of distrust, which may prevent vulnerable users from accessing support.
     2. Concerns raised by stakeholders suggest that there are a broad set of challenges to be addressed, which may broadly be grouped into concerns surrounding a dearth of trustworthy innovation and concerns surrounding a lack of transparent communication between groups:
@@ -65,6 +65,10 @@ Our report is structured as follows:
 * [Chapter 3 (Applying Trustworthy Assurance)](chapter-3.md) presents findings from a research sub-project conducted with students and administrators from UK Universities. These engagement events explored the application of trustworthy assurance to the procurement of DMHTs for use in the higher education (HE) sector, as well as general attitudes and perceptions towards the use of data-driven technologies in higher education. A series of recommendations accompany our thematic analysis.
 * [Chapter 4 (Co-Designing Trustworthy Assurance)](chapter-4.md) broadens the scope from the previous chapter to present research findings from a series of stakeholder engagement events carried out with regulators and policy-makers, developers, researchers, and users with lived experience of DMHTs. As with the previous chapter, a set of recommendations accompanies our thematic analysis.
 * [Chapter 5 (Developing Trustworthy Assurance)](chapter-5.md) introduces, motivates, and explains two argument patterns that are intended to help project teams meet objectives for fair and explainable DMHTs. This chapter also connects the argument patterns to existing and relevant legislation and regulation (e.g. Equality Act 2010).
+
+!!! info "Examples"
+
+    If you are new to the topics covered in this report, you can also find a set of illustrative examples of DMHTs available on [this page](examples.md).
 
 ### About the Report
 
