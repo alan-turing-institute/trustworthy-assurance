@@ -30,7 +30,7 @@ Based on these objectives, the following 'key findings' and 'recommendations' ar
 !!! abstract "Key Findings"
 
     1. The current landscape of digital mental healthcare is characterised by significant uncertainty, a lack of transparency or accountability, and a rising demand that outpaces trusted services and resources. This contributes to a culture of distrust, which may prevent vulnerable users from accessing support.
-    2. Concerns raised by stakeholders suggest that there are a broad set of challenges to be addressed, which may broadly be grouped into concerns surrounding a dearth of trustworthy innovation and concerns surrounding a lack of transparent communication between groups:
+    2. Concerns raised by stakeholders suggest that there are a wide range of challenges to be addressed, which may broadly be grouped into concerns surrounding a dearth of trustworthy innovation and concerns surrounding a lack of transparent communication between groups:
     
         1. For developers, key concerns focused on 
             1. the lack of clear guidance and structure through which to present evidence of trustworthy innovation,
@@ -60,11 +60,11 @@ In each subsequent chapter, these key findings of our project are further contex
 
 Our report is structured as follows:
 
-* [Chapter 1 (Introduction)](chapter-1.md) establishes the background context and conceptual foundations for the report, while also outlining the many challenges that exist for researchers, developers, and policy-makers/regulators working in the domain of digital mental healthcare.
-* [Chapter 2 (Presenting Trustworthy Assurance)](chapter-2.md) introduces the framework and methodology of 'Trustworthy Assurance'. The framework includes a model of a typical project lifecycle involving a data-driven technology (e.g. health and well-being app), and a discussion of several ethical principles, known as the SAFE-D principles. The framework serves as a guide to our methodology for developing an assurance case that promotes trustworthy goals associated with DMHTs. Finally, this chapter also includes an important discussion about 'argument patterns', which support the material presented in [Chapter 5](chapter-5.md).
-* [Chapter 3 (Applying Trustworthy Assurance)](chapter-3.md) presents findings from a research sub-project conducted with students and administrators from UK Universities. These engagement events explored the application of trustworthy assurance to the procurement of DMHTs for use in the higher education (HE) sector, as well as general attitudes and perceptions towards the use of data-driven technologies in higher education. A series of recommendations accompany our thematic analysis.
-* [Chapter 4 (Co-Designing Trustworthy Assurance)](chapter-4.md) broadens the scope from the previous chapter to present research findings from a series of stakeholder engagement events carried out with regulators and policy-makers, developers, researchers, and users with lived experience of DMHTs. As with the previous chapter, a set of recommendations accompanies our thematic analysis.
-* [Chapter 5 (Developing Trustworthy Assurance)](chapter-5.md) introduces, motivates, and explains two argument patterns that are intended to help project teams meet objectives for fair and explainable DMHTs. This chapter also connects the argument patterns to existing and relevant legislation and regulation (e.g. Equality Act 2010).
+- [Chapter 1 (Introduction)](chapter-1.md) establishes the background context and conceptual foundations for the report, while also outlining the many challenges that exist for researchers, developers, and policy-makers/regulators working in the domain of digital mental healthcare.
+- [Chapter 2 (Presenting Trustworthy Assurance)](chapter-2.md) introduces the framework and methodology of 'Trustworthy Assurance'. The framework includes a model of a typical project lifecycle involving a data-driven technology (e.g. health and well-being app), and a discussion of several ethical principles, known as the SAFE-D principles. The framework serves as a guide to our methodology for developing an assurance case that promotes trustworthy goals associated with DMHTs. Finally, this chapter also includes an important discussion about 'argument patterns', which supports the material presented in [Chapter 5](chapter-5.md).
+- [Chapter 3 (Applying Trustworthy Assurance)](chapter-3.md) presents findings from a research sub-project conducted with students and administrators from UK Universities. These engagement events explored the application of trustworthy assurance to the procurement of DMHTs for use in the higher education (HE) sector, as well as general attitudes and perceptions towards the use of data-driven technologies in higher education. A series of recommendations accompany our thematic analysis.
+- [Chapter 4 (Co-Designing Trustworthy Assurance)](chapter-4.md) broadens the scope from the previous chapter to present research findings from a series of stakeholder engagement events carried out with regulators and policy-makers, developers, researchers, and users with lived experience of DMHTs. As with the previous chapter, a set of recommendations accompanies our thematic analysis.
+- [Chapter 5 (Developing Trustworthy Assurance)](chapter-5.md) introduces, motivates, and explains two argument patterns that are intended to help project teams meet objectives for fair and explainable DMHTs. This chapter also connects the argument patterns to existing and relevant legislation and regulation (e.g. Equality Act 2010).
 
 !!! info "Examples"
 
@@ -126,7 +126,7 @@ This report is primarily targeted at the following groups:
   
   **Developers and Product Managers**
 
-  While our framework and methodology is set out in accessible forms, rather than adopting formal syntax and schemas for argument-based assurance, Trustworthy Assurance is primarily aimed at developers and product managers. That is, one of its key values is as a reflective and deliberative aid to demonstrating how ethical principles and decisions have been undertaken and establish through a project's lifecycle, with easy means for justifying the relevant claims by linking them to evidence. Therefore, developers and product managers are a key stakeholder group that we have targeted in this report and research project.
+  Although our framework and methodology are not set out using formal syntax and schemas for argument-based assurance, Trustworthy Assurance is, nevertheless, primarily aimed at developers and product managers. For instance, one of its key values is as a reflective and deliberative aid for demonstrating how ethical principles and decisions have been undertaken and establish through a project's lifecycle, with easy means for justifying the relevant claims by linking them to evidence. Therefore, developers and product managers are a key stakeholder group that we have targeted in this report and research project.
 
 ---
 
@@ -134,7 +134,7 @@ This report is primarily targeted at the following groups:
   
   **Researchers**
 
-  While researchers may find less practical value in our framework and methodology, our report highlights and emphasises significant knowledge gaps and research opportunities for improving our collective understanding about the individual and social impacts of DMHTs. Therefore, our report can also be seen as a call for further research into specific areas, including the evaluation and validation of the Trusworthy Assurance framework and methodology.
+  Researchers may find less practical value in our framework and methodology than the above groups. However, our report highlights and emphasises significant knowledge gaps and research opportunities for improving our collective understanding about the individual and social impacts of DMHTs. Therefore, our report can also be seen as a call for further research into specific areas, including the evaluation and validation of the Trustworthy Assurance framework and methodology.
 
 </div>
 
