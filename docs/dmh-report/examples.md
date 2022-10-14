@@ -46,11 +46,11 @@ A recent standard produced by the International Standards Organisation (ISO) dem
 
     According to the [develeoper's website](https://www.wysa.io/faq[), "Wysa AI Coach is an artificial intelligence-based 'emotionally intelligent' service which responds to the emotions you express and uses evidence-based cognitive-behavioral techniques (CBT), DBT, meditation, breathing, yoga, motivational interviewing and micro-actions to help you build mental resilience skills and feel better."
 
+    ✅ ML/AI: this app is explicit in its use of AI for enabling automated conversations with users.
+
     ![A screenshot of the Wysa AI coach app. From the Wysa Press Kit.](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/wysa.jpg)
     *A screenshot of the Wysa AI coach app. Reprinted from the [Wysa Press Kit](A screenshot of the Wysa AI coach app. From the Wysa Press Kit.).*
     
-    ✅ ML/AI: this app is explicit in its use of AI for enabling automated conversations with users.
-
     [:octicons-arrow-right-24: Visit Developer's Site](https://www.wysa.io)
 
 -   :material-meditation:{ .lg .middle } __Headspace__
@@ -59,11 +59,11 @@ A recent standard produced by the International Standards Organisation (ISO) dem
 
     Headspace’s core products are mobile and web-based apps that focus on mindfulness, meditation, sleep, exercise, and focus content (e.g. guided exercises). The company [publishes research](https://www.headspace.com/science) to support its claims about efficacy and outcomes.
 
+    ✅ ML/AI: the use of ML or AI is not a prominent feature in the app, but the organisation does make use of ML to tailor recommendations to users, and has [published plans](https://headspace.medium.com/infrastructure-design-for-real-time-machine-learning-inference-e140793d6741) to make use of additional data.
+
     ![A screenshot of the Headspace app. From the Headspace Press Kit.](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/headspace.jpg)
     *A screenshot of the Headspace app. Reprinted from the [Headspace Press Kit](https://www.headspace.com/press-and-media).*
     
-    ✅ ML/AI: the use of ML or AI is not a prominent feature in the app, but the organisation does make use of ML to tailor recommendations to users, and has [published plans](https://headspace.medium.com/infrastructure-design-for-real-time-machine-learning-inference-e140793d6741) to make use of additional data.
-
     [:octicons-arrow-right-24: Visit Developer's Site](https://www.headspace.com)
     
 </div> 
@@ -81,11 +81,10 @@ The use of VR/AR technologies to support mental health are primarily used in res
 
     A research team at the Department of Psychiatry (University of Oxford) have explored how the observation of a virtual body double engaged in social interaction may reduced persecutory thoughts associated with anxiety. The study demonstrates limited but positive evidence for a decreased anxiety.
 
-    ![An image of the body doubles in VR space. Reprinted from Gorisse et al. (2021)](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/vr-freeman.jpg)
-    *An image of the body doubles in VR space. Reprinted from [Gorisse et al. (2021)](https://www.nature.com/articles/s41598-021-03373-x)*
-    
     ✅ ML/AI: automated techniques are used to control the behaviours of the artificial agents that the virtual body double interacts with, although pre-recorded dialogue is also used.
-    
+
+    ![An image of the body doubles in VR space. Reprinted from Gorisse et al. (2021)](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/vr-freeman.jpg)
+    *An image of the body doubles in VR space. Reprinted from [Gorisse et al. (2021)](https://www.nature.com/articles/s41598-021-03373-x)* 
 
     [:octicons-arrow-right-24: Read Publication](https://www.nature.com/articles/s41598-021-03373-x)
 
@@ -103,6 +102,23 @@ The use of VR/AR technologies to support mental health are primarily used in res
 
 ## Decision Support Tools
 
+By 'decision support tools' we mean DMHTs that are designed to be used to augment or support the decision-making of healthcare professionals.
 
+<div class="grid cards" markdown>
+
+-   :material-message-text:{ .lg .middle } __IESO Digital Health__
+
+    ---
+
+    IESO Digital Health is one of the leading providers of online mental health services for the NHS, as part of the Improving Access to Psychological Therapies (IAPT) programme. The company have developed an AI-powered decision support tool, which "automatically annotates therapist utterances in real-time" to support CBT. The tool can be used for several purposes, including "to monitor the delivery of crucial elements in live therapy" and to remind the therapist "to set an agenda or to set homework when they have not done so."
+
+    ✅ ML/AI: the tool uses a deep learning method known as bidirectional long short-term memory.
+
+    ![An image of an example therapy session with automated labels applied in real time. Reprinted from Cummins et al. (2019)](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/ieso.png)
+    *An image of an example therapy session with automated labels applied in real time. Reprinted from [Cummins et al. (2019)](https://doi.org/10.1145/3308558.3314128)*
+
+    [:octicons-arrow-right-24: Visit Developer's Site](https://www.iesohealth.com/)
+    
+</div> 
 
 ## Brain-Computer Interfaces
