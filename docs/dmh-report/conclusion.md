@@ -10,7 +10,7 @@ authors:
 
 ## Co-Creating a Culture of Trust
 
-![An illustration of a user operating a smartphone where a stream of data disappears into a maze](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/data-maze.png)
+![An animation of a user operating a smartphone where a stream of data disappears into a maze](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/data-maze.gif)
 
 > Uncertainty breeds distrust.
 

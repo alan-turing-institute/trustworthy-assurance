@@ -13,15 +13,15 @@ tags:
 
 ![Illustration of stakeholders reflecting on and deliberating different ideas at tables in a room and online](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/ch4-header.jpg){ .off-glb }
 
-> **Chapter Overview**
->
-> This section introduces and analyses the findings of several stakeholder engagement events, which were conducted to a) identify participant's attitudes towards DMHTs, b) understand which ethical values and principles they view as significant, and c) explore how to use this information to construct trustworthy assurance cases and argument patterns for relevant ethical goals.
->
-> First, we introduce the objectives, structure, and content of the workshops.
->
-> Second, we analyse the findings of our workshops, drawing connections with the methodology of trustworthy assurance. These findings support the development of two *argument patterns*, presented in chapter 5, which serve to distill recurring themes from all of workshop participants that were deemed significant.
->  
-> Finally, we offer several recommendations for policy-makers, regulators, and developers, based on the preliminary results of the project.
+!!! abstract "Chapter Overview"
+
+    This section introduces and analyses the findings of several stakeholder engagement events, which were conducted to a) identify participant's attitudes towards DMHTs, b) understand which ethical values and principles they view as significant, and c) explore how to use this information to construct trustworthy assurance cases and argument patterns for relevant ethical goals.
+    
+    First, we introduce the objectives, structure, and content of the workshops.
+    
+    Second, we analyse the findings of our workshops, drawing connections with the methodology of trustworthy assurance. These findings support the development of two *argument patterns*, presented in chapter 5, which serve to distill recurring themes from all of workshop participants that were deemed significant.
+    
+    Finally, we offer several recommendations for policy-makers, regulators, and developers, based on the preliminary results of the project.
 
 ## Workshop Information
 
@@ -56,12 +56,12 @@ Full details of our methodology and activities are provided in the [Appendix](ap
 
 ## Analysis
 
-> **Key Findings**
->
-> - All groups emphasised fairness as a key ethical principle, but the specifics of how fairness was understood differed between groups.
-> - Additional emphasis was placed on ethical priorities that could be captured by either the accountability, explainability, or data SAFE-D principles (e.g. informed consent, transparency).
-> - Goals that are not directly coupled to any specific ethical principle[^efficacy], such as clinical efficacy, were nevertheless significant topics for consideration among regulators and developers.
-> - Ensuring sufficient understanding of the trustworthy assurance methodology proved to be challenging in the time available. This was the case even with the participants who attended two workshops, where the first included preliminary material on the methodology. 
+!!! abstract "Key Findings"
+
+    - All groups emphasised fairness as a key ethical principle, but the specifics of how fairness was understood differed between groups.
+    - Additional emphasis was placed on ethical priorities that could be captured by either the accountability, explainability, or data SAFE-D principles (e.g. informed consent, transparency).
+    - Goals that are not directly coupled to any specific ethical principle[^efficacy], such as clinical efficacy, were nevertheless significant topics for consideration among regulators and developers.
+    - Ensuring sufficient understanding of the trustworthy assurance methodology proved to be challenging in the time available. This was the case even with the participants who attended two workshops, where the first included preliminary material on the methodology. 
 
 [^efficacy]: This is not to say that clinical efficacy is not a key component of ethical decision-making. For instance, the bioethical principle of *beneficence* clearly requires sufficient levels of clinical efficacy.
 
@@ -73,24 +73,28 @@ In the following sections, we first discuss the specific themes for each set of 
 
 ### Workshops (1a and 1b) with policy-makers and regulators, developers, and researchers
 
-> **Summary**
-> 
-> - Nearly all of the ethical issues raised could be easily captured by the SAFE-D principles and their core attributes. However, additional space and emphasis is needed to capture the following concepts: `choice`, `patient choice`, `self-determination`, `autonomy`.
-> - Fairness was prioritised by the majority of participants. The principles was strongly linked to considerations such as `access to services`, `unequal distribution of health outcomes across demographic groups`, `bias in algorithmic decision-making`, and `diverse and inclusive participation in service design`.
-> - Participants expressed positive sentiment towards the trustworthy assurance, noting its perceived value for processes such as transparent auditing, assessment, or procurement.
-> - Producing assurance cases was a challenging exercise for many, but there were no signs that these barriers could not be addressed with additional user guidance and familiarity.
+!!! abstract "Summary"
+
+    - Nearly all of the ethical issues raised could be easily captured by the SAFE-D principles and their core attributes. However, additional space and emphasis is needed to capture the following concepts: `choice`, `patient choice`, `self-determination`, `autonomy`.
+    - Fairness was prioritised by the majority of participants. The principles was strongly linked to considerations such as `access to services`, `unequal distribution of health outcomes across demographic groups`, `bias in algorithmic decision-making`, and `diverse and inclusive participation in service design`.
+    - Participants expressed positive sentiment towards the trustworthy assurance, noting its perceived value for processes such as transparent auditing, assessment, or procurement.
+    - Producing assurance cases was a challenging exercise for many, but there were no signs that these barriers could not be addressed with additional user guidance and familiarity.
 
 #### Workshop 1a
 
 The first workshop (1a) ensured that participants had sufficient information about the trustworthy assurance methodology, which was required for the second workshop. This information was provided while minimising the likelihood of priming the participants to evaluate our case studies with reference to specific ethical values or principles, such as the SAFE-D principles. Therefore, there were fewer findings from workshop 1a than with workshop 1b.
 
-> Note: Our goal was to identify which ethical principles mattered most to them, so we were careful not to highlight that we had already developed an existing framework (SAFE-D principles) that could unduly influence their feedback.
+!!! note "Note"
+
+    Our goal was to identify which ethical principles mattered most to them, so we were careful not to highlight that we had already developed an existing framework (SAFE-D principles) that could unduly influence their feedback.
 
 However, one relevant activity from workshop 1a that is worth mentioning was the explicit request to identify and discuss ethical values and principles that were seen as salient or significant in the context of the design, development, and deployment of trustworthy DMHTs.
 
 The following word cloud shows participant answers for the question,
 
-> 'What values and principles matter to you?'
+!!! question "Question"
+
+    'What values and principles matter to you?'
 
 ![A word cloud of ethical values and principles. The top 10 are transparency, privacy, evidence-based, trustworthiness, clarity, accountability, self-determination, choice, safety, equity.](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/wordcloud.png)
 
@@ -166,7 +170,7 @@ As the image above shows, their goal was framed in terms of supporting the "prof
 
 These two themes emerged from discussion about the potential harmful impact of the system on the judgement of psychiatrists, such as the possibility of automation bias (i.e. the tendency for users to be unduly influenced by automated decision-making, even when their own judgement would be preferable or more accurate). For instance, when the group considered which forms of evidence they would expect to see included to provide assurance that this risk had been managed and mitigated, they added an evidential claim and artefact that communicated additional mentor support (from a senior healthcare professional) and positive self-evaluation from the user (see right of Figure 4.3).
 
-The inclusion of this segment in the assurance case cannot be divorced from consideration about the responsibility that a user has for their own decisions, as well as the institutional mechanisms of accountability that ought to be put in place to support users of decision support systems. Therefore, it remains unclear whether the goal of this assurance case could be captured by a single SAFE-D principle. On the one hand, `Sustainability` would be a good candidate for capturing the long-term impacts of the system on user autonomy and professional judgement. On the other hand, `Accountability` would be preferable for those attributes concerned with responsible decision-making and institutional accountability. These questions were not raised with the participants, nor is there sufficient information to infer their intentions. 
+The inclusion of this segment in the assurance case cannot be divorced from consideration about the responsibility that a user has for their own decisions, as well as the institutional mechanisms of accountability that ought to be put in place to support users of decision support systems. Therefore, it remains unclear whether the goal of this assurance case could be captured by a single SAFE-D principle. On the one hand, `Sustainability` would be a good candidate for capturing the long-term impacts of the system on user autonomy and professional judgement. On the other hand, `Accountability` would be preferable for those attributes concerned with responsible decision-making and institutional accountability. These questions were not raised with the participants, nor is there sufficient information to infer their intentions.
 
 However, the following quotation from one of the (developer) participants is illuminating for the challenges involved in ensuring responsible decision-making in situations where multiple organisations are involved in a distributed project lifecycle:
 
@@ -190,7 +194,9 @@ The third barrier, however, is harder to overcome. In our initial project planni
 
 Following the participatory activity, participants were asked to complete an anonymous survey, which was designed to elicit additional information about the perceived value of the trustworthy assurance methodology. Therefore, despite the small sample, it is worth analysing the responses before we turn to the final workshop with users of DMHTs.
 
-> To what extent do you agree/disagree with the following statement: "The methodology of trustworthy assurance would be helpful in identifying potential ethical risks which arise while designing, developing and deploying a DMHT".
+!!! question "Question 1"
+
+    To what extent do you agree/disagree with the following statement: "The methodology of trustworthy assurance would be helpful in identifying potential ethical risks which arise while designing, developing and deploying a DMHT".
 
 | Option | # Responses |
 | --- | --- |
@@ -206,7 +212,9 @@ Unfortunately, the sample size is too small to infer anything meaningful about t
 
 [^distribution1]: For transparency, the distribution of responses by stakeholder group is as follows: Strongly agree: policy-maker x2, researcher x1, developer x1; Agree: policy-maker x1, researcher x4, developer x2; Undecided: policy-maker x2
 
-> To what extent do you agree/disagree with the following statement: "The methodology of trustworthy assurance would be a helpful means through which to communicate to other stakeholders that a DMHT is trustworthy".
+!!! question "Question 2"
+
+    To what extent do you agree/disagree with the following statement: "The methodology of trustworthy assurance would be a helpful means through which to communicate to other stakeholders that a DMHT is trustworthy".
 
 Similarly, the majority of respondents 'agree' or 'strongly agree' with the above statement, reinforcing our prior assumption about the *communicative value* of trustworthy assurance. However, as we will see shortly, there are some future areas for improvement, which likely explain the increased number of 'undecided' responses, which were primarily from policy-makers. [^distribution2]  
 
@@ -220,9 +228,11 @@ Similarly, the majority of respondents 'agree' or 'strongly agree' with the abov
 
 [^distribution2]: Again, these results should be treated with caution due to the small sample size. Strongly agree: policy-maker x1, researcher x1, developer x2; Agree: policy-maker x2, researcher x4, developer x4; Undecided: policy-maker x2, developer x1
 
-> What do you consider to be the primary advantages of the ethical assurance methodology?
+!!! question "Question 3"
 
-The feedback from this question can be summarised as follows: 
+    What do you consider to be the primary advantages of the ethical assurance methodology?
+
+The feedback from this question can be summarised as follows:
 
 - The primary advantage is having a capacity to support a structured and end-to-end approach to project governance, facilitated by shared aims and objectives for broader normative goals (e.g. health equity).
 
@@ -238,13 +248,15 @@ And, in turn,
 
 - "will help developers, commissioners and service providers to know that equality/ethics has been considered." [Policy-maker]
 
-> What do you consider to be the primary disadvantages of the ethical assurance methodology? Please specify any aspects of the methodology which you believe require further refinement. 
+!!! question "Question 4"
+
+    What do you consider to be the primary disadvantages of the ethical assurance methodology? Please specify any aspects of the methodology which you believe require further refinement. 
 
 While it is encouraging to see many positive responses, it is also important to consider critical feedback, as it is here that potential gaps and barriers can be addressed. The first critical comment attenuates the positive feedback about the methodology's flexibility noted above:
 
 - "The open-ended nature of the methodology makes it difficult to know what to include in scope and may pose a difficulty for comparing assurance cases between manufacturers, for instance." [Developer]
 
-This is a valid concern, and is something that can be addressed through argument patterns and guidance on how to operationalise principles through the emphasis on core attributes that can be established throughout the project lifecycle (see below and [chapter 5](chapter-5.md)). 
+This is a valid concern, and is something that can be addressed through argument patterns and guidance on how to operationalise principles through the emphasis on core attributes that can be established throughout the project lifecycle (see below and [chapter 5](chapter-5.md)).
 
 The second point relates to organisational culture and readiness, and the challenge of considering competing incentive or disincentive structures—a theme also raised in the previous chapter:
 
@@ -260,9 +272,11 @@ However, this prescription is going to be in conflict with alternative interests
 
 At present, our methodology is not supported by a theory of change for how organisations can adopt the methodology into their own practices. One possibility would be to work with public sector organisations and regulators to establish a requirement for those responding to tenders to provide an assurance case for a relevant ethical goal (e.g. non-discrimination, explainability). Alternatively, we could investigate how specific goals in the context of healthcare could expand upon existing regulations (e.g. medical device approval).
 
-The following three questions were posed to the respective participants as a means of eliciting more specific feedback about perceived obstacles to the successful adoption and integration of trustworthy assurance into their respective practices. 
+The following three questions were posed to the respective participants as a means of eliciting more specific feedback about perceived obstacles to the successful adoption and integration of trustworthy assurance into their respective practices.
 
-> *As a developer, are there any objections or external obstacles which would prevent you from producing an ethical assurance case during the design, development and deployment of a new DMHT?*
+!!! question "Question 5a"
+
+    As a **developer**, are there any objections or external obstacles which would prevent you from producing an ethical assurance case during the design, development and deployment of a new DMHT?
 
 The first two comments relate to a similar concern about organisational readiness and incentive/disincentive structures raised above:
 
@@ -273,7 +287,9 @@ Here, our analysis and response echoes some of the comments made earlier (e.g. c
 
 - "Clarity on expected standards would be the largest obstacle. We noticed the biggest upswing in GDPR policy uptake came when we started offering standard starter policies."
 
-> *As a researcher working on DMHT, do you see any obstacles to the uptake of ethical assurance in the sector?*
+!!! question "Question 5b"
+
+    As a **researcher** working on DMHT, do you see any obstacles to the uptake of ethical assurance in the sector?
 
 The responses from researchers were mostly positive in the sense that few obstacles were identified. However, there was a skepticism about the likelihood of the private sector adopting the practices of trustworthy assurance.
 
@@ -281,7 +297,9 @@ The responses from researchers were mostly positive in the sense that few obstac
 
 We can, again, note that targeting procurement practices in the public sector may be a positive first step, and, moreover, that complementarity with existing regulation could increase adoption. This latter point was highlighted by the responses from the policy-makers.
 
-> *As a policy-maker, do you consider the methodology of ethical assurance to be compatible with existing regulatory mechanisms in the sector? Please describe any obstacles to the adoption of ethical assurance in the digital mental healthcare sector.* 
+!!! question "Question 5c"
+
+    As a **policy-maker**, do you consider the methodology of ethical assurance to be compatible with existing regulatory mechanisms in the sector? Please describe any obstacles to the adoption of ethical assurance in the digital mental healthcare sector.
 
 - "I'd recommend that you align to existing regs where possible (e.g. goals could be 'conform to GDPR' or 'meet regulatory requirements' rather than more abstract items) and make it easy for non-experts to use."
 
@@ -304,17 +322,18 @@ This suggestion is a variation of the recommendation above about supporting read
 
 ### Workshops with users of DMHTs
 
-> **Summary**
-> The workshops with users exposed wide-ranging, nuanced, and interconnected attitudes, while contributing to practical and complementary recommendations for developers and regulators.
->
-> Four central themes emerged from the workshops:
->
-> 1. Distrust as a barrier to accessing and using DMHTs
-> 2. Stakeholder and user engagement as a means for ensuring accountability
-> 3. Explainable technology and systems as a pre-requisite for informed choice
-> 4. Ensuring fairness by reducing digital exclusion, bias, and discrimination, and promoting social justice
->
-> While all of the themes are interconnected, the fourth theme especially is inseparable from the others.
+!!! abstract "Summary"
+
+    The workshops with users exposed wide-ranging, nuanced, and interconnected attitudes, while contributing to practical and complementary recommendations for developers and regulators.
+    
+    Four central themes emerged from the workshops:
+    
+      1. Distrust as a barrier to accessing and using DMHTs
+      2. Stakeholder and user engagement as a means for ensuring accountability
+      3. Explainable technology and systems as a pre-requisite for informed choice
+      4. Ensuring fairness by reducing digital exclusion, bias, and discrimination, and promoting social justice
+
+While all of the themes are interconnected, the fourth theme especially is inseparable from the others.
 
 #### Overview
 
@@ -325,13 +344,13 @@ We held two workshops (one in person and one online) to improve accessibility fo
 There were two activities that participants contributed to. Both were designed to maximise the ability of the feedback to shape and inform the design of our methodology and recommendations while minimising the need for prior reading (e.g. information about argument-based assurance). A talk preceded each of the activities to ensure that participants were equipped to contribute in a meaningful way.
 
 - Activity 1: participants were asked to reflect on a range of possible use cases for DMHTs and evaluate possible harms and benefits by answering the following questions:
-  - Which ethical values or principles matter to you in the context of digital mental healthcare?
-  - What are some positive use cases for DMHTs?
-  - What are some negative use cases for DMHTs?
+    - Which ethical values or principles matter to you in the context of digital mental healthcare?
+    - What are some positive use cases for DMHTs?
+    - What are some negative use cases for DMHTs?
 - Activity 2: participants were given a set of claims made by a fictional development team about one of the four case studies, and asked to evaluate the claim based on the following criteria:
-  - Whether the claim appeared to be motivated by or support an ethical value or principle.
-  - Whether they found the claim reassuring or whether it raised concerns.
-  - What evidence, if any, they would expect to see to support or validate the claim.
+    - Whether the claim appeared to be motivated by or support an ethical value or principle.
+    - Whether they found the claim reassuring or whether it raised concerns.
+    - What evidence, if any, they would expect to see to support or validate the claim.
 
 In both activities, participants were encouraged to explore tangential points in dialogue with the group. The purpose of these activities was to provide a general scaffold for discussion, from which salient and significant themes could be identified with the participants. Therefore, in our analysis we do not differentiate between the findings from the two activities, but instead group them together and make specific recommendations linked to the relevant themes.
 
@@ -390,11 +409,13 @@ But, again, the skepticism that participants held was typically nuanced and voic
 >
 > In some instances, such as AI-assisted surgery, involvement of technology should optimise for safety. But in mental healthcare, human interaction and involvement will always be vital to a trustworthy and supportive relationship.
 
-From these preliminary remarks, it is important to remember how we disentangled the concepts of 'trust' and 'trustworthiness' back in [Chapter 1](chapter-1.md). To recall, 'trust' can refer to a belief or attitude that is directed towards an object, person, or proposition (among other things), whereas 'trustworthiness' refers to the perceived property or attribute which an individual uses to determine whether to place trust (e.g. whether to trust a news article based on its quoted sources). Differentiating these terms is helpful for evaluating whether there are reasonable (and unreasonable) grounds for placing trust. For example, a person may have *reasonable* grounds for their distrust in an organisation, where the organisation has a history of violating data protection and privacy laws. In contrast, another person may have *unreasonable* grounds for their skepticism about the clinical efficacy of a technology based on an accessible, well-validated, and reliable evidence base. 
+From these preliminary remarks, it is important to remember how we disentangled the concepts of 'trust' and 'trustworthiness' back in [Chapter 1](chapter-1.md). To recall, 'trust' can refer to a belief or attitude that is directed towards an object, person, or proposition (among other things), whereas 'trustworthiness' refers to the perceived property or attribute which an individual uses to determine whether to place trust (e.g. whether to trust a news article based on its quoted sources). Differentiating these terms is helpful for evaluating whether there are reasonable (and unreasonable) grounds for placing trust. For example, a person may have *reasonable* grounds for their distrust in an organisation, where the organisation has a history of violating data protection and privacy laws. In contrast, another person may have *unreasonable* grounds for their skepticism about the clinical efficacy of a technology based on an accessible, well-validated, and reliable evidence base.
 
 Identifying the reasons for why users may trust or distrust a DMHT can help organisations assess and evaluate both the trustworthiness of their teams and services, and identify opportunities for intervention. Phrased as a recommendation:
 
-- Organisations should consider both the *trustworthiness* of their products and services, but also the reasons why users may *trust or distrust* them.
+!!! success "Recommendation"
+
+    Organisations should consider both the *trustworthiness* of their products and services, but also the reasons why users may *trust or distrust* them.
 
 Acting upon this recommendation requires organisations to engage stakeholders, which links to the next theme that emerged during discussion.
 
@@ -416,11 +437,13 @@ This emphasis on engagement and meaningful forms of participation will be return
 
 [^nothing]: Charlton, J. I. (1998). Nothing about us without us: Disability Oppression and Empowerment. University of California Press.
 
-- Accountability should be built into all stages of the project lifecycle, and requires both stakeholder engagement and also diversity within the project team (especially neurodiversity).
-- Where there is a risk of harm to users, organisations should be transparent about how these risks were identified (e.g. who was involved in the risk assessment), how they were mitigated, and what mechanisms for redress are available to impacted individuals. 
+!!! success "Recommendations"
+
+    - Accountability should be built into all stages of the project lifecycle, and requires both stakeholder engagement and also diversity within the project team (especially neurodiversity).
+    - Where there is a risk of harm to users, organisations should be transparent about how these risks were identified (e.g. who was involved in the risk assessment), how they were mitigated, and what mechanisms for redress are available to impacted individuals. 
 
 #### Explainability as a pre-requisite for informed choice
- 
+
 As has already been noted, there was a strong dislike and distrust towards the perceived over-reliance on privacy policies. As several participants noted:
 
 > "The culture of small-print is pervasive, but the culture of consent is not built into a business model”
@@ -443,8 +466,10 @@ To understand why this shift in framing matters, consider the fact that for many
 
 Capturing these themes and building on the previous sections recommendations, we can add the following:
 
-- Information that is necessary to and supportive of informed choice should not be hidden within obscure privacy policies; it should be made accessible to users as explanations of how a system was designed, developed, and deployed.
-- In doing so, organisations should be clear about how they define and operationalise key terms, such as 'mental health' or 'well-being' and how their understanding of the terms may have impacted the design, development, and evaluation of a service.
+!!! success "Recommendations"
+
+    Information that is necessary to and supportive of informed choice should not be hidden within obscure privacy policies; it should be made accessible to users as explanations of how a system was designed, developed, and deployed.
+    In doing so, organisations should be clear about how they define and operationalise key terms, such as 'mental health' or 'well-being' and how their understanding of the terms may have impacted the design, development, and evaluation of a service.
 
 But the shift from choice to active involvement is not just about improving explanations to support participation, it is also about improving access more generally. As one participant acknowledges, this is fundamentally a matter of fairness.
 

@@ -11,12 +11,15 @@ tags:
 
 ![Illustration of a person at a desk using the trustworthy assurance methodology](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/ch2-header.jpg){ .off-glb }
 
->**Chapter Overview**
->
-> This section introduces a framework and methodology for enabling a more trustworthy ecosystem of digital mental healthcare through the responsible and ethical design, development, and deployment of digital technologies. The section also serves as an introduction for the analysis and recommendations for the following sections.
-> First, we introduce a model of a typical research or innovation lifecycle for a data science or AI project that includes activities of project design, model development, and system deployment. 
-> Second, we discuss the methodology of trustworthy assurance that is at the centre of our project. We provide a simple overview of the relevant procedures, focusing on the structure, elements, and purpose of an assurance case.
-> Finally, we look at argument patterns: reusable templates that can be developed to ensure a more consistent approach to trustworthy design, development, and deployment of digital mental healthcare.
+!!! abstract "Chapter Overview"
+
+    This section introduces a framework and methodology for enabling a more trustworthy ecosystem of digital mental healthcare through the responsible and ethical design, development, and deployment of digital technologies. The section also serves as an introduction for the analysis and recommendations for the following sections.
+    
+    First, we introduce a model of a typical research or innovation lifecycle for a data science or AI project that includes activities of project design, model development, and system deployment. 
+    
+    Second, we discuss the methodology of trustworthy assurance that is at the centre of our project. We provide a simple overview of the relevant procedures, focusing on the structure, elements, and purpose of an assurance case.
+    
+    Finally, we look at argument patterns: reusable templates that can be developed to ensure a more consistent approach to trustworthy design, development, and deployment of digital mental healthcare.
 
 ## Designing, Developing, and Deploying Trustworthy Digital Mental Health Technologies
 
@@ -24,14 +27,14 @@ Designing, developing, and deploying an AI system is not a one-person task[^vill
 
 [^village]: Rather, it "takes a village to raise an algorithm" as noted in this [blog post](https://cogent.co/blog/biasai/). Thanks to one of our reviewers for bringing this post to our attention.
 
-**Figure 1.1** presents a simplified model of a typical research or innovation lifecycle for a data science or AI project lifecycle, to help gain a purchase on these interweaving roles, skills, and responsibilities[^responsibilities].
+*Figure 1.1* presents a simplified model of a typical research or innovation lifecycle for a data science or AI project lifecycle, to help gain a purchase on these interweaving roles, skills, and responsibilities[^responsibilities].
 
 [^responsibilities]: To be clear, we are referring here to role and task responsibilities first and foremost, which overlap with but are conceptually separate from moral responsibility.
 
-The model represents three over-arching stages of `(project) design`, `(model) development`, and `(system) deployment`. For each stage, there are corresponding activities, detailed in **Table 1.1**. The project lifecycle is depicted as a circular process to highlight the fact that responsibility is ongoing and does not end once a system has been implemented or put into deployment. Rather, responsible (and trustworthy) approaches to research and innovation require consideration of how a technological system may need to be monitored and updated once in production, and removed and replaced once it reaches the end of its lifecycle. 
+The model represents three over-arching stages of `(project) design`, `(model) development`, and `(system) deployment`. For each stage, there are corresponding activities, detailed in *Table 1.1*. The project lifecycle is depicted as a circular process to highlight the fact that responsibility is ongoing and does not end once a system has been implemented or put into deployment. Rather, responsible (and trustworthy) approaches to research and innovation require consideration of how a technological system may need to be monitored and updated once in production, and removed and replaced once it reaches the end of its lifecycle. 
 
 ![Figure 1.1: a model of a typical project lifecycle for some data-driven technology, detailing the overarching stages of design, development, and deployment and their constitutive activities (reprinted from Burr and Leslie, 2022)](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/project-lifecycle.png)
-*Figure 1.1: a model of a typical project lifecycle for a data-driven technology, detailing the overarching stages of design, development, and deployment and their constitutive activities (reprinted from Burr and Leslie, 2022)*
+*Figure 1.1: a model of a typical project lifecycle for a data-driven technology, detailing the overarching stages of design, development, and deployment and their constitutive activities (reprinted from [Burr and Leslie, 2022](https://link.springer.com/10.1007/s43681-022-00178-0))*
 
 **Table 1.1: Project Lifecycle Activities**
 
@@ -89,9 +92,22 @@ There are three basic elements of an argument:
 2. A set of property claims about the project or system that collectively specify and operationalise the goal
 3. A set of evidential claims that jointly establish the validity of the property claims
 
-For example, the following figure constitutes a simple argument.
+!!! info "Box 2.1 Elements of a Trustworthy Assurance Case"
 
-![An example argument for a privacy goal](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-1.png)
+    The following table provides summary information about the typical elements of a trustworthy assurance case. NB: the colours do not mean anything, but are purely a visual aid to help differentiate the elements quickly.
+
+    | Element Name | Description | Icon |
+    | --- | --- | --- |
+    | **Goal Claim** | A claim about an ethical goal of the DMHT, which the assurance case attempts to justify has been established on the basis of the evidence and argument provided. | ![](../assets/images/goal-element.png) |
+    | **System Description** | A short description about the DMHT, including any central algorithmic techniques. | ![](../assets/images/system-element.png) |
+    | **Context Description** | A short description about the intended context of use for the DMHT, including the users of the system (e.g. healthcare professionals). | ![](../assets/images/context-element.png) |
+    | **Property Claim** | A claim about how the ethical goal has been implemented or opertaionalised, which references a property of the system or project, e.g. an action that was undertaken during the model's development. | ![](../assets/images/claim-element.png) |
+    | **Evidential Claim** | A specific claim about some evidence, which serves to establish the validity of the higher level property claim. | ![](../assets/images/evidential-claim-element.png) |
+    | **Evidential Artefact** | A description of the evidence referred to by the above evidential claim, including a link to the relevant document where available. | ![](../assets/images/evidential-artefact-element.png){: style="height:150px" } |
+
+The following figure constitutes a simple (but incomplete) argument, showing the relationship between the three central elements.
+
+![An example argument for a privacy goal](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-1.png){: style="height:400px" }
 
 *Figure 1.3: a portion of a simplified assurance case on respect for privacy*
 
@@ -101,7 +117,7 @@ While useful as an illustration, this example is too simple to constitute a full
 
 A more detailed procedure is required, therefore, to help project teams identify the set of property claims that a) specify and operationalise the top-level goal and b) collectively justify the goal.
 
-!!! info "Box 2.1 Argument-Based Assurance Notation"
+!!! info "Box 2.2 Argument-Based Assurance Notation"
 
     Argument-based assurance (ABA) was defined in the previous chapter as follows:
     
@@ -193,9 +209,9 @@ In answering these three questions, the developers would be *giving reasons* (su
 
 Let’s look at another example. Consider the following section of an assurance case for the aforementioned chatbot, which the developers have produced for the procuring organisation:
 
-![An example argument pattern concerned with accessibility](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-3.png)
-*Figure 1.5: a portion of an assurance case for a chatbot*
-[^claim]
+![An example argument pattern concerned with accessibility](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-3.png){: style="height:400px" }
+
+*Figure 1.5: a portion of an assurance case for a chatbot*[^claim]
 
 [^claim]: Recall, that evidential claims are required to link property claims to their supporting evidential artefacts, and evidential claims, therefore, can also serve as reasons.
 
@@ -204,7 +220,7 @@ As we have discussed, the organisation responsible for evaluating the trustworth
 In the context of safety assurance, a large body of guidance has been established to help developers assess what claims they will need to establish and justify, and a key part of this guidance is the development of *argument patterns*.
 
 ### What are argument patterns?
-Argument patterns are *starting templates* for building assurance cases. They identify the types of claims (or, the sets of reasons) that need to be established to justify the associated top-level normative goal. **Figure 1.6** shows an example argument pattern for the technical goal of interpretability.[^ward2020]
+Argument patterns are *starting templates* for building assurance cases. They identify the types of claims (or, the sets of reasons) that need to be established to justify the associated top-level normative goal. Figure 1.6 shows an example argument pattern for the technical goal of interpretability.[^ward2020]
 
 ![Figure 1.6: a pattern for an interpretability case (reprinted from Ward and Habli, 2020)](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/habli-assurance.png)
 *Figure 1.6: a pattern for an interpretability case (reprinted from Ward and Habli, 2020)*
@@ -259,6 +275,8 @@ The phrase 'trustworthy assurance' creates a wide scope for top-level goals that
 - Explainability
 - Data (Quality, Integrity, Protection and Privacy)
 
+[^coe]: The most recent and comprehensive account of this framework can be found in the following proposal to the Council of Europe: Leslie, D., Burr, C., Aitken, M., Katell, M., Briggs, M., & Rincon, C. (2022). Human rights, democracy, and the rule of law assurance framework for AI systems: A proposal. [https://rm.coe.int/huderaf-coe-final-1-2752-6741-5300-v-1/1680a3f688](https://rm.coe.int/huderaf-coe-final-1-2752-6741-5300-v-1/1680a3f688).
+
 These principles have been refined and validated in a wide range of domains, and were originally based on a broad understanding of the typical harms and benefits associated with data-driven technology (e.g. starting from the felt injustices or needs of users and stakeholders, and developing principles to reflect these challenges). Therefore, unlike alternative frameworks they are tailored to the specific needs and challenges of responsible, trustworthy, and ethical data science and AI, rather than, say, importing or revising existing frameworks such as biomedical ethics.[^floridi]
 
 However, the SAFE-D principles were designed to be *domain-neutral* starting points. That is, we did not presume that these principles would capture the ethical, social, and legal values that are dominant in digital mental healthcare. Instead, the present project undertook a process of exploratory engagement and participatory design to explore which ethical values and principles were relevant to the specific context of trustworthy digital mental healthcare, and whether specific SAFE-D principles captured these. We will return to this point in [Chapter 4](chapter-4.md) where we analyse our findings from the project's workshops.
@@ -270,6 +288,7 @@ Turning now to the property claims and supporting evidence, as assurance cases a
 Returning to the SAFE-D principles once more, we have previously developed a set of *core attributes* for each of the principles, which a) identify the types of properties that need to be established in a project or a system to ensure the relevant goal is obtained and b) the stages of the project lifecycle where actions can be taken to implement the respective property. Table 1.2 shows an example of the core attributes for 'sustainability'.
 
 **Table 1.2: a summary of the core attributes for the principle 'sustainability'**
+
 | Core Attribute | Description |
 | --- | --- |
 | Safety | Safety is core to sustainability but goes beyond the mere operational safety of the system. It also includes an understanding of the long-term use context and impact of the system, and the resources needed to ensure the system continues to operate safely over time within its environment (i.e. is sustainable). For instance, safety may depend upon sufficient change monitoring processes that establish whether there has been any substantive drift in the underlying data distributions or social operating environment. Or, it could also involve engaging and involving users and stakeholders in the design and assessment of AI systems that could impact their human rights and fundamental freedoms. |

@@ -10,13 +10,13 @@ tags:
 
 ![Conceptual header image of people building an assurance case](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/ch5-header.png){ .off-glb }
 
-> **Chapter Overview**
->
-> In this chapter we present two argument patterns (i.e. starting templates for building assurance cases) that identify the types of claims, or the sets of reasons that need to be established to justify the associated top-level normative goal.
->
-> The first pattern is for assurance cases that aim to justify the *fairness* of a DMHT. The second is for cases that address the *explainability* of systems.
->
-> We also discuss relevant legislation, regulation, and best practice guidance that support and motivate the development of these patterns.
+!!! abstract "Chapter Overview"
+
+    In this chapter we present two argument patterns (i.e. starting templates for building assurance cases) that identify the types of claims, or the sets of reasons that need to be established to justify the associated top-level normative goal.
+    
+    The first pattern is for assurance cases that aim to justify the *fairness* of a DMHT. The second is for cases that address the *explainability* of systems.
+    
+    We also discuss relevant legislation, regulation, and best practice guidance that support and motivate the development of these patterns.
 
 ## Co-designing argument patterns
 
@@ -28,7 +28,7 @@ You may recall that argument patterns are reusable structures that serve as *sta
 
 Before this, we present and explain two argument patterns for use in the assurance of DMHTs. The first is for assurance cases that address and justify the *fairness* of a DMHT; the second is for cases that address and justify the *explainability* of systems.
 
-!!! info "Why ‘fairness’ and ‘explainability’?"
+!!! question "Why ‘fairness’ and ‘explainability’?"
 
     Our decision to focus on these two patterns is motivated primarily by the desire to capture the *significant* themes raised in the workshops. As such, the inclusion of a pattern for fairness is an obvious choice based on the discussions in the [previous chapter](chapter-4.md). However, the inclusion of one for the goal of explainability requires additional clarification.
 
@@ -64,7 +64,7 @@ In our workshops, for instance, a key concern that was emphasised was the degree
 
 The pattern that has been developed, through participation of stakeholders and users, attempts to address both negative and positive duties, while also making room for core attributes such as user autonomy. In the context of mental healthcare, this inclusion of autonomy can be problematic in the most severe cases where it is simply not viable (e.g. severe forms of psychosis). However, recall that a pattern is a starting point or scaffold; it is not a checklist of *jointly sufficient claims and supporting evidence*. Therefore, if a particular type of claim is inappropriate due to contextual factors that are determined during project scoping or stakeholder engagement, it can be adjusted as necessary.
 
-!!! info "Why does this pattern matter?"
+!!! question "Why does this pattern matter?"
 
     In recent years, many tools for improving and supporting the trustworthy and responsible development of DMHTs have been proposed. One key advancement is the [Digital Technology Assessment Criteria for Health and Social Care](https://transform.england.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/) (DTAC). This form provides guidance on assessing four technical components (in addition to a contextual component):
 
@@ -144,7 +144,7 @@ Much like fairness, explainability has become a popular and thriving area of res
 
 The most obvious conceptual distinction is between `interpretability` as a core component of `explainability`. Whereas the former is to often treated as the ability for developers or users to understand the inner workings of algorithms (or inability in the case of complex, non-linear techniques), the latter refers to an interpersonal ability to communicate knowledge in a manner that is accessible to those who may be asking questions about a system (e.g. patients asking for explanations from a clinician). Although statistical techniques help significantly in the case of the former, they are more limited in their ability to support the latter where a more diverse range of users are likely.
 
-!!! info "Why does this pattern matter?"
+!!! question "Why does this pattern matter?"
 
     Explainable AI has received a lot of attention over the last several years.[^explainableAI] Computer scientists have developed new tools and methods to improve the interpretability of otherwise opaque algorithms, such as neural networks.[^XAIreview] Researchers in psychology and human-computer interaction have explored how different components of the user experience can help support more intentional interactions with intelligent software agents.[^hci] And, regulators, auditors, and journalists have investigated how to make systems more transparent to support objectives related to accountability and informed decision-making.[^accountability]
     
@@ -227,7 +227,7 @@ Neither of the patterns above include prescriptions about specific evidential ar
 
 However, there are a couple of general remarks that can be made, as well as some suggestions for further resources.
 
-First, as we have argued elsewhere[@burr_ethical_2022], the generation, evaluation, and selection of evidence can be guided by the following considerations:
+First, as we have argued elsewhere[@burr2022], the generation, evaluation, and selection of evidence can be guided by the following considerations:
 
 1. Is the evidential artefact/claim *relevant* to the parent claim
 2. Is the evidential artefact/claim (or set of artefacts/claims) *sufficient* to justify the parent claim?
