@@ -121,4 +121,25 @@ By 'decision support tools' we mean DMHTs that are designed to be used to augmen
     
 </div> 
 
-## Brain-Computer Interfaces
+## Neurotechnologies
+
+Neurotechnologies are are another class of technologies that are broader than mental health specifically, and also include wearables such as headbands as well as  Brain-Computer Interfaces (BCIs). They have received widespread attention from the bioethics community.[^nuffield]
+
+[^nuffield]: For example, see these resources and articles from Nuffield Council on Bioethics: [https://www.nuffieldbioethics.org/topics/data-and-technology/neurotechnology](https://www.nuffieldbioethics.org/topics/data-and-technology/neurotechnology)
+
+<div class="grid cards" markdown>
+
+-   :material-brain:{ .lg .middle } __EEG Headbands__
+
+    ---
+
+    The FocusCalm is an EEG headband by BrainCo—a company that grew out of the Harvard Innovation Lab. The device is currently marketed as a DMHT to measure brain activity and offer real-time feedback to focus and relax your mind. However, an earlier version of the product was tested as a tool for improving the attention of Chinese school students during lessons, before [it was halted](https://www.theguardian.com/world/2019/nov/01/chinese-primary-school-halts-trial-of-device-that-monitors-pupils-brainwaves) following complaints from parents.
+
+    ✅ ML/AI: the company claims to use ML algorithms to help interpret EEG frequency bands.
+
+    ![An image of a Chinese pupil wearing an EEG headband.](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/eeg.png)
+    *An image of a Chinese pupil wearing an EEG headband.*
+
+    [:octicons-arrow-right-24: Visit Developer's Site](https://focuscalm.com/)
+    
+</div> 
