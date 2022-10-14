@@ -21,27 +21,35 @@ This appendix offers additional information about the structure and methodology 
 No one ever said ethics was easy.
 Moral deliberation requires deep and wide-ranging consideration of issues and challenges such as conflicting values, resource limitations, and the needs and interests of diverse people and groups. One way to facilitate ethical deliberation, therefore, is through the use of illustrative case studies, which hold certain details fixed to support and guide exploratory reflection.
 
-We prepared four case studies for this project, all of which were related to hypothetical projects (though based on real-world examples) involving the development or use of a digital mental health technology:
+We prepared four case studies for this project, all of which were related to hypothetical projects (though based on real-world examples) involving the development or use of a digital mental health technology.
 
-- **Risk assessment and peer-to-peer support:** a platform for users to discuss their mental health with others in an anonymous environment, but where a machine-learning algorithm is identifying markers of risk and alerting trained professionals if positive instances are detected.
+!!! info "Case Studies"
+
+    Our case studies are free to download from our [online repository](https://github.com/alan-turing-institute/trustworthy-assurance/tree/main/docs/assets/case-studies). They are released under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license. They can be freely shared and adapted subject to the following [licensing restrictions](https://creativecommons.org/licenses/by-sa/4.0/). We would also encourage anyone who uses the case studies to provide feedback on where they were helpful or could be improved.
+
+### Risk assessment and peer-to-peer support
+
+A platform for users to discuss their mental health with others in an anonymous environment, but where a machine-learning algorithm is identifying markers of risk and alerting trained professionals if positive instances are detected.
 
 ![](https://raw.githubusercontent.com/alan-turing-institute/ethics-and-rri-resources/main/images/illustrations/peer-support.png)
 
-- **App limits:** an automated service on a smartphone that learns to detect signs of problematic usage of specific apps (e.g. gambling, social media) and prevents users from accessing these apps for a specified period.
+### App limits
+
+An automated service on a smartphone that learns to detect signs of problematic usage of specific apps (e.g. gambling, social media) and prevents users from accessing these apps for a specified period.
 
 ![](https://raw.githubusercontent.com/alan-turing-institute/ethics-and-rri-resources/main/images/illustrations/limit-reached.png)
 
-- **Clinical decision support system:** an AI system that supports a psychiatrist with the assessment and diagnosis of a patient by analysing the patient's speech and making recommendations for follow-up questions or possible follow-up actions.
+### Clinical decision support system
+
+An AI system that supports a psychiatrist with the assessment and diagnosis of a patient by analysing the patient's speech and making recommendations for follow-up questions or possible follow-up actions.
 
 ![](https://raw.githubusercontent.com/alan-turing-institute/ethics-and-rri-resources/main/images/illustrations/nlp-decision-support.png)
 
-- **Virtual reality for therapeutic support:** a virtual reality (VR) system that immerses patients in a virtual environment that is designed to expose them to challenging situations in a way that is monitored and controlled (e.g. social encounters for individuals suffering from social anxiety).
+### Virtual reality for therapeutic support
+
+A virtual reality (VR) system that immerses patients in a virtual environment that is designed to expose them to challenging situations in a way that is monitored and controlled (e.g. social encounters for individuals suffering from social anxiety).
 
 ![](https://raw.githubusercontent.com/alan-turing-institute/ethics-and-rri-resources/main/images/illustrations/vr-therapy.png)
-
-!!! info “Case Studies”
-
-    Our case studies are free to download from our [online repository](https://github.com/alan-turing-institute/trustworthy-assurance/tree/main/docs/assets/case-studies). They are released under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license. They can be freely shared and adapted subject to the following [licensing restrictions](https://creativecommons.org/licenses/by-sa/4.0/). We would also encourage anyone who uses the case studies to provide feedback on where they were helpful or could be improved. 
 
 For each case study, the following information was presented:
 
@@ -58,12 +66,14 @@ With this preliminary information specified, we now turn to our analysis of the 
 
 ## Engagements: Structure and Methodology
 
-The following applies to all of our engagements:
+!!! note "Note"
 
-- An internal and independent ethics review process was followed to evaluate the design of our engagements.
-- Participants were sent an informed consent statement and briefing document prior to their participation. These documents provided information about the purpose and nature of the project, how their data and involvement would support the project, and also specified that all data would be a) securely stored in an anonymised format, and b) deleted following completion of the project. 
-- The same four case studies (see above) were presented to the participants for use in the workshop activities.
-- No information about the SAFE-D principles were presented to any of the groups prior to any activities where it was important to have feedback that was not primed. However, for some groups where knowledge of ethics or practical decision-making could not be assumed, a general introduction was provided to support their participation (e.g. users).
+    The following applies to all of our engagements:
+    
+      - An internal and independent ethics review process was followed to evaluate the design of our engagements.
+      - Participants were sent an informed consent statement and briefing document prior to their participation. These documents provided information about the purpose and nature of the project, how their data and involvement would support the project, and also specified that all data would be a) securely stored in an anonymised format, and b) deleted following completion of the project.
+      - The same four case studies (see above) were presented to the participants for use in the workshop activities.
+      - No information about the SAFE-D principles were presented to any of the groups prior to any activities where it was important to have feedback that was not primed. However, for some groups where knowledge of ethics or practical decision-making could not be assumed, a general introduction was provided to support their participation (e.g. users).
 
 The following sections provide details of these workshop groups:
 
