@@ -1,8 +1,11 @@
 ---
+
 authors:
   - Christopher Burr
   - Rosamund Powell
+ 
 ---
+
 # Conclusion
 
 ## Co-Creating a Culture of Trust
