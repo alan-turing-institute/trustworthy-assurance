@@ -6,6 +6,8 @@ Welcome to the online version of a report titled, 'Trustworthy Assurance of Digi
 
 This report was authored and produced by [Dr Christopher Burr](https://www.turing.ac.uk/people/researchers/christopher-burr) and [Rosamund Powell](https://www.turing.ac.uk/people/researchers/rosamund-powell) (Public Policy Programme, The Alan Turing Institute).
 
+A PDF version of this report can be [accessed here](#).
+
 Illustrations by Jonny Lighthands: www.jonnylighthands.co.uk
 
 Graphic Design of the PDF report by Nerea Gómez: www.nereagomez.com
@@ -68,7 +70,7 @@ Graphic Design of the PDF report by Nerea Gómez: www.nereagomez.com
 
     This chapter presents two argument patterns on the topics of 'fairness' and 'explainability', informed by our workshops.
 
-    [:octicons-arrow-right-24: Go to chapter](chapter-4.md)
+    [:octicons-arrow-right-24: Go to chapter](chapter-5.md)
 
 - :fontawesome-solid-signs-post:{ .lg .middle } __Conclusion__
 
@@ -96,7 +98,9 @@ Graphic Design of the PDF report by Nerea Gómez: www.nereagomez.com
 
 </div>
 
-## Funding and Acknowledgements
+## Additional Information
+
+### Funding
 
 Research and production for this report was undertaken at the Alan Turing Institute and supported by funding from the UKRI’s Trustworthy Autonomous Hub, which was awarded to Dr Christopher Burr (Grant number: TAS_PP_00040).
 
@@ -108,15 +112,16 @@ Research and production for this report was undertaken at the Alan Turing Instit
 
 </div>
 
-Talking about mental health can be very difficult. It was important that we enabled and supported participants to share their perspectives and attitudes anonymously during the project’s engagement events, and so we would like to begin by expressing our gratitude to those who took part in our events, or supported specific activities.
+### Acknowledgements
 
-Specifically, we are grateful for the candid and thoughtful discussions of the users of digital mental health technologies, who took part in our workshops facilitated by the McPin foundation.
+Talking about mental health can be very difficult. It was important that we enabled and supported participants to share their perspectives and attitudes anonymously during the project’s engagement events, and so we would like to begin by expressing our gratitude to those who took part in our events, or supported specific activities.
 
 The research team would also like to acknowledge the following groups and individuals:
 
+- We are grateful for the candid and thoughtful discussions of the users of digital mental health technologies, who took part in our workshops facilitated by the McPin foundation.
 - The following individuals who generously gave their time to review a draft version of this report (alphabetical order): Cath Biddle, Claudia Corradi, Ibrahim Habli, Zoe Porter, and Mat Rawsthorne. We would also like to thank two anonymous reviewers.
 - Members of the wider project team who offered helpful advice and guidance: Dr Kate Devlin, Professor David Leslie, and Morgan Briggs
 - Our collaborators at University of York's Assuring Autonomy International Programme, including Dr Ibrahim Habli and Dr Zoe Porter who have been instrumental in ongoing discussions about argument-based assurance. And, also our thanks to all participants and the organisers of the [UKRI TAS Health and Social Care Workshop](https://www.tas.ac.uk/bigeventscpt/health-and-social-care-workshop/) for their valuable feedback and queries.
 - Our collaborators at the McPin Foundation, including Dr Dan Robotham and Roya Camvar who were instrumental in facilitating conversations with individuals who have lived experiences relating to the use of digital mental health technologies.
 - Colleagues at the Alan Turing Institute, who have provided direct and indirect input into this research project: Oana Romocea, Eirini Koutsuoroupa, Pauline Kinniburgh, Dr Shyam Krishna, and Dr Michael Katell.
-- With special thanks to all participants in our research engagements throughout this project, including participants with lived experiences of digital mental health technologies, students and administrators at UK universities and, finally, policymakers, researchers and developers working within the sector. 
+- With special thanks to all participants in our research engagements throughout this project, including participants with lived experiences of digital mental health technologies, students and administrators at UK universities and, finally, policymakers, researchers and developers working within the sector.
