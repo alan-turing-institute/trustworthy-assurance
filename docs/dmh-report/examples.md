@@ -11,6 +11,8 @@ tags:
 
 # Examples of Digital Mental Health Technologies
 
+![](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/artificial-intelligence.png)
+
 !!! info "Work in Progress"
 
     This page is a work-in-progress. Additional examples will be added as they are produced, but the goal is not to develop a comprehensive list nor carry out a systematic review of the examples according to a specific methodology. Rather, it is to provide an illustrative set of examples for those who are new to this field.
@@ -38,7 +40,7 @@ A recent standard produced by the International Standards Organisation (ISO) dem
 
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __Wysa Chatbot__
+-   :material-robot:{ .lg .middle } __Wysa Chatbot__
 
     ---
 
@@ -48,7 +50,7 @@ A recent standard produced by the International Standards Organisation (ISO) dem
 
     [:octicons-arrow-right-24: Visit Developer's Site](https://www.wysa.io)
 
--   :fontawesome-brands-markdown:{ .lg .middle } __Headspace__
+-   :material-meditation:{ .lg .middle } __Headspace__
 
     ---
 
@@ -67,7 +69,7 @@ The use of VR/AR technologies to support mental health are primarily used in res
 
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __Virtual Body and Anxiety Reduction__
+-   :material-virtual-reality:{ .lg .middle } __Virtual Body and Anxiety Reduction__
 
     ---
 
@@ -78,7 +80,7 @@ The use of VR/AR technologies to support mental health are primarily used in res
 
     [:octicons-arrow-right-24: Read Publication](https://www.nature.com/articles/s41598-021-03373-x)
 
--   :fontawesome-brands-markdown:{ .lg .middle } __VR and Chronic Pain__
+-   :material-account-injury:{ .lg .middle } __VR and Chronic Pain__
 
     ---
 
