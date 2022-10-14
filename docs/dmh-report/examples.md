@@ -49,7 +49,7 @@ A recent standard produced by the International Standards Organisation (ISO) dem
     ✅ ML/AI: this app is explicit in its use of AI for enabling automated conversations with users.
 
     ![A screenshot of the Wysa AI coach app. From the Wysa Press Kit.](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/wysa.jpg)
-    *A screenshot of the Wysa AI coach app. Reprinted from the [Wysa Press Kit](A screenshot of the Wysa AI coach app. From the Wysa Press Kit.).*
+    *A screenshot of the Wysa AI coach app. Reprinted from the [Wysa Press Kit](https://www.wysa.io/media).*
     
     [:octicons-arrow-right-24: Visit Developer's Site](https://www.wysa.io)
 
@@ -137,7 +137,7 @@ Neurotechnologies are are another class of technologies that are broader than me
 
     ✅ ML/AI: the company claims to use ML algorithms to help interpret EEG frequency bands.
 
-    ![An image of a Chinese pupil wearing an EEG headband.](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/eeg.png)
+    ![An image of a Chinese pupil wearing an EEG headband.](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/eeg.jpg)
     *An image of a Chinese pupil wearing an EEG headband.*
 
     [:octicons-arrow-right-24: Visit Developer's Site](https://focuscalm.com/)
