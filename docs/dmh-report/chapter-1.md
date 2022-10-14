@@ -12,6 +12,10 @@ tags:
 
 ![Illustration of people walking along various intersecting paths in an abstract space](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/ch1-header.jpg){ .off-glb }
 
+!!! warning "Navigating this Chapter"
+
+    This introduction starts with (optional) contextual information and discussion. Those who wish to read only the information that pertains directly to the project should skip to [this section](#about-the-project).
+
 > Do I contradict myself? Very well then I contradict myself, (I am large, I contain multitudes.) --Walt Whitman, Song of Myself
 
 Whitman's ode to self-knowledge and understanding contains many poetically-phrased truths. However, the one expressed in the above line is an *understatement*. If we were to identify and rank the most complex phenomena in the universe, our large and multitudinous minds would sit somewhere near the top of the list!
@@ -61,11 +65,11 @@ All of these developments are important, but again there are three aspects that 
 As we will see throughout this report, these features of ML algorithms and AI systems create possible risks and benefits to the realisation of ethical goals associated with digital mental healthcare. For instance, the ability to respect a patients *right to autonomous decision-making*.
 Furthermore, these issues intersect with the issues raised by the previous three questions pertaining to data (e.g. the ability to operate autonomously in complex environments with insufficiently accurate data).
 
-These topics already paint a very complex picture, but there is also a further level of complexity involved with understanding the dynamic feedback loops that emerge in mental healthcare when autonomous and adaptive systems are used to complement existing therapeutic interventions, many of which are already poorly understood (e.g. SSRI's). This complexity can cause issues for our existing research, development and regulatory frameworks, such as when performing clinical trials (e.g. how should we control for the effects of adaptive and personalised technologies?).
+These topics already paint a very complex picture, but there is also a further level of complexity involved with understanding the dynamic feedback loops that emerge in mental healthcare when autonomous and adaptive systems are used to complement existing therapeutic interventions, many of which are already poorly understood (e.g. Selective Serotonin Reuptake Inhibitors). This complexity can cause issues for our existing research, development, and regulatory frameworks, such as when performing clinical trials (e.g. how should we control for the effects of adaptive and personalised technologies?).
 
-Collectively, these six points about Big Data and ML/AI help to establish the background and context for this report, and also help us gain some conceptual clarity when attempting to address the uncertainty around trustworthy DMHTs. Some of this uncertainty stems from the technologies themselves (as noted above). But other key aspects of this uncertainty arise because a) the concept ‘trustworthy digital mental health technology’ is a poorly defined term that captures a vast and heterogeneous class of tools and services, and b) our relationships to and interactions with the technologies are also varied. It is not just the technologies that are complex after all. As eloquently captured by Whitman at the start, we—the individual members of the class, 'humanity'—are large and contain multitudes.
+Collectively, these six points about Big Data and ML/AI help to establish the background and context for this report, and also help us gain some conceptual clarity when attempting to address the uncertainty around trustworthy DMHTs. Some of this uncertainty stems from the technologies themselves (as noted above). But other key aspects of this uncertainty arise because a) the concept ‘trustworthy digital mental health technology’ is a poorly defined term[^trust] that captures a vast and heterogeneous class of tools and services, and b) our relationships to and interactions with the technologies are also varied. It is not just the technologies that are complex after all. As eloquently captured by Whitman at the start, we—the individual members of the class, 'humanity'—are large and contain multitudes.
 
-On this first point, for the purpose of this report we use the term 'trust' to refer to those characteristics of a person's beliefs or attitudes that are directed towards an object, person, or proposition (among other things), whereas 'trustworthiness' refers to the perceived property or attribute which an individual uses to determine whether to place trust (e.g. whether to trust a news article based on its quoted sources).
+[^trust]: For the purpose of this report we use the term 'trust' to refer to those characteristics of a person's beliefs or attitudes that are directed towards an object, person, or proposition (among other things), whereas 'trustworthiness' refers to the perceived property or attribute which an individual uses to determine whether to place trust (e.g. whether to trust a news article based on its quoted sources).
 
 These many layers of complexity coalesce into a particularly thorny problem. If we cannot trust the technologies themselves, we will not be able to trust the information gained from them about our own minds. But if we do not understand our minds, we may be unable to fully determine and address the cause of our trust or distrust. And, as we have just noted, understanding the social environment is also a vital part of addressing this fundamentally sociotechnical problem. As you can probably guess by know, adding another element to our picture is not likely to reduce its complexity.
 
@@ -84,7 +88,7 @@ We can attempt to answer the question by drawing distinctions between, say, the 
 
 [^burr2020]: Burr, C., J. Morley, M. Taddeo, & L. Floridi. (2020). Digital Psychiatry: Risks and Opportunities for Public Health and Wellbeing. IEEE Transactions on Technology and Society, 1(1), 21–33. https://doi.org/10.1109/TTS.2020.2977059
 
-One reason for this is that outside of formal healthcare systems, DMHTs have been employed in social domains and contexts as diverse as financial services, education (e.g. schools and universities), and employment. And, furthermore, have been used within such domains for myriad purposes ranging from vulnerability assessment through to proactive intervention[^burr2020]. There is also the use of DMHTs by social media platforms and charities to consider, which tends to cross many of these boundaries, especially those between work and home life, making it difficult to draw useful distinctions unless a narrow focus is defined in advance (e.g. studying the use of NLP used for risk assessment of adolescents on social media)[^conversation].
+One reason for this is that outside of formal healthcare systems, DMHTs have been employed in social domains and contexts as diverse as financial services, education (e.g. schools and universities), and employment. And, furthermore, DMHTs have been used within such domains for myriad purposes ranging from vulnerability assessment through to proactive intervention[^burr2020]. There is also the use of DMHTs by social media platforms and charities to consider, which tends to cross many of these boundaries, especially those between work and home life, making it difficult to draw useful distinctions unless a narrow focus is defined in advance (e.g. studying the use of NLP used for risk assessment of adolescents on social media)[^conversation].
 
 What about focusing on the technologies themselves? Again, this is not an easy feat. Some organisations, such as the Nuffield Council on Bioethics have focused on *emerging* technologies to narrow their scope [^Nuffield]. In doing so, they have identified specific ethical challenges associated with the following class of technologies:
 
@@ -115,6 +119,10 @@ We acknowledge that many will find this definition too permissive, but this repo
 
 [^examples]: For instance, if we draw the class as comprising digital technologies for "health and well-being" we will capture technologies as diverse as ML algorithms used to identify associations between genetic factors and mental health outcomes, to mobile apps that use natural language processing techniques to help users better understand their feelings through a smart diary.
 
+!!! info "Examples"
+
+    A set of illustrative examples of DMHTs can be found on [this page](examples.md).
+
 Let us now turn to the second question.
 
 ### Why and how are digital mental healthcare technologies being used?
@@ -143,7 +151,7 @@ The first two relate to choice and access, as outlined in a briefing note from t
 
 The latter conclusion is echoed here because it is a theme that emerged frequently in our own project among diverse stakeholder groups. That is, DMHTs should augment and support, but never replace human decision-making or human-centred services. And, the former conclusion is also important because it captures something salient about trust. 
 
-For some potential users, such as elderly patients, a lack of access can be due to their needs not being sufficiently considered when designing the service or technological interface.[^design] This form of inaccessibility is is sometimes overlooked due to an emphasis on other economic barriers (e.g. digital poverty). However, even users that a) have access to the services (in both senses of the term ‘access), and b) potentially benefit from use of the respective technology, may still have legitimate reasons for not wishing to use the service due to a distrust (or, “reluctance” to use the same term from the above quotes) in the service or the organisation responsible for designing, developing, and deploying it. In some cases, this distrust arises due to legitimate concerns about violations of data privacy or mishandling of sensitive information by commercial organisations.
+For some potential users, such as elderly patients, a lack of access can be due to their needs not being sufficiently considered when designing the service or technological interface.[^design] This form of inaccessibility is sometimes overlooked due to an emphasis on other economic barriers (e.g. digital poverty). However, even users that a) have access to the services (in both senses of the term ‘access), and b) potentially benefit from use of the respective technology, may still have legitimate reasons for not wishing to use the service due to a distrust (or, “reluctance” to use the same term from the above quotes) in the service or the organisation responsible for designing, developing, and deploying it. In some cases, this distrust arises due to legitimate concerns about violations of data privacy or mishandling of sensitive information by commercial organisations.
 
 [^design]: See references and discussion on 'universal design' in Burr, C., Taddeo, M., & Floridi, L. (2020). The Ethics of Digital Well-Being: A Thematic Review. Science and Engineering Ethics. [https://doi.org/10.1007/s11948-020-00175-8](https://doi.org/10.1007/s11948-020-00175-8)
 
@@ -168,6 +176,7 @@ Such legal requirements create an interlocking foundation upon which public perc
 On top of the norms that fall within the scope of the law, modern institutions and organisations are also expected to observe and comply with an expansive and shifting set of ethical and social norms. For example, while underpinned by legal mechanisms, matters of social justice and fairness go beyond the legal requirements to ensure non-discrimination (e.g. poverty, a risk factor associated with worse mental health outcomes, is not a protected characteristic[^protected] as set out in the Equality Act 2010)[^reviewer]. Moreover, legal texts often leave wide scope for actions that may be sufficient to discharge duties corresponding to individual rights[^article8], but are seen by many as, at best, failing to observe the spirit of the law, and at worst, morally impermissible.
 
 [^protected]: The [Equality Act 2010](https://www.legislation.gov.uk/ukpga/2010/15/part/2/chapter/1) sets out the following protected characteristics:
+
     - Age
     - Disability
     - Gender reassignment
@@ -177,6 +186,7 @@ On top of the norms that fall within the scope of the law, modern institutions a
     - Religion or belief
     - Sex
     - Sexual orientation
+    
     They are protected in the sense that the law is designed to protect individuals from unfair treatment or discrimination on the basis of these characteristics.
 
 [^reviewer]: Our thanks to a reviewer for bringing the following example to our attention of a local council who unanimously voted to make 'care experience' a protected characteristic within its constituency: [https://www.cypnow.co.uk/news/article/cumberland-council-votes-to-make-care-experience-a-protected-characteristic](https://www.cypnow.co.uk/news/article/cumberland-council-votes-to-make-care-experience-a-protected-characteristic).
@@ -197,8 +207,15 @@ By now, you may be feeling as though stoic acceptance in the face of overwhelmin
 
 However, this report (and our project more generally) aims to challenge this attitude, while fully acknowledging the overwhelming complexity involved. Our approach and methodology in many respects embodies the principle that *light is the best disinfectant*. And, framed as a set of recommendations, which include but build on the two conclusions from the Nuffield Council on Bioethics above:
 
-3. Organisations that choose to use DMHTs should consider broader ethical goals, in addition to traditional goals such as ‘safety’ and ‘efficacy’, to help create a more ethical, responsible, and trustworthy ecosystem of digital mental healthcare.[^consistency]
-4. Organisations should provide transparent and evidence-based assurance about how these ethical goals have been operationalised and secured during the design, development, and deployment of DMHTs.
+=== "Additional Recommendations"
+
+    1. Organisations that choose to use DMHTs should consider broader ethical goals, in addition to traditional goals such as ‘safety’ and ‘efficacy’, to help create a more ethical, responsible, and trustworthy ecosystem of digital mental healthcare.[^consistency]
+    2. Organisations should provide transparent and evidence-based assurance about how these ethical goals have been operationalised and secured during the design, development, and deployment of DMHTs.
+
+=== "Original Conclusions from Nuffield Council on Bioethics"
+
+    1. Many people affected by mental health problems do not have access to or are reluctant to use mental healthcare technologies. If these are to become widely adopted in the future, there should be choice about using them.
+    2. Technology solutions should not divert resources from other important forms of mental healthcare and support and should be used as an addition to what is already available, rather than a replacement.
 
 [^consistency]: To emphasise the consistency of this recommendation with the conclusions from the Nuffield Council report we should also acknowledge that this ‘digital ecosystem’ must be complementary with, supportive of, and enhance more traditional healthcare services (qua conclusion 2).
 
@@ -216,30 +233,32 @@ In short, when we speak of 'trustworthy assurance' we are creating room for a wi
 
 Our project focused directly on a methodology for making the assessment, communication, and realisation of these goals more robust and transparent. The methodology is known as ‘argument-based assurance’ (ABA) and we can define this methodology as follows:
 
-> Argument-based assurance is a process of using structured argumentation to provide assurance to another party (or parties) that a particular claim (or set of related claims) about a property of a system is warranted given the available evidence. [@burr2022]
+> Argument-based assurance is a process of using structured argumentation to provide assurance to another party (or parties) that a particular claim (or set of related claims) about a property of a system is warranted given the available evidence.[@burr2022]
 
-We offer a simplified introduction to ABA in the following chapter. But various types of ABA are already widely used in safety critical domains, and have also been used in the context of healthcare[^ABA]. Typically, the purpose of ABA is to assess and communicate the *safety* of a system within a particular environment. Our project was concerned with the question of whether a revised and extended version of the methodology could be used for a broader set of ethical goals, such as fairness or explainability (see [Chapter 4](chapter-4-argument-patterns-fairness-and-explainability)).
+We offer a simplified introduction to ABA in the following chapter. But various types of ABA are already widely used in safety critical domains, and have also been used in the context of healthcare[^ABA]. Typically, the purpose of ABA is to assess and communicate the *safety* of a system within a particular environment. Our project was concerned with the question of whether a revised and extended version of the methodology could be used for a broader set of ethical goals, such as fairness or explainability (see [Chapter 5](chapter-5.mdy)).
 
 [^ABA]: See an older, but still important report from [Health Foundation](https://www.health.org.uk/sites/default/files/UsingSafetyCasesInIndustryAndHealthcare.pdf) as well as a more recent proposal: Habli et al. (2020). Enhancing COVID-19 decision making by creating an assurance case for epidemiological models. BMJ Health &amp; Care Informatics, 27(3), e100165. https://doi.org/10.1136/bmjhci-2020-100165
 
 There is an immediate question that ought to be addressed here:
 
-> How should ethical goals be determined and operationalised in the context of the design, development, and deployment of DMHTs?
+!!! question "Question"
+
+    How should ethical goals be determined and operationalised in the context of the design, development, and deployment of DMHTs?
 
 Our approach in this project to determining and operationalising the relevant ethical goals was *participatory* in nature, and was driven by three primary objectives:
 
 1. To explore whether and how the methodology of ABA could be extended to address ethical issues in the context of digital mental healthcare.
 2. To evaluate how an extension of the methodology could support stakeholder co-design and engagement, in order to build a more trustworthy and responsible ecosystem of digital mental healthcare.
-3. To lay the theoretical and practical foundations for scaling the trustworthy assurance methodology to new domains, while integrating wider regulatory guidance (e.g., technical standards).
+3. To lay the theoretical and practical foundations for scaling the trustworthy assurance methodology to new domains, while integrating wider regulatory guidance (e.g. technical standards).
 
 To realise these objectives, several workshops were organised and run over the course of the project with a diverse set of participants. Broadly, we categorised these stakeholder groups as follows:
 
-1. University students
-2. University administrators
-3. Policy-makers and regulators in healthcare
-4. Developers of DMHTs
-5. Researchers working in disciplines adjacent to digital mental healthcare
-6. Users with lived experience of DMHTs
+- University students
+- University administrators
+- Policy-makers and regulators in healthcare
+- Developers of DMHTs
+- Researchers working in disciplines adjacent to digital mental healthcare
+- Users with lived experience of DMHTs
 
 Workshops and interviews were held with representatives from each of these stakeholder groups, where tailored activities were run to both understand their attitudes towards DMHTs, but also to a) help us evaluate methodological questions related to trustworthy assurance and b) identify which ethical values and principles matter most to them in the present context.
 
@@ -251,24 +270,24 @@ In previous work, we have defended an ethical framework for evaluating the harms
 
 We refer to this framework as the *SAFE-D framework*, because it establishes five principles that form the acronym SAFE-D (or, ‘safety’, which is another important component of trustworthy AI):
 
-* **S**ustainability
-* **A**ccountability
-* **F**airness
-* **E**xplainability
-* **D**ata (Quality, Integrity, Protection and Privacy)
+- Sustainability
+- Accountability
+- Fairness
+- Explainability
+- Data (Quality, Integrity, Protection and Privacy)
 
 [^coe]: The most recent and comprehensive account of this framework can be found in the following proposal to the Council of Europe: Leslie, D., Burr, C., Aitken, M., Katell, M., Briggs, M., & Rincon, C. (2022). Human rights, democracy, and the rule of law assurance framework for AI systems: A proposal. [https://rm.coe.int/huderaf-coe-final-1-2752-6741-5300-v-1/1680a3f688](https://rm.coe.int/huderaf-coe-final-1-2752-6741-5300-v-1/1680a3f688).
 
-Each of the SAFE-D principles has a subset of core attributes that help to specify and operationalise the principles throughout a project's lifecycle using a series of processes and activities (see [next chapter](#chapter-1-trustworthy-digital-mental-healthcare) for full details). 
+Each of the SAFE-D principles has a subset of core attributes that help to specify and operationalise the principles throughout a project's lifecycle using a series of processes and activities (see [next chapter](chapter1.md) for full details).
 
 In other words, while the principles themselves act as starting points for context-specific reflection and deliberation with affected stakeholders, it is the core attributes that serve as practical guardrails throughout a project’s lifecycle. For instance, the principle of 'explainability', which emphasises core attributes such as transparency, interpretability, and accessibility of an automated system, has a particular ethical significance when utilised in a domain such as digital mental healthcare. That is, ensuring digital mental healthcare technologies and services are *explainable* is a key part of respecting a patient's right to informed and autonomous decision-making. This right cannot be upheld and respected without ensuring sufficiently *transparent*, *interpretable*, and *accessible* forms of information about how a digital technology operates (e.g. how an algorithmic system reaches a decision). How organisations achieve this goal is something this project and report addresses directly.
 
 While the SAFE-D principles have been designed and refined over multiple years (in a domain-general context) their relevance in digital mental healthcare had, hitherto, not been evaluated. Therefore, part of this project involved the following:
 
-1) Understanding which, if any, of the SAFE-D principles were significant to different groups of stakeholders, and whether specific core attributes could be identified and developed in conjunction with stakeholders.
-2) Identifying if there were any gaps or omissions in the SAFE-D framework. 
-3) Determining whether any of the revised and domain-specific principles or attributes could serve as top-level goals or property claims in trustworthy assurance cases (see [Chapter 1](#chapter-1-trustworthy-digital-mental-healthcare)).
+1. Understanding which, if any, of the SAFE-D principles were significant to different groups of stakeholders, and whether specific core attributes could be identified and developed in conjunction with stakeholders.
+2. Identifying if there were any gaps or omissions in the SAFE-D framework.
+3. Determining whether any of the revised and domain-specific principles or attributes could serve as top-level goals or property claims in trustworthy assurance cases (see [Chapter 2](chapter-2.md)).
 
-Our findings and analysis that address these specific research questions comprise the majority of [Chapters 2](chapter-2-duty-of-care) and [3](#chapter-3-trustworthy-and-participatory-assurance). Among other findings and recommendations, these sections show there is strong evidence to suggest that the methodology of trustworthy assurance will lead to positive impacts in digital mental healthcare, and help foster a more responsible ecosystem of research and innovation.
+Our findings and analysis that address these specific research questions comprise the majority of [Chapters 3](chapter-3.md) and [4](#chapter-4.md). Among other findings and recommendations, these sections show there is strong evidence to suggest that the methodology of trustworthy assurance will lead to positive impacts in digital mental healthcare, and help foster a more responsible ecosystem of research and innovation.
 
 Before we discuss these findings and analysis though, it is necessary to introduce and explain the methodology of trustworthy assurance, which is the topic of the next chapter.
