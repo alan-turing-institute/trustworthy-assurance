@@ -45,6 +45,9 @@ A recent standard produced by the International Standards Organisation (ISO) dem
     ---
 
     According to the [develeoper's website](https://www.wysa.io/faq[), "Wysa AI Coach is an artificial intelligence-based 'emotionally intelligent' service which responds to the emotions you express and uses evidence-based cognitive-behavioral techniques (CBT), DBT, meditation, breathing, yoga, motivational interviewing and micro-actions to help you build mental resilience skills and feel better."
+
+    ![A screenshot of the Wysa AI coach app. From the Wysa Press Kit.](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/wysa.jpg)
+    *A screenshot of the Wysa AI coach app. Reprinted from the [Wysa Press Kit](A screenshot of the Wysa AI coach app. From the Wysa Press Kit.).*
     
     ✅ ML/AI: this app is explicit in its use of AI for enabling automated conversations with users.
 
@@ -55,6 +58,9 @@ A recent standard produced by the International Standards Organisation (ISO) dem
     ---
 
     Headspace’s core products are mobile and web-based apps that focus on mindfulness, meditation, sleep, exercise, and focus content (e.g. guided exercises). The company [publishes research](https://www.headspace.com/science) to support its claims about efficacy and outcomes.
+
+    ![A screenshot of the Headspace app. From the Headspace Press Kit.](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/headspace.jpg)
+    *A screenshot of the Headspace app. Reprinted from the [Headspace Press Kit](https://www.headspace.com/press-and-media).*
     
     ✅ ML/AI: the use of ML or AI is not a prominent feature in the app, but the organisation does make use of ML to tailor recommendations to users, and has [published plans](https://headspace.medium.com/infrastructure-design-for-real-time-machine-learning-inference-e140793d6741) to make use of additional data.
 
