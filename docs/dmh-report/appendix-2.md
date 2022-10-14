@@ -9,7 +9,7 @@ tags:
  
 ---
 
-# Examples of Digital Mental Health Technologies
+# Appendix 2: Examples of Digital Mental Health Technologies
 
 ![An illustration showing different uses of AI](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/artificial-intelligence.png)
 

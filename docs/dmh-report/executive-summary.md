@@ -68,7 +68,7 @@ Our report is structured as follows:
 
 !!! info "Examples"
 
-    If you are new to the topics covered in this report, you can also find a set of illustrative examples of DMHTs available on [this page](examples.md).
+    If you are new to the topics covered in this report, you can also find a set of illustrative examples of DMHTs available on [this page](appendix-2.md).
 
 ### About the Report
 

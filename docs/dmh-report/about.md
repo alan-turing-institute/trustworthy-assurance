@@ -80,21 +80,21 @@ Graphic Design of the PDF report by Nerea Gómez: www.nereagomez.com
 
     [:octicons-arrow-right-24: Go to chapter](conclusion.md)
 
-- :fontawesome-solid-pen-ruler:{ .lg .middle } __Appendix__
+- :fontawesome-solid-pen-ruler:{ .lg .middle } __Appendix 1: Project Methodology__
 
     ---
 
     An appendix outlining our project's methodology.
 
-    [:octicons-arrow-right-24: Go to chapter](appendix.md)
+    [:octicons-arrow-right-24: Go to chapter](appendix-1.md)
 
-- :octicons-image-16:{ .lg .middle } __Examples__
+- :octicons-image-16:{ .lg .middle } __Appendix 2: Examples of DMHTs__
 
     ---
 
     A series of illustrative examples of digital mental health technologies.
 
-    [:octicons-arrow-right-24: Go to chapter](examples.md) -->
+    [:octicons-arrow-right-24: Go to chapter](appendix-2.md) -->
 
 </div>
 

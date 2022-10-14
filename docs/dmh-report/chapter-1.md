@@ -121,7 +121,7 @@ We acknowledge that many will find this definition too permissive, but this repo
 
 !!! info "Examples"
 
-    A set of illustrative examples of DMHTs can be found on [this page](examples.md).
+    A set of illustrative examples of DMHTs can be found on [this page](appendix-2.md).
 
 Let us now turn to the second question.
 

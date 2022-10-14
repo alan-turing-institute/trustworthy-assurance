@@ -10,7 +10,7 @@ authors:
 
 ## Co-Creating a Culture of Trust
 
-![An animation of a user operating a smartphone where a stream of data disappears into a maze](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/data-maze.gif)
+![An animation of a user operating a smartphone where a stream of data disappears into a maze](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/animations/data-maze.gif)
 
 > Uncertainty breeds distrust.
 
@@ -34,7 +34,7 @@ A key next step will be to develop user guidance that can help with this objecti
 
 [^ea-article]: Burr, C., and Leslie, D. (2022). Ethical assurance: a practical approach to the responsible design, development, and deployment of data-driven technologies. AI Ethics. [https://doi.org/10.1007/s43681-022-00178-0](https://doi.org/10.1007/s43681-022-00178-0)
 
-[^gh-repo]: details of the platform and the code is available through the following GitHub repository, and we welcome contributions to its ongoing development from any open-source developers: [https://github.com/alan-turing-institute/AssurancePlatform](https://github.com/alan-turing-institute/AssurancePlatform)
+[^gh-repo]: Details of the platform and the code is available through the following GitHub repository, and we welcome contributions to its ongoing development from any open-source developers: [https://github.com/alan-turing-institute/AssurancePlatform](https://github.com/alan-turing-institute/AssurancePlatform)
 
 These efforts will need to remain receptive to ongoing developments in this domain, whether technological (e.g. development of new computational techniques or devices), legislative (e.g. reforms to UK legislation such as the Draft Mental Health Bill, 2022), regulatory (e.g. report on the [Public Sector Equality Duty](https://equalityhumanrights.com/en/advice-and-guidance/artificial-intelligence-meeting-public-sector-equality-duty-psed) by the Equality and Human Rights Commission, the formation of the [Multi Agency Advice Service](https://transform.england.nhs.uk/ai-lab/ai-lab-programmes/regulating-the-ai-ecosystem/the-multi-agency-advice-service-maas/); proposal of the [Digital Technology Assessment Criteria (DTAC)](https://transform.england.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/), or societal (e.g. changing perceptions or attitudes of users towards mental health and well-being services, including data-driven technologies). 
 
