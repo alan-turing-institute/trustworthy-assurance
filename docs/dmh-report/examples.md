@@ -11,7 +11,7 @@ tags:
 
 # Examples of Digital Mental Health Technologies
 
-![](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/artificial-intelligence.png)
+![An illustration showing different uses of AI](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/artificial-intelligence.png)
 
 !!! info "Work in Progress"
 
@@ -36,7 +36,7 @@ A recent standard produced by the International Standards Organisation (ISO) dem
 [^iso]: Reprinted from PD CEN ISO/TS 82304-2:2021, Health Software— Health and wellness apps. Quality and reliability. Permission to reproduce extracts from British Standards is granted by BSI Standards Limited (BSI). No other use of this material is permitted.  British Standards can be obtained from BSI Knowledge knowledge.bsigroup.com
 
 ![An example of a lable to accompany health and wellness apps](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/applabel.png)
-*Figure 1. A label showing dimensions of quality and reliabiluty for health and wellness apps. (PD CEN ISO/TS 82304-2:2021) 
+*Figure 1. A label showing dimensions of quality and reliabiluty for health and wellness apps. (PD CEN ISO/TS 82304-2:2021)*
 
 <div class="grid cards" markdown>
 
@@ -74,6 +74,9 @@ The use of VR/AR technologies to support mental health are primarily used in res
     ---
 
     A research team at the Department of Psychiatry (University of Oxford) have explored how the observation of a virtual body double engaged in social interaction may reduced persecutory thoughts associated with anxiety. The study demonstrates limited but positive evidence for a decreased anxiety.
+
+    ![An image of the body doubles in VR space. Reprinted from Gorisse et al. (2021)](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/vr-freeman.jpg)
+    *An image of the body doubles in VR space. Reprinted from [Gorisse et al. (2021)](https://www.nature.com/articles/s41598-021-03373-x)*
     
     ✅ ML/AI: automated techniques are used to control the behaviours of the artificial agents that the virtual body double interacts with, although pre-recorded dialogue is also used.
     
