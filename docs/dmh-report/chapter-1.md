@@ -90,6 +90,8 @@ We can attempt to answer the question by drawing distinctions between, say, the 
 
 One reason for this is that outside of formal healthcare systems, DMHTs have been employed in social domains and contexts as diverse as financial services, education (e.g. schools and universities), and employment. And, furthermore, DMHTs have been used within such domains for myriad purposes ranging from vulnerability assessment through to proactive intervention[^burr2020]. There is also the use of DMHTs by social media platforms and charities to consider, which tends to cross many of these boundaries, especially those between work and home life, making it difficult to draw useful distinctions unless a narrow focus is defined in advance (e.g. studying the use of NLP used for risk assessment of adolescents on social media)[^conversation].
 
+[^conversation]: We explored this point more fully in a separate article: Burr, C. (2022). Charities are contributing to growing mistrust of mental-health text support—Here’s why. The Conversation. Retrieved 29 July 2022, from [http://theconversation.com/charities-are-contributing-to-growing-mistrust-of-mental-health-text-support-heres-why-179056](http://theconversation.com/charities-are-contributing-to-growing-mistrust-of-mental-health-text-support-heres-why-179056)
+
 What about focusing on the technologies themselves? Again, this is not an easy feat. Some organisations, such as the Nuffield Council on Bioethics have focused on *emerging* technologies to narrow their scope [^Nuffield]. In doing so, they have identified specific ethical challenges associated with the following class of technologies:
 
 * Smartphone apps and chatbots
@@ -158,8 +160,6 @@ For some potential users, such as elderly patients, a lack of access can be due 
 However, the unethical behaviour and transgressions of law by commercial organisations such as Facebook[^facebook] can have a wider impact beyond their own disastrous public relations. They can also contribute to a growing culture of distrust in the ecosystem more broadly, affecting the public and third sectors, as members of the public may be unable to separate the differing ethical, social, or legal norms that govern each sector or domain.[^conversation] This is understandable from the perspective of the user, as the norms that regulate and govern the public, private, and third sectors are complex and deeply interwoven. But it is still characteristic of an unethical and irresponsible approach to research and innovation, and one that is unlikely to build trust.
 
 [^facebook]: For a timeline that conveys a shocking pattern of behaviour at Facebook, which is hard to treat as anything other than a flagrant disregard for user’s data privacy, see [Facebook data privacy scandal: A cheat sheet](https://www.techrepublic.com/article/facebook-data-privacy-scandal-a-cheat-sheet/).
-
-[^conversation]: We explored this point more fully in a separate article: Burr, C. (2022). Charities are contributing to growing mistrust of mental-health text support—Here’s why. The Conversation. Retrieved 29 July 2022, from [http://theconversation.com/charities-are-contributing-to-growing-mistrust-of-mental-health-text-support-heres-why-179056](http://theconversation.com/charities-are-contributing-to-growing-mistrust-of-mental-health-text-support-heres-why-179056)
 
 ## A Culture of Distrust
 
