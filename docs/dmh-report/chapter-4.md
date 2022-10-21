@@ -337,7 +337,7 @@ While all of the themes are interconnected, the fourth theme especially is insep
 
 #### Overview
 
-The workshops with users of DMHTs were co-organised and facilitated by the McPin foundation——a mental health research charity. This ensured an additional level of support from those with domain expertise, in addition to the participants' lived experience, and helped reduce interpreter bias in our analysis. 
+The workshops with users of DMHTs were co-organised and facilitated by the McPin foundation—a mental health research charity. This ensured an additional level of support from those with domain expertise, in addition to the participants' lived experience, and helped reduce interpreter bias in our analysis. 
 
 We held two workshops (one in person and one online) to improve accessibility for participants (e.g. reducing geographic restrictions, supporting those who were uncomfortable/unable to attend in-person to still participate). The information that participants received and the activities that were carried out were identical across the workshops, except for the medium in which the activities were conducted (e.g. use of a collaborative whiteboard in the online setting).
 
@@ -354,9 +354,9 @@ There were two activities that participants contributed to. Both were designed t
 
 In both activities, participants were encouraged to explore tangential points in dialogue with the group. The purpose of these activities was to provide a general scaffold for discussion, from which salient and significant themes could be identified with the participants. Therefore, in our analysis we do not differentiate between the findings from the two activities, but instead group them together and make specific recommendations linked to the relevant themes.
 
-However, one output from the first activity can be presented as a stand-alone output. Table 4.2 presents a summary of the positive and negative uses of DMHTs, as judged by the workshop participants. Although this feedback is incorporated into our own thematic analysis, the reader may find it illuminating to consider the responses prior to reviewing our subsequent analysis.
+However, one output from the first activity can be presented as a stand-alone output. Table 4.3 presents a summary of the positive and negative uses of DMHTs, as judged by the workshop participants. Although this feedback is incorporated into our own thematic analysis, the reader may find it illuminating to consider the responses prior to reviewing our subsequent analysis.
 
-*Table 4.2—participant's perceptions about the positive and negative uses of DMHTs.*
+*Table 4.3—participant's perceptions about the positive and negative uses of DMHTs.*
 
 | Positive Use Cases | Negative Use Cases |
 |---|---|

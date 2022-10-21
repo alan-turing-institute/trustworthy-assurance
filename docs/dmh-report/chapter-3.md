@@ -198,7 +198,7 @@ Finally, as roles and responsibilities are clarified, a clear space for student 
     - While university teams evolve to focus on interdepartmental cooperation, greater attention must be paid to assigning responsibility for digital offerings and ensuring technical skills have been developed.
     - Engagements with administrators suggest that compliance with data protection laws is well established while there remains a gap in organisational readiness with regard to other methods for reviewing algorithmic techniques. Cross-domain communication may be essential for these review processes, potentially including IT and research departments. Consequently, designating responsibility for digital technologies should be considered as part of the shift to a ’whole university approach’.
     - Clarity on roles and responsibilities can also help designate responsibility for horizon scanning and proactive research rather than reactive decision-making.
-    - Meaningful student involvement is necessary and capacity building may be needed to facilitate meaningful contributions on technical topics.|
+    - Meaningful student involvement is necessary and capacity building may be needed to facilitate meaningful contributions on technical topics.
 
 #### Challenge 3: External Pressures
 
