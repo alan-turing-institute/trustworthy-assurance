@@ -99,7 +99,7 @@ The pattern that has been developed, through participation of stakeholders and u
 
 ![A pattern for designing, developing, and deploying fair digital mental health technologies](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/patterns/fairness-pattern-final.png)
 
-*Figure 4.1: A pattern for designing, developing, and deploying fair digital mental health technologies* (:material-magnify-plus: click image to expand; :material-download: download [here](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/patterns/fairness-pattern-final.png))
+*Figure 5.1: A pattern for designing, developing, and deploying fair digital mental health technologies* (:material-magnify-plus: click image to expand; :material-download: download [here](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/patterns/fairness-pattern-final.png))
 
 The goal claim in this argument pattern addresses distributional concepts of fairness (e.g. whether harms and benefits are shared equally), while also acknowledging broader conceptions of social justice (e.g. representational harms to marginalised groups). 
 
@@ -176,7 +176,7 @@ The most obvious conceptual distinction is between `interpretability` as a core 
 
 ![A pattern for designing, developing, and deploying explainable digital mental health technologies](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/patterns/explainability-pattern-final.png)
 
-*Figure 4.2: A pattern for designing, developing, and deploying explainable digital mental health technologies* (:material-magnify-plus: click image to expand, :material-download: download [here](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/patterns/explainability-pattern-final.png))
+*Figure 5.2: A pattern for designing, developing, and deploying explainable digital mental health technologies* (:material-magnify-plus: click image to expand, :material-download: download [here](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/patterns/explainability-pattern-final.png))
 
 In previous guidance[@ico2020], we have distinguished between two sub-categories of explanations:
 
