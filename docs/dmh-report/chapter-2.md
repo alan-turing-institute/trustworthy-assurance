@@ -299,7 +299,7 @@ Returning to the SAFE-D principles once more, we have previously developed a set
 
 Again, we are not proposing that these principles and core attributes be adopted in digital mental healthcare as the respective goals, claims, and evidence. However, they could provide a starting point for the refinement of domain-specific principles while argument patterns emerge and become crystallised.[^rawls]
 
-[^rawls]: This process is (loosely) derived from the idea of 'reflective equilibrium', made famous by the political philosopher John Rawls [@rawls1971]. In short, the phrase 'reflective equilibrium' refers to a state of coherence among moral beliefs and attitudes, which emerges over time as a result of public deliberation and consensus building activities that focus on the relevant moral beliefs and attitudes (e.g. notions of 'justice').
+[^rawls]: This process is (loosely) derived from the idea of 'reflective equilibrium', made famous by the political philosopher John Rawls. In short, the phrase 'reflective equilibrium' refers to a state of coherence among moral beliefs and attitudes, which emerges over time as a result of public deliberation and consensus building activities that focus on the relevant moral beliefs and attitudes (e.g. notions of 'justice').
 
 Figure 1.7 offers a simple graphic to help visualise this process as it relates to trustworthy assurance.
 
