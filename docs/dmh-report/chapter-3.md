@@ -76,7 +76,7 @@ To assess current challenges to the ethical and trustworthy deployment of digita
 
 The findings presented below are based upon a series of participatory engagement events conducted by The Alan Turing Institute between January and March 2022. These consisted of semi-structured interviews with university administrators leading mental health teams at 10 universities across the UK (henceforth ‘administrators’) alongside research workshops attended by 25 students enrolled in undergraduate and postgraduate courses at UK universities (henceforth ‘students’).
 
-*Table 2.1—summary information about the two sets out workshops.*
+*Table 3.1—summary information about the two sets out workshops.*
 
 | Groups | Purpose of workshop | Type of Engagement | Main activities |
 | --- | --- | --- | --- |

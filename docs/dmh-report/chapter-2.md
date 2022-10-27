@@ -27,16 +27,16 @@ Designing, developing, and deploying an AI system is not a one-person task[^vill
 
 [^village]: Rather, it "takes a village to raise an algorithm" as noted in this [blog post](https://cogent.co/blog/biasai/). Thanks to one of our reviewers for bringing this post to our attention.
 
-*Figure 1.1* presents a simplified model of a typical research or innovation lifecycle for a data science or AI project lifecycle, to help gain a purchase on these interweaving roles, skills, and responsibilities[^responsibilities].
+*Figure 2.1* presents a simplified model of a typical research or innovation lifecycle for a data science or AI project lifecycle, to help gain a purchase on these interweaving roles, skills, and responsibilities[^responsibilities].
 
 [^responsibilities]: To be clear, we are referring here to role and task responsibilities first and foremost, which overlap with but are conceptually separate from moral responsibility.
 
-The model represents three over-arching stages of `(project) design`, `(model) development`, and `(system) deployment`. For each stage, there are corresponding activities, detailed in *Table 1.1*. The project lifecycle is depicted as a circular process to highlight the fact that responsibility is ongoing and does not end once a system has been implemented or put into deployment. Rather, responsible (and trustworthy) approaches to research and innovation require consideration of how a technological system may need to be monitored and updated once in production, and removed and replaced once it reaches the end of its lifecycle. 
+The model represents three over-arching stages of `(project) design`, `(model) development`, and `(system) deployment`. For each stage, there are corresponding activities, detailed in *Table 2.1*. The project lifecycle is depicted as a circular process to highlight the fact that responsibility is ongoing and does not end once a system has been implemented or put into deployment. Rather, responsible (and trustworthy) approaches to research and innovation require consideration of how a technological system may need to be monitored and updated once in production, and removed and replaced once it reaches the end of its lifecycle. 
 
-![Figure 1.1: a model of a typical project lifecycle for some data-driven technology, detailing the overarching stages of design, development, and deployment and their constitutive activities (reprinted from Burr and Leslie, 2022)](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/project-lifecycle.png)
-*Figure 1.1: a model of a typical project lifecycle for a data-driven technology, detailing the overarching stages of design, development, and deployment and their constitutive activities (reprinted from [Burr and Leslie, 2022](https://link.springer.com/10.1007/s43681-022-00178-0))*
+![Figure 2.1: a model of a typical project lifecycle for some data-driven technology, detailing the overarching stages of design, development, and deployment and their constitutive activities (reprinted from Burr and Leslie, 2022)](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/project-lifecycle.png)
+*Figure 2.1: a model of a typical project lifecycle for a data-driven technology, detailing the overarching stages of design, development, and deployment and their constitutive activities (reprinted from [Burr and Leslie, 2022](https://link.springer.com/10.1007/s43681-022-00178-0))*
 
-**Table 1.1: Project Lifecycle Activities**
+**Table 2.1: Project Lifecycle Activities**
 
 | Stage | Description |
 | --- | --- |
@@ -80,7 +80,7 @@ This definition captures three important and interlocking components of trustwor
 3. Agreed upon *standards* for reviewing and evaluating the argument
 
 ![A Venn diagram showing the three interlocking components that support trustworthy assurance](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/venn.png)
-*Figure 1.2: a schematic showing the three interlocking components that support trustworthy assurance.*
+*Figure 2.2: a schematic showing the three interlocking components that support trustworthy assurance.*
 
 ### Argument
 
@@ -109,7 +109,7 @@ The following figure constitutes a simple (but incomplete) argument, showing the
 
 ![An example argument for a privacy goal](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-1.png){: style="height:400px" }
 
-*Figure 1.3: a portion of a simplified assurance case on respect for privacy*
+*Figure 2.3: a portion of a simplified assurance case on respect for privacy*
 
 Here, the goal that is being established relates to the project team's ambition to 'respect user privacy'. They argue that this is achieved by adherence to data minimisation principles—a claim about a property of the project's governance and the system's design. Evidence of this adherence is also provided.
 
@@ -169,7 +169,7 @@ The following figure summarises the points made in the above example.
 
 ![An example argument focusing on the explainability of an AI system](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-2.png)
 
-*Figure 1.4: a portion of the assurance case for this hypothetical project.*
+*Figure 2.4: a portion of the assurance case for this hypothetical project.*
 
 The final component of trustworthy assurance relates to *standards*.
 
@@ -211,7 +211,7 @@ Let’s look at another example. Consider the following section of an assurance 
 
 ![An example argument pattern concerned with accessibility](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-3.png){: style="height:400px" }
 
-*Figure 1.5: a portion of an assurance case for a chatbot*[^claim]
+*Figure 2.5: a portion of an assurance case for a chatbot*[^claim]
 
 [^claim]: Recall, that evidential claims are required to link property claims to their supporting evidential artefacts, and evidential claims, therefore, can also serve as reasons.
 
@@ -220,14 +220,14 @@ As we have discussed, the organisation responsible for evaluating the trustworth
 In the context of safety assurance, a large body of guidance has been established to help developers assess what claims they will need to establish and justify, and a key part of this guidance is the development of *argument patterns*.
 
 ### What are argument patterns?
-Argument patterns are *starting templates* for building assurance cases. They identify the types of claims (or, the sets of reasons) that need to be established to justify the associated top-level normative goal. Figure 1.6 shows an example argument pattern for the technical goal of interpretability.[^ward2020]
+Argument patterns are *starting templates* for building assurance cases. They identify the types of claims (or, the sets of reasons) that need to be established to justify the associated top-level normative goal. Figure 2.6 shows an example argument pattern for the technical goal of interpretability.[^ward2020]
 
-![Figure 1.6: a pattern for an interpretability case (reprinted from Ward and Habli, 2020)](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/habli-assurance.png)
-*Figure 1.6: a pattern for an interpretability case (reprinted from Ward and Habli, 2020)*
+![Figure 2.6: a pattern for an interpretability case (reprinted from Ward and Habli, 2020)](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/habli-assurance.png)
+*Figure 2.6: a pattern for an interpretability case (reprinted from Ward and Habli, 2020)*
 
 [^ward2020]: Ward, F. R., & Habli, I. (2020). An Assurance Case Pattern for the Interpretability of Machine Learning in Safety-Critical Systems. [https://doi.org/10.1007/978-3-030-55583-2_30](https://doi.org/10.1007/978-3-030-55583-2_30)
 
-The pattern depicted in Figure 1.6 shows a template for an assurance case that serves to justify the following top-level goal: 
+The pattern depicted in Figure 2.6 shows a template for an assurance case that serves to justify the following top-level goal:
 
 > "The {ML Model} is sufficiently {interpretable} in the intended {context}".
 
@@ -251,7 +251,7 @@ Argument patterns, such as the one above, are helpful for the following reasons:
 But where do they come from?
 
 ### Generalisable Patterns
-In the case of the argument pattern from Figure 1.6, this pattern was proposed by the authors as a means to address a gap in the safety assurance of ML systems. As experts in their domain, and as a peer-reviewed contribution, this is a valid source for an argument pattern.
+In the case of the argument pattern from Figure 2.6, this pattern was proposed by the authors as a means to address a gap in the safety assurance of ML systems. As experts in their domain, and as a peer-reviewed contribution, this is a valid source for an argument pattern.
 
 However, an alternative (though not entirely disconnected) means for achieving generalisable structures and patterns is through participatory engagement from stakeholders and affected users, perhaps building sample assurance cases and then extracting common themes. This is the method that we have explored in the current project on Digital Mental Healthcare and subsequently propose as a procedure for Trustworthy Assurance.
 
@@ -285,9 +285,9 @@ However, the SAFE-D principles were designed to be *domain-neutral* starting poi
 
 Turning now to the property claims and supporting evidence, as assurance cases are communicated for specific goals we will likely see *sets of property claims and supporting evidence* used more than others as justifiable and accepted reasons for establishing the respective goal. For instance, as developers focus on goals like 'accountability', core attributes of the system and project are likely to be emphasised as relevant targets (e.g. constructing traceable data pipelines, establishing mechanisms to support auditing processes, ensuring accessible documentation).
 
-Returning to the SAFE-D principles once more, we have previously developed a set of *core attributes* for each of the principles, which a) identify the types of properties that need to be established in a project or a system to ensure the relevant goal is obtained and b) the stages of the project lifecycle where actions can be taken to implement the respective property. Table 1.2 shows an example of the core attributes for 'sustainability'.
+Returning to the SAFE-D principles once more, we have previously developed a set of *core attributes* for each of the principles, which a) identify the types of properties that need to be established in a project or a system to ensure the relevant goal is obtained and b) the stages of the project lifecycle where actions can be taken to implement the respective property. Table 2.2 shows an example of the core attributes for 'sustainability'.
 
-**Table 1.2: a summary of the core attributes for the principle 'sustainability'**
+**Table 2.2: a summary of the core attributes for the principle 'sustainability'**
 
 | Core Attribute | Description |
 | --- | --- |
@@ -301,9 +301,9 @@ Again, we are not proposing that these principles and core attributes be adopted
 
 [^rawls]: This process is (loosely) derived from the idea of 'reflective equilibrium', made famous by the political philosopher John Rawls. In short, the phrase 'reflective equilibrium' refers to a state of coherence among moral beliefs and attitudes, which emerges over time as a result of public deliberation and consensus building activities that focus on the relevant moral beliefs and attitudes (e.g. notions of 'justice').
 
-Figure 1.7 offers a simple graphic to help visualise this process as it relates to trustworthy assurance.
+Figure 2.7 offers a simple graphic to help visualise this process as it relates to trustworthy assurance.
 
-![Figure 1.7: process of consensus formation for ethical principles as constraints on trustworthy assurance](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/cycle.png)
-*Figure 1.7: process of consensus formation for ethical principles as constraints on trustworthy assurance*
+![Figure 2.7: process of consensus formation for ethical principles as constraints on trustworthy assurance](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/cycle.png)
+*Figure 2.7: process of consensus formation for ethical principles as constraints on trustworthy assurance*
 
 These preliminary remarks about trustworthy assurance serve as a foundation for understanding and contextualising our project's research and the recommendations we derive from our findings.
