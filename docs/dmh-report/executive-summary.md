@@ -25,7 +25,7 @@ To support the development and evaluation of Trustworthy Assurance, we conducted
 - to evaluate and co-design the trustworthy assurance framework and methodology, and
 - solicit feedback on the possible reasons for distrust in digital mental healthcare.
 
-Based on these objectives, the following 'key findings' and 'recommendations' are presented:
+Based on these objectives, the following 'key findings' and 'recommendations' are presented.
 
 !!! abstract "Key Findings"
 
@@ -42,13 +42,14 @@ Based on these objectives, the following 'key findings' and 'recommendations' ar
         3. For those with lived experiences of using these tools, key concerns focused on 
             1. the lack of clear and meaningful consent procedures and the insufficiency of data privacy policies, 
             2. the perceived erosion of in-person care by digital technologies and services, 
-            3. a perceived lack of diversity and representation in development teams, and d) the varying quality and accessibility of services across society (e.g. the digital divide).
+            3. a perceived lack of diversity and representation in development teams, and 
+            4. the varying quality and accessibility of services across society (e.g. the digital divide).
 
     3. Trustworthy Assurance is a framework and methodology that can support the design, development, and deployment of data-driven technologies and also create a more responsible and trustworthy ecosystem of digital mental healthcare.
 
 !!! check "Recommendations"
 
-    1. Organisations that are involved in the design, development, and deployment of DMHTs should adopt and use trustworthy assurance to demonstrate and justify how they have embedded core ethical principles into their systems. In doing so, the methodology can also help provide assurance for how key legislative or regulatory duties and obligations have been met.
+    1. Organisations that are involved in the design, development, and deployment of DMHTs should adopt and use trustworthy assurance methodology to demonstrate and justify how they have embedded core ethical principles into their systems. In doing so, the methodology can also help provide assurance for how key legislative or regulatory duties and obligations have been met.
     2. Standards can be co-developed within and among organisations by sharing best practices related to trustworthy assurance. This can help ease the burden associated with relevant responsibilities (e.g. compliance, deliberation).
     3. Common capacities should be developed across the digital mental healthcare landscape, such as initiatives aimed at improving data and digital literacy, in order to support and foster trustworthy and responsible innovation through shared best practices and standards.
     4. Research should be undertaken to identify how organisations and product managers could ease the time burden on developers through embedding and integrating the trustworthy assurance methodology into key stages of the project lifecycle, rather than the methodology being treated as a post hoc compliance exercise.

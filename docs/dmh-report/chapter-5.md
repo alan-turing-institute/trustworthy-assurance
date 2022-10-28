@@ -203,7 +203,7 @@ This argument addresses the processes and mechanisms that have been undertaken t
 This argument is more comprehensive than the others, and so is further split into three sub-arguments:
 
 1. Sub-argument over meaningful engagement: here, meaningful engagement can be seen to include participation in decisions about the formulation of the problem that a DMHT is expected to address, as well as issues of data usage—both of which affect later stages of the project lifecycle and the final behaviour of the deployed system.
-2. Sub-argument over interpretability: sufficient levels of accuracy and the potential trade-off with interpretability can require high levels of technical and data literacy Therefore, this argument focuses on the requisite information that is needed to support explainability (recall earlier distinction between `interpretability` and `explainability`).
+2. Sub-argument over interpretability: sufficient levels of accuracy and the potential trade-off with interpretability can require high levels of technical and data literacy. Therefore, this argument focuses on the requisite information that is needed to support explainability (recall earlier distinction between `interpretability` and `explainability`).
 3. Sub-argument over accessible communication: the previous sub-argument feeds into this sub-argument, which focuses on how 'accessible' forms of communication will achieved, and the challenges of communicating probabilistic information. Ultimately, this sub-argument will depend on decisions reached and evidence obtained through consultation with intended users, as well as on the basis of knowledge about any time-constraints presented by the context of use (e.g. urgency in high-risk care environments).
 
 ##### Argument over *informed and autonomous decision-making*
@@ -229,7 +229,7 @@ However, there are a couple of general remarks that can be made, as well as some
 
 First, as we have argued elsewhere[@burr2022], the generation, evaluation, and selection of evidence can be guided by the following considerations:
 
-1. Is the evidential artefact/claim *relevant* to the parent claim
+1. Is the evidential artefact/claim *relevant* to the parent claim?
 2. Is the evidential artefact/claim (or set of artefacts/claims) *sufficient* to justify the parent claim?
 3. Is there sufficient *probative value* in the overall assurance case to justify the top-level normative goal?
 

@@ -12,9 +12,9 @@ tags:
 
 ![Illustration of people walking along various intersecting paths in an abstract space](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/ch1-header.jpg){ .off-glb }
 
-!!! warning "Navigating this Chapter"
+!!! warning "About this Chapter"
 
-    This introduction starts with (optional) contextual information and discussion. Those who wish to read only the information that pertains directly to the project should skip to [this section](#about-the-project).
+    This introductory chapter provides contextual information for the report. However, it can be treated as an optional chapter for those readers who only want to engage with the trustworthy assurance methodology (Chapter 2), findings and analysis from our workshops (Chapters 3 and 4), or positive proposals (Chapter 5).
 
 > Do I contradict myself? Very well then I contradict myself, (I am large, I contain multitudes.) --Walt Whitman, Song of Myself
 
@@ -58,11 +58,11 @@ Turning to the technologies themselves—another significant piece—we can simi
 
 All of these developments are important, but again there are three aspects that stand out as significant:
 
-1. The ability for ML/AI systems to operate *autonomously*
-2. The ability for ML/AI systems to *learn from* their environments
-3. The ability for ML/AI systems to *adapt to* and *affect* their environments
+1. The ability for ML/AI systems to operate **autonomously**
+2. The ability for ML/AI systems to **learn from** their environments
+3. The ability for ML/AI systems to **adapt to** and **affect** their environments
 
-As we will see throughout this report, these features of ML algorithms and AI systems create possible risks and benefits to the realisation of ethical goals associated with digital mental healthcare. For instance, the ability to respect a patients *right to autonomous decision-making*.
+As we will see throughout this report, these features of ML algorithms and AI systems create possible risks and benefits to the realisation of ethical goals associated with digital mental healthcare. For instance, the ability to respect a patient's *right to autonomous decision-making*.
 Furthermore, these issues intersect with the issues raised by the previous three questions pertaining to data (e.g. the ability to operate autonomously in complex environments with insufficiently accurate data).
 
 These topics already paint a very complex picture, but there is also a further level of complexity involved with understanding the dynamic feedback loops that emerge in mental healthcare when autonomous and adaptive systems are used to complement existing therapeutic interventions, many of which are already poorly understood (e.g. Selective Serotonin Reuptake Inhibitors). This complexity can cause issues for our existing research, development, and regulatory frameworks, such as when performing clinical trials (e.g. how should we control for the effects of adaptive and personalised technologies?).
@@ -97,7 +97,7 @@ What about focusing on the technologies themselves? Again, this is not an easy f
 * Smartphone apps and chatbots
 * Predictive analytics (e.g. based on digital phenotyping)
 * Consumer neurotechnology (e.g. portable electroencephalography devices)
-* Immersive technology (e.g. VR)
+* Immersive technology (e.g. virtual reality)
 
 [^Nuffield]: Nuffield Council on Bioethics (2022) The role of technology in mental healthcare. [https://www.nuffieldbioethics.org/assets/pdfs/The-role-of-technology-in-mental-healthcare.pdf](https://www.nuffieldbioethics.org/assets/pdfs/The-role-of-technology-in-mental-healthcare.pdf)
 
@@ -173,7 +173,7 @@ Third sector organisations, such as charities or volunteer groups, may have less
 
 Such legal requirements create an interlocking foundation upon which public perceptions and attitudes towards trust can be based, but are often difficult to separate and pick apart. And, even where one is able to do so, legal requirements typically set only the *minimal standards* expected of organisations. To put it simply, and sidestep a vast amount of important jurisprudence, just because something is legal does not guarantee it is ethical or socially acceptable.
 
-On top of the norms that fall within the scope of the law, modern institutions and organisations are also expected to observe and comply with an expansive and shifting set of ethical and social norms. For example, while underpinned by legal mechanisms, matters of social justice and fairness go beyond the legal requirements to ensure non-discrimination (e.g. poverty, a risk factor associated with worse mental health outcomes, is not a protected characteristic[^protected] as set out in the Equality Act 2010)[^reviewer]. Moreover, legal texts often leave wide scope for actions that may be sufficient to discharge duties corresponding to individual rights[^article8], but are seen by many as, at best, failing to observe the spirit of the law, and at worst, morally impermissible.
+On top of the norms that fall within the scope of the law, modern institutions and organisations are also expected to observe and comply with an expansive and shifting set of ethical and social norms. For example, while underpinned by legal mechanisms, matters of social justice and fairness go beyond the legal requirements to ensure non-discrimination (e.g. poverty, a risk factor associated with worse mental health outcomes, is not a protected characteristic[^protected] as set out in the Equality Act 2010)[^reviewer]. Moreover, legal texts often leave wide scope for actions that may be sufficient to discharge duties corresponding to individual rights[^article8], but are seen by many as, at best, failing to observe the spirit of the law, and at worst, morally impermissible (e.g. privacy policies).
 
 [^protected]: The [Equality Act 2010](https://www.legislation.gov.uk/ukpga/2010/15/part/2/chapter/1) sets out the following protected characteristics:
 
@@ -205,17 +205,17 @@ And to add one final layer of complexity, to really drive home Whitman's point f
 
 By now, you may be feeling as though stoic acceptance in the face of overwhelming complexity is inevitable. What other options are there? You may be thinking, for instance, that there are simply too many factors for any one person or organisation to consider when researching, developing, or regulating DMHTs.
 
-However, this report (and our project more generally) aims to challenge this attitude, while fully acknowledging the overwhelming complexity involved. Our approach and methodology in many respects embodies the principle that *light is the best disinfectant*. And, framed as a set of recommendations, which include but build on the two conclusions from the Nuffield Council on Bioethics above:
-
-=== "Additional Recommendations"
-
-    1. Organisations that choose to use DMHTs should consider broader ethical goals, in addition to traditional goals such as ‘safety’ and ‘efficacy’, to help create a more ethical, responsible, and trustworthy ecosystem of digital mental healthcare.[^consistency]
-    2. Organisations should provide transparent and evidence-based assurance about how these ethical goals have been operationalised and secured during the design, development, and deployment of DMHTs.
+However, this report (and our project more generally) aims to challenge this attitude while fully acknowledging the overwhelming complexity involved. Our approach and methodology in many respects embodies the principle that *light is the best disinfectant*. We can frame our approach as a set of recommendations that build on the two earlier conclusions from the Nuffield Council on Bioethics.
 
 === "Original Conclusions from Nuffield Council on Bioethics"
 
     1. Many people affected by mental health problems do not have access to or are reluctant to use mental healthcare technologies. If these are to become widely adopted in the future, there should be choice about using them.
     2. Technology solutions should not divert resources from other important forms of mental healthcare and support and should be used as an addition to what is already available, rather than a replacement.
+
+=== "Additional Recommendations"
+
+    3. Organisations that choose to use DMHTs should consider broader ethical goals, in addition to traditional goals such as ‘safety’ and ‘efficacy’, to help create a more ethical, responsible, and trustworthy ecosystem of digital mental healthcare.[^consistency]
+    4. Organisations should provide transparent and evidence-based assurance about how these ethical goals have been operationalised and secured during the design, development, and deployment of DMHTs.
 
 [^consistency]: To emphasise the consistency of this recommendation with the conclusions from the Nuffield Council report we should also acknowledge that this ‘digital ecosystem’ must be complementary with, supportive of, and enhance more traditional healthcare services (qua conclusion 2).
 
@@ -262,7 +262,7 @@ To realise these objectives, several workshops were organised and run over the c
 
 Workshops and interviews were held with representatives from each of these stakeholder groups, where tailored activities were run to both understand their attitudes towards DMHTs, but also to a) help us evaluate methodological questions related to trustworthy assurance and b) identify which ethical values and principles matter most to them in the present context.
 
-Chapters 2 and 3 present our findings, analysis, and recommendations from the engagements. Here, we shall just speak to the procedural matter of operationalising ethical principles through processes of stakeholder participation and engagement.
+Chapters 3 and 4 present our findings, analysis, and recommendations from the engagements. Here, we shall just speak to the procedural matter of operationalising ethical principles through processes of stakeholder participation and engagement.
 
 ### SAFE-D Principles
 

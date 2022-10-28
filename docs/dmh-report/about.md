@@ -116,7 +116,7 @@ Research and production for this report was undertaken at the Alan Turing Instit
 
 Talking about mental health can be very difficult. It was important that we enabled and supported participants to share their perspectives and attitudes anonymously during the project’s engagement events, and so we would like to begin by expressing our gratitude to those who took part in our events, or supported specific activities.
 
-The research team would also like to acknowledge the following groups and individuals:
+The research team would like to acknowledge the following groups and individuals:
 
 - We are grateful for the candid and thoughtful discussions of the users of digital mental health technologies, who took part in our workshops facilitated by the McPin foundation.
 - The following individuals who generously gave their time to review a draft version of this report (alphabetical order): Cath Biddle, Claudia Corradi, Ibrahim Habli, Zoe Porter, and Mat Rawsthorne. We would also like to thank two anonymous reviewers.

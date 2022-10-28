@@ -141,7 +141,7 @@ Fortunately, the activities and discussion from the second workshop help emphasi
 
 The second workshop (1b) focused on a participatory design activity that was created to evaluate the trustworthy assurance methodology and attempt to operationalise some of the ethical principles explored in the first workshop.
 
-For the main activity, participants were asked to review and discuss the ethical issues related to a specific case study and then develop a hypothetical assurance case that communicated how a set of decisions or actions had been undertaken to justify the ethical goals and properties that they had discussed. The groups were free to choose the goal. Tnd the case study, which had also been selected by participants, involved the use of a decision support system that offered tailored and real-time recommendations to a psychiatrist during consultation with a patient (e.g. during assessment)(see [Appendix 1](appendix-1.md)).
+For the main activity, participants were asked to review and discuss the ethical issues related to a specific case study and then develop a hypothetical assurance case that communicated how a set of decisions or actions had been undertaken to justify the ethical goals and properties that they had discussed. The groups were free to choose the goal. And the case study, which had also been selected by participants, involved the use of a decision support system that offered tailored and real-time recommendations to a psychiatrist during consultation with a patient (e.g. during assessment)(see [Appendix 1](appendix-1.md)).
 
 Two breakout groups were formed and the (incomplete) assurance cases are depicted below.
 
@@ -240,7 +240,7 @@ For instance, as one participant noted,
 
 - "Its [i.e. trustworthy assurance] emphasis on structure and evidence supporting claims which derive from an overarching goal. It really helps to be forced to think in these terms to keep an open mind about what requirements a certain system has at different stages of design, development and deployment. I love how flexible the system is, so that it can account for many technologies and contexts on the market." [Researcher]
 
-Although trustworthy assurance is a *structured* process, as this participant emphasises, flexibility is also maintained by enabling myriad goals, properties, and evidence to be selected to fit the context of a specific project. Where this flexibility is used to facilitate bidirectional decision-making about project aims and objectives, trustworthy assurance can (as another participant notes) support the development of 
+Although trustworthy assurance is a *structured* process, as this participant emphasises, flexibility is also maintained by enabling myriad goals, properties, and evidence to be selected to fit the context of a specific project. Where this flexibility is used to facilitate bidirectional decision-making about project aims and objectives, trustworthy assurance can (as another participant notes) support the development of
 
 - "A level playing field expectation from procurers, and a common improvement in practice." [Developer]
 
@@ -256,7 +256,7 @@ While it is encouraging to see many positive responses, it is also important to 
 
 - "The open-ended nature of the methodology makes it difficult to know what to include in scope and may pose a difficulty for comparing assurance cases between manufacturers, for instance." [Developer]
 
-This is a valid concern, and is something that can be addressed through argument patterns and guidance on how to operationalise principles through the emphasis on core attributes that can be established throughout the project lifecycle (see below and [chapter 5](chapter-5.md)).
+This is a valid concern, but can be addressed through the use of a) argument patterns and b) guidance about how ethical principles can be operationalised throughout the project lifecycle (see below and [chapter 5](chapter-5.md)).
 
 The second point relates to organisational culture and readiness, and the challenge of considering competing incentive or disincentive structures—a theme also raised in the previous chapter:
 
@@ -289,7 +289,7 @@ Here, our analysis and response echoes some of the comments made earlier (e.g. c
 
 !!! question "Question 5b"
 
-    As a **researcher** working on DMHT, do you see any obstacles to the uptake of ethical assurance in the sector?
+    As a **researcher** working on DMHTs, do you see any obstacles to the uptake of ethical assurance in the sector?
 
 The responses from researchers were mostly positive in the sense that few obstacles were identified. However, there was a skepticism about the likelihood of the private sector adopting the practices of trustworthy assurance.
 
@@ -419,7 +419,7 @@ Identifying the reasons for why users may trust or distrust a DMHT can help orga
 
 Acting upon this recommendation requires organisations to engage stakeholders, which links to the next theme that emerged during discussion.
 
-#### Accountability through engagement 
+#### Accountability through engagement
 
 In her BBC Reith Lectures, 'A Question of Trust', moral philosopher Onora O’Neill argues that, "we need more intelligent forms of accountability, and that we need to focus less on grandiose ideals of transparency and rather more on limiting deception."[^onora]
 
@@ -464,12 +464,11 @@ To understand why this shift in framing matters, consider the fact that for many
 
 > “I didn’t like it [online CBT], I was just desperate to have any form of counselling and because the waiting list was two years, I thought it was better than nothing. It will keep me from having suicidal ideation.”
 
-Capturing these themes and building on the previous sections recommendations, we can add the following:
+Capturing these themes and building on the previous sections recommendations, we can add the following recommendation.
 
-!!! success "Recommendations"
+!!! success "Recommendation"
 
-    Information that is necessary to and supportive of informed choice should not be hidden within obscure privacy policies; it should be made accessible to users as explanations of how a system was designed, developed, and deployed.
-    In doing so, organisations should be clear about how they define and operationalise key terms, such as 'mental health' or 'well-being' and how their understanding of the terms may have impacted the design, development, and evaluation of a service.
+    Information that is necessary to and supportive of informed choice should not be hidden within obscure privacy policies; it should be made accessible to users as explanations of how a system was designed, developed, and deployed. In doing so, organisations should be clear about how they define and operationalise key terms, such as 'mental health' or 'well-being' and how their understanding of the terms may have impacted the design, development, and evaluation of a service.
 
 But the shift from choice to active involvement is not just about improving explanations to support participation, it is also about improving access more generally. As one participant acknowledges, this is fundamentally a matter of fairness.
 
@@ -497,7 +496,7 @@ Similarly, some participants raised questions about the possibility of algorithm
 
 > "How will it [the hypothetical NLP algorithm in one of our case studies] account for regional words and dialect? Slang terms? Cultural terms? Accessibility in different languages."
 
-These critical comments and considerations should not be isolated from the remarks outlined in previous themes or the positive recommendations raised by participants:
+These critical comments and considerations should not be isolated from the remarks outlined in previous themes or the following recommendations raised by participants:
 
 - *Distrust as a barrier to access and use*: historic forms of oppression, injustice, and discrimination partially explain why some individuals and groups have low levels of trust towards these technologies and the organisations that design, develop, and deploy them. 
 - *Accountability through engagement*: the risks of harm and the likely benefits associated with DMHTs may not be shared equally by all groups. Inclusive stakeholder engagement is one mechanism by which oversight and accountability in the risk management process can be achieved. To paraphrase one participant, 'those on a design team should be a diverse, invested group, and diversity should not be tokenistic'.

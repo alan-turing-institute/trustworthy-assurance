@@ -23,7 +23,7 @@ tags:
 
 ## Designing, Developing, and Deploying Trustworthy Digital Mental Health Technologies
 
-Designing, developing, and deploying an AI system is not a one-person task[^village]! The stages and activities that comprise a typical AI project lifecycle involve a wide-ranging set of skills and capabilities. These skills are encapsulated within myriad roles, including 'project commissioner', 'product manager', 'data protection officer', 'data scientist', 'system architect' and 'software engineer'. And, these roles are interwoven such that they create an irreducible and collective responsibility that spans the entire project lifecycle, and may span multiple teams and organisations.
+Designing, developing, and deploying an AI system is not a one-person task![^village] The stages and activities that comprise a typical AI project lifecycle involve a wide-ranging set of skills and capabilities. These skills are encapsulated within a variety of roles, including 'project commissioner', 'product manager', 'data protection officer', 'data scientist', 'system architect' and 'software engineer'. And, these roles are interwoven such that they create an irreducible and collective responsibility that spans the entire project lifecycle, and may span multiple teams and organisations.
 
 [^village]: Rather, it "takes a village to raise an algorithm" as noted in this [blog post](https://cogent.co/blog/biasai/). Thanks to one of our reviewers for bringing this post to our attention.
 
@@ -94,7 +94,8 @@ There are three basic elements of an argument:
 
 !!! info "Box 2.1 Elements of a Trustworthy Assurance Case"
 
-    The following table provides summary information about the typical elements of a trustworthy assurance case. NB: the colours do not mean anything, but are purely a visual aid to help differentiate the elements quickly.
+    The following table provides summary information about the typical elements of a trustworthy assurance case. 
+    NB: the colours do not mean anything. They are purely used as a visual aid to help differentiate the elements.
 
     | Element Name | Description | Icon |
     | --- | --- | --- |
@@ -195,7 +196,7 @@ It should be noted, however, that regulators and developers are not starting wit
 
 Trustworthy assurance is a process of giving and justifying claims about choices made during the design, development, and deployment of DMHTs. These claims can be viewed as a series of *reasons* for why a particular decision was made.
 
-To see why, let’s assume that an organisation is in the process of procuring an AI-enabled chatbot to provide therapeutic support to service members returning from deployment.[^ptsd] As this technology is new and relatively untested, the organisation has a series of questions for the developers:
+To see why, let’s assume that an organisation is in the process of procuring an AI-enabled chatbot to provide therapeutic support to service members returning from deployment.[^ptsd] As this technology is new and relatively untested, the organisation has a series of questions for the developers.
 
 1. "Why should we license this digital system instead of investing in traditional forms of talk therapy?"
 2. "Why have you chosen a female avatar as your virtual assistant?"
@@ -297,7 +298,7 @@ Returning to the SAFE-D principles once more, we have previously developed a set
 | Reliability | The objective of reliability is that an AI system behaves exactly as its designers intended and anticipated. A reliable system adheres to the specifications it was programmed to carry out. Reliability is therefore a measure of consistency and can establish confidence in the safety of a system based upon the dependability with which it conforms to its intended functionality. |
 | Accuracy and Performance | The accuracy of a model is the proportion of examples for which it generates a correct output. This performance measure is also sometimes characterised conversely as an error rate or the fraction of cases for which the model produces an incorrect output. Specifying a reasonable performance level for the system may also require refining or exchanging the measure of accuracy. For instance, if certain errors are more significant or costly than others, a metric for total cost can be integrated into the model so that the cost of one class of errors can be weighed against that of another. |
 
-Again, we are not proposing that these principles and core attributes be adopted in digital mental healthcare as the respective goals, claims, and evidence. However, they could provide a starting point for the refinement of domain-specific principles while argument patterns emerge and become crystallised.[^rawls]
+Again, we are not proposing that these principles and core attributes should be adopted in digital mental healthcare as the respective goals, claims, and evidence. However, they could provide a starting point for the refinement of domain-specific principles while argument patterns emerge and become crystallised.[^rawls]
 
 [^rawls]: This process is (loosely) derived from the idea of 'reflective equilibrium', made famous by the political philosopher John Rawls. In short, the phrase 'reflective equilibrium' refers to a state of coherence among moral beliefs and attitudes, which emerges over time as a result of public deliberation and consensus building activities that focus on the relevant moral beliefs and attitudes (e.g. notions of 'justice').
 

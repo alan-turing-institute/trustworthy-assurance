@@ -24,7 +24,7 @@ Therefore, in addition to our methodological proposal of trustworthy assurance a
 
 ## Next Steps
 
-In addition to the individual recommendations above this report can also be viewed as a general recommendation itself—one that calls for the more widespread adoption of the trustworthy assurance methodology. We can even formulate this recommendation as an argument in a pseudo assurance case:
+In addition to the individual recommendations presented in the previous chapters, this report can also be viewed as a general recommendation itself—one that calls for the more widespread adoption of the trustworthy assurance methodology. We can even formulate this recommendation as an argument in a pseudo assurance case:
 
 ![A pseudo assurance case for an over-arching argument of the report](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/pseudo-argument.png)
 
