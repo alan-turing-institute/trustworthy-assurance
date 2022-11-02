@@ -12,8 +12,6 @@
 Welcome to the GitHub repository for the Trustworthy Assurance Website.
 This repository is used to host content and resources for [our website][ta-website], which includes reports, graphics, tools, and other resources.
 
-The report on Trustworthy Assurance of Digital Mental Healthcare is [now available][ta-website].
-
 This work is licensed under a
 [Creative Commons Attribution Share Alike 4.0 International][cc-by].
 
