@@ -1,6 +1,6 @@
 # Trustworthy Assurance
 
-![Animated hero image](/docs/assets/animations/hero.gif)
+![Repository hero image](docs/assets/images/Trustworthy Digital Mental Healthcare_Twitter_.jpg)
 
 | Information | Links |
 | :--- | :--- |
