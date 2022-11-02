@@ -1,6 +1,6 @@
 # Trustworthy Assurance
 
-![Repository hero image](docs/assets/images/Trustworthy Digital Mental Healthcare_Twitter_.jpg)
+![Repository hero image](https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/Trustworthy%20Digital%20Mental%20Healthcare_Twitter_.jpg)
 
 | Information | Links |
 | :--- | :--- |
