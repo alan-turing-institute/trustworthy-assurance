@@ -6,7 +6,7 @@ Welcome to the online version of a report titled, 'Trustworthy Assurance of Digi
 
 This report was authored and produced by [Dr Christopher Burr](https://www.turing.ac.uk/people/researchers/christopher-burr) and [Rosamund Powell](https://www.turing.ac.uk/people/researchers/rosamund-powell) (Public Policy Programme, The Alan Turing Institute).
 
-A PDF version of this report can be [accessed here](#).
+A PDF version of this report can be [accessed here](https://zenodo.org/record/7107200).
 
 Illustrations by Jonny Lighthands: www.jonnylighthands.co.uk
 
