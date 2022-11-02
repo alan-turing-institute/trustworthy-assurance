@@ -1,0 +1,57 @@
+.md-main {
+    background-color: #102431;
+  }
+
+.md-typeset h1 {
+  font-size: 2rem;
+  color: white;
+  }
+
+
+.hero-button.md-button.md-button--primary{
+  background-color: #DF657A;
+  border-color: #DF657A;
+  color: white;
+}
+
+.hero-button.md-button.md-button--primary:hover{
+  background-color: #E69B94;
+  border-color: #E69B94;
+  color: white;
+}
+
+.hero-heading {
+    color: white;
+  }
+
+p {
+    color: white;
+  }
+
+.hero{
+  display: flex;
+  flex-direction: row;
+  background-color: #102431 ;
+  }
+
+.hero-text{
+  width: 50%;
+}
+
+.hero-graphic{
+  width: 50%
+}
+
+@media only screen and (max-width: 600px){
+  .hero{
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-graphic{
+    width: 100%
+  }
+  .hero-text {
+  width: 100%;
+  padding: 1em;
+}
+}

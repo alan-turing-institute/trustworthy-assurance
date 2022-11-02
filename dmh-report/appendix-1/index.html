@@ -1,0 +1,952 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="A site for resources and documentation about the trustworthy assurance methodology—a framework for responsible research and innovation of data-driven technologies, such as artificial intelligence." name="description"/>
+<link href="https://alan-turing-institute.github.io/trustworthy-assurance/dmh-report/appendix-1/" rel="canonical"/>
+<link href="../../assets/logo.png" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-8.5.7+insiders-4.26.1" name="generator"/>
+<title>Appendix 1—Project Methodology - Trustworthy Assurance</title>
+<link href="../../assets/stylesheets/main.fa1d38d9.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<style>:root{--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.236 6.236 0 0 1-.779-.406z"/></svg>');}</style>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../assets/stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gdesc-inner { font-size: 0.75rem; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            
+                .gscrollbar-fixer { padding-right: 15px; }
+                </style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="deep-orange" data-md-color-primary="" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#appendix-project-methodology">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Trustworthy Assurance" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Trustworthy Assurance">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 2v2.06A8.522 8.522 0 0 0 4.05 9H2v6h2.06A8.494 8.494 0 0 0 9 19.95V22h6v-2.06A8.494 8.494 0 0 0 19.95 15H22V9h-2.06A8.522 8.522 0 0 0 15 4.05V2m-4 2h2v2h-2m-2 .25V8h6V6.25c1.18.61 2.14 1.57 2.75 2.75H16v6h1.75A6.406 6.406 0 0 1 15 17.75V16H9v1.75A6.406 6.406 0 0 1 6.25 15H8V9H6.25A6.406 6.406 0 0 1 9 6.25M4 11h2v2H4m14-2h2v2h-2m-7 5h2v2h-2"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Trustworthy Assurance
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Appendix 1—Project Methodology
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<a aria-label="Share" class="md-search__icon md-icon" data-clipboard="" data-clipboard-text="" data-md-component="search-share" href="javascript:void(0)" tabindex="-1" title="Share">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"></path></svg>
+</a>
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/alan-turing-institute/trustworthy-assurance" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    alan-turing-institute/trustworthy-assurance
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-tabs__inner md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../..">
+        
+  
+  Home
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href="../about/">
+          
+  
+  Trustworthy Assurance of Digital Mental Healthcare
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="https://assuranceplatform.azurewebsites.net/">
+        
+  
+  Assurance Platform
+
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Trustworthy Assurance" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Trustworthy Assurance">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 2v2.06A8.522 8.522 0 0 0 4.05 9H2v6h2.06A8.494 8.494 0 0 0 9 19.95V22h6v-2.06A8.494 8.494 0 0 0 19.95 15H22V9h-2.06A8.522 8.522 0 0 0 15 4.05V2m-4 2h2v2h-2m-2 .25V8h6V6.25c1.18.61 2.14 1.57 2.75 2.75H16v6h1.75A6.406 6.406 0 0 1 15 17.75V16H9v1.75A6.406 6.406 0 0 1 6.25 15H8V9H6.25A6.406 6.406 0 0 1 9 6.25M4 11h2v2H4m14-2h2v2h-2m-7 5h2v2h-2"></path></svg>
+</a>
+    Trustworthy Assurance
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/alan-turing-institute/trustworthy-assurance" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    alan-turing-institute/trustworthy-assurance
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+<span class="md-ellipsis">
+    Home
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2">
+<span class="md-ellipsis">
+    Trustworthy Assurance of Digital Mental Healthcare
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Trustworthy Assurance of Digital Mental Healthcare" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            Trustworthy Assurance of Digital Mental Healthcare
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../about/">
+<span class="md-ellipsis">
+    About
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../foreword/">
+<span class="md-ellipsis">
+    Foreword
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../executive-summary/">
+<span class="md-ellipsis">
+    Executive Summary
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-1/">
+<span class="md-ellipsis">
+    Chapter 1—Introduction
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-2/">
+<span class="md-ellipsis">
+    Chapter 2—Presenting Trustworthy Assurance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-3/">
+<span class="md-ellipsis">
+    Chapter 3—Applying Trustworthy Assurance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-4/">
+<span class="md-ellipsis">
+    Chapter 4—Co-Designing Trustworthy Assurance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-5/">
+<span class="md-ellipsis">
+    Chapter 5—Developing Trustworthy Assurance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../conclusion/">
+<span class="md-ellipsis">
+    Conclusion
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Appendix 1—Project Methodology
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    Appendix 1—Project Methodology
+    
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#case-study-information">
+<span class="md-ellipsis">
+      Case Study Information
+    </span>
+</a>
+<nav aria-label="Case Study Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#risk-assessment-and-peer-to-peer-support">
+<span class="md-ellipsis">
+      Risk assessment and peer-to-peer support
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#app-limits">
+<span class="md-ellipsis">
+      App limits
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#clinical-decision-support-system">
+<span class="md-ellipsis">
+      Clinical decision support system
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#virtual-reality-for-therapeutic-support">
+<span class="md-ellipsis">
+      Virtual reality for therapeutic support
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#engagements-structure-and-methodology">
+<span class="md-ellipsis">
+      Engagements: Structure and Methodology
+    </span>
+</a>
+<nav aria-label="Engagements: Structure and Methodology" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#university-administrators">
+<span class="md-ellipsis">
+      University administrators
+    </span>
+</a>
+<nav aria-label="University administrators" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#recruitment-and-participant-details">
+<span class="md-ellipsis">
+      Recruitment and participant details
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#interview-structure">
+<span class="md-ellipsis">
+      Interview structure
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#analysis">
+<span class="md-ellipsis">
+      Analysis
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#university-students">
+<span class="md-ellipsis">
+      University students
+    </span>
+</a>
+<nav aria-label="University students" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#recruitment-and-participant-details_1">
+<span class="md-ellipsis">
+      Recruitment and participant details
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#workshop-design">
+<span class="md-ellipsis">
+      Workshop design
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#analysis_1">
+<span class="md-ellipsis">
+      Analysis
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#final-analysis">
+<span class="md-ellipsis">
+      Final Analysis
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#regulators-and-policy-makers-developers-and-researchers">
+<span class="md-ellipsis">
+      Regulators and Policy-makers, Developers, and Researchers
+    </span>
+</a>
+<nav aria-label="Regulators and Policy-makers, Developers, and Researchers" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#recruitment-and-participant-details_2">
+<span class="md-ellipsis">
+      Recruitment and participant details
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#workshop-design_1">
+<span class="md-ellipsis">
+      Workshop design
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#analysis_2">
+<span class="md-ellipsis">
+      Analysis
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#users-of-digital-mental-health-technology">
+<span class="md-ellipsis">
+      Users of digital mental health technology
+    </span>
+</a>
+<nav aria-label="Users of digital mental health technology" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#recruitment-and-participant-details_3">
+<span class="md-ellipsis">
+      Recruitment and participant details
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#workshop-design_2">
+<span class="md-ellipsis">
+      Workshop design
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#analysis_3">
+<span class="md-ellipsis">
+      Analysis
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../appendix-2/">
+<span class="md-ellipsis">
+    Appendix 2—Examples of DMHTs
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://assuranceplatform.azurewebsites.net/">
+<span class="md-ellipsis">
+    Assurance Platform
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#case-study-information">
+<span class="md-ellipsis">
+      Case Study Information
+    </span>
+</a>
+<nav aria-label="Case Study Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#risk-assessment-and-peer-to-peer-support">
+<span class="md-ellipsis">
+      Risk assessment and peer-to-peer support
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#app-limits">
+<span class="md-ellipsis">
+      App limits
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#clinical-decision-support-system">
+<span class="md-ellipsis">
+      Clinical decision support system
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#virtual-reality-for-therapeutic-support">
+<span class="md-ellipsis">
+      Virtual reality for therapeutic support
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#engagements-structure-and-methodology">
+<span class="md-ellipsis">
+      Engagements: Structure and Methodology
+    </span>
+</a>
+<nav aria-label="Engagements: Structure and Methodology" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#university-administrators">
+<span class="md-ellipsis">
+      University administrators
+    </span>
+</a>
+<nav aria-label="University administrators" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#recruitment-and-participant-details">
+<span class="md-ellipsis">
+      Recruitment and participant details
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#interview-structure">
+<span class="md-ellipsis">
+      Interview structure
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#analysis">
+<span class="md-ellipsis">
+      Analysis
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#university-students">
+<span class="md-ellipsis">
+      University students
+    </span>
+</a>
+<nav aria-label="University students" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#recruitment-and-participant-details_1">
+<span class="md-ellipsis">
+      Recruitment and participant details
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#workshop-design">
+<span class="md-ellipsis">
+      Workshop design
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#analysis_1">
+<span class="md-ellipsis">
+      Analysis
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#final-analysis">
+<span class="md-ellipsis">
+      Final Analysis
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#regulators-and-policy-makers-developers-and-researchers">
+<span class="md-ellipsis">
+      Regulators and Policy-makers, Developers, and Researchers
+    </span>
+</a>
+<nav aria-label="Regulators and Policy-makers, Developers, and Researchers" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#recruitment-and-participant-details_2">
+<span class="md-ellipsis">
+      Recruitment and participant details
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#workshop-design_1">
+<span class="md-ellipsis">
+      Workshop design
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#analysis_2">
+<span class="md-ellipsis">
+      Analysis
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#users-of-digital-mental-health-technology">
+<span class="md-ellipsis">
+      Users of digital mental health technology
+    </span>
+</a>
+<nav aria-label="Users of digital mental health technology" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#recruitment-and-participant-details_3">
+<span class="md-ellipsis">
+      Recruitment and participant details
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#workshop-design_2">
+<span class="md-ellipsis">
+      Workshop design
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#analysis_3">
+<span class="md-ellipsis">
+      Analysis
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<a class="md-content__button md-icon" href="https://github.com/alan-turing-institute/trustworthy-assurance/edit/master/docs/dmh-report/appendix-1.md" title="Edit this page">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
+</a>
+<h1 id="appendix-project-methodology">Appendix: Project Methodology<a class="headerlink" href="#appendix-project-methodology" title="Permanent link">¶</a></h1>
+<p>This appendix offers additional information about the structure and methodology for our workshops. First, we begin by providing an overview of the three case studies that were used across the workshops. Next, we detail the general methodology for the workshops split across the following four sections:</p>
+<ol>
+<li>University administrators</li>
+<li>University students</li>
+<li>Regulators, developers, and researchers</li>
+<li>Users of digital mental health technology</li>
+</ol>
+<h2 id="case-study-information">Case Study Information<a class="headerlink" href="#case-study-information" title="Permanent link">¶</a></h2>
+<p>No one ever said ethics was easy.
+Moral deliberation requires deep and wide-ranging consideration of issues and challenges such as conflicting values, resource limitations, and the needs and interests of diverse people and groups. One way to facilitate ethical deliberation, therefore, is through the use of illustrative case studies, which hold certain details fixed to support and guide exploratory reflection.</p>
+<p>We prepared four case studies for this project, all of which were related to hypothetical projects (though based on real-world examples) involving the development or use of a digital mental health technology.</p>
+<div class="admonition info">
+<p class="admonition-title">Case Studies</p>
+<p>Our case studies are free to download from our <a href="https://github.com/alan-turing-institute/trustworthy-assurance/tree/main/docs/assets/case-studies">online repository</a>. They are released under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license. They can be freely shared and adapted subject to the following <a href="https://creativecommons.org/licenses/by-sa/4.0/">licensing restrictions</a>. We would also encourage anyone who uses the case studies to provide feedback on where they were helpful or could be improved.</p>
+</div>
+<h3 id="risk-assessment-and-peer-to-peer-support">Risk assessment and peer-to-peer support<a class="headerlink" href="#risk-assessment-and-peer-to-peer-support" title="Permanent link">¶</a></h3>
+<p>A platform for users to discuss their mental health with others in an anonymous environment, but where a machine-learning algorithm is identifying markers of risk and alerting trained professionals if positive instances are detected.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="https://raw.githubusercontent.com/alan-turing-institute/ethics-and-rri-resources/main/images/illustrations/peer-support.png"><img alt="" src="https://raw.githubusercontent.com/alan-turing-institute/ethics-and-rri-resources/main/images/illustrations/peer-support.png"/></a></p>
+<h3 id="app-limits">App limits<a class="headerlink" href="#app-limits" title="Permanent link">¶</a></h3>
+<p>An automated service on a smartphone that learns to detect signs of problematic usage of specific apps (e.g. gambling, social media) and prevents users from accessing these apps for a specified period.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="https://raw.githubusercontent.com/alan-turing-institute/ethics-and-rri-resources/main/images/illustrations/limit-reached.png"><img alt="" src="https://raw.githubusercontent.com/alan-turing-institute/ethics-and-rri-resources/main/images/illustrations/limit-reached.png"/></a></p>
+<h3 id="clinical-decision-support-system">Clinical decision support system<a class="headerlink" href="#clinical-decision-support-system" title="Permanent link">¶</a></h3>
+<p>An AI system that supports a psychiatrist with the assessment and diagnosis of a patient by analysing the patient's speech and making recommendations for follow-up questions or possible follow-up actions.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="https://raw.githubusercontent.com/alan-turing-institute/ethics-and-rri-resources/main/images/illustrations/nlp-decision-support.png"><img alt="" src="https://raw.githubusercontent.com/alan-turing-institute/ethics-and-rri-resources/main/images/illustrations/nlp-decision-support.png"/></a></p>
+<h3 id="virtual-reality-for-therapeutic-support">Virtual reality for therapeutic support<a class="headerlink" href="#virtual-reality-for-therapeutic-support" title="Permanent link">¶</a></h3>
+<p>A virtual reality (VR) system that immerses patients in a virtual environment that is designed to expose them to challenging situations in a way that is monitored and controlled (e.g. social encounters for individuals suffering from social anxiety).</p>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="https://raw.githubusercontent.com/alan-turing-institute/ethics-and-rri-resources/main/images/illustrations/vr-therapy.png"><img alt="" src="https://raw.githubusercontent.com/alan-turing-institute/ethics-and-rri-resources/main/images/illustrations/vr-therapy.png"/></a></p>
+<p>For each case study, the following information was presented:</p>
+<ul>
+<li>Overview: a summary of the case study with relevant information about the system and use context</li>
+<li>Key consideration: a question that was designed to elicit reflection on ethically salient features of the case study</li>
+<li>Deliberative prompts: additional questions to help structure group discussion</li>
+<li>Datasheet: a table of information about the data available to the project team (e.g. input data, training data) and the techniques used in the project (e.g. natural language processing, artificial neural network)</li>
+<li>Affected users, groups, and stakeholders: a list of those who are likely to be impacted by the system or who may impact the system's use and adoption.</li>
+</ul>
+<p>For all the case studies, this information was presented as a <em>starting point</em> but the participants were given sufficient flexibility to build upon the case studies where necessary.
+For instance, if the participants thought that a property of the use context was relevant to their deliberation, but it was not explicitly stated in the document, they were encouraged to include it their discussion.</p>
+<p>With this preliminary information specified, we now turn to our analysis of the workshops.</p>
+<h2 id="engagements-structure-and-methodology">Engagements: Structure and Methodology<a class="headerlink" href="#engagements-structure-and-methodology" title="Permanent link">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The following applies to all of our engagements:</p>
+<ul>
+<li>An internal and independent ethics review process was followed to evaluate the design of our engagements.</li>
+<li>Participants were sent an informed consent statement and briefing document prior to their participation. These documents provided information about the purpose and nature of the project, how their data and involvement would support the project, and also specified that all data would be a) securely stored in an anonymised format, and b) deleted following completion of the project.</li>
+<li>The same four case studies (see above) were presented to the participants for use in the workshop activities.</li>
+<li>No information about the SAFE-D principles were presented to any of the groups prior to any activities where it was important to have feedback that was not primed. However, for some groups where knowledge of ethics or practical decision-making could not be assumed, a general introduction was provided to support their participation (e.g. users).</li>
+</ul>
+</div>
+<p>The following sections provide details of these workshop groups:</p>
+<ol>
+<li>University administrators</li>
+<li>University students</li>
+<li>Regulators and Policy-Makers, Developers, and Researchers</li>
+<li>Users with lived experience of DMHTs</li>
+</ol>
+<h3 id="university-administrators">University administrators<a class="headerlink" href="#university-administrators" title="Permanent link">¶</a></h3>
+<h4 id="recruitment-and-participant-details">Recruitment and participant details<a class="headerlink" href="#recruitment-and-participant-details" title="Permanent link">¶</a></h4>
+<p>Interviews with administrators across 10 UK universities were conducted between January and March 2022, each lasting one hour and facilitated by <a href="https://www.turing.ac.uk/people/researchers/christopher-burr">Dr Christopher Burr</a> and <a href="https://www.turing.ac.uk/people/researchers/rosamund-powell">Rosamund Powell</a>.
+In all instances, interviews were conducted remotely via Zoom due to the geographic diversity of participants.
+Participants were selected from the top 20 UK universities according to all metrics, based upon the Times Higher Education Survey 2021.<sup id="fnref:times"><a class="footnote-ref" href="#fn:times">1</a></sup></p>
+<p>Relevant representatives were identified and invited to interview.
+Individuals invited to interview worked within Student Services departments with the majority serving as Director of Student Welfare or Wellbeing.
+Some instead served as Head of Disability, Deputy Director of Wellbeing or Head of Student Services.</p>
+<h4 id="interview-structure">Interview structure<a class="headerlink" href="#interview-structure" title="Permanent link">¶</a></h4>
+<p>In advance of interviews, all participants were sent a consent form, a list of questions and briefing document on the digital mental healthcare landscape.
+At the start of each interview, one of the facilitators began by introducing the project and the project members on the call.
+Following this, verbal consent was requested, and participants were given the opportunity to ask questions on the informed consent form that had been pre-circulated.
+The informed consent statement explained that their answers would be <em>fully anonymised</em> to allow the participants to feel comfortable expressing candid opinions and beliefs about potentially sensitive topics.</p>
+<p>Once consent was obtained, the interview recording began. A semi-structured format was selected for several reasons:</p>
+<ul>
+<li>It was suitable for an exploratory stage interview</li>
+<li>It encourages exploration of tangential issues that participants feel are relevant</li>
+<li>It is more likely to promote a relaxed interview and hones feedback.</li>
+</ul>
+<p>The interviews were split into three main sections.
+Section 1 focused on attitudes to the advantages and disadvantages of digital mental health technologies and current procurement practices at UK universities.
+Section 2 focused on how current procurement processes align with duty of care.
+Section 3 focused on collecting feedback on the ethical assurance methodology.</p>
+<p>At the end of interviews, the recording was stopped, and the participant was asked if they had any further questions for the interviewers.
+The participants were thanked for their time and told they would receive a copy of this report.</p>
+<h4 id="analysis">Analysis<a class="headerlink" href="#analysis" title="Permanent link">¶</a></h4>
+<p>To facilitate qualitative analysis, automated transcriptions were verified and corrected by members of the Turing project team before the original recording was deleted. Two project team members then analysed these transcriptions independently to identify salient themes, grouped into two sections:</p>
+<ol>
+<li>Contextual challenges to the ethical deployment of digital mental healthcare</li>
+<li>Administrator feedback on trustworthy assurance</li>
+</ol>
+<p>Once themes were identified, themes were discussed and key conclusions were summarised and quote from interviews extracted.
+This preliminary analysis was then set aside so that student workshops could be completed.</p>
+<h3 id="university-students">University students<a class="headerlink" href="#university-students" title="Permanent link">¶</a></h3>
+<h4 id="recruitment-and-participant-details_1">Recruitment and participant details<a class="headerlink" href="#recruitment-and-participant-details_1" title="Permanent link">¶</a></h4>
+<p>Workshops with students from UK universities were conducted between February and March 2022.
+Two six-hour workshops were completed and facilitated by the project team (see above).
+In all instances, workshops were conducted remotely via Zoom to support geographic diversity.
+Participants were selected from across all UK universities.</p>
+<p>An open call for applications was published by the Turing, inviting any students currently enrolled in an undergraduate or postgraduate course.
+In order to apply, students completed an application form asking a series of optional EDI questions alongside the below three project questions:</p>
+<ol>
+<li>Why are you interested in participating in this workshop?</li>
+<li>How do you understand the aims of this research in your own words?</li>
+<li>Do you have any prior understanding about the ethics of digital mental healthcare? If so, please provide details.</li>
+</ol>
+<p>Participants were selected from a total of 45 applications and a total of 25 students joined the final workshop sessions.</p>
+<h4 id="workshop-design">Workshop design<a class="headerlink" href="#workshop-design" title="Permanent link">¶</a></h4>
+<p>In advance of interviews, all participants were sent a consent form and briefing document on the digital mental healthcare landscape.
+At the start of each workshop, one of the facilitators began by introducing the project and the project members on the call.
+Following this, verbal consent was requested, and participants were given the opportunity to ask questions on the informed consent form that had been pre-circulated.
+The informed consent statement explained that their answers would be fully anonymised, in order to allow the participants to feel comfortable expressing their opinions and beliefs about potentially sensitive topics.</p>
+<p>Once consent was obtained, the recording began.</p>
+<p>The workshops were split into two sections.
+Section 1 focused on attitudes to the advantages and disadvantages of digital mental health technologies and on identifying which values and principles mattered to students.
+Section 2 then saw students evaluate two illustrative case studies (see above) designed to identify possible ethical issues which might arise if they were deployed in a university context.</p>
+<p>During the workshop sessions, participants were also asked to complete an online survey seeking individual feedback on the ethics of digital mental healthcare in a university context.
+At the end of workshops, the recording was stopped, and the participants were asked if they had any further questions for the facilitators.
+The participants were thanked for their time and told they would receive a copy of this report.</p>
+<h4 id="analysis_1">Analysis<a class="headerlink" href="#analysis_1" title="Permanent link">¶</a></h4>
+<p>To facilitate qualitative analysis, automated transcriptions were verified and corrected by members of the Turing project team before the original recording was deleted.
+This transcription was also accompanied by notes taken by members of the Turing team during the workshops to help identify key themes.
+In addition, the completed surveys were analysed.
+Finally, the notes taken online during the workshop activities were analysed as participants had been encouraged to take structured notes on the case studies during the workshop sessions.</p>
+<p>Each of these elements were taken into account in identifying key themes.
+Once themes were identified, key conclusions were summarised and quotes from workshops extracted.
+This preliminary analysis was then set aside, to be combined with pre-existing analysis form administrator interviews.</p>
+<h4 id="final-analysis">Final Analysis<a class="headerlink" href="#final-analysis" title="Permanent link">¶</a></h4>
+<p>For students and administrators, key themes which fell into the category of “contextual challenges to the deployment of digital mental health technologies” were compared to identify cross-cutting themes.
+During analysis, researchers were careful to maintain differentiation between administrator and student perspectives such that agreements and disagreements could be identified.
+For all of the six themes identified (see <a href="../chapter-3/">Chapter 3</a>), student and administrator feedback was relevant and so all themes were cross-cutting.
+However, in many cases, students and administrators contributed to the development of these themes in contrasting ways.</p>
+<p>In addition to contextual challenges, the final report identifies a series of methodological challenges.
+These are largely drawn from administrator interviews where more time was dedicated to the evaluation of trustworthy assurance.
+Nevertheless, where relevant, student perspectives are used to supplement this analysis.</p>
+<h3 id="regulators-and-policy-makers-developers-and-researchers">Regulators and Policy-makers, Developers, and Researchers<a class="headerlink" href="#regulators-and-policy-makers-developers-and-researchers" title="Permanent link">¶</a></h3>
+<h4 id="recruitment-and-participant-details_2">Recruitment and participant details<a class="headerlink" href="#recruitment-and-participant-details_2" title="Permanent link">¶</a></h4>
+<p>Unlike the previous workshops, 39 participants from these three groups were sent specific invitations based on their roles and responsibilities (30 attended).
+While this introduces a source of selection bias, it also allowed the project team to utilise existing relationships to ensure senior decision-makers and researchers from across the UK government and civil service, third-sector, development community, and academia were included.</p>
+<p>A decision was made early in the project to bring these different stakeholder groups together, rather than holding separate workshops for each group.
+This was to allow the participants to have an opportunity to discuss and identify shared values and differences in perspectives and approaches out in the open.
+This limited the amount of comparative analysis we could perform, but a separate survey was undertaken to explore these differences specifically.
+However, due to the limited sample size we accepted that there would be a limit to how much we could generalise from our findings.</p>
+<h4 id="workshop-design_1">Workshop design<a class="headerlink" href="#workshop-design_1" title="Permanent link">¶</a></h4>
+<p>Two workshops were held with the participants in May 2022.
+The first workshop focused on broader ethical, social, and legal issues, and the second focused on the Trustworthy Assurance methodology.
+Because of the longer time dedicated to these groups, several presentations were given by the project team, including two on the Trustworthy Assurance methodology, which was a key focus for the groups.
+The first workshop was split into three sections.
+Section 1 focused on exploring the values and principles that were important to the participants.
+Section 2 identified and explored salient issues and concepts in the four case studies. And, section 3 introduced participants to the trustworthy assurance methodology.</p>
+<p>The second workshop provided a refresher to the trustworthy assurance methodology and then involved the design and production of a hypothetical assurance case for one of the four case studies, which the participants had voted for in the previous workshop.
+The participants were used our online platform to put the assurance cases together, focusing on a key ethical goal that they had selected from a set of options that they had put together.</p>
+<h4 id="analysis_2">Analysis<a class="headerlink" href="#analysis_2" title="Permanent link">¶</a></h4>
+<p>To facilitate qualitative and thematic analysis, automated transcriptions were verified and corrected by members of the project team before the original recording was deleted.
+This transcription was also accompanied by notes taken by members of the project team during the workshops to help identify key themes.
+In addition, the completed surveys were analysed and unedited results are provided in <a href="../chapter-4/">Chapter 4</a>.</p>
+<p>Each of these elements were taken into account in identifying key themes, with a specific emphasis on their relation to the Trustworthy Assurance methodology.
+Therefore, unlike the research conducted with UK Universities, for this work we were looking to identify themes that could support the operationalisation of ethical principles as key components in an assurance case.</p>
+<h3 id="users-of-digital-mental-health-technology">Users of digital mental health technology<a class="headerlink" href="#users-of-digital-mental-health-technology" title="Permanent link">¶</a></h3>
+<h4 id="recruitment-and-participant-details_3">Recruitment and participant details<a class="headerlink" href="#recruitment-and-participant-details_3" title="Permanent link">¶</a></h4>
+<p>Based on feedback from our independent and internal ethics review process, we decided to carry out these workshops with the support of the McPin foundation—a mental health research charity that provide advice and support on research strategies to involve participation and expertise from individuals with lived experience of mental health issues.</p>
+<p>Representatives of McPin handled recruitment, such that all contact with the individuals prior to the workshops and after the workshops were organised by a single organisation.
+Participants were required to be over 18 years old and to have either a) direct lived experience of using DMHTs or b) direct experience of caring for someone who made use of DMHTs.
+No other constraints were set, and no information about the specific reason for use was requested (e.g. CBT app for anxiety).</p>
+<p>Two workshops were offered to participants and both were held during July 2022—one in person at the Alan Turing Institute and one online using Zoom.
+For the in-person workshop, 10 participants were selected from around Greater London due to the need to travel to the Alan Turing Institute—travel expenses were reimbursed.
+For the online workshop, 10 participants were selected from across the UK.
+All participants were reimbursed for their time.</p>
+<h4 id="workshop-design_2">Workshop design<a class="headerlink" href="#workshop-design_2" title="Permanent link">¶</a></h4>
+<p>All workshops were facilitated by two members of staff from the McPin foundation.
+The project team supported the McPin facilitators and also gave two presentations—our slides can be <a href="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/slides/turing-mcpin-workshop.pdf">downloaded here</a>.
+However, in these workshops the project team took a less hands-on role than the other engagements.</p>
+<p>The workshops with users focused on the moral attitudes and perspectives of the participants and only indirectly explored trustworthy assurance.
+While they were informed about the trustworthy assurance methodology, so they could understand why they were carrying out the respective activities, it was not emphasised in the workshops.
+This choice was influenced a) by the feedback from the students gathered during the sub-project (see <a href="../chapter-2/">Chapter 2</a>), and b) preliminary discussions with our workshop facilitators—McPin—about the accessibility of the material within the time constraints.</p>
+<p>Two activities were designed for these workshops (using breakout sessions to allow wider contribution from the participants):</p>
+<ul>
+<li>The first activity was a guided discussion of the following three questions:</li>
+<li>What is Digital Mental Healthcare?</li>
+<li>What are some positive use cases for digital mental health technologies?</li>
+<li>What are some negative use cases for digital mental health technologies?</li>
+<li>The second activity involved a structured task where the participants evaluated several statements, which were designed as possible assurance claims from one of the hypothetical developers in our case studies (<a href="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/workshop-materials/evaluation-claims.pdf">download list of claims and questions</a>).</li>
+</ul>
+<h4 id="analysis_3">Analysis<a class="headerlink" href="#analysis_3" title="Permanent link">¶</a></h4>
+<p>To facilitate qualitative and thematic analysis, minutes and notes were provided by the McPin Foundation facilitators and supplemented by notes taken by the Turing project team during the meeting.
+No recordings were taken or transcribed to help create a more comfortable environment for the participants.
+The Turing team used the minutes, notes, and the <a href="https://github.com/alan-turing-institute/trustworthy-assurance/tree/main/docs/assets/workshop-materials">original documents</a> from the workshop activities to identify general themes <a href="../chapter-4/">see Chapter 4</a> and extract the core attributes that were used to operationalise the ethical goals associated with the argument patterns presented in <a href="../chapter-5/">Chapter 5</a></p>
+<div class="footnote">
+<hr/>
+<ol>
+<li id="fn:times">
+<p>Desk research was used to determine different methods for filtering universities. For example, based upon the best and worst student satisfaction. In the end, the top 20 Universities, according to <a href="https://www.timeshighereducation.com/world-university-rankings/2021/world-ranking#!/page/0/length/25/locations/GBR/sort_by/rank/sort_order/asc/cols/stats">Times HE Survey</a>, were selected because of the broad range of digital offerings available at these institutions. Admittedly, this decision introduced some selection bias into our engagements, which is why we present our findings as limited exploratory analysis and recommend further themes for ongoing research and analysis. <a class="footnote-backref" href="#fnref:times" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+</ol>
+</div>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<a class="md-top md-icon" data-md-component="top" hidden="" href="#">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            Back to top
+          </a>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Conclusion" class="md-footer__link md-footer__link--prev" href="../conclusion/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              Conclusion
+            </div>
+</div>
+</a>
+<a aria-label="Next: Appendix 2—Examples of DMHTs" class="md-footer__link md-footer__link--next" href="../appendix-2/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              Appendix 2—Examples of DMHTs
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs Insiders
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.code.annotate", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.939a4419.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.01b2e45f.min.js"></script>
+<script src="../../assets/javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+<script src="../../assets/javascripts/tablesort.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom"});})</script></body>
+</html>

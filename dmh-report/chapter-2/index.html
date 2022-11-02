@@ -1,0 +1,909 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="A site for resources and documentation about the trustworthy assurance methodology—a framework for responsible research and innovation of data-driven technologies, such as artificial intelligence." name="description"/>
+<link href="https://alan-turing-institute.github.io/trustworthy-assurance/dmh-report/chapter-2/" rel="canonical"/>
+<link href="../../assets/logo.png" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-8.5.7+insiders-4.26.1" name="generator"/>
+<title>Chapter 2—Presenting Trustworthy Assurance - Trustworthy Assurance</title>
+<link href="../../assets/stylesheets/main.fa1d38d9.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<style>:root{--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.236 6.236 0 0 1-.779-.406z"/></svg>');}</style>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../assets/stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gdesc-inner { font-size: 0.75rem; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            
+                .gscrollbar-fixer { padding-right: 15px; }
+                </style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="deep-orange" data-md-color-primary="" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#presenting-trustworthy-assurancea-framework-and-methodology">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Trustworthy Assurance" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Trustworthy Assurance">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 2v2.06A8.522 8.522 0 0 0 4.05 9H2v6h2.06A8.494 8.494 0 0 0 9 19.95V22h6v-2.06A8.494 8.494 0 0 0 19.95 15H22V9h-2.06A8.522 8.522 0 0 0 15 4.05V2m-4 2h2v2h-2m-2 .25V8h6V6.25c1.18.61 2.14 1.57 2.75 2.75H16v6h1.75A6.406 6.406 0 0 1 15 17.75V16H9v1.75A6.406 6.406 0 0 1 6.25 15H8V9H6.25A6.406 6.406 0 0 1 9 6.25M4 11h2v2H4m14-2h2v2h-2m-7 5h2v2h-2"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Trustworthy Assurance
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Chapter 2—Presenting Trustworthy Assurance
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<a aria-label="Share" class="md-search__icon md-icon" data-clipboard="" data-clipboard-text="" data-md-component="search-share" href="javascript:void(0)" tabindex="-1" title="Share">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"></path></svg>
+</a>
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/alan-turing-institute/trustworthy-assurance" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    alan-turing-institute/trustworthy-assurance
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-tabs__inner md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../..">
+        
+  
+  Home
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href="../about/">
+          
+  
+  Trustworthy Assurance of Digital Mental Healthcare
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="https://assuranceplatform.azurewebsites.net/">
+        
+  
+  Assurance Platform
+
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Trustworthy Assurance" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Trustworthy Assurance">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 2v2.06A8.522 8.522 0 0 0 4.05 9H2v6h2.06A8.494 8.494 0 0 0 9 19.95V22h6v-2.06A8.494 8.494 0 0 0 19.95 15H22V9h-2.06A8.522 8.522 0 0 0 15 4.05V2m-4 2h2v2h-2m-2 .25V8h6V6.25c1.18.61 2.14 1.57 2.75 2.75H16v6h1.75A6.406 6.406 0 0 1 15 17.75V16H9v1.75A6.406 6.406 0 0 1 6.25 15H8V9H6.25A6.406 6.406 0 0 1 9 6.25M4 11h2v2H4m14-2h2v2h-2m-7 5h2v2h-2"></path></svg>
+</a>
+    Trustworthy Assurance
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/alan-turing-institute/trustworthy-assurance" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    alan-turing-institute/trustworthy-assurance
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+<span class="md-ellipsis">
+    Home
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2">
+<span class="md-ellipsis">
+    Trustworthy Assurance of Digital Mental Healthcare
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Trustworthy Assurance of Digital Mental Healthcare" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            Trustworthy Assurance of Digital Mental Healthcare
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../about/">
+<span class="md-ellipsis">
+    About
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../foreword/">
+<span class="md-ellipsis">
+    Foreword
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../executive-summary/">
+<span class="md-ellipsis">
+    Executive Summary
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-1/">
+<span class="md-ellipsis">
+    Chapter 1—Introduction
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Chapter 2—Presenting Trustworthy Assurance
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    Chapter 2—Presenting Trustworthy Assurance
+    
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#designing-developing-and-deploying-trustworthy-digital-mental-health-technologies">
+<span class="md-ellipsis">
+      Designing, Developing, and Deploying Trustworthy Digital Mental Health Technologies
+    </span>
+</a>
+<nav aria-label="Designing, Developing, and Deploying Trustworthy Digital Mental Health Technologies" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reflective-and-anticipatory-deliberation">
+<span class="md-ellipsis">
+      Reflective and Anticipatory Deliberation
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#what-is-trustworthy-assurance">
+<span class="md-ellipsis">
+      What is Trustworthy Assurance?
+    </span>
+</a>
+<nav aria-label="What is Trustworthy Assurance?" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument">
+<span class="md-ellipsis">
+      Argument
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#procedure">
+<span class="md-ellipsis">
+      Procedure
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#standards">
+<span class="md-ellipsis">
+      Standards
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-patterns">
+<span class="md-ellipsis">
+      Argument Patterns
+    </span>
+</a>
+<nav aria-label="Argument Patterns" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#claims-as-reasons">
+<span class="md-ellipsis">
+      Claims as Reasons
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#what-are-argument-patterns">
+<span class="md-ellipsis">
+      What are argument patterns?
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#generalisable-patterns">
+<span class="md-ellipsis">
+      Generalisable Patterns
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-3/">
+<span class="md-ellipsis">
+    Chapter 3—Applying Trustworthy Assurance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-4/">
+<span class="md-ellipsis">
+    Chapter 4—Co-Designing Trustworthy Assurance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-5/">
+<span class="md-ellipsis">
+    Chapter 5—Developing Trustworthy Assurance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../conclusion/">
+<span class="md-ellipsis">
+    Conclusion
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../appendix-1/">
+<span class="md-ellipsis">
+    Appendix 1—Project Methodology
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../appendix-2/">
+<span class="md-ellipsis">
+    Appendix 2—Examples of DMHTs
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://assuranceplatform.azurewebsites.net/">
+<span class="md-ellipsis">
+    Assurance Platform
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#designing-developing-and-deploying-trustworthy-digital-mental-health-technologies">
+<span class="md-ellipsis">
+      Designing, Developing, and Deploying Trustworthy Digital Mental Health Technologies
+    </span>
+</a>
+<nav aria-label="Designing, Developing, and Deploying Trustworthy Digital Mental Health Technologies" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reflective-and-anticipatory-deliberation">
+<span class="md-ellipsis">
+      Reflective and Anticipatory Deliberation
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#what-is-trustworthy-assurance">
+<span class="md-ellipsis">
+      What is Trustworthy Assurance?
+    </span>
+</a>
+<nav aria-label="What is Trustworthy Assurance?" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument">
+<span class="md-ellipsis">
+      Argument
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#procedure">
+<span class="md-ellipsis">
+      Procedure
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#standards">
+<span class="md-ellipsis">
+      Standards
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-patterns">
+<span class="md-ellipsis">
+      Argument Patterns
+    </span>
+</a>
+<nav aria-label="Argument Patterns" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#claims-as-reasons">
+<span class="md-ellipsis">
+      Claims as Reasons
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#what-are-argument-patterns">
+<span class="md-ellipsis">
+      What are argument patterns?
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#generalisable-patterns">
+<span class="md-ellipsis">
+      Generalisable Patterns
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<a class="md-content__button md-icon" href="https://github.com/alan-turing-institute/trustworthy-assurance/edit/master/docs/dmh-report/chapter-2.md" title="Edit this page">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
+</a>
+<h1 id="presenting-trustworthy-assurancea-framework-and-methodology">Presenting Trustworthy Assurance—A Framework and Methodology<a class="headerlink" href="#presenting-trustworthy-assurancea-framework-and-methodology" title="Permanent link">¶</a></h1>
+<p><img alt="Illustration of a person at a desk using the trustworthy assurance methodology" class="off-glb" src="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/ch2-header.jpg"/></p>
+<div class="admonition abstract">
+<p class="admonition-title">Chapter Overview</p>
+<p>This section introduces a framework and methodology for enabling a more trustworthy ecosystem of digital mental healthcare through the responsible and ethical design, development, and deployment of digital technologies. The section also serves as an introduction for the analysis and recommendations for the following sections.</p>
+<p>First, we introduce a model of a typical research or innovation lifecycle for a data science or AI project that includes activities of project design, model development, and system deployment. </p>
+<p>Second, we discuss the methodology of trustworthy assurance that is at the centre of our project. We provide a simple overview of the relevant procedures, focusing on the structure, elements, and purpose of an assurance case.</p>
+<p>Finally, we look at argument patterns: reusable templates that can be developed to ensure a more consistent approach to trustworthy design, development, and deployment of digital mental healthcare.</p>
+</div>
+<h2 id="designing-developing-and-deploying-trustworthy-digital-mental-health-technologies">Designing, Developing, and Deploying Trustworthy Digital Mental Health Technologies<a class="headerlink" href="#designing-developing-and-deploying-trustworthy-digital-mental-health-technologies" title="Permanent link">¶</a></h2>
+<p>Designing, developing, and deploying an AI system is not a one-person task!<sup id="fnref:village"><a class="footnote-ref" href="#fn:village">1</a></sup> The stages and activities that comprise a typical AI project lifecycle involve a wide-ranging set of skills and capabilities. These skills are encapsulated within a variety of roles, including 'project commissioner', 'product manager', 'data protection officer', 'data scientist', 'system architect' and 'software engineer'. And, these roles are interwoven such that they create an irreducible and collective responsibility that spans the entire project lifecycle, and may span multiple teams and organisations.</p>
+<p><em>Figure 2.1</em> presents a simplified model of a typical research or innovation lifecycle for a data science or AI project lifecycle, to help gain a purchase on these interweaving roles, skills, and responsibilities<sup id="fnref:responsibilities"><a class="footnote-ref" href="#fn:responsibilities">2</a></sup>.</p>
+<p>The model represents three over-arching stages of <code>(project) design</code>, <code>(model) development</code>, and <code>(system) deployment</code>. For each stage, there are corresponding activities, detailed in <em>Table 2.1</em>. The project lifecycle is depicted as a circular process to highlight the fact that responsibility is ongoing and does not end once a system has been implemented or put into deployment. Rather, responsible (and trustworthy) approaches to research and innovation require consideration of how a technological system may need to be monitored and updated once in production, and removed and replaced once it reaches the end of its lifecycle. </p>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/project-lifecycle.png"><img alt="Figure 2.1: a model of a typical project lifecycle for some data-driven technology, detailing the overarching stages of design, development, and deployment and their constitutive activities (reprinted from Burr and Leslie, 2022)" src="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/project-lifecycle.png"/></a>
+<em>Figure 2.1: a model of a typical project lifecycle for a data-driven technology, detailing the overarching stages of design, development, and deployment and their constitutive activities (reprinted from <a href="https://link.springer.com/10.1007/s43681-022-00178-0">Burr and Leslie, 2022</a>)</em></p>
+<p><strong>Table 2.1: Project Lifecycle Activities</strong></p>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Project Planning</strong></td>
+<td>Preliminary activities designed to help scope out the aims, objectives, and processes involved with the project, including potential risks and benefits.</td>
+</tr>
+<tr>
+<td><strong>Problem Formulation</strong></td>
+<td>The formulation of a clear statement about the over-arching problem the system or project addresses (e.g., a research statement or system specification) and a lower-level description of the computational procedure that instantiates it.</td>
+</tr>
+<tr>
+<td><strong>Data Extraction or Procurement</strong></td>
+<td>The design of an experimental method or decisions about data gathering and collection, based on the planning and problem formulation from the previous steps.</td>
+</tr>
+<tr>
+<td><strong>Data Analysis</strong></td>
+<td>Stages of exploratory and confirmatory data analysis designed to help researchers or developers identify relevant associations between input variables and target variables.</td>
+</tr>
+<tr>
+<td><strong>Preprocessing and Feature Engineering</strong></td>
+<td>A process of cleaning, normalising, and refactoring data into the features that will be used in model training and testing, as well as the features that may be used in the final system.</td>
+</tr>
+<tr>
+<td><strong>Model Selection and Training</strong></td>
+<td>The selection of a particular algorithm (or multiple algorithms) for training the model.</td>
+</tr>
+<tr>
+<td><strong>Model Testing and Validation</strong></td>
+<td>Testing the model against a variety of metrics, which may include those that assess how accurate a model is for different sub-groups of a population. This is important where issues of fairness or equality may arise.</td>
+</tr>
+<tr>
+<td><strong>Model Documentation</strong></td>
+<td>A process of documenting both the formal and non-formal properties of both the model and the processes by which it was developed (e.g., source of data, algorithms used, evaluation metrics).</td>
+</tr>
+<tr>
+<td><strong>System Implementation</strong></td>
+<td>The process of implementing the technological system into its intended environment or target domain to enable and structure interaction with the underlying model(s) (e.g. a recommender system that suggests possible treatment options for patients based on input data.</td>
+</tr>
+<tr>
+<td><strong>User Training</strong></td>
+<td>Training for those individuals or groups who are either required to operate a data-driven system (perhaps in a safety critical context) or who are likely to use the system (e.g. healthcare professionals, medical researchers).</td>
+</tr>
+<tr>
+<td><strong>System Use and Monitoring</strong></td>
+<td>Ongoing monitoring and feedback from the system, either automated or probed, to ensure that issues such as model drift have not affected performance or resulted in harms to individuals or groups.</td>
+</tr>
+<tr>
+<td><strong>Model Updating or Deprovisioning</strong></td>
+<td>An algorithmic model that that adapts its behaviour over time or context may require updating.<sup id="fnref:performance"><a class="footnote-ref" href="#fn:performance">3</a></sup> Where no further updating can be carried out, and this results in a system being removed from production (i.e. deprovisioned), a new system may be required. This restarts the project lifecycle.</td>
+</tr>
+</tbody>
+</table>
+<p>To see how this model can help us understand the interwoven nature of responsibility, consider the following example. An organisation wants to implement a speech recognition algorithm within a service they are developing for online counselling. However, there is no one in the organisation with the relevant expertise to collect data and train a model from scratch. Therefore, they choose to <em>procure</em> a pre-trained model from <a href="https://aws.amazon.com/marketplace/solutions/machine-learning/pre-trained-models">another company</a>. This means that a significant portion of the project lifecycle—from <code>Data Extraction or Procurement</code> to <code>Model Documentation</code>—will have been carried out by a separate organisation.</p>
+<p>Although the specifics of the relationship between the two organisations will complicate forms of responsibility, such as legal duties or obligations, this need not concern us here. Instead, we can focus on how the initial organisation who has chosen to undertake the project (e.g. the product owner or commissioner) can use the project lifecycle model to a) identify and analyse their own responsibility and how it intersects with the responsibilities of others, and b) how this necessitates a process of trustworthy communication and assurance.</p>
+<h3 id="reflective-and-anticipatory-deliberation">Reflective and Anticipatory Deliberation<a class="headerlink" href="#reflective-and-anticipatory-deliberation" title="Permanent link">¶</a></h3>
+<p>At the start of a project, while activities such as planning and initial evaluation of feasibility are being conducted, the project lifecycle model can be used to structure <em>reflective</em> and <em>anticipatory</em> processes of deliberation among the project team. For instance, the team could use the model to identify and evaluate potential actions and decisions that are likely to emerge during specific activities, such as which data types may be required and whether stakeholders or users will consent to these data being collected and analysed (a reflective and anticipatory exercise). As this example suggests, the project team may carry out the preliminary deliberation, but additional stakeholders will need to be engaged to thoroughly evaluate the ethical, legal, and social permissibility and acceptability of the project.</p>
+<p>Consider another example. A team of developers working for a commercial organisation have identified a risk associated with an AI system they have developed, which they claim is able to detect emotions. They have been approached by a healthcare provider who wish to procure and implement their system into a video consultation service to help their counsellors better understand the emotional and behavioural responses of their patients during an initial assessment. However, the developers did not evaluate their model (during <code>Model Testing or Validation</code>) using a dataset that is representative of the patient population intended by the healthcare provider that has approached them (i.e. individuals that are likely to be suffering from a mental health issue). Therefore, the developers are unable to make any claims about the generalisability of their model to this new population. Moreover, neither the developers nor the healthcare provider have engaged the relevant stakeholder groups during <code>Project Planning</code> to determine if this would be an acceptable use for their system. As such, additional activities would need to be carried out to determine the full scope of the risks and possible harms that could arise from the use of this technology. This would likely require the procuring organisation (i.e. the healthcare provider) to set clear requirements for what forms of evidence would be required from the developers (e.g., at <code>Model Documentation</code>), and to determine clear boundaries and thresholds for whether the project should proceed.</p>
+<p>As this example illustrates, the project lifecycle structure can help support forms of reflective and anticipatory deliberation that help instantiate a responsible ecosystem of research and innovation. And, it can also help identify points in the lifecycle where structured and transparent communication between teams and organisations may be crucial.</p>
+<p>In addition, there is a further purpose for the project lifecycle model that will become clearer in the next sections: the identification of actions and decisions that generate forms of evidence that provide justificatory support for <em>trustworthy assurance</em>.</p>
+<h2 id="what-is-trustworthy-assurance">What is Trustworthy Assurance?<a class="headerlink" href="#what-is-trustworthy-assurance" title="Permanent link">¶</a></h2>
+<blockquote>
+<p>Trustworthy assurance is a procedure for developing a structured argument, which provides reviewable (and contestable) assurance that a set of claims about the ethical properties of a data-driven technology are warranted given the available evidence.</p>
+</blockquote>
+<p>This definition captures three important and interlocking components of trustworthy assurance:</p>
+<ol>
+<li>A structured <em>argument</em> comprising linked claims and evidence that collectively justify a top-level goal</li>
+<li>A <em>procedure</em> for developing an assurance case, which represents the argument either formally and/or visually</li>
+<li>Agreed upon <em>standards</em> for reviewing and evaluating the argument</li>
+</ol>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/venn.png"><img alt="A Venn diagram showing the three interlocking components that support trustworthy assurance" src="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/venn.png"/></a>
+<em>Figure 2.2: a schematic showing the three interlocking components that support trustworthy assurance.</em></p>
+<h3 id="argument">Argument<a class="headerlink" href="#argument" title="Permanent link">¶</a></h3>
+<p>Trustworthy assurance is a form of <em>argument-based assurance</em>. It uses a structured type of documented argumentation, known as an assurance case, as the primary means for providing assurance that a goal has been obtained, based on the claims and evidence presented.</p>
+<p>There are three basic elements of an argument:</p>
+<ol>
+<li>A claim about the goal to be established (supported by descriptions of the system and the context in which the system is intended to operate)</li>
+<li>A set of property claims about the project or system that collectively specify and operationalise the goal</li>
+<li>A set of evidential claims that jointly establish the validity of the property claims</li>
+</ol>
+<div class="admonition info">
+<p class="admonition-title">Box 2.1 Elements of a Trustworthy Assurance Case</p>
+<p>The following table provides summary information about the typical elements of a trustworthy assurance case. 
+NB: the colours do not mean anything. They are purely used as a visual aid to help differentiate the elements.</p>
+<table>
+<thead>
+<tr>
+<th>Element Name</th>
+<th>Description</th>
+<th>Icon</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Goal Claim</strong></td>
+<td>A claim about an ethical goal of the DMHT, which the assurance case attempts to justify has been established on the basis of the evidence and argument provided.</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="../../assets/images/goal-element.png"><img alt="" src="../../assets/images/goal-element.png"/></a></td>
+</tr>
+<tr>
+<td><strong>System Description</strong></td>
+<td>A short description about the DMHT, including any central algorithmic techniques.</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="../../assets/images/system-element.png"><img alt="" src="../../assets/images/system-element.png"/></a></td>
+</tr>
+<tr>
+<td><strong>Context Description</strong></td>
+<td>A short description about the intended context of use for the DMHT, including the users of the system (e.g. healthcare professionals).</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="../../assets/images/context-element.png"><img alt="" src="../../assets/images/context-element.png"/></a></td>
+</tr>
+<tr>
+<td><strong>Property Claim</strong></td>
+<td>A claim about how the ethical goal has been implemented or opertaionalised, which references a property of the system or project, e.g. an action that was undertaken during the model's development.</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="../../assets/images/claim-element.png"><img alt="" src="../../assets/images/claim-element.png"/></a></td>
+</tr>
+<tr>
+<td><strong>Evidential Claim</strong></td>
+<td>A specific claim about some evidence, which serves to establish the validity of the higher level property claim.</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="../../assets/images/evidential-claim-element.png"><img alt="" src="../../assets/images/evidential-claim-element.png"/></a></td>
+</tr>
+<tr>
+<td><strong>Evidential Artefact</strong></td>
+<td>A description of the evidence referred to by the above evidential claim, including a link to the relevant document where available.</td>
+<td><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="../../assets/images/evidential-artefact-element.png"><img alt="" src="../../assets/images/evidential-artefact-element.png" style="height:150px"/></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The following figure constitutes a simple (but incomplete) argument, showing the relationship between the three central elements.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-1.png"><img alt="An example argument for a privacy goal" src="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-1.png" style="height:400px"/></a></p>
+<p><em>Figure 2.3: a portion of a simplified assurance case on respect for privacy</em></p>
+<p>Here, the goal that is being established relates to the project team's ambition to 'respect user privacy'. They argue that this is achieved by adherence to data minimisation principles—a claim about a property of the project's governance and the system's design. Evidence of this adherence is also provided.</p>
+<p>While useful as an illustration, this example is too simple to constitute a full-fledged assurance case because it reduces the concept of 'respect for user privacy' to a single principle (i.e., data minimisation). Although this claim may be relevant, on its own it is insufficient. We can, for example, consider an app that collects no personal data but still violates reasonable expectations of privacy by routinely notifying and disturbing users.</p>
+<p>A more detailed procedure is required, therefore, to help project teams identify the set of property claims that a) specify and operationalise the top-level goal and b) collectively justify the goal.</p>
+<div class="admonition info">
+<p class="admonition-title">Box 2.2 Argument-Based Assurance Notation</p>
+<p>Argument-based assurance (ABA) was defined in the previous chapter as follows:</p>
+<blockquote>
+<p>A process of using structured argumentation to provide assurance to another party (or parties) that a particular claim (or set of related claims) about a property of a system is warranted given the available evidence. </p>
+</blockquote>
+<p>ABA is widely used in safety-critical domains or industries where manufacturing, development, and maintenance processes are required to comply with strict regulatory requirements and legislation, while also supporting industry-recognised best practices <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">16</a></sup>. Because of these requirements, there are many formal standards that can be used to better govern the process of constructing an assurance case. </p>
+<p>A popular standard is known as 'Goal Structuring Notation' (GSN)—originally developed in the 1990s at the University of York to assist the production, maintenance, and reuse of safety and assurance cases in safety critical industries such as traffic management and nuclear power <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">17</a></sup>. There are many similarities between GSN's assurance cases and Trustworthy Assurance, as the latter was directly inspired by the former. For example, as the name implies, GSN structures an assurance case towards a particular goal, and best practices associated with the standard prescribe methods for minimising possible harms are proportionate to the risks presented by the technology or system (e.g. minimisation of safety risks to levels that are as low as reasonably practicable). However, GSN also has additional elements (e.g. solutions and strategies) and relationships between elements that we do not include in the current presentation of Trustworthy Assurance<sup id="fnref:gsn-elements"><a class="footnote-ref" href="#fn:gsn-elements">4</a></sup>.</p>
+<p>It should also be noted that our use of colours for the various elements should not be seen as signifying any meaning within a formal context. This choice was made solely for ease of comprehension for our stakeholders who were unfamiliar with the method. As we discuss in the <a href="../conclusion/">Conclusion</a>, our future ambitions are to explore how GSN can be used to anchor Trustworthy Assurance in a more formal notation or schema. However, for this project we chose to sidestep many of the formal considerations that arise in the GSN standard (or any other formal standards<sup id="fnref:alternatives"><a class="footnote-ref" href="#fn:alternatives">5</a></sup>) due to the likely barriers to comprehension that existed for our stakeholders. </p>
+<p><strong>Further Resources</strong></p>
+<p>The following resources provide good overviews and clear introductions for the reader who is interested in further exploring argument-based assurance:</p>
+<ul>
+<li>Kelly, T. (1998) Arguing Safety – A Systematic Approach to Managing Safety Cases (PhD Thesis). Available: <a href="https://www-users.cs.york.ac.uk/~tpk/tpkthesis.pdf">https://www-users.cs.york.ac.uk/~tpk/tpkthesis.pdf</a></li>
+<li>The Assurance Case Working Group. (2021). GSN Community Standard Version 3. Available: <a href="https://scsc.uk/r141C:1?t=1">https://scsc.uk/r141C:1?t=1</a></li>
+<li>Hawkins, R., Paterson, C., Picardi, C., Jia, Y., Calinescu, R., &amp; Habli, I. (2021). Guidance on the Assurance of Machine Learning in Autonomous Systems (AMLAS). University of York. <a href="https://www.york.ac.uk/media/assuring-autonomy/documents/AMLASv1.1.pdf">https://www.york.ac.uk/media/assuring-autonomy/documents/AMLASv1.1.pdf</a></li>
+<li>Laher, S., Brackstone, C., Reis, S., Nguyen, A., White, S., &amp; Habli, I. (2022). Review of the Assurance of Machine Learning for use in Autonomous Systems (AMLAS) Methodology for Application in Healthcare. 32. <a href="https://arxiv.org/ftp/arxiv/papers/2209/2209.00421.pdf">https://arxiv.org/ftp/arxiv/papers/2209/2209.00421.pdf</a></li>
+<li>Sujan, M. A., Habli, I., Kelly, T. P., Pozzi, S., &amp; Johnson, C. W. (2016). Should healthcare providers do safety cases? Lessons from a cross-industry review of safety case practices. Safety Science, 84, 181–189. <a href="https://doi.org/10.1016/j.ssci.2015.12.021">https://doi.org/10.1016/j.ssci.2015.12.021</a></li>
+</ul>
+</div>
+<h3 id="procedure">Procedure<a class="headerlink" href="#procedure" title="Permanent link">¶</a></h3>
+<p>The procedure advocated for trustworthy assurance is the anticipatory and deliberative exercise introduced above, which incorporates inclusive and accessible forms of <em>stakeholder engagement</em>.</p>
+<p>By using the project lifecycle model as a scaffold for anticipatory reflection and stakeholder-informed deliberation, project teams are able to answer the following questions:</p>
+<ol>
+<li>Which claims (that may emerge from participatory deliberation) are necessary and sufficient to specify and justify the top-level goal?</li>
+<li>How do these claims relate to one another?</li>
+<li>What evidence is required to demonstrate the validity of the claims being made?</li>
+</ol>
+<p>Consider the following example. A company wishes to develop an assurance case that shows how their system, which uses a ML algorithm to predict whether users of an online betting platform are "problem gamblers", can generate results that are explainable to their users. They decide this is an important ethical goal for an assurance case, because they want to be able to provide accessible forms of communication to any user that they contact on the basis of their algorithmically-generated prediction.</p>
+<p>They start by formulating the following goal statement, which sets out an ambitious objective to achieve:</p>
+<blockquote>
+<p>"An explanation of how our system predicts whether a user is a "problem gambler" can be provided to all users of our platform."</p>
+</blockquote>
+<p>Next, they consider which potential actions or decisions taken throughout the stages of the project lifecycle could be relevant to the specification and justification of this goal. For example, they flag that results from a series of planned workshops to be carried out with representative users during their <code>Project Planning</code> activities may be relevant. </p>
+<p>Following the delivery of these workshops, it turns out that plain language explanations are preferable to detailed explanations of the algorithmic techniques, but that users were more trusting of these explanations when they knew they had been independently validated by a professional auditor. This result influences which machine learning algorithm the team go on to select during the <code>Model Selection and Training</code> activities, and which features they report on during <code>Model Documentation</code> for the independent audit. </p>
+<p>Once the team have reflected on all the stages of the project lifecycle, and carried out the corresponding activities, they recognise that there are two broad sets of claims. One set of claims are about the <em>design choices</em> made during the project, which support accessible explanations for users. The second set are about the <em>interpretability of the system</em>, which are relevant for professional auditing and assessment of the system. Categorising the claims in this manner helps the company determine what evidence will be needed for each claim, and how best to structure the argument. At this point, most of the evidence has already been generated as a byproduct of the team's work, so this stage is primarily a matter of collection, curation, and communication (through documenting an assurance case).</p>
+<p>The following figure summarises the points made in the above example.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-2.png"><img alt="An example argument focusing on the explainability of an AI system" src="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-2.png"/></a></p>
+<p><em>Figure 2.4: a portion of the assurance case for this hypothetical project.</em></p>
+<p>The final component of trustworthy assurance relates to <em>standards</em>.</p>
+<h3 id="standards">Standards<a class="headerlink" href="#standards" title="Permanent link">¶</a></h3>
+<p>Standards support the development and refinement of best practices and codes of conduct. There are standards for measurement (e.g., universal scales), procedures (e.g., manufacturing), and assessments (e.g., risk and impact assessment), and much more. Here, we are interested in standards as they pertain to evidence and claims. </p>
+<p>Evidential standards can refer to both the identification and evaluation of evidence. </p>
+<p>Standards for identifying evidence are common in areas such as law where rules exist to determine what constitutes <em>relevant</em>, <em>material</em>, and <em>admissible</em> evidence.</p>
+<p>Similarly, standards for evaluating the quality of evidence are well-established in domains such as scientific research, where various procedures or methods are held to produce reliable forms of evidence (e.g. peer review or randomised controlled trials), and in risk assessment and management (e.g. standardised guidelines on risk management for systems and software engineering).<sup id="fnref:standards"><a class="footnote-ref" href="#fn:standards">6</a></sup></p>
+<p>As distinct communities of practice develop and emerge within digital mental healthcare, we would expect standards and best practices to evolve to help with both the identification and evaluation of evidence. Subsequently, this would help support the development of trustworthy assurance in domains such as digital mental healthcare because specific types of claims or evidence would be recognised as more reliable forms of evidence-based assurance.</p>
+<p>It should be noted, however, that regulators and developers are not starting with a blank slate. There are many relevant standards that exist today, and new standards are emerging to support the procedure of constructing a trustworthy assurance case.<sup id="fnref:aistandardshub"><a class="footnote-ref" href="#fn:aistandardshub">7</a></sup> We will consider some of these standards in <a href="../chapter-3/">Chapter 3</a>.</p>
+<h2 id="argument-patterns">Argument Patterns<a class="headerlink" href="#argument-patterns" title="Permanent link">¶</a></h2>
+<h3 id="claims-as-reasons">Claims as Reasons<a class="headerlink" href="#claims-as-reasons" title="Permanent link">¶</a></h3>
+<p>Trustworthy assurance is a process of giving and justifying claims about choices made during the design, development, and deployment of DMHTs. These claims can be viewed as a series of <em>reasons</em> for why a particular decision was made.</p>
+<p>To see why, let’s assume that an organisation is in the process of procuring an AI-enabled chatbot to provide therapeutic support to service members returning from deployment.<sup id="fnref:ptsd"><a class="footnote-ref" href="#fn:ptsd">8</a></sup> As this technology is new and relatively untested, the organisation has a series of questions for the developers.</p>
+<ol>
+<li>"Why should we license this digital system instead of investing in traditional forms of talk therapy?"</li>
+<li>"Why have you chosen a female avatar as your virtual assistant?"</li>
+<li>"How did you measure and validate the clinical efficacy of the system for different subgroups to ensure that it is fair?"</li>
+</ol>
+<p>In answering these three questions, the developers would be <em>giving reasons</em> (supported by evidence) for their actions—reasons that would need to be accepted by the procuring organisation to be relevant and justifiable. This perspective on claims emphasises one of their most vital roles as <em>publicly contestable reasons</em>. That is, whether a claim or set of interrelated claims are valid in the context of an assurance case is, in part, conditional on whether they are accepted as <em>reasonable</em> justifications by those who are tasked with evaluating the assurance case<sup id="fnref:towhom"><a class="footnote-ref" href="#fn:towhom">9</a></sup>.</p>
+<p>Let’s look at another example. Consider the following section of an assurance case for the aforementioned chatbot, which the developers have produced for the procuring organisation:</p>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-3.png"><img alt="An example argument pattern concerned with accessibility" src="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/example-arg-3.png" style="height:400px"/></a></p>
+<p><em>Figure 2.5: a portion of an assurance case for a chatbot</em><sup id="fnref:claim"><a class="footnote-ref" href="#fn:claim">10</a></sup></p>
+<p>As we have discussed, the organisation responsible for evaluating the trustworthiness of the AI system has to determine whether the evidential claim (EC1) is a <em>reasonable</em> choice to justify its parent claim (C2). They may, for instance, argue that EC1 is a <em>reasonable claim</em>, but nevertheless argue that it is insufficient on its own to justify the claim that the chatbot is an "accessible" alternative to human-led therapy. Alternatively, they may claim that it is <em>not reasonable</em> on the grounds that the ratings given by the service members are not relevant to establishing whether the chatbot is an “accessible form of therapy” but merely that the avatar is “friendly and realistic”. This example highlights a potential challenge associated with the development of assurance cases: determining what constitutes <em>relevant</em>, <em>sufficient</em>, and <em>reasonable</em> claims.</p>
+<p>In the context of safety assurance, a large body of guidance has been established to help developers assess what claims they will need to establish and justify, and a key part of this guidance is the development of <em>argument patterns</em>.</p>
+<h3 id="what-are-argument-patterns">What are argument patterns?<a class="headerlink" href="#what-are-argument-patterns" title="Permanent link">¶</a></h3>
+<p>Argument patterns are <em>starting templates</em> for building assurance cases. They identify the types of claims (or, the sets of reasons) that need to be established to justify the associated top-level normative goal. Figure 2.6 shows an example argument pattern for the technical goal of interpretability.<sup id="fnref:ward2020"><a class="footnote-ref" href="#fn:ward2020">11</a></sup></p>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/habli-assurance.png"><img alt="Figure 2.6: a pattern for an interpretability case (reprinted from Ward and Habli, 2020)" src="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/habli-assurance.png"/></a>
+<em>Figure 2.6: a pattern for an interpretability case (reprinted from Ward and Habli, 2020)</em></p>
+<p>The pattern depicted in Figure 2.6 shows a template for an assurance case that serves to justify the following top-level goal:</p>
+<blockquote>
+<p>"The {ML Model} is sufficiently {interpretable} in the intended {context}".</p>
+</blockquote>
+<p>Here, the curly brackets serve as placeholders for specific variables that are properly established when a full assurance case is developed. A notable contribution of this pattern is the identification of three essential aspects of interpretability:</p>
+<ol>
+<li>Right Method: The right interpretability methods are implemented, i.e. the correct information is faithfully being explained.</li>
+<li>Right Context:<ul>
+<li>Time: Interpretations produced at the appropriate times.</li>
+<li>Setting: Interpretations are available in the right setting.</li>
+<li>Audience: Interpretations produced for the right audience.</li>
+</ul>
+</li>
+<li>Right Format: The interpretability methods are presented in the right format for the audience.</li>
+</ol>
+<p>These three essential aspects subsequently serve to delineate the more detailed argument and evidential claims at the lowest levels. </p>
+<p>Argument patterns, such as the one above, are helpful for the following reasons:</p>
+<ul>
+<li>They provide a consistent and systematic approach for the reflective and deliberative activities carried out across a project’s lifecycle. </li>
+<li>They speed up the process of developing assurance cases.</li>
+<li>They provide reusable structures that, if used widely throughout a domain, could establish best practices.</li>
+</ul>
+<p>But where do they come from?</p>
+<h3 id="generalisable-patterns">Generalisable Patterns<a class="headerlink" href="#generalisable-patterns" title="Permanent link">¶</a></h3>
+<p>In the case of the argument pattern from Figure 2.6, this pattern was proposed by the authors as a means to address a gap in the safety assurance of ML systems. As experts in their domain, and as a peer-reviewed contribution, this is a valid source for an argument pattern.</p>
+<p>However, an alternative (though not entirely disconnected) means for achieving generalisable structures and patterns is through participatory engagement from stakeholders and affected users, perhaps building sample assurance cases and then extracting common themes. This is the method that we have explored in the current project on Digital Mental Healthcare and subsequently propose as a procedure for Trustworthy Assurance.</p>
+<p>Much like ML algorithms, humans have remarkably effective (but biased) <em>pattern recognition capabilities</em>, some of which underpin our assessment and internalisation of ethical, legal, and social norms. As an example, James W. Nickel says of human rights:</p>
+<blockquote>
+<p>"We can think of the emergence of a human right as the coming together of the <em>recognition</em> of a problem; the belief that the problem, is very severe; and optimism about the possibility of addressing it through social and political action at national and international levels." <sup id="fnref:nickel2007"><a class="footnote-ref" href="#fn:nickel2007">12</a></sup></p>
+</blockquote>
+<p>Similarly, we can think of ethical and social norms as the <em>shared recognition</em> and subsequent externalisation of beliefs and attitudes towards events as diverse as acceptable etiquette during a dinner party through to permissible forms of punishment for various transgressions.</p>
+<p>This understanding of the emergence of norms is crucial to ensuring the relevance, sufficiency, and reasonableness of evidence, and the legitimacy of corresponding trustworthy argument patterns.</p>
+<p>In terms of the emergence of argument patterns, the three elements that we have explored already are, again, important: the top-level normative goal, the property claims, and the evidential support. Let's take each of these in turn.</p>
+<p>The phrase 'trustworthy assurance' creates a wide scope for top-level goals that may be deemed relevant to establishing trust (e.g. <em>sustainable</em> digital platforms, <em>accountable</em> methods of data governance, <em>fair</em> classifiers, and <em>explainable</em> decision support systems). As trustworthy assurance cases are developed for data-driven technologies, it is likely that we will see certain goals emphasised (and re-emphasised) over others. In turn, these normative goals will orient other projects and help cultivate best practices. In related work, we have proposed a series of ethical principles that have been developed to provide actionable insights and safeguards on responsible research and innovation in data science and AI.<sup id="fnref:coe"><a class="footnote-ref" href="#fn:coe">13</a></sup> They are known as the SAFE-D principles:</p>
+<ul>
+<li>Sustainability</li>
+<li>Accountability</li>
+<li>Fairness</li>
+<li>Explainability</li>
+<li>Data (Quality, Integrity, Protection and Privacy)</li>
+</ul>
+<p>These principles have been refined and validated in a wide range of domains, and were originally based on a broad understanding of the typical harms and benefits associated with data-driven technology (e.g. starting from the felt injustices or needs of users and stakeholders, and developing principles to reflect these challenges). Therefore, unlike alternative frameworks they are tailored to the specific needs and challenges of responsible, trustworthy, and ethical data science and AI, rather than, say, importing or revising existing frameworks such as biomedical ethics.<sup id="fnref:floridi"><a class="footnote-ref" href="#fn:floridi">14</a></sup></p>
+<p>However, the SAFE-D principles were designed to be <em>domain-neutral</em> starting points. That is, we did not presume that these principles would capture the ethical, social, and legal values that are dominant in digital mental healthcare. Instead, the present project undertook a process of exploratory engagement and participatory design to explore which ethical values and principles were relevant to the specific context of trustworthy digital mental healthcare, and whether specific SAFE-D principles captured these. We will return to this point in <a href="../chapter-4/">Chapter 4</a> where we analyse our findings from the project's workshops.</p>
+<p>Turning now to the property claims and supporting evidence, as assurance cases are communicated for specific goals we will likely see <em>sets of property claims and supporting evidence</em> used more than others as justifiable and accepted reasons for establishing the respective goal. For instance, as developers focus on goals like 'accountability', core attributes of the system and project are likely to be emphasised as relevant targets (e.g. constructing traceable data pipelines, establishing mechanisms to support auditing processes, ensuring accessible documentation).</p>
+<p>Returning to the SAFE-D principles once more, we have previously developed a set of <em>core attributes</em> for each of the principles, which a) identify the types of properties that need to be established in a project or a system to ensure the relevant goal is obtained and b) the stages of the project lifecycle where actions can be taken to implement the respective property. Table 2.2 shows an example of the core attributes for 'sustainability'.</p>
+<p><strong>Table 2.2: a summary of the core attributes for the principle 'sustainability'</strong></p>
+<table>
+<thead>
+<tr>
+<th>Core Attribute</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Safety</td>
+<td>Safety is core to sustainability but goes beyond the mere operational safety of the system. It also includes an understanding of the long-term use context and impact of the system, and the resources needed to ensure the system continues to operate safely over time within its environment (i.e. is sustainable). For instance, safety may depend upon sufficient change monitoring processes that establish whether there has been any substantive drift in the underlying data distributions or social operating environment. Or, it could also involve engaging and involving users and stakeholders in the design and assessment of AI systems that could impact their human rights and fundamental freedoms.</td>
+</tr>
+<tr>
+<td>Security</td>
+<td>Security encompasses the protection of several operational dimensions of an AI system when confronted with possible adversarial attack. A secure system is capable of maintaining the integrity of its constitutive information. This includes protecting its architecture from the unauthorised modification or damage of any of its component parts. A secure system also remains continuously functional and accessible to its authorised users and keeps confidential and private information secure even under hostile or adversarial conditions.</td>
+</tr>
+<tr>
+<td>Robustness</td>
+<td>The objective of robustness can be thought of as the goal that an AI system functions reliably and accurately under harsh or uncertain conditions. These conditions may include adversarial intervention, implementer error, or skewed goal-execution by an automated learner (in reinforcement learning applications). The measure of robustness is, therefore, the strength of a system’s functional integrity and the soundness of its operation in response to difficult conditions, adversarial attacks, perturbations, data poisoning, or undesirable reinforcement learning behaviour.</td>
+</tr>
+<tr>
+<td>Reliability</td>
+<td>The objective of reliability is that an AI system behaves exactly as its designers intended and anticipated. A reliable system adheres to the specifications it was programmed to carry out. Reliability is therefore a measure of consistency and can establish confidence in the safety of a system based upon the dependability with which it conforms to its intended functionality.</td>
+</tr>
+<tr>
+<td>Accuracy and Performance</td>
+<td>The accuracy of a model is the proportion of examples for which it generates a correct output. This performance measure is also sometimes characterised conversely as an error rate or the fraction of cases for which the model produces an incorrect output. Specifying a reasonable performance level for the system may also require refining or exchanging the measure of accuracy. For instance, if certain errors are more significant or costly than others, a metric for total cost can be integrated into the model so that the cost of one class of errors can be weighed against that of another.</td>
+</tr>
+</tbody>
+</table>
+<p>Again, we are not proposing that these principles and core attributes should be adopted in digital mental healthcare as the respective goals, claims, and evidence. However, they could provide a starting point for the refinement of domain-specific principles while argument patterns emerge and become crystallised.<sup id="fnref:rawls"><a class="footnote-ref" href="#fn:rawls">15</a></sup></p>
+<p>Figure 2.7 offers a simple graphic to help visualise this process as it relates to trustworthy assurance.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/cycle.png"><img alt="Figure 2.7: process of consensus formation for ethical principles as constraints on trustworthy assurance" src="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/cycle.png"/></a>
+<em>Figure 2.7: process of consensus formation for ethical principles as constraints on trustworthy assurance</em></p>
+<p>These preliminary remarks about trustworthy assurance serve as a foundation for understanding and contextualising our project's research and the recommendations we derive from our findings.</p>
+<div class="footnote">
+<hr/>
+<ol>
+<li id="fn:village">
+<p>Rather, it "takes a village to raise an algorithm" as noted in this <a href="https://cogent.co/blog/biasai/">blog post</a>. Thanks to one of our reviewers for bringing this post to our attention. <a class="footnote-backref" href="#fnref:village" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:responsibilities">
+<p>To be clear, we are referring here to role and task responsibilities first and foremost, which overlap with but are conceptually separate from moral responsibility. <a class="footnote-backref" href="#fnref:responsibilities" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+<li id="fn:performance">
+<p>Updating can also occur in cases where no adaptive behaviour is present for reasons such as performance improvements or bug fixes. <a class="footnote-backref" href="#fnref:performance" title="Jump back to footnote 3 in the text">↩</a></p>
+</li>
+<li id="fn:gsn-elements">
+<p>See Part 1 of the <a href="https://scsc.uk/r141C:1">GSN Standard, Version 3</a> for a complete overview of the notation. <a class="footnote-backref" href="#fnref:gsn-elements" title="Jump back to footnote 4 in the text">↩</a></p>
+</li>
+<li id="fn:alternatives">
+<p>Another alternative to GSN is the <a href="https://www.adelard.com/asce/choosing-asce/cae.html">Claims, Arguments and Evidence</a> notation developed by Adelard. <a class="footnote-backref" href="#fnref:alternatives" title="Jump back to footnote 5 in the text">↩</a></p>
+</li>
+<li id="fn:standards">
+<p>For example, guidance such as ISO/IEC/IEEE 16085, 'Systems and software engineering - Life cycle management - Risk Management' <a class="footnote-backref" href="#fnref:standards" title="Jump back to footnote 6 in the text">↩</a></p>
+</li>
+<li id="fn:aistandardshub">
+<p>The AI Standards Hub, for example, serves an observatory of relevant standards for AI technologies (see <a href="https://aistandardshub.org">https://aistandardshub.org</a>). <a class="footnote-backref" href="#fnref:aistandardshub" title="Jump back to footnote 7 in the text">↩</a></p>
+</li>
+<li id="fn:ptsd">
+<p>For an example of this type of technology, see  Lucas et al. (2017). Reporting Mental Health Symptoms: Breaking Down Barriers to Care with Virtual Human Interviewers. <em>Frontiers in Robotics and AI</em>. <a href="https://www.frontiersin.org/articles/10.3389/frobt.2017.00051">https://www.frontiersin.org/articles/10.3389/frobt.2017.00051</a> <a class="footnote-backref" href="#fnref:ptsd" title="Jump back to footnote 8 in the text">↩</a></p>
+</li>
+<li id="fn:towhom">
+<p>See Kirsch, A. (2017). Explain to whom? Putting the User in the Center of Explainable AI. Proceedings of the First International Workshop on Comprehensibility and Explanation in AI and ML 2017 Co-Located with 16<sup>th</sup> International Conference of the Italian Association for Artificial Intelligence (AI*IA 2017). <a href="https://hal.archives-ouvertes.fr/hal-01845135">https://hal.archives-ouvertes.fr/hal-01845135</a> <a class="footnote-backref" href="#fnref:towhom" title="Jump back to footnote 9 in the text">↩</a></p>
+</li>
+<li id="fn:claim">
+<p>Recall, that evidential claims are required to link property claims to their supporting evidential artefacts, and evidential claims, therefore, can also serve as reasons. <a class="footnote-backref" href="#fnref:claim" title="Jump back to footnote 10 in the text">↩</a></p>
+</li>
+<li id="fn:ward2020">
+<p>Ward, F. R., &amp; Habli, I. (2020). An Assurance Case Pattern for the Interpretability of Machine Learning in Safety-Critical Systems. <a href="https://doi.org/10.1007/978-3-030-55583-2_30">https://doi.org/10.1007/978-3-030-55583-2_30</a> <a class="footnote-backref" href="#fnref:ward2020" title="Jump back to footnote 11 in the text">↩</a></p>
+</li>
+<li id="fn:nickel2007">
+<p>Nickel, J. W. (2007) Making Sense of Human Rights (2<sup>nd</sup> Edition). Blackwell Publishing. <a class="footnote-backref" href="#fnref:nickel2007" title="Jump back to footnote 12 in the text">↩</a></p>
+</li>
+<li id="fn:coe">
+<p>The most recent and comprehensive account of this framework can be found in the following proposal to the Council of Europe: Leslie, D., Burr, C., Aitken, M., Katell, M., Briggs, M., &amp; Rincon, C. (2022). Human rights, democracy, and the rule of law assurance framework for AI systems: A proposal. <a href="https://rm.coe.int/huderaf-coe-final-1-2752-6741-5300-v-1/1680a3f688">https://rm.coe.int/huderaf-coe-final-1-2752-6741-5300-v-1/1680a3f688</a>. <a class="footnote-backref" href="#fnref:coe" title="Jump back to footnote 13 in the text">↩</a></p>
+</li>
+<li id="fn:floridi">
+<p>For a contrasting approach, see Floridi, L., &amp; Cowls, J. (2019). A Unified Framework of Five Principles for AI in Society. Harvard Data Science Review. <a href="https://doi.org/10.1162/99608f92.8cd550d1">https://doi.org/10.1162/99608f92.8cd550d1</a> <a class="footnote-backref" href="#fnref:floridi" title="Jump back to footnote 14 in the text">↩</a></p>
+</li>
+<li id="fn:rawls">
+<p>This process is (loosely) derived from the idea of 'reflective equilibrium', made famous by the political philosopher John Rawls. In short, the phrase 'reflective equilibrium' refers to a state of coherence among moral beliefs and attitudes, which emerges over time as a result of public deliberation and consensus building activities that focus on the relevant moral beliefs and attitudes (e.g. notions of 'justice'). <a class="footnote-backref" href="#fnref:rawls" title="Jump back to footnote 15 in the text">↩</a></p>
+</li>
+<li id="fn:1">
+<p>Richard Hawkins, Colin Paterson, Chiara Picardi, Yan Jia, Radu Calinescu, and Ibrahim Habli. Guidance on the Assurance of Machine Learning in Autonomous Systems (AMLAS). Technical Report, University of York, Assuring Autonomy International Programme, March 2021. URL: <a href="https://www.york.ac.uk/media/assuring-autonomy/documents/AMLASv1.1.pdf">https://www.york.ac.uk/media/assuring-autonomy/documents/AMLASv1.1.pdf</a> (visited on 2022-09-08). <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 16 in the text">↩</a></p>
+</li>
+<li id="fn:2">
+<p>The Assurance Case Working Group. GSN Community Standard Version 3. Technical Report, The Assurance Case Working Group, May 2021. URL: <a href="https://scsc.uk/r141C:1?t=1">https://scsc.uk/r141C:1?t=1</a>. <a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 17 in the text">↩</a></p>
+</li>
+</ol>
+</div>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<a class="md-top md-icon" data-md-component="top" hidden="" href="#">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            Back to top
+          </a>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Chapter 1—Introduction" class="md-footer__link md-footer__link--prev" href="../chapter-1/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              Chapter 1—Introduction
+            </div>
+</div>
+</a>
+<a aria-label="Next: Chapter 3—Applying Trustworthy Assurance" class="md-footer__link md-footer__link--next" href="../chapter-3/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              Chapter 3—Applying Trustworthy Assurance
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs Insiders
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.code.annotate", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.939a4419.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.01b2e45f.min.js"></script>
+<script src="../../assets/javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+<script src="../../assets/javascripts/tablesort.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom"});})</script></body>
+</html>

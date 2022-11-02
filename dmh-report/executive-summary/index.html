@@ -1,0 +1,556 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="A site for resources and documentation about the trustworthy assurance methodology—a framework for responsible research and innovation of data-driven technologies, such as artificial intelligence." name="description"/>
+<link href="https://alan-turing-institute.github.io/trustworthy-assurance/dmh-report/executive-summary/" rel="canonical"/>
+<link href="../../assets/logo.png" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-8.5.7+insiders-4.26.1" name="generator"/>
+<title>Executive Summary - Trustworthy Assurance</title>
+<link href="../../assets/stylesheets/main.fa1d38d9.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<style>:root{--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.236 6.236 0 0 1-.779-.406z"/></svg>');}</style>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../assets/stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gdesc-inner { font-size: 0.75rem; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            
+                .gscrollbar-fixer { padding-right: 15px; }
+                </style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="deep-orange" data-md-color-primary="" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#executive-summary">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Trustworthy Assurance" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Trustworthy Assurance">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 2v2.06A8.522 8.522 0 0 0 4.05 9H2v6h2.06A8.494 8.494 0 0 0 9 19.95V22h6v-2.06A8.494 8.494 0 0 0 19.95 15H22V9h-2.06A8.522 8.522 0 0 0 15 4.05V2m-4 2h2v2h-2m-2 .25V8h6V6.25c1.18.61 2.14 1.57 2.75 2.75H16v6h1.75A6.406 6.406 0 0 1 15 17.75V16H9v1.75A6.406 6.406 0 0 1 6.25 15H8V9H6.25A6.406 6.406 0 0 1 9 6.25M4 11h2v2H4m14-2h2v2h-2m-7 5h2v2h-2"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Trustworthy Assurance
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Executive Summary
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<a aria-label="Share" class="md-search__icon md-icon" data-clipboard="" data-clipboard-text="" data-md-component="search-share" href="javascript:void(0)" tabindex="-1" title="Share">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"></path></svg>
+</a>
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/alan-turing-institute/trustworthy-assurance" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    alan-turing-institute/trustworthy-assurance
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-tabs__inner md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../..">
+        
+  
+  Home
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href="../about/">
+          
+  
+  Trustworthy Assurance of Digital Mental Healthcare
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="https://assuranceplatform.azurewebsites.net/">
+        
+  
+  Assurance Platform
+
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Trustworthy Assurance" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Trustworthy Assurance">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 2v2.06A8.522 8.522 0 0 0 4.05 9H2v6h2.06A8.494 8.494 0 0 0 9 19.95V22h6v-2.06A8.494 8.494 0 0 0 19.95 15H22V9h-2.06A8.522 8.522 0 0 0 15 4.05V2m-4 2h2v2h-2m-2 .25V8h6V6.25c1.18.61 2.14 1.57 2.75 2.75H16v6h1.75A6.406 6.406 0 0 1 15 17.75V16H9v1.75A6.406 6.406 0 0 1 6.25 15H8V9H6.25A6.406 6.406 0 0 1 9 6.25M4 11h2v2H4m14-2h2v2h-2m-7 5h2v2h-2"></path></svg>
+</a>
+    Trustworthy Assurance
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/alan-turing-institute/trustworthy-assurance" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    alan-turing-institute/trustworthy-assurance
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+<span class="md-ellipsis">
+    Home
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2">
+<span class="md-ellipsis">
+    Trustworthy Assurance of Digital Mental Healthcare
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Trustworthy Assurance of Digital Mental Healthcare" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            Trustworthy Assurance of Digital Mental Healthcare
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../about/">
+<span class="md-ellipsis">
+    About
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../foreword/">
+<span class="md-ellipsis">
+    Foreword
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Executive Summary
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    Executive Summary
+    
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#report-overview">
+<span class="md-ellipsis">
+      Report Overview
+    </span>
+</a>
+<nav aria-label="Report Overview" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#about-the-report">
+<span class="md-ellipsis">
+      About the Report
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#who-is-this-report-for">
+<span class="md-ellipsis">
+      Who is this report for?
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-1/">
+<span class="md-ellipsis">
+    Chapter 1—Introduction
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-2/">
+<span class="md-ellipsis">
+    Chapter 2—Presenting Trustworthy Assurance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-3/">
+<span class="md-ellipsis">
+    Chapter 3—Applying Trustworthy Assurance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-4/">
+<span class="md-ellipsis">
+    Chapter 4—Co-Designing Trustworthy Assurance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-5/">
+<span class="md-ellipsis">
+    Chapter 5—Developing Trustworthy Assurance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../conclusion/">
+<span class="md-ellipsis">
+    Conclusion
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../appendix-1/">
+<span class="md-ellipsis">
+    Appendix 1—Project Methodology
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../appendix-2/">
+<span class="md-ellipsis">
+    Appendix 2—Examples of DMHTs
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://assuranceplatform.azurewebsites.net/">
+<span class="md-ellipsis">
+    Assurance Platform
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#report-overview">
+<span class="md-ellipsis">
+      Report Overview
+    </span>
+</a>
+<nav aria-label="Report Overview" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#about-the-report">
+<span class="md-ellipsis">
+      About the Report
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#who-is-this-report-for">
+<span class="md-ellipsis">
+      Who is this report for?
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<a class="md-content__button md-icon" href="https://github.com/alan-turing-institute/trustworthy-assurance/edit/master/docs/dmh-report/executive-summary.md" title="Edit this page">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
+</a>
+<h1 id="executive-summary">Executive Summary<a class="headerlink" href="#executive-summary" title="Permanent link">¶</a></h1>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="../../assets/animations/phone-peel.gif"><img alt="Animation of a person peeling back a smartphone screen to uncover the algorithms running behind" src="../../assets/animations/phone-peel.gif"/></a></p>
+<p>There is a culture of distrust surrounding the development and use of digital mental health technologies (DMHTs).</p>
+<p>As many organisations continue to grapple with the long-term impacts on mental health and well-being from the COVID-19 pandemic, a growing number are turning to digital technologies to increase their capacity and try to meet the growing need for mental health services. Prior to the pandemic, we had already called for greater attention to the ethical challenges of using digital technologies in the domain of psychiatry or mental healthcare<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">3</a></sup>. Since then, the urgency for meeting this call has only grown.</p>
+<p>In this report, we argue that clearer assurance for how ethical principles have been considered and implemented in the design, development, and deployment of DMHTs is necessary to help build a more trustworthy and responsible ecosystem. To address this need, we set out a positive proposal for a framework and methodology we call 'Trustworthy Assurance'.</p>
+<p>To support the development and evaluation of Trustworthy Assurance, we conducted a series of participatory stakeholder engagement events with students, University administrators, regulators and policy-makers, developers, researchers, and users of DMHTs. Our objectives were</p>
+<ul>
+<li>to identify and explore how stakeholders understood and interpreted relevant ethical objectives for DMHTs,</li>
+<li>to evaluate and co-design the trustworthy assurance framework and methodology, and</li>
+<li>solicit feedback on the possible reasons for distrust in digital mental healthcare.</li>
+</ul>
+<p>Based on these objectives, the following 'key findings' and 'recommendations' are presented.</p>
+<div class="admonition abstract">
+<p class="admonition-title">Key Findings</p>
+<ol>
+<li>The current landscape of digital mental healthcare is characterised by significant uncertainty, a lack of transparency or accountability, and a rising demand that outpaces trusted services and resources. This contributes to a culture of distrust, which may prevent vulnerable users from accessing support.</li>
+<li>
+<p>Concerns raised by stakeholders suggest that there are a wide range of challenges to be addressed, which may broadly be grouped into concerns surrounding a dearth of trustworthy innovation and concerns surrounding a lack of transparent communication between groups:</p>
+<ol>
+<li>For developers, key concerns focused on <ol>
+<li>the lack of clear guidance and structure through which to present evidence of trustworthy innovation,</li>
+<li>the lack of integration of ethics within existing workflows, and </li>
+<li>the challenges posed by what is viewed as burdensome regulation.</li>
+</ol>
+</li>
+<li>For policymakers, key concerns focused on <ol>
+<li>the lack of clarity surrounding standards for medical devices versus services for "well-being" that are widely available on digital platforms (e.g. app stores), </li>
+<li>the lack of integration or harmonisation between existing examples of legislation and standards in this space.</li>
+</ol>
+</li>
+<li>For those with lived experiences of using these tools, key concerns focused on <ol>
+<li>the lack of clear and meaningful consent procedures and the insufficiency of data privacy policies, </li>
+<li>the perceived erosion of in-person care by digital technologies and services, </li>
+<li>a perceived lack of diversity and representation in development teams, and </li>
+<li>the varying quality and accessibility of services across society (e.g. the digital divide).</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<p>Trustworthy Assurance is a framework and methodology that can support the design, development, and deployment of data-driven technologies and also create a more responsible and trustworthy ecosystem of digital mental healthcare.</p>
+</li>
+</ol>
+</div>
+<div class="admonition check">
+<p class="admonition-title">Recommendations</p>
+<ol>
+<li>Organisations that are involved in the design, development, and deployment of DMHTs should adopt and use trustworthy assurance methodology to demonstrate and justify how they have embedded core ethical principles into their systems. In doing so, the methodology can also help provide assurance for how key legislative or regulatory duties and obligations have been met.</li>
+<li>Standards can be co-developed within and among organisations by sharing best practices related to trustworthy assurance. This can help ease the burden associated with relevant responsibilities (e.g. compliance, deliberation).</li>
+<li>Common capacities should be developed across the digital mental healthcare landscape, such as initiatives aimed at improving data and digital literacy, in order to support and foster trustworthy and responsible innovation through shared best practices and standards.</li>
+<li>Research should be undertaken to identify how organisations and product managers could ease the time burden on developers through embedding and integrating the trustworthy assurance methodology into key stages of the project lifecycle, rather than the methodology being treated as a post hoc compliance exercise.</li>
+<li>Organisations involved in the design, development, or deployment of DMHTs should identify opportunities and processes to support the transformative and inclusive engagement and participation of affected users within the project lifecycle.</li>
+</ol>
+</div>
+<p>In each subsequent chapter, these key findings of our project are further contextualised and refined with reference to the specific topics under discussion.</p>
+<h2 id="report-overview">Report Overview<a class="headerlink" href="#report-overview" title="Permanent link">¶</a></h2>
+<p>Our report is structured as follows:</p>
+<ul>
+<li><a href="../chapter-1/">Chapter 1 (Introduction)</a> establishes the background context and conceptual foundations for the report, while also outlining the many challenges that exist for researchers, developers, and policy-makers/regulators working in the domain of digital mental healthcare.</li>
+<li><a href="../chapter-2/">Chapter 2 (Presenting Trustworthy Assurance)</a> introduces the framework and methodology of 'Trustworthy Assurance'. The framework includes a model of a typical project lifecycle involving a data-driven technology (e.g. health and well-being app), and a discussion of several ethical principles, known as the SAFE-D principles. The framework serves as a guide to our methodology for developing an assurance case that promotes trustworthy goals associated with DMHTs. Finally, this chapter also includes an important discussion about 'argument patterns', which supports the material presented in <a href="../chapter-5/">Chapter 5</a>.</li>
+<li><a href="../chapter-3/">Chapter 3 (Applying Trustworthy Assurance)</a> presents findings from a research sub-project conducted with students and administrators from UK Universities. These engagement events explored the application of trustworthy assurance to the procurement of DMHTs for use in the higher education (HE) sector, as well as general attitudes and perceptions towards the use of data-driven technologies in higher education. A series of recommendations accompany our thematic analysis.</li>
+<li><a href="../chapter-4/">Chapter 4 (Co-Designing Trustworthy Assurance)</a> broadens the scope from the previous chapter to present research findings from a series of stakeholder engagement events carried out with regulators and policy-makers, developers, researchers, and users with lived experience of DMHTs. As with the previous chapter, a set of recommendations accompanies our thematic analysis.</li>
+<li><a href="../chapter-5/">Chapter 5 (Developing Trustworthy Assurance)</a> introduces, motivates, and explains two argument patterns that are intended to help project teams meet objectives for fair and explainable DMHTs. This chapter also connects the argument patterns to existing and relevant legislation and regulation (e.g. Equality Act 2010).</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Examples</p>
+<p>If you are new to the topics covered in this report, you can also find a set of illustrative examples of DMHTs available on <a href="../appendix-2/">this page</a>.</p>
+</div>
+<h3 id="about-the-report">About the Report<a class="headerlink" href="#about-the-report" title="Permanent link">¶</a></h3>
+<p>The following summarises what this report is and what it is not:</p>
+<p>✅ An introduction to 'Trustworthy Assurance'—a framework and methodology for enabling a more trustworthy ecosystem of digital mental healthcare through the responsible and ethical design, development, and deployment of digital technologies.</p>
+<p>❌ A comprehensive user guide for 'Trustworthy Assurance' or argument-based assurance—though links and further resources are provided.<sup id="fnref:online"><a class="footnote-ref" href="#fn:online">1</a></sup></p>
+<p>✅ A summary of findings from research conducted on the application of trustworthy assurance to the procurement of DMHTs for use in the higher education (HE) sector.</p>
+<p>❌ Findings from a sociological study or series of generalisable results from scientific experiments.</p>
+<p>✅ A summary of findings from a series of more general stakeholder engagements, exploring the ethics of digital mental healthcare and attitudes towards trustworthy and untrustworthy technologies.</p>
+<p>❌ A report with a strong international or multi-national focus. While we make reference to non-UK developments in this domain, our primary focus is on the UK. However, the methodology we present and many of the findings we discuss have value beyond the UK.</p>
+<p>✅ An explanation and discussion of two argument patterns exploring the goals of fairness and explainability in the design, development, and deployment of DMHTs.</p>
+<p>❌ A critical examination of argument-based assurance.<sup id="fnref:critical"><a class="footnote-ref" href="#fn:critical">2</a></sup></p>
+<p>✅ A series of recommendations, targeted at different stakeholders, for how to enable a more responsible and trustworthy ecosystem of digital mental healthcare.</p>
+<p>❌ A review of the current legislative or regulatory publications that are relevant to digital mental healthcare.</p>
+<h3 id="who-is-this-report-for">Who is this report for?<a class="headerlink" href="#who-is-this-report-for" title="Permanent link">¶</a></h3>
+<p>This report is primarily targeted at the following groups:</p>
+<hr/>
+<div>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="../../assets/icons/regulator-icon.png"><img align="left" alt="Icon of a regulator controlling sliders on a screen" src="../../assets/icons/regulator-icon.png" width="15%"/></a></p>
+<p><strong>Policy-makers and Regulators</strong></p>
+<p>Policy-makers and regulators will find the recommendations and guidance we set out of specific interest, and will find value in the methodology that we set out in <a href="../chapter-2/">Chapter 2</a> because it is framed in procedural terms, and with links to process-based forms of governance. We also link our two argument patterns, which are presented in <a href="../chapter-5/">Chapter 5</a>, to specific legislative and regulatory developments in healthcare.</p>
+<hr/>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="../../assets/icons/decision-maker-icon.png"><img align="right" alt="Icon of a regulator controlling sliders on a screen" src="../../assets/icons/decision-maker-icon.png" width="15%"/></a></p>
+<p><strong>Senior Decision-Makers</strong></p>
+<p>Senior Decision-Makers, like policy-makers and regulators, will likely benefit from our methodology of Trustworthy Assurance. Specifically, from exploring its procedural underpinnings that are discussed in the section on a typical ML or AI lifecycle (see <a href="../chapter-2/">Chapter 2</a>).</p>
+<hr/>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="../../assets/icons/developer-icon.png"><img align="left" alt="Icon of a regulator controlling sliders on a screen" src="../../assets/icons/developer-icon.png" width="15%"/></a></p>
+<p><strong>Developers and Product Managers</strong></p>
+<p>Although our framework and methodology are not set out using formal syntax and schemas for argument-based assurance, Trustworthy Assurance is, nevertheless, primarily aimed at developers and product managers. For instance, one of its key values is as a reflective and deliberative aid for demonstrating how ethical principles and decisions have been undertaken and establish through a project's lifecycle, with easy means for justifying the relevant claims by linking them to evidence. Therefore, developers and product managers are a key stakeholder group that we have targeted in this report and research project.</p>
+<hr/>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="../../assets/icons/researcher-icon.png"><img align="right" alt="Icon of a regulator controlling sliders on a screen" src="../../assets/icons/researcher-icon.png" width="15%"/></a></p>
+<p><strong>Researchers</strong></p>
+<p>Researchers may find less practical value in our framework and methodology than the above groups. However, our report highlights and emphasises significant knowledge gaps and research opportunities for improving our collective understanding about the individual and social impacts of DMHTs. Therefore, our report can also be seen as a call for further research into specific areas, including the evaluation and validation of the Trustworthy Assurance framework and methodology.</p>
+</div>
+<hr/>
+<p>Users of DMHTs may also find value in the report, but it has not been produced with members of the public as primary target audience. In general, the responsibility for utilising the methodology and implementing and acting upon the recommendations is for the groups above; they are not the responsibility of the user!</p>
+<div class="footnote">
+<hr/>
+<ol>
+<li id="fn:online">
+<p>Work is underway to develop an user guide, and this will be added to the online version of our report when ready. The guide will also include instructions on how to use our tool for producing assurance cases. <a class="footnote-backref" href="#fnref:online" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:critical">
+<p>The following documents provide a more critical examination for those interested: <a href="https://qualitysafety.bmj.com/content/30/12/1047.abstract">(Sujan and Habli, 2021)</a>; <a href="https://link.springer.com/article/10.1007/s43681-022-00178-0">(Burr and Leslie, 2022)</a>. <a class="footnote-backref" href="#fnref:critical" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+<li id="fn:1">
+<p>Christopher Burr, J. Morley, M. Taddeo, and L. Floridi. Digital Psychiatry: Risks and Opportunities for Public Health and Wellbeing. <em>IEEE Transactions on Technology and Society</em>, 1(1):21–33, March 2020. <a href="https://doi.org/10.1109/TTS.2020.2977059">doi:10.1109/TTS.2020.2977059</a>. <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 3 in the text">↩</a></p>
+</li>
+</ol>
+</div>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<a class="md-top md-icon" data-md-component="top" hidden="" href="#">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            Back to top
+          </a>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Foreword" class="md-footer__link md-footer__link--prev" href="../foreword/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              Foreword
+            </div>
+</div>
+</a>
+<a aria-label="Next: Chapter 1—Introduction" class="md-footer__link md-footer__link--next" href="../chapter-1/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              Chapter 1—Introduction
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs Insiders
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.code.annotate", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.939a4419.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.01b2e45f.min.js"></script>
+<script src="../../assets/javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+<script src="../../assets/javascripts/tablesort.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom"});})</script></body>
+</html>

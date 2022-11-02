@@ -1,0 +1,833 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="A site for resources and documentation about the trustworthy assurance methodology—a framework for responsible research and innovation of data-driven technologies, such as artificial intelligence." name="description"/>
+<link href="https://alan-turing-institute.github.io/trustworthy-assurance/dmh-report/chapter-5/" rel="canonical"/>
+<link href="../../assets/logo.png" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-8.5.7+insiders-4.26.1" name="generator"/>
+<title>Chapter 5—Developing Trustworthy Assurance - Trustworthy Assurance</title>
+<link href="../../assets/stylesheets/main.fa1d38d9.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<style>:root{--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.236 6.236 0 0 1-.779-.406z"/></svg>');}</style>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../assets/stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gdesc-inner { font-size: 0.75rem; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            
+                .gscrollbar-fixer { padding-right: 15px; }
+                </style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="deep-orange" data-md-color-primary="" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#developing-trustworthy-assuranceargument-patterns-for-fairness-and-explainability">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Trustworthy Assurance" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Trustworthy Assurance">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 2v2.06A8.522 8.522 0 0 0 4.05 9H2v6h2.06A8.494 8.494 0 0 0 9 19.95V22h6v-2.06A8.494 8.494 0 0 0 19.95 15H22V9h-2.06A8.522 8.522 0 0 0 15 4.05V2m-4 2h2v2h-2m-2 .25V8h6V6.25c1.18.61 2.14 1.57 2.75 2.75H16v6h1.75A6.406 6.406 0 0 1 15 17.75V16H9v1.75A6.406 6.406 0 0 1 6.25 15H8V9H6.25A6.406 6.406 0 0 1 9 6.25M4 11h2v2H4m14-2h2v2h-2m-7 5h2v2h-2"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Trustworthy Assurance
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Chapter 5—Developing Trustworthy Assurance
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<a aria-label="Share" class="md-search__icon md-icon" data-clipboard="" data-clipboard-text="" data-md-component="search-share" href="javascript:void(0)" tabindex="-1" title="Share">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"></path></svg>
+</a>
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/alan-turing-institute/trustworthy-assurance" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    alan-turing-institute/trustworthy-assurance
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-tabs__inner md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../..">
+        
+  
+  Home
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href="../about/">
+          
+  
+  Trustworthy Assurance of Digital Mental Healthcare
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="https://assuranceplatform.azurewebsites.net/">
+        
+  
+  Assurance Platform
+
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Trustworthy Assurance" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Trustworthy Assurance">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 2v2.06A8.522 8.522 0 0 0 4.05 9H2v6h2.06A8.494 8.494 0 0 0 9 19.95V22h6v-2.06A8.494 8.494 0 0 0 19.95 15H22V9h-2.06A8.522 8.522 0 0 0 15 4.05V2m-4 2h2v2h-2m-2 .25V8h6V6.25c1.18.61 2.14 1.57 2.75 2.75H16v6h1.75A6.406 6.406 0 0 1 15 17.75V16H9v1.75A6.406 6.406 0 0 1 6.25 15H8V9H6.25A6.406 6.406 0 0 1 9 6.25M4 11h2v2H4m14-2h2v2h-2m-7 5h2v2h-2"></path></svg>
+</a>
+    Trustworthy Assurance
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/alan-turing-institute/trustworthy-assurance" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    alan-turing-institute/trustworthy-assurance
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+<span class="md-ellipsis">
+    Home
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2">
+<span class="md-ellipsis">
+    Trustworthy Assurance of Digital Mental Healthcare
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Trustworthy Assurance of Digital Mental Healthcare" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            Trustworthy Assurance of Digital Mental Healthcare
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../about/">
+<span class="md-ellipsis">
+    About
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../foreword/">
+<span class="md-ellipsis">
+    Foreword
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../executive-summary/">
+<span class="md-ellipsis">
+    Executive Summary
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-1/">
+<span class="md-ellipsis">
+    Chapter 1—Introduction
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-2/">
+<span class="md-ellipsis">
+    Chapter 2—Presenting Trustworthy Assurance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-3/">
+<span class="md-ellipsis">
+    Chapter 3—Applying Trustworthy Assurance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-4/">
+<span class="md-ellipsis">
+    Chapter 4—Co-Designing Trustworthy Assurance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Chapter 5—Developing Trustworthy Assurance
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    Chapter 5—Developing Trustworthy Assurance
+    
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#co-designing-argument-patterns">
+<span class="md-ellipsis">
+      Co-designing argument patterns
+    </span>
+</a>
+<nav aria-label="Co-designing argument patterns" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#fairness">
+<span class="md-ellipsis">
+      Fairness
+    </span>
+</a>
+<nav aria-label="Fairness" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#fairness-pattern">
+<span class="md-ellipsis">
+      Fairness Pattern
+    </span>
+</a>
+<nav aria-label="Fairness Pattern" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-over-bias-mitigation">
+<span class="md-ellipsis">
+      Argument over bias mitigation
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-over-non-exclusion">
+<span class="md-ellipsis">
+      Argument over non-exclusion
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-over-non-discrimination">
+<span class="md-ellipsis">
+      Argument over non-discrimination
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-over-equitable-impact">
+<span class="md-ellipsis">
+      Argument over equitable impact
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#explainability">
+<span class="md-ellipsis">
+      Explainability
+    </span>
+</a>
+<nav aria-label="Explainability" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#explainability-pattern">
+<span class="md-ellipsis">
+      Explainability Pattern
+    </span>
+</a>
+<nav aria-label="Explainability Pattern" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-over-transparency-and-accountability">
+<span class="md-ellipsis">
+      Argument over transparency and accountability
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-over-responsible-project-governance">
+<span class="md-ellipsis">
+      Argument over responsible project governance
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-over-informed-and-autonomous-decision-making">
+<span class="md-ellipsis">
+      Argument over informed and autonomous decision-making
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-over-sustainable-impact">
+<span class="md-ellipsis">
+      Argument over sustainable impact
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#evidential-considerations">
+<span class="md-ellipsis">
+      Evidential Considerations
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../conclusion/">
+<span class="md-ellipsis">
+    Conclusion
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../appendix-1/">
+<span class="md-ellipsis">
+    Appendix 1—Project Methodology
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../appendix-2/">
+<span class="md-ellipsis">
+    Appendix 2—Examples of DMHTs
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://assuranceplatform.azurewebsites.net/">
+<span class="md-ellipsis">
+    Assurance Platform
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#co-designing-argument-patterns">
+<span class="md-ellipsis">
+      Co-designing argument patterns
+    </span>
+</a>
+<nav aria-label="Co-designing argument patterns" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#fairness">
+<span class="md-ellipsis">
+      Fairness
+    </span>
+</a>
+<nav aria-label="Fairness" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#fairness-pattern">
+<span class="md-ellipsis">
+      Fairness Pattern
+    </span>
+</a>
+<nav aria-label="Fairness Pattern" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-over-bias-mitigation">
+<span class="md-ellipsis">
+      Argument over bias mitigation
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-over-non-exclusion">
+<span class="md-ellipsis">
+      Argument over non-exclusion
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-over-non-discrimination">
+<span class="md-ellipsis">
+      Argument over non-discrimination
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-over-equitable-impact">
+<span class="md-ellipsis">
+      Argument over equitable impact
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#explainability">
+<span class="md-ellipsis">
+      Explainability
+    </span>
+</a>
+<nav aria-label="Explainability" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#explainability-pattern">
+<span class="md-ellipsis">
+      Explainability Pattern
+    </span>
+</a>
+<nav aria-label="Explainability Pattern" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-over-transparency-and-accountability">
+<span class="md-ellipsis">
+      Argument over transparency and accountability
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-over-responsible-project-governance">
+<span class="md-ellipsis">
+      Argument over responsible project governance
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-over-informed-and-autonomous-decision-making">
+<span class="md-ellipsis">
+      Argument over informed and autonomous decision-making
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#argument-over-sustainable-impact">
+<span class="md-ellipsis">
+      Argument over sustainable impact
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#evidential-considerations">
+<span class="md-ellipsis">
+      Evidential Considerations
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<a class="md-content__button md-icon" href="https://github.com/alan-turing-institute/trustworthy-assurance/edit/master/docs/dmh-report/chapter-5.md" title="Edit this page">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
+</a>
+<h1 id="developing-trustworthy-assuranceargument-patterns-for-fairness-and-explainability">Developing Trustworthy Assurance—Argument Patterns for fairness and Explainability<a class="headerlink" href="#developing-trustworthy-assuranceargument-patterns-for-fairness-and-explainability" title="Permanent link">¶</a></h1>
+<p><img alt="Conceptual header image of people building an assurance case" class="off-glb" src="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/ch5-header.png"/></p>
+<div class="admonition abstract">
+<p class="admonition-title">Chapter Overview</p>
+<p>In this chapter we present two argument patterns (i.e. starting templates for building assurance cases) that identify the types of claims, or the sets of reasons that need to be established to justify the associated top-level normative goal.</p>
+<p>The first pattern is for assurance cases that aim to justify the <em>fairness</em> of a DMHT. The second is for cases that address the <em>explainability</em> of systems.</p>
+<p>We also discuss relevant legislation, regulation, and best practice guidance that support and motivate the development of these patterns.</p>
+</div>
+<h2 id="co-designing-argument-patterns">Co-designing argument patterns<a class="headerlink" href="#co-designing-argument-patterns" title="Permanent link">¶</a></h2>
+<p>While the assurance methodology is a tool in its own right, there is a missing component that was highlighted in <a href="../chapter-2/">Chapter 2</a>: argument patterns.</p>
+<p>You may recall that argument patterns are reusable structures that serve as <em>starting templates</em> for building assurance cases. They identify the <em>types</em> of claims (or, the sets of reasons) that need to be established to justify the associated top-level normative goal. And, in doing so, they set useful constraints on both the deliberative process and evidence-generating and evidence-gathering exercises. We say more about the evidential generation and selection process towards the end of this section.<sup id="fnref:evidence"><a class="footnote-ref" href="#fn:evidence">1</a></sup></p>
+<p>Before this, we present and explain two argument patterns for use in the assurance of DMHTs. The first is for assurance cases that address and justify the <em>fairness</em> of a DMHT; the second is for cases that address and justify the <em>explainability</em> of systems.</p>
+<div class="admonition question">
+<p class="admonition-title">Why ‘fairness’ and ‘explainability’?</p>
+<p>Our decision to focus on these two patterns is motivated primarily by the desire to capture the <em>significant</em> themes raised in the workshops. As such, the inclusion of a pattern for fairness is an obvious choice based on the discussions in the <a href="../chapter-4/">previous chapter</a>. However, the inclusion of one for the goal of explainability requires additional clarification.</p>
+<p>Many participants in our workshops focused on ethical issues that could map onto multiple SAFE-D principles. For instance, considerations around <code>transparency</code> were sometimes raised in connection with mechanisms for holding organisations <code>accountable</code> and at other times raised in connection with a requirement to ensure users had access to information to support informed consent and decision-making—captured either by <code>sustainability</code> or <code>explainability</code>. Our second argument pattern is framed in terms of <code>explainability</code> as an attempt to be maximally inclusive of these wide-ranging considerations. </p>
+<p>To recall, argument patterns in trustworthy assurance are always <em>starting points</em> for participatory forms of reflection and deliberation. They provide greater specificity than the top-level goal would on its own, and help operationalise ethical principles within the project lifecycle model. But they are no substitute for embedded processes of inclusive stakeholder engagement—in fact, they depend upon stakeholder engagement processes for their completion. Furthermore, they should not be used as a mere checklist for compliance. </p>
+<p>Finally, our focus on 'fairness' and 'explainability' should not suggest that other patterns are not desirable or important. Rather, the co-design and development of additional patterns, including those that go beyond the SAFE-D principles are left for future research (see Conclusion).</p>
+</div>
+<h3 id="fairness">Fairness<a class="headerlink" href="#fairness" title="Permanent link">¶</a></h3>
+<p><img alt="An illustration showing varying performance and fidelity of a model's representation of people" class="off-glb" src="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/representation-background.png"/></p>
+<p>In the context of data-driven technologies, a core attribute of fairness is the equal distribution of risk and benefit across all groups of affected users. For instance, a technology that was highly accurate for users aged between 18-30 but became decreasingly accurate for older individuals would be unfair to those from higher age brackets.</p>
+<p>The differentiation between risk and benefit leads to a subsequent distinction between corresponding duties or obligations (e.g. legal duties). Where there is a duty to ensure that a particular group of users are not exposed to disproportionate risks of harm, this can set up a so-called “negative duty” (e.g. a duty for a developer to not discriminate). However, negative duties often set only the minimal ethical standards. In other words, one can build a non-discriminatory service that does not harm anyone, but similarly benefits no one or benefits only a small portion of users.</p>
+<p>Therefore, corresponding “positive duties” also exist to promote beneficial outcomes, sometimes focusing on those who are most disadvantaged—a so-called “prioritarian” approach to ethics (i.e. prioritising those who need the most support). A good example of this duality is the Public Sector Equality Duty, which sets the following objectives for all public authorities:</p>
+<ul>
+<li>eliminate discrimination, harassment, victimisation and any other conduct that is prohibited by or under the Equality Act 2010;</li>
+<li>advance equality of opportunity between persons who share a relevant protected characteristic and persons who do not share it;</li>
+<li>foster good relations between persons who share a relevant protected characteristic and persons who do not share it.</li>
+</ul>
+<p>Notice that these objectives can be seen as having both negative and positive aspects to them (e.g. ‘eliminate discrimination’ as ‘opposed to advance equality’).<sup id="fnref:posneg"><a class="footnote-ref" href="#fn:posneg">2</a></sup></p>
+<p>In the context of mental healthcare, where stigmatisation prevents many vulnerable individuals from accessing care and discrimination exacerbates symptoms for already marginalised or minoritised groups, both types of duty are absolutely crucial. However, acting upon positive duties is not without its challenges.  </p>
+<p>In our workshops, for instance, a key concern that was emphasised was the degree to which the delineation of "good" or "desirable" mental health outcomes, for the purpose of evaluating the impacts of a system, could adequately take into account the subjective nature of mental health and well-being. For instance, while there may be widespread agreement about what constitutes undesirable outcomes (e.g. chronic stress, suicide), the range of positive outcomes for mental health (or well-being) are varied and multitudinous (to echo back to Whitman’s quote that started this report), and the experience and process of recovery can also mean many different things to people<sup id="fnref:recovery"><a class="footnote-ref" href="#fn:recovery">3</a></sup>. A failure to account for such issues can introduce a further source of bias into the design of a system (e.g. how the problem it seeks to address is formulated) which in turn could lead to unfair outcomes that only benefit a small group of users with aligned goals.</p>
+<p>The pattern that has been developed, through participation of stakeholders and users, attempts to address both negative and positive duties, while also making room for core attributes such as user autonomy. In the context of mental healthcare, this inclusion of autonomy can be problematic in the most severe cases where it is simply not viable (e.g. severe forms of psychosis). However, recall that a pattern is a starting point or scaffold; it is not a checklist of <em>jointly sufficient claims and supporting evidence</em>. Therefore, if a particular type of claim is inappropriate due to contextual factors that are determined during project scoping or stakeholder engagement, it can be adjusted as necessary.</p>
+<div class="admonition question">
+<p class="admonition-title">Why does this pattern matter?</p>
+<p>In recent years, many tools for improving and supporting the trustworthy and responsible development of DMHTs have been proposed. One key advancement is the <a href="https://transform.england.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/">Digital Technology Assessment Criteria for Health and Social Care</a> (DTAC). This form provides guidance on assessing four technical components (in addition to a contextual component):</p>
+<ol>
+<li>Clinical safety</li>
+<li>Data protection</li>
+<li>Technical security</li>
+<li>Interoperability criteria</li>
+</ol>
+<p>While the DTAC is intended to supplement existing regulatory guidance, as well as sitting alongside current and developing legislation or compliance duties (e.g. <a href="https://www.gov.uk/guidance/regulating-medical-devices-in-the-uk">MHRA medical device registration</a>, <a href="https://www.legislation.gov.uk/ukpga/2010/15/contents">Equality Act 2010</a>, NICE's <a href="https://www.nice.org.uk/about/what-we-do/our-programmes/evidence-standards-framework-for-digital-health-technologies">Evidential Standards Framework</a>), there is (at present) nothing in the DTAC about broader ethical issues such as the fair distribution of risk and benefits, or the requirement of explainable outcomes to support informed decision-making. As such, tools such as the DTAC serve a valuable but limited role in the assessment of fair DMHTs.</p>
+<p>In the last few years, however, many public authorities across the UK have released statements and policies calling for greater health equity. For instance, in October 2020, NHS England released their '<a href="https://www.england.nhs.uk/publication/advancing-mental-health-equalities-strategy/">Advancing mental health equalities</a>' strategy, which also fed into a recent consultation on the <a href="https://www.gov.uk/government/consultations/mental-health-and-wellbeing-plan-discussion-paper-and-call-for-evidence/mental-health-and-wellbeing-plan-discussion-paper">Mental health and wellbeing plan</a> by the Department for Health and Social Care.</p>
+<p>The second of these publications makes reference to the UK Government's Levelling Up Strategy, which opens with the following statement:</p>
+<blockquote>
+<p>"not everyone shares equally in the UK’s success. While talent is spread equally across our country, opportunity is not. Levelling up is a mission to challenge, and change, that unfairness. Levelling up means giving everyone the opportunity to flourish. It means people everywhere living longer and more fulflling lives, and beneftting from sustained rises in living standards and well-being."</p>
+</blockquote>
+<p>Beyond people who share protected characteristics as set out in the Equality Act 2010, there are other groups who require specific consideration<sup id="fnref:wachter"><a class="footnote-ref" href="#fn:wachter">4</a></sup>:</p>
+<blockquote>
+<p>Risks of mental ill-health are also higher for people who are unemployed, people in problem debt, people who have experienced displacement, including refugees and asylum seekers, people who have experienced trauma as the result of violence or abuse, children in care and care leavers, people in contact with the criminal justice system (both victims and offenders), people who sleep rough or are homeless, people with substance misuse or gambling problems, people who live alone, and unpaid carers.</p>
+</blockquote>
+<p>And, finally, a recent publication by the UK's Office for AI has also called for regulators to "embed considerations of fairness into AI", but have further specified this principle as follows:</p>
+<blockquote>
+<ul>
+<li>interpret and articulate ‘fairness’ as relevant to their sector or domain,</li>
+<li>decide in which contexts and specific instances fairness is important and relevant (which it may not always be), and</li>
+<li>design, implement and enforce appropriate governance requirements for ‘fairness’ as applicable to the entities that they regulate.</li>
+</ul>
+</blockquote>
+<p>Therefore, there is clear regulatory appetite and industry need for both domain-specific and cross-cutting guidance on how to embed considerations of fairness and equality into the design, development, and deployment of digital technologies.</p>
+</div>
+<h4 id="fairness-pattern">Fairness Pattern<a class="headerlink" href="#fairness-pattern" title="Permanent link">¶</a></h4>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/patterns/fairness-pattern-final.png"><img alt="A pattern for designing, developing, and deploying fair digital mental health technologies" src="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/patterns/fairness-pattern-final.png"/></a></p>
+<p><em>Figure 5.1: A pattern for designing, developing, and deploying fair digital mental health technologies</em> (<span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 2a7 7 0 0 1 7 7c0 1.57-.5 3-1.39 4.19l.8.81H16l6 6-2 2-6-6v-.59l-.81-.8A6.916 6.916 0 0 1 9 16a7 7 0 0 1-7-7 7 7 0 0 1 7-7M8 5v3H5v2h3v3h2v-3h3V8h-3V5H8Z"></path></svg></span> click image to expand; <span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7Z"></path></svg></span> download <a href="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/patterns/fairness-pattern-final.png">here</a>)</p>
+<p>The goal claim in this argument pattern addresses distributional concepts of fairness (e.g. whether harms and benefits are shared equally), while also acknowledging broader conceptions of social justice (e.g. representational harms to marginalised groups). </p>
+<p>Unlike traditional safety cases, which often include  <code>System Description</code> and <code>Context of Use</code> placeholders, this pattern also includes a <code>Stakeholder</code> component to emphasise the importance of engagement. Here, the term 'stakeholder' should be treated in as inclusive a manner as possible, and not only the direct users of the technology.</p>
+<p>The goal is broken into four higher-level property claims and their respective sub-claims, which we group according to the following core attributes of the Fairness principle as specified and operationalised in the context of digital mental healthcare:</p>
+<ul>
+<li>Argument over <code>bias mitigation</code></li>
+<li>Argument over <code>non-exclusion</code></li>
+<li>Argument over <code>non-discrimination</code></li>
+<li>Argument over <code>equitable impact</code></li>
+</ul>
+<h5 id="argument-over-bias-mitigation">Argument over <em>bias mitigation</em><a class="headerlink" href="#argument-over-bias-mitigation" title="Permanent link">¶</a></h5>
+<p>This argument emphasises identification, evaluation, and mitigation activities. As there are too many biases to incorporate into a single pattern, this argument instead draws attention to transparent and accountable methods that allow stakeholders to determine if the set of biases that have been addressed are sufficient to address their concerns. This argument is supported by additional tools, such as a bias self-assessment tool that outlines social, statistical, and cognitive biases that can affect the lifecycle of a machine learning or AI system project.<sup id="fnref:bias-assessment"><a class="footnote-ref" href="#fn:bias-assessment">5</a></sup></p>
+<h5 id="argument-over-non-exclusion">Argument over <em>non-exclusion</em><a class="headerlink" href="#argument-over-non-exclusion" title="Permanent link">¶</a></h5>
+<p>This argument sets out another negative duty to consider wider social impacts of digital technologies, and prompts developers to ensure they are not contributing to growing socioeconomic inequalities (i.e. the digital divide) by overlooking important social determinants (e.g. education, poverty). In some instances, this may require nothing more than ensuring that UI/UX design choices do not exclude those who have additional accessibility requirements. However, the argument also sets up a duty to consider how a system being developed for use within a public healthcare system, for example, does not create an unsustainable multi-tiered approach, where some users are excluded from accessing a better performing technological service and forced to use comparatively inferior options.</p>
+<h5 id="argument-over-non-discrimination">Argument over <em>non-discrimination</em><a class="headerlink" href="#argument-over-non-discrimination" title="Permanent link">¶</a></h5>
+<p>This argument addresses the better known obligations, such as ensuring that members of protected groups are not discriminated against. Much of the FairML literature, which has provided useful categorisations of formal criteria (i.e. independence, sufficiency, and separation) and the respective (statistical) notions of individual and group level fairness (e.g. demographic parity, equalised opportunities, counterfactual fairness) are relevant here. And, indeed, a requirement to explain the choice of any statistical measures used during the development of a predictive model (e.g. classifier) is included. Again, there are useful tools and taxonomies that offer further guidance on these decisions. However, our pattern also urges project teams to reflect upon other patterns of discrimination, marginalisation, and minoritisation, which can exacerbate mental health issues, but which fall beyond protected characteristics that lie outside the scope of the Equality Act 2010 (e.g. housing, employment, social support). Doing so will typically require engagement of domain experts where such expertise does not exist within teams.</p>
+<h5 id="argument-over-equitable-impact">Argument over <em>equitable impact</em><a class="headerlink" href="#argument-over-equitable-impact" title="Permanent link">¶</a></h5>
+<p>Finally, this argument references positive duties that matter in the context of digital mental healthcare specifically. Key to this is the consideration of ethical values such as autonomy and self-determination, and the prioritarian weighting that was mentioned previously. However, there is also an aspect of our Sustainability principle that trickles into this argument. This is important in the context of digital mental healthcare because of associated risks that a) positive effects diminish over time (e.g. behavioural nudges or habit forming techniques that become ineffective over time)<sup id="fnref:nudge"><a class="footnote-ref" href="#fn:nudge">6</a></sup> and b) negative impacts worsen and compound (e.g. prolonged use of social media worsening anxiety or depression)<sup id="fnref:socialmedia"><a class="footnote-ref" href="#fn:socialmedia">7</a></sup>. Studies have already criticised the evidence base of mental health apps and services<sup id="fnref:apps"><a class="footnote-ref" href="#fn:apps">8</a></sup>, especially for a lack of reliable longitudinal evidence, so drawing attention to sustainable impacts and setting up requirements for continuous monitoring is vital to maintain trust and also ensure that specific users are not locked in to services or technologies that degrade in quality or efficacy over time (e.g. apps that start by offering free services to leverage network effects only to force subscriptions at a later date).</p>
+<h3 id="explainability">Explainability<a class="headerlink" href="#explainability" title="Permanent link">¶</a></h3>
+<p><img alt="An illustration of a healthcare professional explaining an automated decision to patients" class="off-glb" src="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/public-trust.png"/></p>
+<p>Much like fairness, explainability has become a popular and thriving area of research (e.g. so-called XAI). And, also like fairness, it is a normative goal that encompasses a range of significant concerns and salient ethical values.</p>
+<p>The most obvious conceptual distinction is between <code>interpretability</code> as a core component of <code>explainability</code>. Whereas the former is to often treated as the ability for developers or users to understand the inner workings of algorithms (or inability in the case of complex, non-linear techniques), the latter refers to an interpersonal ability to communicate knowledge in a manner that is accessible to those who may be asking questions about a system (e.g. patients asking for explanations from a clinician). Although statistical techniques help significantly in the case of the former, they are more limited in their ability to support the latter where a more diverse range of users are likely.</p>
+<div class="admonition question">
+<p class="admonition-title">Why does this pattern matter?</p>
+<p>Explainable AI has received a lot of attention over the last several years.<sup id="fnref:explainableAI"><a class="footnote-ref" href="#fn:explainableAI">9</a></sup> Computer scientists have developed new tools and methods to improve the interpretability of otherwise opaque algorithms, such as neural networks.<sup id="fnref:XAIreview"><a class="footnote-ref" href="#fn:XAIreview">10</a></sup> Researchers in psychology and human-computer interaction have explored how different components of the user experience can help support more intentional interactions with intelligent software agents.<sup id="fnref:hci"><a class="footnote-ref" href="#fn:hci">11</a></sup> And, regulators, auditors, and journalists have investigated how to make systems more transparent to support objectives related to accountability and informed decision-making.<sup id="fnref:accountability"><a class="footnote-ref" href="#fn:accountability">12</a></sup></p>
+<p>Much of this attention arises from the recognition that data-driven technologies have the potential to automate decision-making to varying degrees and, therefore, affect key ethical values and principles such as autonomy, accountability, responsibility, and informed consent. On the one hand, <em>decision support systems</em> can offer recommendations to users but are not responsible for enacting a decision directly. And, on the other hand, you have <em>fully automated-decision making systems</em>, which once set up require no human involvement.</p>
+<p>This distinction is admittedly coarse grained, but it will suffice for our purposes because it helps identify two illustrative cases where explainability matters. In the former case, although a human user is responsible for the decision, their judgement may be influenced and biased by the decision support system, potentially in ways that are problematic (e.g. leading to differential treatment for certain groups of users). In the latter case, no human is involved, but because the automated systems cannot be held morally or legally accountable for their decisions, if something goes wrong, a human will need to be able to identify the reason why the problem occurred and perhaps communicate this to other affected stakeholders.</p>
+<p>In both of the above cases, extracting a valid and accurate explanation is necessary to enable post hoc forms of <em>accountability</em> or <em>transparency</em>. But prioritising ‘explainability’ from the start of a project also allows project teams to have better oversight of what their systems do and why, leading to more <em>responsible forms of project governance</em>. And, at the other end of the lifecycle, clear and accessible explanations can help ensure users and affected stakeholders are better <em>informed</em> and empowered to make <em>autonomous decisions</em> regarding their interactions with DMHTs. Therefore, having an argument pattern for ‘explainability’ helps capture many of the key considerations that were raised during our workshops.</p>
+<p>While the themes and values expressed in the following pattern are based primarily on the engagement with stakeholders, we have also drawn upon two other documents. First, we have drawn from prior regulatory guidance that we co-designed with the Information Commissioner’s Office. This guide, titled 'Explaining Decisions Made with AI', details best practices for explainable AI in domain-general settings, and was also informed by stakeholder engagement. The regulatory ecosystem around explainability is less developer than fairness and equality, but as this report acknowledges there are still legislative and regulatory considerations that organisations need to consider, such as the wide-range of rights established by the General Data Protection Regulation and implemented in the UK's Data Protection Act 2018, such as the need to uphold individuals rights to be informed or to object to automated decisions.<sup id="fnref:ico2020"><a class="footnote-ref" href="#fn:ico2020">13</a></sup></p>
+<p>Second, we have incorporated some elements of an existing pattern for <em>interpretable</em> machine learning<sup id="fnref:ward2020"><a class="footnote-ref" href="#fn:ward2020">14</a></sup>, which is motivated by a similar need for addressing a range of questions and concerns, such as the following:</p>
+<blockquote>
+<p>“who needs to understand the system, what they need to understand, what types of interpretations are appropriate, and when do these interpretations need to be provided” (Ward and Habli, 2020).</p>
+</blockquote>
+</div>
+<h4 id="explainability-pattern">Explainability Pattern<a class="headerlink" href="#explainability-pattern" title="Permanent link">¶</a></h4>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/patterns/explainability-pattern-final.png"><img alt="A pattern for designing, developing, and deploying explainable digital mental health technologies" src="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/patterns/explainability-pattern-final.png"/></a></p>
+<p><em>Figure 5.2: A pattern for designing, developing, and deploying explainable digital mental health technologies</em> (<span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 2a7 7 0 0 1 7 7c0 1.57-.5 3-1.39 4.19l.8.81H16l6 6-2 2-6-6v-.59l-.81-.8A6.916 6.916 0 0 1 9 16a7 7 0 0 1-7-7 7 7 0 0 1 7-7M8 5v3H5v2h3v3h2v-3h3V8h-3V5H8Z"></path></svg></span> click image to expand, <span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7Z"></path></svg></span> download <a href="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/patterns/explainability-pattern-final.png">here</a>)</p>
+<p>In previous guidance<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">16</a></sup>, we have distinguished between two sub-categories of explanations:</p>
+<ol>
+<li><em>Process-based explanations</em> of AI systems are about demonstrating that you have followed good governance processes and best practices throughout your design and use.</li>
+<li><em>Outcome-based explanations</em> of AI systems are about clarifying the results of a specific decision. They involve explaining the reasoning behind a particular algorithmically-generated outcome in plain, easily understandable, and everyday language.</li>
+</ol>
+<p>These categories are reflected in our pattern, where they form 'intermediate arguments' that help refine the goal claim and also serve as scaffolding for the main arguments.</p>
+<p>As with the fairness pattern, placeholders for <code>System Description</code> and <code>Context of Use</code> and <code>Stakeholder</code> are also included.</p>
+<p>The intermediate arguments are then broken into four higher-level property claims and their respective sub-claims, which we group according to the following core attributes of the Explainability principle as specified and operationalised in the context of digital mental healthcare:</p>
+<ul>
+<li>Argument over <code>transparency and accountability</code></li>
+<li>Argument over <code>responsible project governance</code></li>
+<li>Argument over <code>informed and autonomous decision-making</code></li>
+<li>Argument over <code>sustainable impact</code></li>
+</ul>
+<h5 id="argument-over-transparency-and-accountability">Argument over <em>transparency and accountability</em><a class="headerlink" href="#argument-over-transparency-and-accountability" title="Permanent link">¶</a></h5>
+<p>This argument addresses the processes and mechanisms that have been undertaken throughout the project lifecycle to establish sufficient forms of transparency and accountability. This includes documentation relevant to the identification of responsible project members, as well as choices made about data (e.g. why certain data types were included or excluded). Importantly, this argument also recommends the inclusion of a statement about sources of funding and conflicts of interest, which was an important matter for trustworthiness that arose during our engagement with participants with lived experience of DMHTs.</p>
+<h5 id="argument-over-responsible-project-governance">Argument over <em>responsible project governance</em><a class="headerlink" href="#argument-over-responsible-project-governance" title="Permanent link">¶</a></h5>
+<p>This argument is more comprehensive than the others, and so is further split into three sub-arguments:</p>
+<ol>
+<li>Sub-argument over meaningful engagement: here, meaningful engagement can be seen to include participation in decisions about the formulation of the problem that a DMHT is expected to address, as well as issues of data usage—both of which affect later stages of the project lifecycle and the final behaviour of the deployed system.</li>
+<li>Sub-argument over interpretability: sufficient levels of accuracy and the potential trade-off with interpretability can require high levels of technical and data literacy. Therefore, this argument focuses on the requisite information that is needed to support explainability (recall earlier distinction between <code>interpretability</code> and <code>explainability</code>).</li>
+<li>Sub-argument over accessible communication: the previous sub-argument feeds into this sub-argument, which focuses on how 'accessible' forms of communication will achieved, and the challenges of communicating probabilistic information. Ultimately, this sub-argument will depend on decisions reached and evidence obtained through consultation with intended users, as well as on the basis of knowledge about any time-constraints presented by the context of use (e.g. urgency in high-risk care environments).</li>
+</ol>
+<h5 id="argument-over-informed-and-autonomous-decision-making">Argument over <em>informed and autonomous decision-making</em><a class="headerlink" href="#argument-over-informed-and-autonomous-decision-making" title="Permanent link">¶</a></h5>
+<p>The core attribute motivating this argument is shared with our fairness pattern. Here, the argument emphasises the importance of explanations that refer to the observed behaviours or outcomes of the system. For instance, one of the claims is intended to ensure that explanations are "sufficiently expressive", without overwhelming the user with unnecessary or overly-complex information. This will depend on the intended user and context of use. However, to supplement this claim, emphasis is also placed on the ability for user to challenge outcomes, rather than just having them explained without an option to contest.</p>
+<h5 id="argument-over-sustainable-impact">Argument over <em>sustainable impact</em><a class="headerlink" href="#argument-over-sustainable-impact" title="Permanent link">¶</a></h5>
+<p>The final argument also follows the theme of the fairness pattern, but rather than addressing <em>equitable impact</em>, it focuses on <em>sustainable impact</em><sup id="fnref:sustainable"><a class="footnote-ref" href="#fn:sustainable">15</a></sup>. This is important because explanations are sometimes used as a means to justify why a specific norm was transgressed (e.g. why you were late). However, over time, if the same explanation is provided without a change to the offending behaviour, the explanation loses its validity. A similar risk is present in the automated delivery of explanations by algorithmic systems. For example, if an AI chatbot continues to offer the same inaccurate and irrelevant explanations, it is likely to lose the trust of a user. Therefore, assessments about the impact of explainable AI need to account for longer-term dynamics to ensure that the relevant systems are sustainable over time.</p>
+<p>The inclusion of clinical safety and efficacy should not suggest that these goals are not significant in their own right. In fact, we would advocate for a separate assurance case (and corresponding pattern) on these goals specifically. Instead, reference is simply made to the need to ensure that some form of explanation is provided to stakeholders.</p>
+<h3 id="evidential-considerations">Evidential Considerations<a class="headerlink" href="#evidential-considerations" title="Permanent link">¶</a></h3>
+<p>Neither of the patterns above include prescriptions about specific evidential artefacts that could be used to ground the assurance case. There are two reasons for this intentional omission:</p>
+<ol>
+<li>Prescribing specific forms of evidence is too difficult outside of highly constrained contexts where there are clear details about a) the intended use context, b) the type of ML/AI technique being used, and c) the intended users and target audience.</li>
+<li>Developers and regulators should be free to determine the appropriate forms of evidence, based on developing best practices and standards, many of which do not exist at present.</li>
+</ol>
+<p>However, there are a couple of general remarks that can be made, as well as some suggestions for further resources.</p>
+<p>First, as we have argued elsewhere<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">17</a></sup>, the generation, evaluation, and selection of evidence can be guided by the following considerations:</p>
+<ol>
+<li>Is the evidential artefact/claim <em>relevant</em> to the parent claim?</li>
+<li>Is the evidential artefact/claim (or set of artefacts/claims) <em>sufficient</em> to justify the parent claim?</li>
+<li>Is there sufficient <em>probative value</em> in the overall assurance case to justify the top-level normative goal?</li>
+</ol>
+<p>Outside of the regulatory considerations already mentioned above, there have been several developments in recent years to help organisations address these considerations. Some examples (among many) include:</p>
+<ul>
+<li><a href="https://modelcards.withgoogle.com/about">Model Cards for Model Reporting</a>: templates for model documentation, which include ethical considerations alongside statistical information to support reuse.</li>
+<li><a href="https://www.licenses.ai/">Responsible AI Licensing</a>: licenses that help developers restrict the use of their AI technology in order to prevent irresponsible and harmful applications.</li>
+<li><a href="https://datahazards.com/">Data Hazards</a>: a set of labels that enable project members to make decisions about the risks of data-driven technologies using a shared vocabulary</li>
+<li><a href="https://www.york.ac.uk/assuring-autonomy/guidance/amlas/">Assurance of Machine Learning in Autonomous Systems (AMLAS)</a>: a methodology for assuring the safety of ML systems, with systematic means for evaluating processes such as model testing or verification.</li>
+<li><a href="https://www.gov.uk/government/collections/algorithmic-transparency-standard">Algorithmic Transparency Standard</a>: a template for organisations to use when choosing to publish information about how they are using algorithmic systems to aid decision-making.</li>
+</ul>
+<p>Typically, these tools, methods, or templates exist to help organisations and project teams address a specific challenge (e.g. licensing, model documentation). The framework and methodology we have presented in this report is designed to work alongside these tools, but it also goes further by helping teams organise them according to a particular goal or objective (e.g. fairness). As such, our framework and methodology is broader in scope and offers a systematic means for choosing when to use specific tools throughout a project's lifecycle and how to bring the documented evidence together to create a trustworthy and justifiable assurance case.</p>
+<div class="footnote">
+<hr/>
+<ol>
+<li id="fn:evidence">
+<p>In a previous article we also explore several considerations about the evidence generation and selection process, including whether evidential artefacts are permissible, sufficient, and relevant. See Burr, C., &amp; Leslie, D. (2022). Ethical assurance: A practical approach to the responsible design, development, and deployment of data-driven technologies. AI and Ethics. <a href="https://doi.org/10.1007/s43681-022-00178-0">https://doi.org/10.1007/s43681-022-00178-0</a> <a class="footnote-backref" href="#fnref:evidence" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:posneg">
+<p>We are not suggesting that this is the sole correct way of interpreting the public sector equality duty. Others may view the associated duties as entirely positive if they are viewed from a human rights lens that treats actively protecting people from risks of harm that are known about, or should have been known about, as a positive duty. The status of this duty will likely depend on which party it falls on, and how they are expected to discharge the duty. <a class="footnote-backref" href="#fnref:posneg" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+<li id="fn:recovery">
+<p>For instance, a patient experiencing depression may be fully informed by their psychiatrist about their mental health and the options available to them in terms of recovery, but nevertheless, autonomously decide to forego any treatment because their condition may be an important part of their self-identity. This acknowledgment is part of the recovery approach, which views recovery as “a deeply personal, unique process of changing one’s attitudes, values, feelings, goals, skills, and/or roles. It is a way of living a satisfying, hopeful, and contributing life even with limitations caused by illness. Recovery involves the development of new meaning and purpose in one’s life as one grows beyond the catastrophic effects of mental illness.” W. A. Anthony, “Recovery from mental illness: The guiding vision of the mental health service system in the 1990s,” Psychosoc. Rehabil. J., vol. 16, no. 4, p. 527, 1993, doi: 10.1037/h0095655. <a class="footnote-backref" href="#fnref:recovery" title="Jump back to footnote 3 in the text">↩</a></p>
+</li>
+<li id="fn:wachter">
+<p>This is further problematised in the context of ML and AI, where novel forms of discrimination, perhaps as a result of so-called "affinity profiling". See Wachter, S. (2021). Affinity Profiling and Discrimination by Association in Online Behavioural Advertising. Berkeley Technology Law Journal, 35(2). <a class="footnote-backref" href="#fnref:wachter" title="Jump back to footnote 4 in the text">↩</a></p>
+</li>
+<li id="fn:bias-assessment">
+<p>See our course on responsible research and innovation for more details about social, statistical, and cognitive biases: <a href="https://alan-turing-institute.github.io/turing-commons/rri/">https://alan-turing-institute.github.io/turing-commons/rri/</a> <a class="footnote-backref" href="#fnref:bias-assessment" title="Jump back to footnote 5 in the text">↩</a></p>
+</li>
+<li id="fn:nudge">
+<p>See Maier et al. (2022) No evidence for nudging after adjusting for publication bias. PNAS. <a href="https://doi.org/10.1073/pnas.2200300119">https://doi.org/10.1073/pnas.2200300119</a> <a class="footnote-backref" href="#fnref:nudge" title="Jump back to footnote 6 in the text">↩</a></p>
+</li>
+<li id="fn:socialmedia">
+<p>For a review published prior to the onset of the COVID-19 pandemic see Keles (2019) A systematic review: the influence of social media on depression, anxiety and psychological distress in adolescents. Adolescence and Youth. <a href="https://doi.org/10.1080/02673843.2019.1590851">https://doi.org/10.1080/02673843.2019.1590851</a>. For a range of studies that focus on the impacts of COVID-19 on mental health, including several that explore social media, see the <a href="https://www.covidminds.org/longitudinal-studies">COVID-MINDS repository</a>. <a class="footnote-backref" href="#fnref:socialmedia" title="Jump back to footnote 7 in the text">↩</a></p>
+</li>
+<li id="fn:apps">
+<p>For example, see Torous et al. (2018). Clinical review of user engagement with mental health smartphone apps: Evidence, theory and improvements. Evidence Based Mental Health, 21(3), 116–119. <a href="https://doi.org/10.1136/eb-2018-102891">https://doi.org/10.1136/eb-2018-102891</a>; and the consensus statement that followed: Torous et al. (2019). Towards a consensus around standards for smartphone apps and digital mental healthcare: Towards a consensus around standards for smartphone apps and digital mental healthcare. World Psychiatry, 18(1), 97–98. <a href="https://doi.org/10.1002/wps.20592">https://doi.org/10.1002/wps.20592</a> <a class="footnote-backref" href="#fnref:apps" title="Jump back to footnote 8 in the text">↩</a></p>
+</li>
+<li id="fn:explainableAI">
+<p>See the following notable publications: Phillips et al. (2021). Four Principles of Explainable Artificial Intelligence. National Institute of Standards and Technology. <a href="https://doi.org/10.6028/NIST.IR.8312">https://doi.org/10.6028/NIST.IR.8312</a>;  Miller, T. (2019). Explanation in artificial intelligence: Insights from the social sciences. Artificial Intelligence, 267, 1–38. <a href="https://doi.org/10.1016/j.artint.2018.07.007">https://doi.org/10.1016/j.artint.2018.07.007</a>; Diakopoulos, N. (2015). <a class="footnote-backref" href="#fnref:explainableAI" title="Jump back to footnote 9 in the text">↩</a></p>
+</li>
+<li id="fn:XAIreview">
+<p>For a recent review of methods, see Linardatos, P., Papastefanopoulos, V., &amp; Kotsiantis, S. (2020). Explainable AI: A Review of Machine Learning Interpretability Methods. Entropy, 23(1), 18. <a href="https://doi.org/10.3390/e23010018">https://doi.org/10.3390/e23010018</a> <a class="footnote-backref" href="#fnref:XAIreview" title="Jump back to footnote 10 in the text">↩</a></p>
+</li>
+<li id="fn:hci">
+<p>Ferreira, J. J., &amp; Monteiro, M. S. (2020). What Are People Doing About XAI User Experience? A Survey on AI Explainability Research and Practice. In A. Marcus &amp; E. Rosenzweig (Eds.), Design, User Experience, and Usability. Design for Contemporary Interactive Environments (Vol. 12201, pp. 56–73). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-030-49760-6_4">https://doi.org/10.1007/978-3-030-49760-6_4</a> <a class="footnote-backref" href="#fnref:hci" title="Jump back to footnote 11 in the text">↩</a></p>
+</li>
+<li id="fn:accountability">
+<p>Information Commisioner's Office &amp; Alan Turing Institute. (2020). Explaining decisions made with AI. <a href="https://ico.org.uk/media/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence-1-0.pdf">https://ico.org.uk/media/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence-1-0.pdf</a>; Algorithmic Accountability: Journalistic investigation of computational power structures. Digital Journalism, 3(3), 398–415. <a href="https://doi.org/10.1080/21670811.2014.976411">https://doi.org/10.1080/21670811.2014.976411</a>. <a class="footnote-backref" href="#fnref:accountability" title="Jump back to footnote 12 in the text">↩</a></p>
+</li>
+<li id="fn:ico2020">
+<p>Information Commisioner's Office &amp; Alan Turing Institute. (2020). Explaining decisions made with AI. <a href="https://ico.org.uk/media/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence-1-0.pdf">https://ico.org.uk/media/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence-1-0.pdf</a> <a class="footnote-backref" href="#fnref:ico2020" title="Jump back to footnote 13 in the text">↩</a></p>
+</li>
+<li id="fn:ward2020">
+<p>Ward, F. R., &amp; Habli, I. (2020). An Assurance Case Pattern for the Interpretability of Machine Learning in Safety-Critical Systems. In A. Casimiro, F. Ortmeier, E. Schoitsch, F. Bitsch, &amp; P. Ferreira (Eds.), Computer Safety, Reliability, and Security. SAFECOMP 2020 Workshops (Vol. 12235, pp. 395–407). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-030-55583-2_30">https://doi.org/10.1007/978-3-030-55583-2_30</a> <a class="footnote-backref" href="#fnref:ward2020" title="Jump back to footnote 14 in the text">↩</a></p>
+</li>
+<li id="fn:sustainable">
+<p>Not to be confused with the related SAFE-D principle, 'Sustainability'. <a class="footnote-backref" href="#fnref:sustainable" title="Jump back to footnote 15 in the text">↩</a></p>
+</li>
+<li id="fn:1">
+<p>ICO and Alan Turing Institute. Explaining decisions made with AI. Technical Report, Information Comissioners Office, May 2020. URL: <a href="https://ico.org.uk/media/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence-1-0.pdf">https://ico.org.uk/media/for-organisations/guide-to-data-protection/key-data-protection-themes/explaining-decisions-made-with-artificial-intelligence-1-0.pdf</a> (visited on 2020-10-26). <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 16 in the text">↩</a></p>
+</li>
+<li id="fn:2">
+<p>Christopher Burr and David Leslie. Ethical assurance: a practical approach to the responsible design, development, and deployment of data-driven technologies. <em>AI and Ethics</em>, June 2022. URL: <a href="https://link.springer.com/10.1007/s43681-022-00178-0">https://link.springer.com/10.1007/s43681-022-00178-0</a> (visited on 2022-08-01), <a href="https://doi.org/10.1007/s43681-022-00178-0">doi:10.1007/s43681-022-00178-0</a>. <a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 17 in the text">↩</a></p>
+</li>
+</ol>
+</div>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<a class="md-top md-icon" data-md-component="top" hidden="" href="#">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            Back to top
+          </a>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Chapter 4—Co-Designing Trustworthy Assurance" class="md-footer__link md-footer__link--prev" href="../chapter-4/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              Chapter 4—Co-Designing Trustworthy Assurance
+            </div>
+</div>
+</a>
+<a aria-label="Next: Conclusion" class="md-footer__link md-footer__link--next" href="../conclusion/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              Conclusion
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs Insiders
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.code.annotate", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.939a4419.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.01b2e45f.min.js"></script>
+<script src="../../assets/javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+<script src="../../assets/javascripts/tablesort.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom"});})</script></body>
+</html>

@@ -1,0 +1,942 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="A site for resources and documentation about the trustworthy assurance methodology—a framework for responsible research and innovation of data-driven technologies, such as artificial intelligence." name="description"/>
+<link href="https://alan-turing-institute.github.io/trustworthy-assurance/dmh-report/chapter-3/" rel="canonical"/>
+<link href="../../assets/logo.png" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-8.5.7+insiders-4.26.1" name="generator"/>
+<title>Chapter 3—Applying Trustworthy Assurance - Trustworthy Assurance</title>
+<link href="../../assets/stylesheets/main.fa1d38d9.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<style>:root{--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.236 6.236 0 0 1-.779-.406z"/></svg>');}</style>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../assets/stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gdesc-inner { font-size: 0.75rem; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            
+                .gscrollbar-fixer { padding-right: 15px; }
+                </style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="deep-orange" data-md-color-primary="" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#applying-trustworthy-assurancedigital-mental-healthcare-at-uk-universities">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Trustworthy Assurance" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Trustworthy Assurance">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 2v2.06A8.522 8.522 0 0 0 4.05 9H2v6h2.06A8.494 8.494 0 0 0 9 19.95V22h6v-2.06A8.494 8.494 0 0 0 19.95 15H22V9h-2.06A8.522 8.522 0 0 0 15 4.05V2m-4 2h2v2h-2m-2 .25V8h6V6.25c1.18.61 2.14 1.57 2.75 2.75H16v6h1.75A6.406 6.406 0 0 1 15 17.75V16H9v1.75A6.406 6.406 0 0 1 6.25 15H8V9H6.25A6.406 6.406 0 0 1 9 6.25M4 11h2v2H4m14-2h2v2h-2m-7 5h2v2h-2"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Trustworthy Assurance
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Chapter 3—Applying Trustworthy Assurance
+            
+          </span>
+</div>
+</div>
+</div>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<a aria-label="Share" class="md-search__icon md-icon" data-clipboard="" data-clipboard-text="" data-md-component="search-share" href="javascript:void(0)" tabindex="-1" title="Share">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"></path></svg>
+</a>
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/alan-turing-institute/trustworthy-assurance" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    alan-turing-institute/trustworthy-assurance
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-tabs__inner md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../..">
+        
+  
+  Home
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href="../about/">
+          
+  
+  Trustworthy Assurance of Digital Mental Healthcare
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="https://assuranceplatform.azurewebsites.net/">
+        
+  
+  Assurance Platform
+
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Trustworthy Assurance" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Trustworthy Assurance">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 2v2.06A8.522 8.522 0 0 0 4.05 9H2v6h2.06A8.494 8.494 0 0 0 9 19.95V22h6v-2.06A8.494 8.494 0 0 0 19.95 15H22V9h-2.06A8.522 8.522 0 0 0 15 4.05V2m-4 2h2v2h-2m-2 .25V8h6V6.25c1.18.61 2.14 1.57 2.75 2.75H16v6h1.75A6.406 6.406 0 0 1 15 17.75V16H9v1.75A6.406 6.406 0 0 1 6.25 15H8V9H6.25A6.406 6.406 0 0 1 9 6.25M4 11h2v2H4m14-2h2v2h-2m-7 5h2v2h-2"></path></svg>
+</a>
+    Trustworthy Assurance
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/alan-turing-institute/trustworthy-assurance" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    alan-turing-institute/trustworthy-assurance
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+<span class="md-ellipsis">
+    Home
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2">
+<span class="md-ellipsis">
+    Trustworthy Assurance of Digital Mental Healthcare
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Trustworthy Assurance of Digital Mental Healthcare" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            Trustworthy Assurance of Digital Mental Healthcare
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../about/">
+<span class="md-ellipsis">
+    About
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../foreword/">
+<span class="md-ellipsis">
+    Foreword
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../executive-summary/">
+<span class="md-ellipsis">
+    Executive Summary
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-1/">
+<span class="md-ellipsis">
+    Chapter 1—Introduction
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-2/">
+<span class="md-ellipsis">
+    Chapter 2—Presenting Trustworthy Assurance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Chapter 3—Applying Trustworthy Assurance
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    Chapter 3—Applying Trustworthy Assurance
+    
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-university-context">
+<span class="md-ellipsis">
+      The University Context
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#workshop-information">
+<span class="md-ellipsis">
+      Workshop Information
+    </span>
+</a>
+<nav aria-label="Workshop Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#analysis-and-contextual-challenges">
+<span class="md-ellipsis">
+      Analysis and Contextual Challenges
+    </span>
+</a>
+<nav aria-label="Analysis and Contextual Challenges" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-1-duty-of-care-a-legal-or-ethical-goal">
+<span class="md-ellipsis">
+      Challenge 1: Duty of care: a legal or ethical goal?
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-2-organisational-constraints-defining-roles-and-responsibilities">
+<span class="md-ellipsis">
+      Challenge 2: Organisational constraints: defining roles and responsibilities
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-3-external-pressures">
+<span class="md-ellipsis">
+      Challenge 3: External Pressures
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-4-algorithmic-aversion-diverted-resources-and-prioritising-human-services">
+<span class="md-ellipsis">
+      Challenge 4: Algorithmic aversion: diverted resources and prioritising human services
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-5-accessibility-and-fairness">
+<span class="md-ellipsis">
+      Challenge 5: Accessibility and fairness
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-6-transparency-and-communication">
+<span class="md-ellipsis">
+      Challenge 6: Transparency and communication
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#methodological-challenges">
+<span class="md-ellipsis">
+      Methodological Challenges
+    </span>
+</a>
+<nav aria-label="Methodological Challenges" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-7-interpreting-assurance-cases">
+<span class="md-ellipsis">
+      Challenge 7: Interpreting assurance cases
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-8-uptake-by-developers">
+<span class="md-ellipsis">
+      Challenge 8: Uptake by developers
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-9-use-as-a-communication-tool">
+<span class="md-ellipsis">
+      Challenge 9: Use as a communication tool
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-4/">
+<span class="md-ellipsis">
+    Chapter 4—Co-Designing Trustworthy Assurance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chapter-5/">
+<span class="md-ellipsis">
+    Chapter 5—Developing Trustworthy Assurance
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../conclusion/">
+<span class="md-ellipsis">
+    Conclusion
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../appendix-1/">
+<span class="md-ellipsis">
+    Appendix 1—Project Methodology
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../appendix-2/">
+<span class="md-ellipsis">
+    Appendix 2—Examples of DMHTs
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://assuranceplatform.azurewebsites.net/">
+<span class="md-ellipsis">
+    Assurance Platform
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-university-context">
+<span class="md-ellipsis">
+      The University Context
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#workshop-information">
+<span class="md-ellipsis">
+      Workshop Information
+    </span>
+</a>
+<nav aria-label="Workshop Information" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#analysis-and-contextual-challenges">
+<span class="md-ellipsis">
+      Analysis and Contextual Challenges
+    </span>
+</a>
+<nav aria-label="Analysis and Contextual Challenges" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-1-duty-of-care-a-legal-or-ethical-goal">
+<span class="md-ellipsis">
+      Challenge 1: Duty of care: a legal or ethical goal?
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-2-organisational-constraints-defining-roles-and-responsibilities">
+<span class="md-ellipsis">
+      Challenge 2: Organisational constraints: defining roles and responsibilities
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-3-external-pressures">
+<span class="md-ellipsis">
+      Challenge 3: External Pressures
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-4-algorithmic-aversion-diverted-resources-and-prioritising-human-services">
+<span class="md-ellipsis">
+      Challenge 4: Algorithmic aversion: diverted resources and prioritising human services
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-5-accessibility-and-fairness">
+<span class="md-ellipsis">
+      Challenge 5: Accessibility and fairness
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-6-transparency-and-communication">
+<span class="md-ellipsis">
+      Challenge 6: Transparency and communication
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#methodological-challenges">
+<span class="md-ellipsis">
+      Methodological Challenges
+    </span>
+</a>
+<nav aria-label="Methodological Challenges" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-7-interpreting-assurance-cases">
+<span class="md-ellipsis">
+      Challenge 7: Interpreting assurance cases
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-8-uptake-by-developers">
+<span class="md-ellipsis">
+      Challenge 8: Uptake by developers
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#challenge-9-use-as-a-communication-tool">
+<span class="md-ellipsis">
+      Challenge 9: Use as a communication tool
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<a class="md-content__button md-icon" href="https://github.com/alan-turing-institute/trustworthy-assurance/edit/master/docs/dmh-report/chapter-3.md" title="Edit this page">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
+</a>
+<h1 id="applying-trustworthy-assurancedigital-mental-healthcare-at-uk-universities">Applying Trustworthy Assurance—Digital Mental Healthcare at UK Universities<a class="headerlink" href="#applying-trustworthy-assurancedigital-mental-healthcare-at-uk-universities" title="Permanent link">¶</a></h1>
+<p><img alt="Isometric illustration of a University where students are using digital mental health technologies" class="off-glb" src="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/ch3-header.png"/></p>
+<div class="admonition abstract">
+<p class="admonition-title">Chapter Overview</p>
+<p>This section is the first of two sections that present findings from research conducted with stakeholders and/or affected users. Specifically, this section presents findings from research conducted on the application of trustworthy assurance to the procurement of DMHTs for use in the higher education (HE) sector.</p>
+<p>First, we provide an overview of the digital mental healthcare landscape at UK universities, detailing the pressures faced by university teams and the range of services currently on offer across the country.  </p>
+<p>Second, we present findings from a series of participatory engagements conducted with students and administrators at universities across the UK. We outline a series of contextual challenges to the ethical deployment of digital mental healthcare in higher education before exploring how the methodology of trustworthy assurance might be introduced in this sector to help tackle these challenges. For each challenge identified, future recommendations for the sector are provided.</p>
+<p>Broader lessons for the ethics of digital mental healthcare are also fed forward into Chapter 4 where further recommendations for policy-makers and developers are given.</p>
+</div>
+<h2 id="the-university-context">The University Context<a class="headerlink" href="#the-university-context" title="Permanent link">¶</a></h2>
+<p>Prior to the onset of the Covid-19 pandemic, the suggestion that student mental health was in crisis across UK universities was already prominent.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> Media attention intensified around 2017, for instance, in response to a cluster of high-profile suicides.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> Since then, concern has only grown further, and focus has turned to whether the crisis has worsened due to the increased social isolation brought about by Covid-19 and remote learning.<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> </p>
+<p>While media reports have been criticised for their simplistic focus on suicide figures as a metric for student wellbeing, research by The Office for Students has found that lengthy waiting times for counselling and a rise in help-seeking behaviour have both put an increased strain on services. All this has occurred during a period where the overall student population has grown.<sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup></p>
+<p>Research continues to point to significant challenges facing university mental health services given factors such as the fivefold increase in students disclosing mental health conditions between 2007 and 2017<sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> and the lack of capacity to address student concerns quickly. For instance, NUS research found that only one in six students received professional support within one week of reaching out.<sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup></p>
+<p>In this high-pressure context, systemic changes have been proposed. Key policy documents, from the University Mental Health Charter to Universities UK Step Change Framework and IPPR’s report on student mental health, have all called for a “whole university approach”, for better cohesion between university departments, and for a greater focus on positive wellbeing. In addition to structural shifts, these recommendations have increasingly referenced ‘digital interventions’ as a key tool within the student mental health offering.<sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup> </p>
+<p>Digital interventions are frequently seen as a “natural step” for student mental health services as they expand beyond the traditional counselling model,<sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup> while youth mental health is seen as a prime target for AI with the NHS AI strategy noting their first task with regard to mental wellbeing “is to look into children and young people’s mental health” using AI-driven solutions.<sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup> </p>
+<p>Amid these policy recommendations for modernisation, digital mental healthcare offerings designed for the general population have proliferated with The Office for Students suggesting 43,000 wellness and medical apps are now available for smartphone use.<sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup></p>
+<p>It is no surprise, therefore, that these new tools have appealed to universities facing rising service demand alongside tight budgets, and that digital mental healthcare adoption has advanced at pace across UK universities.</p>
+<p>One way in which the growth in digital mental healthcare has been amplified is through universities’ informal recommendations of external apps. For example, among the 24 Russel Group Universities in the UK, 15 recommend students try Headspace, eight point in the direction of Calm, and nine recommend SAM (Self-help App for the Mind), to name just a few of the apps listed on university webpages, typically under the heading of ‘self-help resources’.<sup id="fnref:12"><a class="footnote-ref" href="#fn:12">11</a></sup> </p>
+<p>Another way in which digital mental healthcare has infiltrated the university sector is through the formal procurement by universities of digital mental healthcare tools designed with the specific needs of student populations in mind. Kotouza et al. have mapped these shifts and found that, as of 2021, “more than half of UK universities” have a contract with at least one from SilverCloud and Togetherall while “Fika won over 35 UK university contracts between 2019 and 2020”.<sup id="fnref:13"><a class="footnote-ref" href="#fn:13">12</a></sup> </p>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/landscape.png"><img alt="A graphic showing a portion of the UK Universities that offer TogetherAll, Silvercloud, and/or Fika. Adapted from Kotouza et al. 2021" src="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/landscape.png"/></a></p>
+<p>This rapid adoption of DMHTs may be seen as a perfect solution for the university sector, especially when the claims made by these digital service providers are taken at face value. For example, a co-founder of Fika has claimed that “mental fitness approaches like Fika’s present a new, far more sustainable solution to the natin’s mental health needs”,<sup id="fnref:14"><a class="footnote-ref" href="#fn:14">13</a></sup>  while Kooth describe their platform as a “safe and confidential space to share experiences and gain support”.<sup id="fnref:15"><a class="footnote-ref" href="#fn:15">14</a></sup> </p>
+<p>However, it is important that universities are given the tools required to assess these claims themselves, and to do so using systematic, reliable, and well-validated procedures and standards. The <a href="https://www.studentminds.org.uk/uploads/3/7/8/4/3784584/191208_umhc_artwork.pdf">University Mental Health Charter</a>, for instance, emphasises that the “need for quality assurance extends to other interventions, such as the provision of digitally based services”. Further guidance is required for universities to be able to carry out such quality assurance, and in particular for university teams to effectively assess these digital tools on the basis of their ethical implications. Here, we present findings to inform universities in doing such due diligence.</p>
+<h2 id="workshop-information">Workshop Information<a class="headerlink" href="#workshop-information" title="Permanent link">¶</a></h2>
+<p>To assess current challenges to the ethical and trustworthy deployment of digital mental technologies in a university context, we ran a series of participatory engagements to seek the feedback of university students and mental health teams.</p>
+<p>The findings presented below are based upon a series of participatory engagement events conducted by The Alan Turing Institute between January and March 2022. These consisted of semi-structured interviews with university administrators leading mental health teams at 10 universities across the UK (henceforth ‘administrators’) alongside research workshops attended by 25 students enrolled in undergraduate and postgraduate courses at UK universities (henceforth ‘students’).</p>
+<p><em>Table 3.1—summary information about the two sets out workshops.</em></p>
+<table>
+<thead>
+<tr>
+<th>Groups</th>
+<th>Purpose of workshop</th>
+<th>Type of Engagement</th>
+<th>Main activities</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Administrators</strong></td>
+<td><ul><li> To identify which data-driven technologies or services are used by higher education institutions to support or deliver on their duty of care for students.</li> <li> To understand what metrics or properties are used to evaluate a data-driven technology or service prior to its procurement and deployment.</li> <li> To determine whether the administrators and students share the same goals and values when evaluating a service.</li> <li> To test the trustworthy assurance method and how it may be applied to specific case studies. </li></ul></td>
+<td>Semi-Structured Interviews</td>
+<td><ol><li> Exploring ethical principles and sharing current procurement approaches. <li> understanding duty of care. </li> <li> Assessing the trustworthy assurance methodology </li></li></ol></td>
+</tr>
+<tr>
+<td><strong>Students</strong></td>
+<td><ul><li> To determine whether the administrators and students share the same goals and values when evaluating a service. </li> <li> To explore a set of illustrative case studies that were designed to support the development of trustworthy assurance cases and identify significant ethical principles and values. </li></ul></td>
+<td>Group Workshops</td>
+<td><ol><li> Which values and principles matter most to you? </li> <li> Evaluating case studies </li> </ol></td>
+</tr>
+</tbody>
+</table>
+<h3 id="analysis-and-contextual-challenges">Analysis and Contextual Challenges<a class="headerlink" href="#analysis-and-contextual-challenges" title="Permanent link">¶</a></h3>
+<p>Key findings from these engagements conducted with university administrators and students are presented as follows. First, we explore contextual challenges to the ethical deployment of DMHTs at universities, as raised by students and administrators. Second, we present findings on how the implementation of trustworthy assurance to this sector may resolve challenges. In each case, distinct perspectives from administrators as compared to students will be highlighted and conclusions for the future of ethical digital mental healthcare procurement summarised.</p>
+<p>As discussed in the <a href="#introduction">Introduction</a>, digital technologies raise a distinct set of ethical issues when deployed in a mental health context. For example, it is necessary to consider their impact on the therapeutic relationship and the privacy implications of using sensitive health data.<sup id="fnref:16"><a class="footnote-ref" href="#fn:16">15</a></sup>  Many of these ethical issues continue to be relevant at UK universities. However, the challenges posed by emerging DMHTs are specific to the context in which they are deployed. Therefore, this sub-project set out to determine HE sector-specific challenges to the trustworthy and ethical procurement and assurance of DMHTs.</p>
+<p>Contextual challenges, ranging from obstacles to transparency and accessibility to external pressures and institutional constraints, are summarised to inform key conclusions for the HE sector. </p>
+<h4 id="challenge-1-duty-of-care-a-legal-or-ethical-goal">Challenge 1: Duty of care: a legal or ethical goal?<a class="headerlink" href="#challenge-1-duty-of-care-a-legal-or-ethical-goal" title="Permanent link">¶</a></h4>
+<p>To determine which digital technologies to procure and provide, universities must first have a clear understanding of the overarching goal of their service. Defining this top-level goal also constitutes the first stage in developing a trustworthy assurance case. </p>
+<p>In a university context, defining this overarching goal introduces its own set of challenges. Universities are understood to have a duty of care to their students’ mental health. This has been defined by AMOSSHE—the Association of Managers Of Student Services in Higher Education—as the duty of the institution to “to deliver its educational and pastoral services to the standard of the ordinarily competent institution, and, in carrying out its services and functions, to act reasonably to protect the health, safety and welfare of its students.”<sup id="fnref:17"><a class="footnote-ref" href="#fn:17">16</a></sup> Therefore, as part of this sub-project we explored whether 'duty of care' could serve as a top-level normative goal for a trustworthy assurance case—going beyond the SAFE-D principles.</p>
+<p>All digital technologies must support the university in delivering upon this duty. But, to assess whether a particular procurement choice is in-keeping with a university’s responsibility, more detail is needed to translate duty of care into a fully specified goal.</p>
+<p>For university administrators, our engagement found that legalistic understandings of duty of care were common as references to the avoidance of negligence and to ensuring institutional competence and compliance were frequent. This is unsurprising, and as one noted that, “if the worst outcome happens and you’re in a coroner’s court”, you must be able to show that due diligence has been done and procedure has been followed. Moreover, students also made frequent references to the importance of legal mechanisms in holding institutions to account.</p>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“We take the duty of care very seriously. And I think it is not the easiest thing to articulate. We talk regularly with our legal team about duty of care. If we are writing documents which reference the duty of care, we always talk with them about that.”</p>
+</div>
+<div class="admonition quote">
+<p class="admonition-title">Student Perspective</p>
+<p>“In terms of duty of care, that brings in things like the equalities act and various educational laws and policies so that universities aren’t discriminating against students based on access or based on protected characteristics, and they are following all of the laws.” </p>
+</div>
+<p>However, despite these legalistic framings, it is clear that the law does not provide a complete guide to action. AMOSSHE’s account on duty of care clarifies these challenges, noting first that “student law is still evolving”, thus creating “difficulty in providing a legal definition of an institution’s duty of care”, and second, that “there is a balance between what the university should do as a legal minimum and what they could do based on a university’s perceived moral obligation”. These uncertainties can cause confusion for administrators.<sup id="fnref:18"><a class="footnote-ref" href="#fn:18">17</a></sup></p>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“I think again it is such a problematic area for higher education institutions. I’m not sure there is any clarity within the sector about that duty of care.”</p>
+</div>
+<p>Ambiguities with regard to the nature and scope of a university’s duty of care can be observed when universities must balance tensions between the preservation of student autonomy and the management of risk through forced intervention. Administrators raise the difficulty of these decisions on whether to intervene, illustrating uncertainty around duty of care.</p>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“They are 18, they are adults. If they don’t want our interventions, there is very little we can do. So, for us, it is balancing that fine line all the time”</p>
+<p>“I think we are at a very interesting period of somebody’s life. The complications are, obviously, over-18 somebody will be in 99.9% of cases an adult. So, understanding the duty of care you have to… people as children or minors is very different from this new stage. But there does seem to by some muddying of the waters with this and it comes up a lot.”</p>
+</div>
+<p>The everyday practices of a university mental health team must, therefore, go beyond the pursuit of compliance to grapple with ethical decisions on when specific interventions may or may not be appropriate. In short, legal understandings of duty of care must be supplemented by ethical values which guide the actions of teams in their selection of services.</p>
+<p>For administrators, the ethical values raised as key to duty of care include: ‘inclusivity’, ‘putting the student first’, ‘consent’, ‘avoiding negative impact on the institution’, ‘best interest of every student’, ‘evidence-based decisions’, ‘benefit to all student groups’ and ‘value for money’. For students, key ethical values raised include: ‘transparency’, ‘inclusivity’, ‘anonymity’, ‘autonomy’, ‘privacy’ and ‘trust’.</p>
+<p>While these ethical goals do show significant overlap, it is also clear to administrators that perspective is crucial to defining duty of care. First, different stakeholders define the goal of student mental health services differently. Second, perspectives on duty of care have shifted over time. Finally, the very introduction of digital services can influence who is seen to take responsibility for mental ill-health and so have an impact on how duty of care is understood.</p>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“Parents think we’ve got more responsibility than I think. Probably students sometimes think we’ve got less responsibility”</p>
+<p>“I think we are heading towards in loco parentis. Towards having that responsibility that schools have. I think that’s where the regulation is heading, if you look at things like the Student Mental Health Charter. All of the things are pushing us more and more that way.”</p>
+</div>
+<div class="admonition quote">
+<p class="admonition-title">Student Perspective</p>
+<p>“Digitisation of mental health services may further the idea that mental health is an individual’s issue and responsibility, rather than addressing the collective mental health and structural causal issues around wellbeing.”</p>
+</div>
+<p>Continued work is needed to understand if and how duty of care can be translated into a fully specified goal for a university mental health team and how this goal can inform specific actions during the procurement of DMHTs. A participatory approach, considering the views of all impacted stakeholders, will be essential to clarifying the nature and scope of this responsibility.</p>
+<div class="admonition success">
+<p class="admonition-title">Conclusions and Recommendations</p>
+<ul>
+<li>Universities should reflect on their duty of care in both legal and ethical terms.</li>
+<li>Shifting understandings and perspectival differences mean that a participatory approach to defining a top-level goal is crucial.</li>
+</ul>
+</div>
+<h4 id="challenge-2-organisational-constraints-defining-roles-and-responsibilities">Challenge 2: Organisational constraints: defining roles and responsibilities<a class="headerlink" href="#challenge-2-organisational-constraints-defining-roles-and-responsibilities" title="Permanent link">¶</a></h4>
+<p>Ambiguities surrounding the relative roles and responsibilities of different teams and institutions to protect student mental health have also at times hampered effective decision-making with regard to digital mental healthcare. Descriptions of the decision-making rationale provided by administrators suggest a procurement process which is frequently reactive rather than proactive, with a tendency to stick to the status quo or shift tack dramatically during a crisis.</p>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“There was a general panic early March of "oh my god, what is going to happen?"”</p>
+<p>“Quick leaps. It wasn’t particularly an evolution. We’d been considering it [Togetherall] ourselves for a couple of years so it was on the horizon but that [the pandemic] was the thing that really pushed us to do that”</p>
+<p>“With TogetherAll, a lot of universities have been offering it a long time, and there was a clinical trial, but anecdotally when you go on the mail base and talk to other heads of services and ask if their students are using it, they find students just aren’t really using it. That’s what we find. Paying a lot of money and people aren’t using it. But they don’t want to look bad or roll it back.”</p>
+</div>
+<p>Reactive decisions are in part a consequence of the lack of clarity surrounding who is responsible for decisions on the procurement of DMHTs. First, there are significant ambiguities surrounding the relationship between university mental health services and the NHS. During engagements, administrators revealed that responsibility for procurement of digital services such as Togetherall resided in most instances with the university, but in certain cases with the NHS. In particular, administrators suggested that at times of crisis, where one institution was struggling to cope, the other had stepped in to fill a gap through purchasing a digital service. This dual responsibility can result in inconsistencies in who takes procurement decisions and in the long run could create a vacuum of responsibility if it is unclear where leadership lies.</p>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“That is the million-dollar question of where our services stop and the NHS starts and the piece around filling that gap because there is definitely a gap between.”</p>
+</div>
+<p>In addition, within the university, shifts towards a ‘whole university approach’ have occurred and were described by administrators. However, while greater involvement of departments such as financial services, accommodation, and examinations is taking place, less thought has been given to where responsibility for digital solutions may lie within this matrix and what capacity building is needed to develop the technical skills required to review digital technologies, monitor student use, and horizon scan for new directions. While procurement processes at many universities remain thorough in many respects, this results at times in decisions taken by clinical or legal teams, without dedicated attention to technical and ethical questions. In describing their procurement teams’ top priorities when reviewing digital technologies, administrators raised both clinical evidence and value for money. Other concerns specific to data-driven technologies and their ethical implications did not feature as prominently, indicating potential gaps in data literacy.</p>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“When I pull them [mental health team] in to look at new apps and things, what you find is they are trained practitioners, they are counsellors, but their digital skills are not up there."</p>
+<p>“I remember BigWhiteWall came around and did a slick presentation and then it was around the table who thinks this is a good idea. Rights, yeah, let's go for it.”</p>
+</div>
+<p>Finally, as roles and responsibilities are clarified, a clear space for student involvement must be carved out. This was a priority raised by both students and administrators during engagements, but practical challenges must be addressed to involve all students and resolve possible tensions between student perspectives and clinical evidence. Additional challenges to student involvement in the procurement of digital technologies, such as the high entry costs sometimes associated with the evaluation of AI-driven tools, must also be addressed through education and collaboration between students and experts.</p>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“Universities like to claim they are giving the students what they want but a lot of the time they are not really consulting students. We often have to convince HR and other systems to talk to students”</p>
+<p>“Universities are often torn between do I go with the student voice or hard research. I will tell you which one they go with, student voice. The student voice doesn’t have to be many, they just have to be loud. We are not talking about thousands of students having an impact, we are talking about vocal students or the students union”</p>
+</div>
+<div class="admonition quote">
+<p class="admonition-title">Student Perspective</p>
+<p>“Creating dedicated spaces for students to voice their ideas and needs combined with evidence that these were somewhat taken on board. Utilising relationships with students and personal tutors/student support. Strong links with student societies and other student intermediaries.”</p>
+<p>“Students need to be involved from the initial stages, so as to undercut serious biases working their way into the system. Furthermore, the biases within university cohorts should be examined – university intake of working class and state school students, POC, etc. is often not representative of the wider population, and technologies must make sure they are accessible to them as well, so that they are lasting into the future”. </p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Conclusions and Recommendations</p>
+<ul>
+<li>Clarity is needed on the relative responsibilities of the NHS and university teams during the procurement of DMHTs.</li>
+<li>While university teams evolve to focus on interdepartmental cooperation, greater attention must be paid to assigning responsibility for digital offerings and ensuring technical skills have been developed.</li>
+<li>Engagements with administrators suggest that compliance with data protection laws is well established while there remains a gap in organisational readiness with regard to other methods for reviewing algorithmic techniques. Cross-domain communication may be essential for these review processes, potentially including IT and research departments. Consequently, designating responsibility for digital technologies should be considered as part of the shift to a ’whole university approach’.</li>
+<li>Clarity on roles and responsibilities can also help designate responsibility for horizon scanning and proactive research rather than reactive decision-making.</li>
+<li>Meaningful student involvement is necessary and capacity building may be needed to facilitate meaningful contributions on technical topics.</li>
+</ul>
+</div>
+<h4 id="challenge-3-external-pressures">Challenge 3: External Pressures<a class="headerlink" href="#challenge-3-external-pressures" title="Permanent link">¶</a></h4>
+<p>Greater clarity on responsibility for digital technologies within university mental health teams will only go part of the way to resolving current challenges. Significant pressures placed on mental health teams are outside of their control. In particular, concerns were raised throughout interviews and workshops surrounding the potential privatisation of student mental health.</p>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“While we are higher education institutions, we are businesses, and there is a conflict of interest with a business decision versus a clinically-driven, sound-evidence decision about what works and what doesn’t.”</p>
+</div>
+<div class="admonition quote">
+<p class="admonition-title">Student Perspective</p>
+<p>“For-profits don’t tend to do things out of the kindness of their own hearts. So how much are universities paying for this? Will the students have to pay? Will it be full of ads? Where is the profit coming from?”</p>
+</div>
+<p>The relationships between universities and developers do suggest for-profit companies are having a significant influence on the procurement of DMHTs. The constant flood of digital offerings creates an environment where mental health teams struggle to ensure services are driven by student demand. Additionally, the nature of pitches received from developers often fail to provide the evidence or information necessary to evaluate services. Finally, the volume of products on the market has led to a dichotomy whereby administrators either spend significant time filtering through proposals or ignore them altogether.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/overwhelmed.png"><img alt="An illustration of a person being overwhelmed by notifications" src="https://raw.githubusercontent.com/alan-turing-institute/trustworthy-assurance/main/docs/assets/images/overwhelmed.png"/></a></p>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“What I tend to get is lots of emails offering me a magic wand.”</p>
+<p>“These apps are coming at you from every direction, and I must get at least three emails a week.”</p>
+<p>“They [providers] are not telling me what I need to know.”</p>
+<p>“I am absolutely inundated with emails every day from providers of these things and I just ignore them.”</p>
+</div>
+<p>These pressures which prevent services from being driven by student need are not only coming from private sector developers but from within the university sector itself. First, pressures from within an institution can lead to the adoption of a digital service on the basis of reputational concerns. Second, network pressures from comparisons with other universities can drive groupthink with regard to DMHTs.</p>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“I think it is about defensive practice as well. We just reviewed before the pandemic, we renewed BigWhiteWall, and I was quite keen to ditch and shift and look at alternatives. My boss at the time said I think we need to stay with it because it is a defensive action. If we get an FOI, it’s good to say all students get offered this. It’s worth 15k was the line I got, don’t care whether it works or not.”</p>
+<p>“If you want to question decisions, you’re told ‘all these other Russell Group universities are offering BigWhiteWall or free subscriptions to X, Y, X’ so it seems that decisions are made more out of panic or what other institutions are doing because we need to look just as good.”</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Conclusions and Recommendations</p>
+<ul>
+<li>Universities must work together to leverage collective influence on developers such that developers provide them with more detailed information on the ethical implications of new technologies. The Trustworthy Assurance methodology provides one way of doing this (See <a href="#methodological-challenges">Methodological Challenges</a>).</li>
+<li>Networks such as AMOSSHE, the UK’s Student Services Organisation, can play an important role in stepping forward to provide evidence-based guidance on these topics and help to prevent decisions being taken on the basis of reputational comparison. |</li>
+</ul>
+</div>
+<h4 id="challenge-4-algorithmic-aversion-diverted-resources-and-prioritising-human-services">Challenge 4: Algorithmic aversion: diverted resources and prioritising human services<a class="headerlink" href="#challenge-4-algorithmic-aversion-diverted-resources-and-prioritising-human-services" title="Permanent link">¶</a></h4>
+<p>In a university context, where resources are constrained and digital solutions have been described as offering value for money, it is unsurprising that fears have been raised over technologies replacing in-person services, despite this going against the desires of both administrators and students. Determining when digital solutions are not appropriate, desirable, or morally permissible, therefore, constitutes a key challenge for the higher education sector. Administrators note that despite their intention to supplement human services with digital, there have been times where more could be done to avoid the diversion of resources to digital technologies.</p>
+<div class="admonition quote">
+<p class="admonition-title">Student Perspective</p>
+<p>“We all know that universities are oversubscribed and when you are offered something like this, you feel as if you are at the bottom of the list, and your mental health and what you say is all part of criteria as to whether you are “bad enough” or “ill enough” for support. I think this is really damaging to someone’s mental health and can worsen their state of mind.”</p>
+</div>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“What I never want is that we see digital services as an alternative to coming in and seeing our team”</p>
+<p>“We could probably be doing better to supplement and complement rather than replace”</p>
+</div>
+<p>Appeals to the importance of prioritising in-person services are significant. However, further specificity is required to determine how this can be achieved in a system where resources are constrained, and administrators inevitably face tough choices on where to direct funds. A more detailed understanding of students’ and administrators’ motivations for algorithmic aversion is necessary, therefore, to determine when and how digital technologies should be delivered. For administrators, concerns over clinical efficacy and the management of risks on platforms, as well as a lack of demand from students, formed the primary motivations for algorithmic aversion. In contrast, students focused on concerns around the dehumanisation of mental health, the lack of empathy offered by technology and the potential exacerbation of social isolation by digital offerings. Further research into these and further motivations for students’ and administrators’ algorithmic aversion is essential if student mental health services are to effectively deploy digital technologies.</p>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“What we want to know is has it been evaluated, what’s the research that sits behind this and they [my team] have about zero tolerance of anything that just looks nice or doesn’t have that really robust background”</p>
+<p>“Students don’t want more apps and more digital interventions. They want a small group of evidence-based digital interventions that focus on positive outcomes, and they want to see staff face-to-face.”</p>
+</div>
+<div class="admonition quote">
+<p class="admonition-title">Student Perspective</p>
+<p>“The dehumanisation of mental health. If students and staff come to see mental health as something solved by apps, the very complex nature of mental health can be undermined. We cannot automate mental health and wellbeing.”</p>
+<p>“As someone who has gone to therapy and other support groups, it is very beneficial to do the work and even asking for help and seeking out support and turning up to someone in person is very nerve-wracking and that part of the process is so beneficial to mental health as it helps you face some anxieties”</p>
+<p>“There is a certain level of isolation and problematic self-sufficiency that could be encouraged by directing users towards certain technologies.”</p>
+</div>
+<p>Taking these motivations into account can help to reveal a more complex picture where students and administrators oppose digital technologies for specific reasons and in specific circumstances. This detail is necessary to guide administrators in choosing when and how to deploy digital technologies, and when to stick with in-person services.</p>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“I think there’s slight value around students that have got really low-level concerns. So, sleep, procrastination, and all those things. I think some services offer great self-diagnosis. And then of course around how to do some of those things which actually, yeah, there is probably a benefits of being able to do that on your phone in the warmth of your own flat or whatever, without having to come in and see one of my advisors who might tell you exactly the same thing. So those are the two areas I see it. I don’t ever want us to get to a point where we see it as a solution to replace the ability to come in and see somebody, particularly for more risky students or students that are struggling.”</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Conclusions and Recommendations</p>
+<ul>
+<li>In an environment where resources are constrained, careful consideration is needed over whether the decision to procure a technology is justified. Where resources are limited, justification of expenditure must go beyond claims that digital services do not replace in-person support to make transparent where funds come from and why the benefits of a digital service are seen to outweigh other options. This may also present a valuable opportunity to reassess the efficacy of traditional in-person mental health services.</li>
+<li>Administrators’ and students’ reasons for preferring in-person services appear to differ. Consultation of multiple student and staff groups is, therefore, essential to determining when and why digital solutions may be inappropriate.|</li>
+</ul>
+</div>
+<h4 id="challenge-5-accessibility-and-fairness">Challenge 5: Accessibility and fairness<a class="headerlink" href="#challenge-5-accessibility-and-fairness" title="Permanent link">¶</a></h4>
+<p>In light of these varied motivations for aversion to digital solutions, it is clear that a more thorough understanding of different students’ needs is essential. During engagements, key concerns were raised surrounding accessibility and fairness in digital mental healthcare, as many participants proposed a more tailored approach was needed. While increased accessibility of mental health services was described by both students and administrators as a primary advantage of digital technologies, a one size fits all approach has meant that access to effective care has not been improved for all groups.</p>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“There are certain student groups who would not like to go to one-to-one therapy where something online or an app or self-help, something more empowering that they can do in their own time. Something like that suits certain student groups. Broadly, with the little bits of research we have done, before the pandemic, it suits groups with social anxiety.”</p>
+<p>“It is assumed all students want the same thing, so we are just going to give them big white wall. Even if it is not being supported in any other way. It is just assumed students will have the motivation to use this app. But not all students are appropriate for self-help. You find even outside of technology, not everyone is suited to CBT.”</p>
+</div>
+<div class="admonition quote">
+<p class="admonition-title">Student Perspective</p>
+<p>“It [technology] can be more accessible, particularly for those with anxiety or mobility issues.”</p>
+<p>“Providing accessible tools for ‘basic’ needs (e.g. productivity tools, which are not too concerning and can be widely used).”</p>
+</div>
+<p>These limitations of digital technologies’ ability to improve accessibility need not be a reason against their deployment. In some instances, the ability to reach different groups, such as those who feel the stigma of reaching out in person, can be seen as a positive. However, to ensure accessibility is prioritised across the student population, a greater awareness of who is (and who is not) served by digital technologies is required, alongside an in-depth understanding of which student needs are currently unmet by in-person services. During engagements, some administrators suggested males were engaging more with digital technologies, some pointed to females, others to differences in engagement across academic disciplines and finally some noticed no patterns of engagement at all. Further research into this is needed for universities to move away from a one-size-fits all approach and design solutions which explicitly address the needs of all student groups.</p>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“Actually, if there was more work involving different student groups and not assuming every student is a first-year middle class white academic undergraduate and there are other groups that can benefit as well, that’s where we can really learn.”</p>
+</div>
+<p>For students, concerns about fairness and health equity were significant. First, concerns were raised around digital poverty and the importance of challenging assumptions frequently made about student populations (e.g., that all students have easy access to technology). Second, students expressed worries about biases within these technologies and how algorithmic bias can impact their experiences. Here, students advocated for specific consideration of minority student groups with the possible designation of ‘safe spaces’ on such platforms based on protected characteristics or allowing students to actively choose who they were speaking to in order to avoid potential bullying or harassment.</p>
+<div class="admonition quote">
+<p class="admonition-title">Student Perspective</p>
+<p>“Digital poverty is a thing. Just because you are at university, that doesn’t mean you have a smartphone, a laptop, or even a private space where you can access the platform”</p>
+<p>I hate to be devil’s advocate, but I don’t think everybody has access to devices. I do get the point around accessibility, but I think companies or universities also need to be offering the support which will lead to them accessing these services and closing the digital poverty gap.”</p>
+<p>“Information can be taken out of context and the cultural nuances with people from a range of backgrounds can be missed”</p>
+</div>
+<p>During discussions on the accessibility and fairness of digital technologies, proposals were made by students for accessibility to be understood in more subtle ways whereby digital solutions are not simply rolled out across the student population, but instead tailored to students with specific needs. It was also proposed that humans should mediate access to technology where possible so that a student can be matched with a service that helps them at the level they are ready for. Finally, empowerment of student choice was prioritised by participants in order to ensure students have control over the care they receive.</p>
+<div class="admonition success">
+<p class="admonition-title">Conclusions and Recommendations</p>
+<ul>
+<li>Greater integration with research departments is needed to ensure evidence is available on who is best served by specific mental health services. Universities can draw on their own research resources in order to take a deeper look at who is and is not benefiting from digital interventions.</li>
+<li>Resource allocation within student services should take account of issues such as digital poverty, especially in light of the rise in remote learning following the pandemic.</li>
+<li>Algorithmic bias is a pervasive issue beyond the mental health sector and one which administrators must be aware of so that thorough questions can be asked of service providers in advance of service roll out.<sup id="fnref:bias"><a class="footnote-ref" href="#fn:bias">18</a></sup></li>
+<li>A balance must be struck between empowering students to make their own choices without placing the burden of responsibility for mental health on them.</li>
+</ul>
+</div>
+<h4 id="challenge-6-transparency-and-communication">Challenge 6: Transparency and communication<a class="headerlink" href="#challenge-6-transparency-and-communication" title="Permanent link">¶</a></h4>
+<p>Both students and administrators raised the importance of transparent and accessible communication about what services are available to students. Both groups also recognised that there is a lack of cut-through in current communication strategies leading to students being unaware of which services are on offer at their institutions.</p>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“[Communications] can be quite difficult and especially around this sort of issue, around support. Through the pandemic, the availability of support has probably increased accessibility because a lot of it’s been online. And yet you still come across students who say, “there is no support, I don’t know where to find it”. And you kind of think, well there was a student newsletter, there’s all these social media posts across multiple channels, the student union that talked their language are talking about this stuff and TikTok is messaging about this, but still you haven’t picked it up? So, it is quite a challenging environment.”</p>
+</div>
+<div class="admonition quote">
+<p class="admonition-title">Student Perspective</p>
+<p>“I do not have adequate awareness of what is available”</p>
+<p>“I think they should promote them more so I would actually know what is available”</p>
+<p>“I know that I get it a lot at the bottom of an email or a newsletter that I don’t tend to read and I know that lots of people don’t read”</p>
+</div>
+<p>However, among students, the need for more awareness on what services are available was not the first priority regarding transparency and communication. Rather than focus simply on advertising services to students through multiple channels, students emphasised the importance of universities communicating the limitations and personal costs associated with these technologies to them, such as the loss of privacy or limited clinical efficacy. Such transparency is also emphasised as important to facilitating informed consent. </p>
+<div class="admonition quote">
+<p class="admonition-title">Student Perspective</p>
+<p>“There is an asymmetry of knowledge as users don’t know/consent to their data being used for these purposes. The business model is not communicated to the user and is exploitative”</p>
+<p>“All these policies will say things about sharing information or data with ‘trusted individuals’, ‘trusted organisations’, ‘trusted researchers’, but there is nothing about what makes these organisations trusted. And you can’t expect somebody in crisis to actually pour through all the terms and conditions.”</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Conclusions and Recommendations</p>
+<ul>
+<li>To ensure students are aware of the services available, communications should be delivered by as many stakeholders as possible to include academic staff, student unions and student societies. These communications should also incorporate considerations around accessibility (e.g. alternative formats).</li>
+<li>University mental health teams should be careful to communicate honestly with students about both benefits and risks of technologies, including transparency communications about efficacy and data sharing.</li>
+<li>While in-depth and legally binding privacy policies are essential, an accessible breakdown of key information (e.g. through FAQs or video messages) is crucial to ‘informed’ consent.</li>
+</ul>
+</div>
+<h3 id="methodological-challenges">Methodological Challenges<a class="headerlink" href="#methodological-challenges" title="Permanent link">¶</a></h3>
+<p>Overall, feedback from administrators and students suggests there is a long way to go to ensure responsible digital mental healthcare innovation and procurement across the UK HE sector. Progress can be made by following key recommendations set out here for universities. However, significant challenges will remain so long as changes do not take place elsewhere in the digital mental healthcare ecosystem. Systemic changes from developers, policy-makers, and university leadership teams are required to leverage the collective power required to foster a responsible innovation landscape.</p>
+<p>The trustworthy assurance methodology provides one route through which such a culture of responsible innovation and transparent communication could be facilitated so that university stakeholders are given all necessary information to review new mental health tools offered to them. Due to the potential of this methodology in this sector we asked administrators to provide feedback on its deployment. Crucially, feedback indicated that this methodology would fit within current procurement practices, provide structure for the critical assessment of developers’ claims, and encourage more transparent communication among university staff about the rationale behind procurement decisions.</p>
+<div class="admonition quote">
+<p class="admonition-title">Administrator Perspective</p>
+<p>“My initial reaction is it's bloody brilliant. I’ve not seen anything like that and if something like that landed in my lap I would seize upon it.”</p>
+<p>“What I’m looking for is a really quick way of working out whether this is something that’s worth looking at or not”</p>
+<p>“People like me are not naturally going to be flowchart kind of system development people. So, something like that [the assurance methodology], that can help us ask those questions and take these people through their paces, because what we get is very slick presentations, would be very helpful”</p>
+<p>“I think it would be really helpful to have a standard set of expectations that, you know… a standard expectation of having to demonstrate what they were trying to achieve.”</p>
+<p>Nevertheless, several challenges to the effective deployment of trustworthy assurance, as raised by university administrators and students, must first be addressed. These are set out below in order to inform conclusions in Section 3 for the future of the assurance methodology.</p>
+</div>
+<h4 id="challenge-7-interpreting-assurance-cases">Challenge 7: Interpreting assurance cases<a class="headerlink" href="#challenge-7-interpreting-assurance-cases" title="Permanent link">¶</a></h4>
+<p>Trustworthy assurance cases (as set out in <a href="../chapter-2/">Chapter 2</a>) can appear complex. This introduces two key challenges for administrators tasked with assessing whether a particular assurance case meets their requirements for the procurement of a new DMHT.</p>
+<p>First, technical skills are required to assess such cases and ensure evidence matches with property claims. Second, assurance cases cannot be treated in isolation and must often be evaluated alongside clinical standards. It is important to avoid treating clinical efficacy and ethical standards as equivalent. The assurance exercise is not intended to provide a universal stamp of approval that ethical concerns have been addressed. Instead, it will require contextual interpretation on whether the evidence provided by a developer is sufficient for deployment in a specific context.</p>
+<p>As a result, despite placing the greatest burden of responsibility on developers, this methodology does require administrators, as key decision-makers in the HE sector, to have capacity to effectively review assurance cases. Policy-makers must, therefore, take on responsibility for ensuring the necessary knowledge and organisational readiness to assess digital technologies is provided to universities. This could be offered through consultation with national bodies such as AMOSSHE, The Office for Students or Universities UK or through dedicating resources to capacity building within each higher education institution.</p>
+<h4 id="challenge-8-uptake-by-developers">Challenge 8: Uptake by developers<a class="headerlink" href="#challenge-8-uptake-by-developers" title="Permanent link">¶</a></h4>
+<p>To obtain necessary evidence and compile it into an assurance case requires time and resources on the side of developers. A key obstacle to the deployment of trustworthy assurance therefore rests upon the motivation of developers to do this due diligence. Currently, such motivation will be minimal as standards across the sector place few demands on developers.</p>
+<p>Nevertheless, the collective purchasing power of universities across the UK is significant and can be leveraged in order to place further requirements on developers. This may be done through standards setting at the national level, for example through networks such as AMOSSHE. Additional pressures can also be placed on university networks by organisations such as the National Union of Students whose collective voice can influence procurement decisions.</p>
+<p>In setting high standards for developers, there must also be efforts not to exclude smaller mental health providers from having the resources to produce assurance cases. For this reason, the burden placed on developers may be reduced by sharing best practices or building repositories of publicly accessible assurance cases and argument patterns which can be used as a starting point for developers as they embark on the ethical reflection process. These routes towards cross-sector best practices are discussed in greater depth in <a href="../chapter-5/">Chapter 5</a>.</p>
+<h4 id="challenge-9-use-as-a-communication-tool">Challenge 9: Use as a communication tool<a class="headerlink" href="#challenge-9-use-as-a-communication-tool" title="Permanent link">¶</a></h4>
+<p>Finally, in a university context, concerns were raised regarding the utility of trustworthy assurance in communicating to students that due diligence has been done and ethical implications have been considered.</p>
+<p>In conversation with the students, we discussed whether there was perceived value in administrators sharing assurance cases directly with the student body. Although there was no negative response, concerns were addressed about the complexity of assurance cases. Similar concerns were raised by administrators. In brief, stakeholders thought assurance cases represented too much information for effective communication, and that a summary would be preferable. Access to the full case could be made available for any students who were interested in order to facilitate both accessible communication and full transparency.</p>
+<div class="footnote">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Shackle, S. (2019. ‘The way universities are run is making us ill’: inside the student mental health crisis. The Guardian. <a href="https://www.theguardian.com/society/2019/sep/27/anxiety-mental-breakdowns-depression-uk-students">https://www.theguardian.com/society/2019/sep/27/anxiety-mental-breakdowns-depression-uk-students</a> <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:2">
+<p>Kotouza, D., Callard, F., Garnett, P., &amp; Rocha, L. (2022). Mapping mental health and the UK university sector: Networks, markets, data. Critical Social. Policy, 42(3), pp.356-387 <a href="https://journals.sagepub.com/doi/full/10.1177/02610183211024820">https://journals.sagepub.com/doi/full/10.1177/02610183211024820</a> <a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+<li id="fn:3">
+<p>Williams, T. (2022, May 9). UK student mental health crisis ‘may be worse than thought’. Times Higher Education. <a href="https://www.timeshighereducation.com/news/uk-student-mental-health-crisis-may-be-worse-thought">https://www.timeshighereducation.com/news/uk-student-mental-health-crisis-may-be-worse-thought</a>; <a href="https://www.if.org.uk/2021/03/11/new-ons-data-show-student-mental-health-crisis/">https://www.if.org.uk/2021/03/11/new-ons-data-show-student-mental-health-crisis/</a> <a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">↩</a></p>
+</li>
+<li id="fn:4">
+<p>Office for Students (2019) Mental Health: Are all students being properly supported? <a href="https://www.officeforstudents.org.uk/media/b3e6669e-5337-4caa-9553-049b3e8e7803/insight-brief-mental-health-are-all-students-being-properly-supported.pdf">https://www.officeforstudents.org.uk/media/b3e6669e-5337-4caa-9553-049b3e8e7803/insight-brief-mental-health-are-all-students-being-properly-supported.pdf</a>; Duffy, A., Saunders, K.E.A, Malhi, G.S., Patten S., Cipriani, A., McNevin, S. H., MacDonald, E., &amp; Geddes, J. (2019) Mental health care for students: A way forward? The Lancet Psychiatry, 6(11). <a href="https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(19)30275-5/fulltext">https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(19)30275-5/fulltext</a> <a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">↩</a></p>
+</li>
+<li id="fn:5">
+<p>Gunnell, D., Kidger, J., &amp; Elvidge, H. (2018). Adolescent mental health in crisis. BMJ 361. <a href="https://www.bmj.com/content/361/bmj.k2608.long">https://www.bmj.com/content/361/bmj.k2608.long</a> <a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">↩</a></p>
+</li>
+<li id="fn:6">
+<p>National Union of Students Northern Ireland. (2017). NUS-USI Student Wellbeing Research Report, <a href="https://nusdigital.s3-eu-west-1.amazonaws.com/document/documents/33436/59301ace47d6320274509b83e1bea53e/NUSUSI_Student_Wellbeing_Research_Report.pdf">https://nusdigital.s3-eu-west-1.amazonaws.com/document/documents/33436/59301ace47d6320274509b83e1bea53e/NUSUSI_Student_Wellbeing_Research_Report.pdf</a> <a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">↩</a></p>
+</li>
+<li id="fn:7">
+<p>Thorley, C., (2017). Not by degrees: Improving student mental health in the UK’s universities, Universities UK (2020). Stepchange: Mentally healthy universities., Hughes, G., &amp; Spanner, L. (2019). The University Mental Health Charter. <a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">↩</a></p>
+</li>
+<li id="fn:8">
+<p>Cate, N. (2021, August 16). The role of digital mental health support tools and the importance of the student co-productin model in supporting their development. Office for Students. <a href="https://www.officeforstudents.org.uk/advice-and-guidance/student-wellbeing-and-protection/student-mental-health/the-role-of-digital-mental-health-support-tools-and-the-importance-of-the-student-co-production-model-in-supporting-their-development/">https://www.officeforstudents.org.uk/advice-and-guidance/student-wellbeing-and-protection/student-mental-health/the-role-of-digital-mental-health-support-tools-and-the-importance-of-the-student-co-production-model-in-supporting-their-development/</a> <a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">↩</a></p>
+</li>
+<li id="fn:9">
+<p>NHS X (2019). Artificial Intelligence: How to get it right? <a href="https://www.nhsx.nhs.uk/media/documents/NHSX_AI_report.pdf">https://www.nhsx.nhs.uk/media/documents/NHSX_AI_report.pdf</a> <a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">↩</a></p>
+</li>
+<li id="fn:10">
+<p>Cate, N. (2021, August 16). The role of digital mental health support tools and the importance of the student co-productin model in supporting their development. Office for Students. <a href="https://www.officeforstudents.org.uk/advice-and-guidance/student-wellbeing-and-protection/student-mental-health/the-role-of-digital-mental-health-support-tools-and-the-importance-of-the-student-co-production-model-in-supporting-their-development/">https://www.officeforstudents.org.uk/advice-and-guidance/student-wellbeing-and-protection/student-mental-health/the-role-of-digital-mental-health-support-tools-and-the-importance-of-the-student-co-production-model-in-supporting-their-development/</a> <a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">↩</a></p>
+</li>
+<li id="fn:12">
+<p>In these cases, a university’s recommendation of a service does not indicate that any formal relationship exists with the service in question. At times these recommendations for self-help apps are accompanied by a disclaimer. For example, the University of Durham notes that “the counselling service is happy to signpost this information/the availability of free access to these resources, in the hope they might prove useful to students and staff. However, please be aware that the Counselling Service does not have any relationship or affiliation with any of the providers, nor does it support, or endorse in any way the external information, advice, other services and/or resources that can be accessed via the links below (<a href="https://www.dur.ac.uk/counselling.service/self-help/">https://www.dur.ac.uk/counselling.service/self-help/</a>). In other instances ,they are simply offered as resources for students to browse at their own discretion. <a class="footnote-backref" href="#fnref:12" title="Jump back to footnote 11 in the text">↩</a></p>
+</li>
+<li id="fn:13">
+<p>Kotouza, D., Callard, F., Garnett, P., &amp; Rocha, L. (2022). Mapping mental health and the UK university sector: Networks, markets, data. Critical Social. Policy, 42(3), pp.356-387 <a href="https://journals.sagepub.com/doi/full/10.1177/02610183211024820">https://journals.sagepub.com/doi/full/10.1177/02610183211024820</a> <a class="footnote-backref" href="#fnref:13" title="Jump back to footnote 12 in the text">↩</a></p>
+</li>
+<li id="fn:14">
+<p>Bennett, N. (2021, February 15) Rebuilding post-16 education around mental fitness. Fika community. <a href="https://www.fika.community/insight/rebuilding-post-16-education-around-mental-fitness">https://www.fika.community/insight/rebuilding-post-16-education-around-mental-fitness</a> <a class="footnote-backref" href="#fnref:14" title="Jump back to footnote 13 in the text">↩</a></p>
+</li>
+<li id="fn:15">
+<p><a href="https://student.kooth.com">https://student.kooth.com</a> <a class="footnote-backref" href="#fnref:15" title="Jump back to footnote 14 in the text">↩</a></p>
+</li>
+<li id="fn:16">
+<p>Nuffield Council on Bioethics. (2022). The role of technology in mental healthcare. <a href="https://www.nuffieldbioethics.org/assets/pdfs/The-role-of-technology-in-mental-healthcare.pdf">https://www.nuffieldbioethics.org/assets/pdfs/The-role-of-technology-in-mental-healthcare.pdf</a> <a class="footnote-backref" href="#fnref:16" title="Jump back to footnote 15 in the text">↩</a></p>
+</li>
+<li id="fn:17">
+<p><a href="https://www.amosshe.org.uk/futures-duty-of-care-2015">https://www.amosshe.org.uk/futures-duty-of-care-2015</a> <a class="footnote-backref" href="#fnref:17" title="Jump back to footnote 16 in the text">↩</a></p>
+</li>
+<li id="fn:18">
+<p>AMOSSHE. (2015). Where’s the line? How far should universities go in providing duty of care for their students. <a href="https://www.amosshe.org.uk/futures-duty-of-care-2015">https://www.amosshe.org.uk/futures-duty-of-care-2015</a> <a class="footnote-backref" href="#fnref:18" title="Jump back to footnote 17 in the text">↩</a></p>
+</li>
+<li id="fn:bias">
+<p>There is a huge and varied literature on 'algorithmic bias', and so pinning down a single definition of the term is challenging. In other works we have instead focused on exploring three types of bias—social, statistical, and cognitive, which can impact the design, development, and deployment of ML and AI technologies. See <a href="https://alan-turing-institute.github.io/turing-commons/rri/chapter2/understanding_bias/">here</a> for further information. <a class="footnote-backref" href="#fnref:bias" title="Jump back to footnote 18 in the text">↩</a></p>
+</li>
+</ol>
+</div>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<a class="md-top md-icon" data-md-component="top" hidden="" href="#">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            Back to top
+          </a>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Chapter 2—Presenting Trustworthy Assurance" class="md-footer__link md-footer__link--prev" href="../chapter-2/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              Chapter 2—Presenting Trustworthy Assurance
+            </div>
+</div>
+</a>
+<a aria-label="Next: Chapter 4—Co-Designing Trustworthy Assurance" class="md-footer__link md-footer__link--next" href="../chapter-4/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              Chapter 4—Co-Designing Trustworthy Assurance
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs Insiders
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.code.annotate", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.939a4419.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.01b2e45f.min.js"></script>
+<script src="../../assets/javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+<script src="../../assets/javascripts/tablesort.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom"});})</script></body>
+</html>
