@@ -4,8 +4,8 @@
 
 | Information | Links |
 | :--- | :--- |
-| **Project** | [![Go to Site Badge](https://img.shields.io/badge/Go%20to-Site-blue)][ta-website]|
-| **Read Trustworthy Assurance of Digital Mental Healthcare Report (PDF)** | [Download](#) |
+| **Read Online** | [![Go to Site Badge](https://img.shields.io/badge/Go%20to-Site-blue)][ta-website]|
+| **Download Trustworthy Assurance of Digital Mental Healthcare Report** | [Download PDF](https://zenodo.org/record/7107200/files/final-report.pdf?download=1) |
 | **Cite Trustworthy Assurance of Digital Mental Healthcare Report** | Burr, C. and Powell, R., (2022) Trustworthy Assurance of Digital Mental Healthcare. *The Alan Turing Institute*. [https://doi.org/10.5281/zenodo.7107200](https://doi.org/10.5281/zenodo.7107200) |
 | **Repository License** | [![CC BY 4.0][cc-by-shield]][cc-by] |
 
